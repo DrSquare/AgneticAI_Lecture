@@ -7,12 +7,12 @@
       "name": "2027 capex 46% to 36% flows to Summary",
       "status": "pass",
       "evidence": {
-        "delta": 4.519990461095915,
-        "before": 212.65234753731744,
+        "after": 217.17233799841335,
         "output": "Summary!E9",
+        "before": 212.65234753731744,
         "cell": "Assumptions!E84",
-        "expected_delta": 4.51999046109591,
-        "after": 217.17233799841335
+        "delta": 4.519990461095915,
+        "expected_delta": 4.51999046109591
       }
     },
     {
@@ -75,8 +75,8 @@
       "name": "2030 Cloud input flows through forecast and DCF",
       "status": "pass",
       "evidence": {
-        "cell": "Assumptions!H49",
         "before": 212.65234753731744,
+        "cell": "Assumptions!H49",
         "after": 215.29423039941133
       }
     },
@@ -109,44 +109,44 @@
       "status": "pass",
       "evidence": [
         {
-          "cell": "Historicals!D16",
-          "difference": 0.0
+          "difference": 0.0,
+          "cell": "Historicals!D16"
         },
         {
-          "cell": "Historicals!D24",
-          "difference": 0.0
+          "difference": 0.0,
+          "cell": "Historicals!D24"
         },
         {
-          "cell": "Historicals!E16",
-          "difference": 0.0
+          "difference": 0.0,
+          "cell": "Historicals!E16"
         },
         {
-          "cell": "Historicals!E24",
-          "difference": 0.0
+          "difference": 0.0,
+          "cell": "Historicals!E24"
         },
         {
-          "cell": "Historicals!F16",
-          "difference": 0.0
+          "difference": 0.0,
+          "cell": "Historicals!F16"
         },
         {
-          "cell": "Historicals!F24",
-          "difference": 0.0
+          "difference": 0.0,
+          "cell": "Historicals!F24"
         },
         {
-          "cell": "Historicals!G16",
-          "difference": 0.0
+          "difference": 0.0,
+          "cell": "Historicals!G16"
         },
         {
-          "cell": "Historicals!G24",
-          "difference": 0.0
+          "difference": 0.0,
+          "cell": "Historicals!G24"
         },
         {
-          "cell": "Historicals!H16",
-          "difference": 0.0
+          "difference": 0.0,
+          "cell": "Historicals!H16"
         },
         {
-          "cell": "Historicals!H24",
-          "difference": 0.0
+          "difference": 0.0,
+          "cell": "Historicals!H24"
         }
       ]
     },
@@ -162,24 +162,24 @@
       "status": "pass",
       "evidence": [
         {
-          "cell": "Projections!D90",
-          "difference": 0.0
+          "difference": 0.0,
+          "cell": "Projections!D90"
         },
         {
-          "cell": "Projections!E90",
-          "difference": 0.0
+          "difference": 0.0,
+          "cell": "Projections!E90"
         },
         {
-          "cell": "Projections!F90",
-          "difference": 4.3655745685100555E-11
+          "difference": 4.3655745685100555E-11,
+          "cell": "Projections!F90"
         },
         {
-          "cell": "Projections!G90",
-          "difference": 0.0
+          "difference": 0.0,
+          "cell": "Projections!G90"
         },
         {
-          "cell": "Projections!H90",
-          "difference": 0.0
+          "difference": 0.0,
+          "cell": "Projections!H90"
         }
       ]
     },
@@ -195,9 +195,9 @@
       "name": "Stub excludes elapsed 2026 period",
       "status": "pass",
       "evidence": {
-        "full_year_fcf": -37533.43332,
         "years": 0.20821917808219179,
         "valued_fcf": -12487.226806086956,
+        "full_year_fcf": -37533.43332,
         "start": "2026-10-17"
       }
     },
@@ -205,9 +205,9 @@
       "name": "WACC capital weights sum to one",
       "status": "pass",
       "evidence": {
-        "equity": 0.9729434268020263,
         "preferred": 0.004496348579552098,
-        "debt": 0.022560224618421762
+        "debt": 0.022560224618421762,
+        "equity": 0.9729434268020263
       }
     },
     {
@@ -215,30 +215,30 @@
       "status": "pass",
       "evidence": [
         {
-          "ticker": "GOOGL",
           "difference": 0.0,
           "date": "2026-10-16",
+          "ticker": "GOOGL",
           "pe": 22.33377049180328,
           "eps": 15.25
         },
         {
-          "ticker": "MSFT",
           "difference": 0.0,
           "date": "2026-10-16",
+          "ticker": "MSFT",
           "pe": 24.324137931034482,
           "eps": 21.75
         },
         {
-          "ticker": "META",
           "difference": 0.0,
           "date": "2026-10-16",
+          "ticker": "META",
           "pe": 20.48281836557898,
           "eps": 34.63
         },
         {
-          "ticker": "AMZN",
           "difference": 0.0,
           "date": "2026-10-16",
+          "ticker": "AMZN",
           "pe": 23.923444976076556,
           "eps": 10.45
         }
@@ -249,8 +249,8 @@
       "status": "pass",
       "evidence": {
         "calendar2027": 21.75,
-        "fy2027": 19.78,
-        "fy2028": 23.72
+        "fy2028": 23.72,
+        "fy2027": 19.78
       }
     },
     {
@@ -283,40 +283,40 @@
       "status": "pass",
       "evidence": [
         {
-          "ebitd": 172865.0,
-          "multiple": 23.384465912706442,
-          "bridge_difference": 0.0,
-          "ppe_difference": 0.0,
           "ebit": 147628.0,
+          "bridge_difference": 0.0,
           "ppe": 25237.0,
-          "ticker": "GOOGL"
+          "ppe_difference": 0.0,
+          "multiple": 23.384465912706442,
+          "ticker": "GOOGL",
+          "ebitd": 172865.0
         },
         {
-          "ebitd": 189537.0,
-          "multiple": 20.537970686462273,
-          "bridge_difference": 0.0,
-          "ppe_difference": 0.0,
           "ebit": 155237.0,
+          "bridge_difference": 0.0,
           "ppe": 34300.0,
-          "ticker": "MSFT"
+          "ppe_difference": 0.0,
+          "multiple": 20.537970686462273,
+          "ticker": "MSFT",
+          "ebitd": 189537.0
         },
         {
-          "ebitd": 108476.0,
-          "multiple": 16.56776392934843,
-          "bridge_difference": 0.0,
-          "ppe_difference": 0.0,
           "ebit": 86926.0,
+          "bridge_difference": 0.0,
           "ppe": 21550.0,
-          "ticker": "META"
+          "ppe_difference": 0.0,
+          "multiple": 16.600458718979315,
+          "ticker": "META",
+          "ebitd": 108476.0
         },
         {
-          "ebitd": 143453.0,
-          "multiple": 18.856252570528326,
-          "bridge_difference": 0.0,
-          "ppe_difference": 0.0,
           "ebit": 93712.0,
+          "bridge_difference": 0.0,
           "ppe": 49741.0,
-          "ticker": "AMZN"
+          "ppe_difference": 0.0,
+          "multiple": 18.856252570528326,
+          "ticker": "AMZN",
+          "ebitd": 143453.0
         }
       ]
     },
@@ -324,8 +324,8 @@
       "name": "EBITD peer median excludes Alphabet and flows to Summary",
       "status": "pass",
       "evidence": {
-        "formula": "=MEDIAN(E50:G50)",
         "value": 273.2973917092706,
+        "formula": "=MEDIAN(E50:G50)",
         "median": 18.856252570528326
       }
     },
@@ -333,42 +333,123 @@
       "name": "PPE source edit flows through TTM EBITD and peer valuation",
       "status": "pass",
       "evidence": {
-        "peer_after": 271.45233620903633,
         "peer_before": 273.2973917092706,
-        "edited": "Multiples!G37",
-        "dcf": 212.65234753731744
+        "dcf": 212.65234753731744,
+        "peer_after": 271.45233620903633,
+        "edited": "Multiples!G37"
       }
     },
     {
       "name": "Peer source restored after propagation test",
       "status": "pass",
       "evidence": {
-        "source_restored": 26703.0,
-        "peer_value": 273.2973917092706
+        "peer_value": 273.2973917092706,
+        "source_restored": 26703.0
       }
     },
     {
       "name": "Lecture comparison is labeled EBITD, not EBITDA",
       "status": "pass",
       "evidence": {
-        "multiple_label": "EV / EBITD",
-        "summary_label": "EV / EBITD"
+        "summary_label": "EV / EBITD",
+        "multiple_label": "EV / EBITD"
+      }
+    },
+    {
+      "name": "One Alphabet quote drives DCF, peer multiples and Summary",
+      "status": "pass",
+      "evidence": {
+        "peer_price": 350.59,
+        "dcf_equity": 4287715.699999999,
+        "peer_equity": 4287715.699999999,
+        "quote": 350.59,
+        "forward_pe": 22.98950819672131
+      }
+    },
+    {
+      "name": "Meta market value uses period-end Class A plus Class B shares",
+      "status": "pass",
+      "evidence": {
+        "class_b": 342.0,
+        "formula": "=SUM(F68:F69)",
+        "class_a": 2206.0,
+        "total": 2548.0
+      }
+    },
+    {
+      "name": "Noncentral WACC-growth grid cells match native model edits",
+      "status": "pass",
+      "evidence": [
+        {
+          "native_dcf": 216.06878526818988,
+          "difference": 3.126388037344441E-13,
+          "grid_value": 216.06878526818957,
+          "grid_cell": "E12"
+        },
+        {
+          "native_dcf": 209.30675413878944,
+          "difference": 2.5579538487363607E-13,
+          "grid_value": 209.3067541387892,
+          "grid_cell": "G14"
+        }
+      ]
+    },
+    {
+      "name": "Gordon model rejects growth at WACC plus 0",
+      "status": "pass",
+      "evidence": {
+        "summary": "#N/A",
+        "message": "Growth must be below WACC",
+        "growth": 0.09746873366497001,
+        "wacc": 0.09746873366497001
+      }
+    },
+    {
+      "name": "Gordon model rejects growth at WACC plus 0.005",
+      "status": "pass",
+      "evidence": {
+        "summary": "#N/A",
+        "message": "Growth must be below WACC",
+        "growth": 0.10246873366497002,
+        "wacc": 0.09746873366497001
+      }
+    },
+    {
+      "name": "Terminal capex stress matches independent valuation impact",
+      "status": "pass",
+      "evidence": {
+        "base_ratio": 1.15,
+        "after": 178.8653937235274,
+        "before": 212.65234753731744,
+        "stress_ratio": 1.5,
+        "delta": -33.786953813790035,
+        "expected_delta": -33.78695381379003
+      }
+    },
+    {
+      "name": "All review edits restored to the dated lecture state",
+      "status": "pass",
+      "evidence": {
+        "dcf": 212.65234753731744,
+        "terminal_capex_ratio": 1.15,
+        "growth": 0.03,
+        "quote": 340.59
       }
     },
     {
       "name": "Zero final Excel formula errors",
       "status": "pass",
       "evidence": {
-        "formula_cells": 632,
-        "errors": []
+        "errors": [],
+        "formula_cells": 640
       }
     },
     {
       "name": "Scenario selector and native bar chart exported",
       "status": "pass",
       "evidence": {
-        "validation_type": 3,
-        "charts": 1
+        "charts": 1,
+        "validation_type": 3
       }
     },
     {
@@ -376,6 +457,13 @@
       "status": "pass",
       "evidence": {
         "saved_value": 212.65234753731744
+      }
+    },
+    {
+      "name": "Workbook opens on the lecture Summary",
+      "status": "pass",
+      "evidence": {
+        "active_sheet": "Summary"
       }
     }
   ],
@@ -408,70 +496,70 @@
   "excel_version": "16.0",
   "forward_comparables": [
     {
-      "ticker": "GOOGL",
       "difference": 0.0,
       "date": "2026-10-16",
+      "ticker": "GOOGL",
       "pe": 22.33377049180328,
       "eps": 15.25
     },
     {
-      "ticker": "MSFT",
       "difference": 0.0,
       "date": "2026-10-16",
+      "ticker": "MSFT",
       "pe": 24.324137931034482,
       "eps": 21.75
     },
     {
-      "ticker": "META",
       "difference": 0.0,
       "date": "2026-10-16",
+      "ticker": "META",
       "pe": 20.48281836557898,
       "eps": 34.63
     },
     {
-      "ticker": "AMZN",
       "difference": 0.0,
       "date": "2026-10-16",
+      "ticker": "AMZN",
       "pe": 23.923444976076556,
       "eps": 10.45
     }
   ],
   "ebitd_bridge": [
     {
-      "ebitd": 172865.0,
-      "multiple": 23.384465912706442,
-      "bridge_difference": 0.0,
-      "ppe_difference": 0.0,
       "ebit": 147628.0,
+      "bridge_difference": 0.0,
       "ppe": 25237.0,
-      "ticker": "GOOGL"
+      "ppe_difference": 0.0,
+      "multiple": 23.384465912706442,
+      "ticker": "GOOGL",
+      "ebitd": 172865.0
     },
     {
-      "ebitd": 189537.0,
-      "multiple": 20.537970686462273,
-      "bridge_difference": 0.0,
-      "ppe_difference": 0.0,
       "ebit": 155237.0,
+      "bridge_difference": 0.0,
       "ppe": 34300.0,
-      "ticker": "MSFT"
+      "ppe_difference": 0.0,
+      "multiple": 20.537970686462273,
+      "ticker": "MSFT",
+      "ebitd": 189537.0
     },
     {
-      "ebitd": 108476.0,
-      "multiple": 16.56776392934843,
-      "bridge_difference": 0.0,
-      "ppe_difference": 0.0,
       "ebit": 86926.0,
+      "bridge_difference": 0.0,
       "ppe": 21550.0,
-      "ticker": "META"
+      "ppe_difference": 0.0,
+      "multiple": 16.600458718979315,
+      "ticker": "META",
+      "ebitd": 108476.0
     },
     {
-      "ebitd": 143453.0,
-      "multiple": 18.856252570528326,
-      "bridge_difference": 0.0,
-      "ppe_difference": 0.0,
       "ebit": 93712.0,
+      "bridge_difference": 0.0,
       "ppe": 49741.0,
-      "ticker": "AMZN"
+      "ppe_difference": 0.0,
+      "multiple": 18.856252570528326,
+      "ticker": "AMZN",
+      "ebitd": 143453.0
     }
   ],
   "summary": {
@@ -486,8 +574,8 @@
     "capex2027": 271599.0876320001,
     "cloud_share2030": 0.3614413477088389,
     "required_terminal_fcf_ratio": 1.660939547528119,
-    "peer_pe": 528.7243764324836,
-    "peer_sales": 293.83206968582164,
+    "peer_pe": 529.7639446126498,
+    "peer_sales": 294.3985502718772,
     "peer_ebitd_verified": 273.2973917092706,
     "fcf": [
       -37533.43332,
@@ -496,7 +584,9 @@
       107438.8822980304,
       186743.38632113708
     ],
-    "peer_forward_pe": 364.8325358851675
+    "peer_forward_pe": 364.8325358851675,
+    "terminal_capex_stress": 178.8653937235274,
+    "terminal_capex_stress_ratio": 1.5
   },
   "status": "pass"
 }

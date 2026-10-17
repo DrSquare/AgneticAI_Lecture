@@ -14,7 +14,11 @@ import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parent
 report = json.loads((ROOT/'validation-report.json').read_text(encoding='utf-8-sig'))
-assert report['status'] == 'pass', 'Excel checks must pass before handoff'
+if report['status'] != 'pass':
+    prior=json.loads((ROOT/'readiness.json').read_text(encoding='utf-8')) if (ROOT/'readiness.json').exists() else {}
+    prior.update(status='needs_attention',mechanical_validation='fail',blocking_reason='Latest native Excel validation did not pass.')
+    (ROOT/'readiness.json').write_text(json.dumps(prior,indent=2),encoding='utf-8')
+    raise AssertionError('Excel checks must pass before handoff')
 s = report['summary']
 capex_test = next(c['evidence'] for c in report['checks'] if c['name'].startswith('2027 capex 46%'))
 provenance = json.loads((ROOT/'input-provenance.json').read_text(encoding='utf-8'))
@@ -98,12 +102,17 @@ with zipfile.ZipFile(ROOT/'GOOGL_DCF_Valuation.xlsx') as z:
                                      float(cached('Sensitivity',f'{col}9')),val))
     nearest = min(grid_near_market)
 
-check('All eight sheets rendered and visually reviewed',
-      not artifact['render_errors'] and all((ROOT/'previews'/f'{n}.png').exists() for n in expected),
-      'All eight PNG previews reviewed. Key labels and values legible; no clipping in reviewed ranges. Native Excel UI walkthrough was not performed.')
-check('Forward and EBITD bridge previews reviewed',
-      all((ROOT/'previews'/f'{n}.png').exists() for n in ['Multiples-forward','Multiples-bridge']),
-      'Two additional previews reviewed: dated forward EPS and reported EBITD reconciliation with explicit metric labels.')
+visual_path=ROOT/'visual-review.json'
+visual=json.loads(visual_path.read_text(encoding='utf-8')) if visual_path.exists() else {'images':{}}
+def reviewed_image(name):
+    p=ROOT/'previews'/f'{name}.png'
+    return p.exists() and visual.get('images',{}).get(name,{}).get('sha256')==hashlib.sha256(p.read_bytes()).hexdigest()
+check('All eight sheets have current visual-review evidence',
+      not artifact['render_errors'] and all(reviewed_image(n) for n in expected),
+      {'reviewed_at':visual.get('reviewed_at'),'method':visual.get('method'),'scope':'Exact hashes of reviewed previews; file existence alone cannot pass.'})
+check('Forward and EBITD detail previews have current visual-review evidence',
+      all(reviewed_image(n) for n in ['Multiples-forward','Multiples-bridge']),
+      'Dated EPS, Meta period-end shares and EBITD reconciliation reviewed; preview hashes must match.')
 source_hashes=[]
 for source in peer_manifest:
     suffix='.html' if source['id'].startswith('forecast_') else '.json'
@@ -118,12 +127,17 @@ completed = datetime.now(ZoneInfo('America/Los_Angeles')).isoformat(timespec='se
 package = {'completed_at':completed,'status':'pass' if all(c['status']=='pass' for c in checks) else 'fail',
            'checks':checks,'xlsx_sha256':hashlib.sha256((ROOT/'GOOGL_DCF_Valuation.xlsx').read_bytes()).hexdigest()}
 (ROOT/'package-audit.json').write_text(json.dumps(package,indent=2),encoding='utf-8')
+if package['status'] != 'pass':
+    prior=json.loads((ROOT/'readiness.json').read_text(encoding='utf-8')) if (ROOT/'readiness.json').exists() else {}
+    prior.update(status='needs_attention',mechanical_validation='fail',blocking_reason='Latest saved-file or visual evidence audit failed.',checks=report['checks']+checks)
+    (ROOT/'readiness.json').write_text(json.dumps(prior,indent=2),encoding='utf-8')
+    raise AssertionError(json.dumps(checks,indent=2))
 
 limitations = [
  'EV/EBITD explicitly replaces EV/EBITDA at the user\'s request: EBIT plus reported PP&E depreciation, with intangible amortization expensed for every company. Complete reported TTM EBITDA remains unavailable for Alphabet and Amazon; no estimated amortization enters the peer comparison.',
  'Forward P/E uses October 16 S&P Global adjusted non-GAAP consensus via Stock Analysis. Microsoft CY2027 EPS is 50% FY2027 plus 50% FY2028, an equal-half approximation rather than quarterly consensus. Provider EPS adjustments differ from the DCF, which expenses SBC.',
  'EV excludes lease liabilities consistently; lease mixes, asset lives and business models still affect economic comparability. Meta PP&E depreciation is reported in rounded amounts.',
- 'October 16 quotes were verified on Google Finance vendor displays, not exchange-direct data. Alphabet common classes use the GOOGL quote; Meta shares use a quarterly weighted-average basic proxy.',
+ 'October 16 quotes were verified on Google Finance vendor displays, not exchange-direct data. All Alphabet classes use the GOOGL quote. Share counts and balance sheets are June 30 snapshots, not October share-count estimates.',
  'Risk-free rate 4.5%, beta 1.20 and equity risk premium 4.5% are teaching assumptions. Debt and preferred costs use coupon proxies.',
  'Services subcategory margins and segment D&A, capex and working capital are model allocations, not company disclosures.',
  'The balance-sheet bridge is dated June 30 with no July–October roll-forward. Private stakes have zero Base realization; deferred tax and legal claims are deducted. Preferred conversion and capped-call optionality are not modeled.',
@@ -175,7 +189,9 @@ This replaces the old mixed addbacks of 25,237 / 38,534 / 22,729 / 75,200. Those
 
 Raw pages and SEC JSON are archived in sources/peer-refresh with SHA-256 hashes. peer-inputs.json records taxonomy tags, filing accession, filing date, period and extracted value. No filing later than October 17 is used. Forward EPS dates and non-GAAP caveats are preserved in the archived text.
 
-EV excludes lease liabilities uniformly; different lease mixes and useful lives still affect comparison. June balances are not rolled to October, Meta shares remain a weighted-average proxy, and GAAP P/E contains investment gains. These are valuation limitations, separate from the resolved mismatch in addback definitions. This is a teaching comparison, not a claim of economically identical peers or standardized GAAP EBITD.
+Meta market capitalization now uses 2,548 million June 30 shares: 2,206 million Class A + 342 million Class B, from the [10-Q balance sheet](https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm). Multiples!F68:F69 contain the sourced components; F9 sums them. The old 2,543 million quarterly weighted-average proxy was removed. Alphabet price and share count now link to the same authoritative inputs used by the DCF.
+
+EV excludes lease liabilities uniformly; different lease mixes and useful lives still affect comparison. June balances and share counts are not rolled to October, and GAAP P/E contains investment gains. These are valuation limitations, separate from the resolved mismatch in addback definitions. This is a teaching comparison, not a claim of economically identical peers or standardized GAAP EBITD.
 """
 (ROOT/'peer-methodology.md').write_text(methodology,encoding='utf-8')
 notes=f"""# Alphabet valuation memo — October 17, 2026
@@ -189,6 +205,8 @@ The [Q2 2026 call]({provenance['sources']['S3'][1]}) guides capex to $195–205b
 WACC is {s['wacc']:.2%}, using assumed risk-free rate 4.5%, beta 1.20 and ERP 4.5%; terminal growth is {s['terminal_growth']:.1%}. The DCF includes the remaining 2026 stub and midyear discounting. Terminal capex = 1.15x D&A is a judgment; terminal value represents {s['terminal_share']:.1%} of EV. At Base WACC/g, market price requires {s['required_terminal_fcf_ratio']:.2f}x modeled terminal FCF. The nearest displayed grid point is ${nearest[3]:.2f} at {nearest[1]:.2%} WACC / {nearest[2]:.1%} growth, not an exact implied pair. Operating cases: {scenario_text}.
 
 Peer-median implied prices: **forward P/E ${s['peer_forward_pe']:.2f}; EV/EBITD ${s['peer_ebitd_verified']:.2f}**; GAAP P/E ${s['peer_pe']:.2f}; EV/Sales ${s['peer_sales']:.2f}. Forward P/E uses CY2027 adjusted consensus dated October 16 with Microsoft calendarized. EV/EBITD adds only reported PP&E depreciation to EBIT for all four companies. **At the presenter's request, EBITD replaces EBITDA; intangible amortization remains expensed and no missing amortization is estimated.** See [peer-methodology.md](peer-methodology.md).
+
+The terminal-capex ratio deserves a live discussion: increasing it from 1.15x to 1.50x D&A lowers the DCF to **${s['terminal_capex_stress']:.2f}**, holding the remaining assumptions fixed. The test restored 1.15x. The Gordon model now displays #N/A and an explanation when terminal growth is at or above WACC. Summary low/high values are discount-rate/growth bounds for the selected operating case; peer low/high values are minimum/maximum peer multiples, not operating Bull/Bear cases.
 
 Do not blend these methods into one target. GAAP earnings include investment gains; provider adjusted EPS conventions differ; lease mixes still matter. June balances are not rolled forward, private stakes are excluded in Base, and preferred conversion optionality is not modeled. **Lecture readiness: ready under the selected EBITD scope**, with these limitations visible.
 """
@@ -210,7 +228,7 @@ runbook=f"""# Demo 3 — Alphabet DCF runbook
 
 ## Prepare
 
-Open GOOGL_DCF_Valuation.xlsx in desktop Excel with Automatic calculation. Start on Summary. Confirm Base (Assumptions!D4 = 1), 2027 capex 46% (E84), DCF ${s['base_dcf']:.2f}, forward P/E ${s['peer_forward_pe']:.2f}, and EV/EBITD ${s['peer_ebitd_verified']:.2f}. The saved file has native Excel caches, restored inputs, no macros and no external-workbook formula links. Adjust zoom for the projector. Keep valuation-notes.md, peer-methodology.md and validation-report.md available.
+Open GOOGL_DCF_Valuation.xlsx in desktop Excel with Automatic calculation. The file opens on Summary. Confirm Base (Assumptions!D4 = 1), 2027 capex 46% (E84), DCF ${s['base_dcf']:.2f}, forward P/E implied price ${s['peer_forward_pe']:.2f}, and EV/EBITD implied price ${s['peer_ebitd_verified']:.2f}. The saved file has native Excel caches, restored inputs, no macros and no external-workbook formula links. Adjust zoom for the projector. Keep valuation-notes.md, peer-methodology.md and validation-report.md available. Use Ctrl+G with a quoted sheet reference, for example 'Assumptions'!E84, to jump directly to a live-edit cell.
 
 ## Five-minute walkthrough
 
@@ -224,6 +242,15 @@ Open GOOGL_DCF_Valuation.xlsx in desktop Excel with Automatic calculation. Start
 | 4:10–5:00 | Multiples!C84:J95 → Summary!C12:G13 | Define EBITD: EBIT + PP&E depreciation, with intangible amortization still expensed. Same TTM and addback policy for all; median implies ${s['peer_ebitd_verified']:.2f}. Explain why fully reconciled EBITDA was replaced. |
 
 Historical revenue/EBIT tie-outs are in Historicals rows 16/24; the equity bridge is in DCF rows 41–51. If a live edit misbehaves, restore Base and 46%, recalculate, and confirm the values above. Without Excel, use the reviewed previews and call the capex result a recorded test. A full interactive rehearsal has not been measured.
+
+## Questions to prepare for
+
+- **Why does terminal value dominate?** The explicit forecast includes heavy AI investment and early negative cash flow. At {s['terminal_share']:.1%} of EV, terminal economics deserve more attention than the second decimal of the share value. Optional demonstration: Assumptions!D15 from 1.15x to 1.50x lowers value to ${s['terminal_capex_stress']:.2f}; restore 1.15x.
+- **Does reducing capex preserve revenue growth?** The 2027 capex edit is a mechanical sensitivity. Revenue and D&A drivers are held fixed; it does not establish that lower real-world investment leaves future growth unchanged.
+- **Why not EBITDA?** The chosen EBITD metric keeps intangible amortization expensed for every issuer and avoids invented interim amortization. Different lease mixes and asset lives still matter.
+- **Why does growth show #N/A?** A Gordon perpetuity requires WACC greater than growth. Summary gives the reason. Restore terminal growth to 3.0%; do not read a value from invalid combinations.
+
+Before presenting, rehearse the five-minute sequence once on the actual projector and use the slide 30 corrections below. These environment and timing checks are presenter tasks, not claimed as completed by programmatic Excel tests.
 
 ## Slide 30 corrections
 
@@ -247,7 +274,7 @@ $dcfPython = 'C:/Users/h_min/.cache/codex-runtimes/codex-primary-runtime/depende
 & $dcfPython (Join-Path $dcfRun 'finalize_run.py')
 ```
 
-Inspect regenerated previews after layout changes before declaring visual QA current. collect_peer_sources.py refreshes downloads; prepare_peer_inputs.py extracts dated consensus and SEC facts from the archive. The original DCF inputs remain manually verified in the builder. For a new date, update periods, quotes, assumptions and stub dates deliberately; downloading files alone does not refresh the whole model.
+After rebuilding, inspect the changed previews and refresh visual-review.json with the exact reviewed image hashes before finalizing. The finalizer rejects missing or stale visual evidence; it no longer equates image existence with visual review. collect_peer_sources.py refreshes downloads; prepare_peer_inputs.py extracts dated consensus and SEC facts from the archive. The original DCF inputs remain manually verified in the builder. For a new date, update periods, quotes, assumptions and stub dates deliberately; downloading files alone does not refresh the whole model.
 
 ## Evidence
 
@@ -259,9 +286,31 @@ validation=f"# DCF validation report\n\nCompleted {completed}. Native engine: Mi
 validation+='| Check | Result |\n|---|---|\n'+'\n'.join(f"| {c['name']} | {c['status']} |" for c in all_checks)+'\n\n'
 validation+=f"Capex edit: ${capex_test['before']:.6f} → ${capex_test['after']:.6f}; delta ${capex_test['delta']:.6f}, independently expected ${capex_test['expected_delta']:.6f}. Original 46% restored. Cases: {scenario_text}.\n\n"
 validation+=f"Forward P/E implied value: ${s['peer_forward_pe']:.6f}; EV/EBITD: ${s['peer_ebitd_verified']:.6f}. Microsoft EPS and Amazon depreciation edits propagated correctly, sources were restored, and the DCF remained unchanged.\n\n"
+validation+=f"Review regression tests also cover a single Alphabet price input, Meta period-end shares, two off-center WACC/growth combinations, growth equal to and above WACC, and terminal capex at 1.50x D&A (${s['terminal_capex_stress']:.6f}). All temporary edits were restored.\n\n"
 validation+='All eight sheet previews and two added peer-detail previews were inspected. The XLSX was saved, closed and reopened; formula caches were inspected directly. All eight archived peer-source hashes matched.\n\n## Remaining limitations\n\n'+'\n'.join('- '+x for x in limitations)+'\n'
 (ROOT/'validation-report.md').write_text(validation,encoding='utf-8')
-outputs=['GOOGL_DCF_Valuation.xlsx','valuation-notes.md','RUNBOOK.md','readiness.json','validation-report.md','validation-report.json','package-audit.json','input-provenance.json','artifact-validation.json','lecture-slide30-corrections.md','build_dcf.mjs','recalculate_and_test.ps1','collect_sources.py','finalize_run.py','sources/manifest.json','peer-inputs.json','peer-methodology.md','collect_peer_sources.py','prepare_peer_inputs.py','sources/peer-refresh/manifest.json']
+review=f"""# Demo 3 readiness review
+
+**Verdict: ready for a guided lecture demonstration under the approved EV/EBITD scope.** The frozen October 17, 2026 valuation remains DCF ${s['base_dcf']:.2f}, with ${s['low_dcf']:.2f}–${s['high_dcf']:.2f} sensitivity bounds. The review covered formula dependencies, selected primary-source inputs, numerical boundary cases, presentation labels and the reproducibility of readiness evidence. It was not a fresh audit of every historical filing value.
+
+| Finding | Improvement and evidence |
+|---|---|
+| Shared quote was duplicated | Multiples!D8 now links to Assumptions!D7; D9 links to Historicals!H47. A +$10 quote edit is tested across DCF market capitalization, peer P/E and Summary. |
+| Meta capitalization used an average share count | Replaced 2,543m with the reported June 30 total of 2,548m; Class A/B components remain visible and sourced. Affected P/E and EV/Sales outputs recalculate. |
+| Invalid Gordon assumptions produced numeric results | Terminal growth at or above WACC now yields #N/A, with a Summary explanation. Equality and above-WACC tests pass. |
+| Grid validation tested only its center | Two off-center grid values now match independent edits to WACC and growth in the native model. |
+| Range labels could be read as operating cases | Summary distinguishes discount/growth bounds and peer minimum/maximum values from the Base/Bull/Bear operating selector. |
+| Visual readiness could pass from file existence | Finalizer now requires visual-review.json hashes matching the actual reviewed previews. Missing or stale evidence produces needs_attention. |
+| Opening view and discussion aids were weak | Workbook saves on Summary. The runbook includes direct cell navigation, recovery steps, terminal-risk discussion and responses to likely audience questions. |
+
+**Remaining critique.** {s['terminal_share']:.1%} of EV is terminal value. The 1.15x terminal capex/D&A ratio, future margins and revenue allocations are judgments; at 1.50x the DCF is ${s['terminal_capex_stress']:.2f}. Peer metrics are corroborating views, not an average target. CY2027 EPS is adjusted consensus and Microsoft uses equal-half calendarization. Lease mixes remain different. Share counts and balance sheets are June snapshots. These limitations are visible and appropriate for teaching model review, not hidden behind passing formula checks.
+
+**Presenter handoff.** A live projector rehearsal is still needed. The original lecture deck was preserved, so use lecture-slide30-corrections.md before displaying its old numbers. Readiness applies to this dated demo workbook and walkthrough; it does not certify the original deck, fresh market data, or an investment recommendation.
+
+Validation: {sum(c['status']=='pass' for c in all_checks)}/{len(all_checks)} checks passed. Native Excel recalculation, saved-file audit and reviewed-preview hashes are recorded in the validation package.
+"""
+(ROOT/'REVIEW.md').write_text(review,encoding='utf-8')
+outputs=['GOOGL_DCF_Valuation.xlsx','valuation-notes.md','RUNBOOK.md','readiness.json','validation-report.md','validation-report.json','package-audit.json','input-provenance.json','artifact-validation.json','lecture-slide30-corrections.md','build_dcf.mjs','recalculate_and_test.ps1','collect_sources.py','finalize_run.py','sources/manifest.json','peer-inputs.json','peer-methodology.md','collect_peer_sources.py','prepare_peer_inputs.py','sources/peer-refresh/manifest.json','REVIEW.md','visual-review.json']
 readiness={'demo':'demo3_dcf_valuation','title':'Alphabet formula-driven DCF valuation','status':'ready',
  'readiness_scope':'Lecture demo using user-selected EV/EBITD in place of EV/EBITDA, alongside sourced forward P/E.',
  'metric_substitution':{'requested_metric':'EV/EBITDA','selected_metric':'EV/EBITD','definition':'EV / (EBIT + reported PP&E depreciation)','authorized_by':'User explicitly selected verified EV/EBITD, clearly labeled, alongside resolved forward P/E.','intangible_amortization_policy':'Retained as expense for every issuer; no estimates.'},
@@ -269,7 +318,9 @@ readiness={'demo':'demo3_dcf_valuation','title':'Alphabet formula-driven DCF val
  'reported_ebitda_data_complete':False,'completed_at':completed,'outputs':outputs,'checks':all_checks,'limitations':limitations,'slide_corrections':corrections,
  'sources_as_of':{'valuation':'2026-10-17','market_close':'2026-10-16','financial_period_end':'2026-06-30','capex_guidance_call':'2026-07-22','consensus_updated':'2026-10-16','downloaded_source_count':sum(x['status']=='downloaded' for x in manifest),'peer_refresh_snapshots':len(peer_manifest)},
  'mechanical_validation':package['status'],'workbook_sha256':package['xlsx_sha256'],'summary':s}
-assert package['status']=='pass',json.dumps(checks,indent=2)
+readiness['review']={'report':'REVIEW.md','reviewed_at':completed,'blockers':[] if package['status']=='pass' else [c['name'] for c in checks if c['status']!='pass'],'presenter_actions':['Rehearse once on the actual projector.','Apply slide 30 corrections before displaying the original deck.']}
+readiness['status']='ready' if package['status']=='pass' else 'needs_attention'
 (ROOT/'readiness.json').write_text(json.dumps(readiness,indent=2),encoding='utf-8')
+assert package['status']=='pass',json.dumps(checks,indent=2)
 assert all((ROOT/x).exists() for x in outputs)
 print(json.dumps({'status':readiness['status'],'checks_passed':len(all_checks),'base_dcf':s['base_dcf'],'forward_pe':s['peer_forward_pe'],'ev_ebitd':s['peer_ebitd_verified'],'outputs':len(outputs)},indent=2))

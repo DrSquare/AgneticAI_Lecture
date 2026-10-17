@@ -95,7 +95,7 @@ Status: **ready**. Pattern: Single pass + skill. Source slides: 28–30.
 - EV/EBITD explicitly replaces EV/EBITDA at the user's request: EBIT plus reported PP&E depreciation, with intangible amortization expensed for every company. Complete reported TTM EBITDA remains unavailable for Alphabet and Amazon; no estimated amortization enters the peer comparison.
 - Forward P/E uses October 16 S&P Global adjusted non-GAAP consensus via Stock Analysis. Microsoft CY2027 EPS is 50% FY2027 plus 50% FY2028, an equal-half approximation rather than quarterly consensus. Provider EPS adjustments differ from the DCF, which expenses SBC.
 - EV excludes lease liabilities consistently; lease mixes, asset lives and business models still affect economic comparability. Meta PP&E depreciation is reported in rounded amounts.
-- October 16 quotes were verified on Google Finance vendor displays, not exchange-direct data. Alphabet common classes use the GOOGL quote; Meta shares use a quarterly weighted-average basic proxy.
+- October 16 quotes were verified on Google Finance vendor displays, not exchange-direct data. All Alphabet classes use the GOOGL quote. Share counts and balance sheets are June 30 snapshots, not October share-count estimates.
 - Risk-free rate 4.5%, beta 1.20 and equity risk premium 4.5% are teaching assumptions. Debt and preferred costs use coupon proxies.
 - Services subcategory margins and segment D&A, capex and working capital are model allocations, not company disclosures.
 - The balance-sheet bridge is dated June 30 with no July–October roll-forward. Private stakes have zero Base realization; deferred tax and legal claims are deducted. Preferred conversion and capped-call optionality are not modeled.

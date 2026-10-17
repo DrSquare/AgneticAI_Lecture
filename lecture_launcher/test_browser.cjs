@@ -94,15 +94,18 @@ const pass=(name)=>{checks.push(name);console.log('PASS',name);};
   await page.screenshot({path:path.join(out,'evidence.png'),fullPage:false});
   pass('Readiness warnings and structured slide corrections remain readable');
 
+  await page.click('[data-demo="1"]');
   await page.click('#tab-prompt');
+  const expectedPrompt=await page.locator('.prompt-text').innerText();
+  assert(expectedPrompt.length>200);
   // Exercise both a successful clipboard API and its denied-permission fallback.
   await page.evaluate(()=>{Object.defineProperty(navigator,'clipboard',{configurable:true,value:{writeText:async text=>{window.__copied=text;}}});});
   await page.click('#copy-prompt');
-  assert.match(await page.evaluate(()=>window.__copied),/Alphabet/);
+  assert.equal(await page.evaluate(()=>window.__copied),expectedPrompt);
   await page.evaluate(()=>{Object.defineProperty(navigator,'clipboard',{configurable:true,value:{writeText:async()=>{throw Error('denied');}}});document.execCommand=()=>false;});
   await page.click('#copy-prompt');
   await page.locator('.copy-area').waitFor({state:'visible'});
-  assert.match(await page.locator('.copy-area').inputValue(),/Alphabet/);
+  assert.equal(await page.locator('.copy-area').inputValue(),expectedPrompt);
   await page.keyboard.press('Escape');
   pass('Copy prompt and a selectable-text fallback when clipboard access is denied');
 

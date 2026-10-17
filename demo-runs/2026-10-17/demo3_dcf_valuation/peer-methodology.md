@@ -25,7 +25,7 @@ Every company uses **July 1, 2025–June 30, 2026**. Calendar issuers use FY2025
 |---|---:|---:|---:|---:|
 | GOOGL | 147,628 | 25,237 | 172,865 | 23.38x |
 | MSFT | 155,237 | 34,300 | 189,537 | 20.54x |
-| META | 86,926 | 21,550 | 108,476 | 16.57x |
+| META | 86,926 | 21,550 | 108,476 | 16.60x |
 | AMZN | 93,712 | 49,741 | 143,453 | 18.86x |
 
 USD millions. The source arithmetic is:
@@ -46,4 +46,6 @@ This replaces the old mixed addbacks of 25,237 / 38,534 / 22,729 / 75,200. Those
 
 Raw pages and SEC JSON are archived in sources/peer-refresh with SHA-256 hashes. peer-inputs.json records taxonomy tags, filing accession, filing date, period and extracted value. No filing later than October 17 is used. Forward EPS dates and non-GAAP caveats are preserved in the archived text.
 
-EV excludes lease liabilities uniformly; different lease mixes and useful lives still affect comparison. June balances are not rolled to October, Meta shares remain a weighted-average proxy, and GAAP P/E contains investment gains. These are valuation limitations, separate from the resolved mismatch in addback definitions. This is a teaching comparison, not a claim of economically identical peers or standardized GAAP EBITD.
+Meta market capitalization now uses 2,548 million June 30 shares: 2,206 million Class A + 342 million Class B, from the [10-Q balance sheet](https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm). Multiples!F68:F69 contain the sourced components; F9 sums them. The old 2,543 million quarterly weighted-average proxy was removed. Alphabet price and share count now link to the same authoritative inputs used by the DCF.
+
+EV excludes lease liabilities uniformly; different lease mixes and useful lives still affect comparison. June balances and share counts are not rolled to October, and GAAP P/E contains investment gains. These are valuation limitations, separate from the resolved mismatch in addback definitions. This is a teaching comparison, not a claim of economically identical peers or standardized GAAP EBITD.

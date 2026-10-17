@@ -1,5 +1,5 @@
 {
-  "completed_at": "2026-10-17T11:55:34-07:00",
+  "completed_at": "2026-10-17T14:42:05-07:00",
   "status": "pass",
   "checks": [
     {
@@ -20,7 +20,7 @@
       "name": "Every numeric input has cell-level provenance",
       "status": "pass",
       "evidence": {
-        "numeric_cells": 441,
+        "numeric_cells": 440,
         "uncovered": []
       }
     },
@@ -33,7 +33,7 @@
       "name": "Saved formulas have recalculated caches and no errors",
       "status": "pass",
       "evidence": {
-        "formula_cells": 632,
+        "formula_cells": 636,
         "missing_caches": [],
         "errors": []
       }
@@ -73,14 +73,18 @@
       "evidence": "Source URLs are documentation; calculations are contained in the workbook."
     },
     {
-      "name": "All eight sheets rendered and visually reviewed",
+      "name": "All eight sheets have current visual-review evidence",
       "status": "pass",
-      "evidence": "All eight PNG previews reviewed. Key labels and values legible; no clipping in reviewed ranges. Native Excel UI walkthrough was not performed."
+      "evidence": {
+        "reviewed_at": "2026-10-17T14:42:02-07:00",
+        "method": "Assistant visual inspection using view_image; all ten previews viewed in this review turn.",
+        "scope": "Exact hashes of reviewed previews; file existence alone cannot pass."
+      }
     },
     {
-      "name": "Forward and EBITD bridge previews reviewed",
+      "name": "Forward and EBITD detail previews have current visual-review evidence",
       "status": "pass",
-      "evidence": "Two additional previews reviewed: dated forward EPS and reported EBITD reconciliation with explicit metric labels."
+      "evidence": "Dated EPS, Meta period-end shares and EBITD reconciliation reviewed; preview hashes must match."
     },
     {
       "name": "All eight peer source snapshots match their recorded hashes",
@@ -129,5 +133,5 @@
       }
     }
   ],
-  "xlsx_sha256": "5232c37708b709bc6420dd99dad1700d4935814af77ce4888ad3eb1f8b43108a"
+  "xlsx_sha256": "e05c87069e146cf36baf2676b4d1e26ebfbd48289cacfab5d2ac235f0e9aabf3"
 }

@@ -1,6 +1,6 @@
 {
   "run_date": "2026-10-17",
-  "snapshot_timestamp": "2026-10-17T12:01:54-07:00",
+  "snapshot_timestamp": "2026-10-17T15:56:53-07:00",
   "project": "Agentic AI Lecture",
   "demos": [
     {
@@ -738,7 +738,7 @@
         "EV/EBITD explicitly replaces EV/EBITDA at the user's request: EBIT plus reported PP&E depreciation, with intangible amortization expensed for every company. Complete reported TTM EBITDA remains unavailable for Alphabet and Amazon; no estimated amortization enters the peer comparison.",
         "Forward P/E uses October 16 S&P Global adjusted non-GAAP consensus via Stock Analysis. Microsoft CY2027 EPS is 50% FY2027 plus 50% FY2028, an equal-half approximation rather than quarterly consensus. Provider EPS adjustments differ from the DCF, which expenses SBC.",
         "EV excludes lease liabilities consistently; lease mixes, asset lives and business models still affect economic comparability. Meta PP&E depreciation is reported in rounded amounts.",
-        "October 16 quotes were verified on Google Finance vendor displays, not exchange-direct data. Alphabet common classes use the GOOGL quote; Meta shares use a quarterly weighted-average basic proxy.",
+        "October 16 quotes were verified on Google Finance vendor displays, not exchange-direct data. All Alphabet classes use the GOOGL quote. Share counts and balance sheets are June 30 snapshots, not October share-count estimates.",
         "Risk-free rate 4.5%, beta 1.20 and equity risk premium 4.5% are teaching assumptions. Debt and preferred costs use coupon proxies.",
         "Services subcategory margins and segment D&A, capex and working capital are model allocations, not company disclosures.",
         "The balance-sheet bridge is dated June 30 with no July–October roll-forward. Private stakes have zero Base realization; deferred tax and legal claims are deducted. Preferred conversion and capped-call optionality are not modeled.",
@@ -760,12 +760,12 @@
           "name": "2027 capex 46% to 36% flows to Summary",
           "status": "pass",
           "evidence": {
-            "delta": 4.519990461095915,
-            "before": 212.65234753731744,
+            "after": 217.17233799841335,
             "output": "Summary!E9",
+            "before": 212.65234753731744,
             "cell": "Assumptions!E84",
-            "expected_delta": 4.51999046109591,
-            "after": 217.17233799841335
+            "delta": 4.519990461095915,
+            "expected_delta": 4.51999046109591
           }
         },
         {
@@ -828,8 +828,8 @@
           "name": "2030 Cloud input flows through forecast and DCF",
           "status": "pass",
           "evidence": {
-            "cell": "Assumptions!H49",
             "before": 212.65234753731744,
+            "cell": "Assumptions!H49",
             "after": 215.29423039941133
           }
         },
@@ -862,44 +862,44 @@
           "status": "pass",
           "evidence": [
             {
-              "cell": "Historicals!D16",
-              "difference": 0.0
+              "difference": 0.0,
+              "cell": "Historicals!D16"
             },
             {
-              "cell": "Historicals!D24",
-              "difference": 0.0
+              "difference": 0.0,
+              "cell": "Historicals!D24"
             },
             {
-              "cell": "Historicals!E16",
-              "difference": 0.0
+              "difference": 0.0,
+              "cell": "Historicals!E16"
             },
             {
-              "cell": "Historicals!E24",
-              "difference": 0.0
+              "difference": 0.0,
+              "cell": "Historicals!E24"
             },
             {
-              "cell": "Historicals!F16",
-              "difference": 0.0
+              "difference": 0.0,
+              "cell": "Historicals!F16"
             },
             {
-              "cell": "Historicals!F24",
-              "difference": 0.0
+              "difference": 0.0,
+              "cell": "Historicals!F24"
             },
             {
-              "cell": "Historicals!G16",
-              "difference": 0.0
+              "difference": 0.0,
+              "cell": "Historicals!G16"
             },
             {
-              "cell": "Historicals!G24",
-              "difference": 0.0
+              "difference": 0.0,
+              "cell": "Historicals!G24"
             },
             {
-              "cell": "Historicals!H16",
-              "difference": 0.0
+              "difference": 0.0,
+              "cell": "Historicals!H16"
             },
             {
-              "cell": "Historicals!H24",
-              "difference": 0.0
+              "difference": 0.0,
+              "cell": "Historicals!H24"
             }
           ]
         },
@@ -915,24 +915,24 @@
           "status": "pass",
           "evidence": [
             {
-              "cell": "Projections!D90",
-              "difference": 0.0
+              "difference": 0.0,
+              "cell": "Projections!D90"
             },
             {
-              "cell": "Projections!E90",
-              "difference": 0.0
+              "difference": 0.0,
+              "cell": "Projections!E90"
             },
             {
-              "cell": "Projections!F90",
-              "difference": 4.3655745685100555e-11
+              "difference": 4.3655745685100555e-11,
+              "cell": "Projections!F90"
             },
             {
-              "cell": "Projections!G90",
-              "difference": 0.0
+              "difference": 0.0,
+              "cell": "Projections!G90"
             },
             {
-              "cell": "Projections!H90",
-              "difference": 0.0
+              "difference": 0.0,
+              "cell": "Projections!H90"
             }
           ]
         },
@@ -948,9 +948,9 @@
           "name": "Stub excludes elapsed 2026 period",
           "status": "pass",
           "evidence": {
-            "full_year_fcf": -37533.43332,
             "years": 0.20821917808219179,
             "valued_fcf": -12487.226806086956,
+            "full_year_fcf": -37533.43332,
             "start": "2026-10-17"
           }
         },
@@ -958,9 +958,9 @@
           "name": "WACC capital weights sum to one",
           "status": "pass",
           "evidence": {
-            "equity": 0.9729434268020263,
             "preferred": 0.004496348579552098,
-            "debt": 0.022560224618421762
+            "debt": 0.022560224618421762,
+            "equity": 0.9729434268020263
           }
         },
         {
@@ -968,30 +968,30 @@
           "status": "pass",
           "evidence": [
             {
-              "ticker": "GOOGL",
               "difference": 0.0,
               "date": "2026-10-16",
+              "ticker": "GOOGL",
               "pe": 22.33377049180328,
               "eps": 15.25
             },
             {
-              "ticker": "MSFT",
               "difference": 0.0,
               "date": "2026-10-16",
+              "ticker": "MSFT",
               "pe": 24.324137931034482,
               "eps": 21.75
             },
             {
-              "ticker": "META",
               "difference": 0.0,
               "date": "2026-10-16",
+              "ticker": "META",
               "pe": 20.48281836557898,
               "eps": 34.63
             },
             {
-              "ticker": "AMZN",
               "difference": 0.0,
               "date": "2026-10-16",
+              "ticker": "AMZN",
               "pe": 23.923444976076556,
               "eps": 10.45
             }
@@ -1002,8 +1002,8 @@
           "status": "pass",
           "evidence": {
             "calendar2027": 21.75,
-            "fy2027": 19.78,
-            "fy2028": 23.72
+            "fy2028": 23.72,
+            "fy2027": 19.78
           }
         },
         {
@@ -1036,40 +1036,40 @@
           "status": "pass",
           "evidence": [
             {
-              "ebitd": 172865.0,
-              "multiple": 23.384465912706442,
-              "bridge_difference": 0.0,
-              "ppe_difference": 0.0,
               "ebit": 147628.0,
+              "bridge_difference": 0.0,
               "ppe": 25237.0,
-              "ticker": "GOOGL"
+              "ppe_difference": 0.0,
+              "multiple": 23.384465912706442,
+              "ticker": "GOOGL",
+              "ebitd": 172865.0
             },
             {
-              "ebitd": 189537.0,
-              "multiple": 20.537970686462273,
-              "bridge_difference": 0.0,
-              "ppe_difference": 0.0,
               "ebit": 155237.0,
+              "bridge_difference": 0.0,
               "ppe": 34300.0,
-              "ticker": "MSFT"
+              "ppe_difference": 0.0,
+              "multiple": 20.537970686462273,
+              "ticker": "MSFT",
+              "ebitd": 189537.0
             },
             {
-              "ebitd": 108476.0,
-              "multiple": 16.56776392934843,
-              "bridge_difference": 0.0,
-              "ppe_difference": 0.0,
               "ebit": 86926.0,
+              "bridge_difference": 0.0,
               "ppe": 21550.0,
-              "ticker": "META"
+              "ppe_difference": 0.0,
+              "multiple": 16.600458718979315,
+              "ticker": "META",
+              "ebitd": 108476.0
             },
             {
-              "ebitd": 143453.0,
-              "multiple": 18.856252570528326,
-              "bridge_difference": 0.0,
-              "ppe_difference": 0.0,
               "ebit": 93712.0,
+              "bridge_difference": 0.0,
               "ppe": 49741.0,
-              "ticker": "AMZN"
+              "ppe_difference": 0.0,
+              "multiple": 18.856252570528326,
+              "ticker": "AMZN",
+              "ebitd": 143453.0
             }
           ]
         },
@@ -1077,8 +1077,8 @@
           "name": "EBITD peer median excludes Alphabet and flows to Summary",
           "status": "pass",
           "evidence": {
-            "formula": "=MEDIAN(E50:G50)",
             "value": 273.2973917092706,
+            "formula": "=MEDIAN(E50:G50)",
             "median": 18.856252570528326
           }
         },
@@ -1086,42 +1086,123 @@
           "name": "PPE source edit flows through TTM EBITD and peer valuation",
           "status": "pass",
           "evidence": {
-            "peer_after": 271.45233620903633,
             "peer_before": 273.2973917092706,
-            "edited": "Multiples!G37",
-            "dcf": 212.65234753731744
+            "dcf": 212.65234753731744,
+            "peer_after": 271.45233620903633,
+            "edited": "Multiples!G37"
           }
         },
         {
           "name": "Peer source restored after propagation test",
           "status": "pass",
           "evidence": {
-            "source_restored": 26703.0,
-            "peer_value": 273.2973917092706
+            "peer_value": 273.2973917092706,
+            "source_restored": 26703.0
           }
         },
         {
           "name": "Lecture comparison is labeled EBITD, not EBITDA",
           "status": "pass",
           "evidence": {
-            "multiple_label": "EV / EBITD",
-            "summary_label": "EV / EBITD"
+            "summary_label": "EV / EBITD",
+            "multiple_label": "EV / EBITD"
+          }
+        },
+        {
+          "name": "One Alphabet quote drives DCF, peer multiples and Summary",
+          "status": "pass",
+          "evidence": {
+            "peer_price": 350.59,
+            "dcf_equity": 4287715.699999999,
+            "peer_equity": 4287715.699999999,
+            "quote": 350.59,
+            "forward_pe": 22.98950819672131
+          }
+        },
+        {
+          "name": "Meta market value uses period-end Class A plus Class B shares",
+          "status": "pass",
+          "evidence": {
+            "class_b": 342.0,
+            "formula": "=SUM(F68:F69)",
+            "class_a": 2206.0,
+            "total": 2548.0
+          }
+        },
+        {
+          "name": "Noncentral WACC-growth grid cells match native model edits",
+          "status": "pass",
+          "evidence": [
+            {
+              "native_dcf": 216.06878526818988,
+              "difference": 3.126388037344441e-13,
+              "grid_value": 216.06878526818957,
+              "grid_cell": "E12"
+            },
+            {
+              "native_dcf": 209.30675413878944,
+              "difference": 2.5579538487363607e-13,
+              "grid_value": 209.3067541387892,
+              "grid_cell": "G14"
+            }
+          ]
+        },
+        {
+          "name": "Gordon model rejects growth at WACC plus 0",
+          "status": "pass",
+          "evidence": {
+            "summary": "#N/A",
+            "message": "Growth must be below WACC",
+            "growth": 0.09746873366497001,
+            "wacc": 0.09746873366497001
+          }
+        },
+        {
+          "name": "Gordon model rejects growth at WACC plus 0.005",
+          "status": "pass",
+          "evidence": {
+            "summary": "#N/A",
+            "message": "Growth must be below WACC",
+            "growth": 0.10246873366497002,
+            "wacc": 0.09746873366497001
+          }
+        },
+        {
+          "name": "Terminal capex stress matches independent valuation impact",
+          "status": "pass",
+          "evidence": {
+            "base_ratio": 1.15,
+            "after": 178.8653937235274,
+            "before": 212.65234753731744,
+            "stress_ratio": 1.5,
+            "delta": -33.786953813790035,
+            "expected_delta": -33.78695381379003
+          }
+        },
+        {
+          "name": "All review edits restored to the dated lecture state",
+          "status": "pass",
+          "evidence": {
+            "dcf": 212.65234753731744,
+            "terminal_capex_ratio": 1.15,
+            "growth": 0.03,
+            "quote": 340.59
           }
         },
         {
           "name": "Zero final Excel formula errors",
           "status": "pass",
           "evidence": {
-            "formula_cells": 632,
-            "errors": []
+            "errors": [],
+            "formula_cells": 640
           }
         },
         {
           "name": "Scenario selector and native bar chart exported",
           "status": "pass",
           "evidence": {
-            "validation_type": 3,
-            "charts": 1
+            "charts": 1,
+            "validation_type": 3
           }
         },
         {
@@ -1129,6 +1210,13 @@
           "status": "pass",
           "evidence": {
             "saved_value": 212.65234753731744
+          }
+        },
+        {
+          "name": "Workbook opens on the lecture Summary",
+          "status": "pass",
+          "evidence": {
+            "active_sheet": "Summary"
           }
         },
         {
@@ -1149,7 +1237,7 @@
           "name": "Every numeric input has cell-level provenance",
           "status": "pass",
           "evidence": {
-            "numeric_cells": 441,
+            "numeric_cells": 440,
             "uncovered": []
           }
         },
@@ -1162,7 +1250,7 @@
           "name": "Saved formulas have recalculated caches and no errors",
           "status": "pass",
           "evidence": {
-            "formula_cells": 632,
+            "formula_cells": 636,
             "missing_caches": [],
             "errors": []
           }
@@ -1202,14 +1290,18 @@
           "evidence": "Source URLs are documentation; calculations are contained in the workbook."
         },
         {
-          "name": "All eight sheets rendered and visually reviewed",
+          "name": "All eight sheets have current visual-review evidence",
           "status": "pass",
-          "evidence": "All eight PNG previews reviewed. Key labels and values legible; no clipping in reviewed ranges. Native Excel UI walkthrough was not performed."
+          "evidence": {
+            "reviewed_at": "2026-10-17T14:42:02-07:00",
+            "method": "Assistant visual inspection using view_image; all ten previews viewed in this review turn.",
+            "scope": "Exact hashes of reviewed previews; file existence alone cannot pass."
+          }
         },
         {
-          "name": "Forward and EBITD bridge previews reviewed",
+          "name": "Forward and EBITD detail previews have current visual-review evidence",
           "status": "pass",
-          "evidence": "Two additional previews reviewed: dated forward EPS and reported EBITD reconciliation with explicit metric labels."
+          "evidence": "Dated EPS, Meta period-end shares and EBITD reconciliation reviewed; preview hashes must match."
         },
         {
           "name": "All eight peer source snapshots match their recorded hashes",
@@ -1272,7 +1364,7 @@
           "name": "RUNBOOK.md",
           "label": "Presenter runbook",
           "path": "demo-runs/2026-10-17/demo3_dcf_valuation/RUNBOOK.md",
-          "bytes": 5137,
+          "bytes": 6659,
           "type": "MD",
           "primary": false
         },
@@ -1280,7 +1372,7 @@
           "name": "GOOGL_DCF_Valuation.xlsx",
           "label": "Alphabet DCF workbook",
           "path": "demo-runs/2026-10-17/demo3_dcf_valuation/GOOGL_DCF_Valuation.xlsx",
-          "bytes": 98612,
+          "bytes": 99236,
           "type": "XLSX",
           "primary": true
         },
@@ -1288,7 +1380,7 @@
           "name": "valuation-notes.md",
           "label": "Valuation notes",
           "path": "demo-runs/2026-10-17/demo3_dcf_valuation/valuation-notes.md",
-          "bytes": 2294,
+          "bytes": 2758,
           "type": "MD",
           "primary": true
         },
@@ -1296,7 +1388,7 @@
           "name": "validation-report.md",
           "label": "Validation report",
           "path": "demo-runs/2026-10-17/demo3_dcf_valuation/validation-report.md",
-          "bytes": 5184,
+          "bytes": 6008,
           "type": "MD",
           "primary": false
         },
@@ -1304,7 +1396,7 @@
           "name": "validation-report.json",
           "label": "Validation report",
           "path": "demo-runs/2026-10-17/demo3_dcf_valuation/validation-report.json",
-          "bytes": 12663,
+          "bytes": 15246,
           "type": "JSON",
           "primary": false
         },
@@ -1320,7 +1412,7 @@
           "name": "input-provenance.json",
           "label": "Input provenance",
           "path": "demo-runs/2026-10-17/demo3_dcf_valuation/input-provenance.json",
-          "bytes": 75430,
+          "bytes": 75395,
           "type": "JSON",
           "primary": false
         },
@@ -1328,7 +1420,7 @@
           "name": "readiness.json",
           "label": "Readiness report",
           "path": "demo-runs/2026-10-17/demo3_dcf_valuation/readiness.json",
-          "bytes": 19472,
+          "bytes": 22538,
           "type": "JSON",
           "primary": false
         },

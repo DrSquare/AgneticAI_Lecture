@@ -37,6 +37,10 @@
       "Amazon Q2 2026 10-Q, debt Note 5",
       "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm"
     ],
+    "S10": [
+      "Meta Q2 2026 10-Q, June 30 balance sheet, Class A and B shares outstanding",
+      "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm"
+    ],
     "Q1": [
       "GOOGL closing quote, October 16, 2026, Google Finance vendor display",
       "https://www.google.com/finance/quote/GOOGL:NASDAQ"
@@ -2229,51 +2233,33 @@
     },
     {
       "sheet": "Multiples",
-      "cell": "D8",
-      "value": 340.59,
-      "source": "Q1 / Q2 / Q3 / Q4. Google Finance vendor displays; exchange-direct unavailable."
-    },
-    {
-      "sheet": "Multiples",
       "cell": "E8",
       "value": 529.05,
-      "source": "Q1 / Q2 / Q3 / Q4. Google Finance vendor displays; exchange-direct unavailable."
+      "source": "GOOGL linked to Assumptions!D7. Q2 / Q3 / Q4 vendor closes 2026-10-16; exchange-direct unavailable."
     },
     {
       "sheet": "Multiples",
       "cell": "F8",
       "value": 709.32,
-      "source": "Q1 / Q2 / Q3 / Q4. Google Finance vendor displays; exchange-direct unavailable."
+      "source": "GOOGL linked to Assumptions!D7. Q2 / Q3 / Q4 vendor closes 2026-10-16; exchange-direct unavailable."
     },
     {
       "sheet": "Multiples",
       "cell": "G8",
       "value": 250,
-      "source": "Q1 / Q2 / Q3 / Q4. Google Finance vendor displays; exchange-direct unavailable."
-    },
-    {
-      "sheet": "Multiples",
-      "cell": "D9",
-      "value": 12230,
-      "source": "S2 all Alphabet classes; S4 Microsoft period end; S5 Meta Q2 basic weighted-average proxy; S7 Amazon period end."
+      "source": "GOOGL linked to Assumptions!D7. Q2 / Q3 / Q4 vendor closes 2026-10-16; exchange-direct unavailable."
     },
     {
       "sheet": "Multiples",
       "cell": "E9",
       "value": 7427,
-      "source": "S2 all Alphabet classes; S4 Microsoft period end; S5 Meta Q2 basic weighted-average proxy; S7 Amazon period end."
-    },
-    {
-      "sheet": "Multiples",
-      "cell": "F9",
-      "value": 2543,
-      "source": "S2 all Alphabet classes; S4 Microsoft period end; S5 Meta Q2 basic weighted-average proxy; S7 Amazon period end."
+      "source": "GOOGL linked to Historicals!H47; S4 Microsoft period end; S10 Meta Class A + B (rows 68–69); S7 Amazon period end."
     },
     {
       "sheet": "Multiples",
       "cell": "G9",
       "value": 10783,
-      "source": "S2 all Alphabet classes; S4 Microsoft period end; S5 Meta Q2 basic weighted-average proxy; S7 Amazon period end."
+      "source": "GOOGL linked to Historicals!H47; S4 Microsoft period end; S10 Meta Class A + B (rows 68–69); S7 Amazon period end."
     },
     {
       "sheet": "Multiples",
@@ -2634,6 +2620,18 @@
       "cell": "E43",
       "value": 34300,
       "source": "X2: us-gaap:Depreciation, July 1, 2025–June 30, 2026. Broad cash-flow addbacks are excluded."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "F68",
+      "value": 2206,
+      "source": "S10: June 30, 2026 balance sheet, shares in millions."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "F69",
+      "value": 342,
+      "source": "S10: June 30, 2026 balance sheet, shares in millions."
     },
     {
       "sheet": "Multiples",

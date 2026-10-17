@@ -4,7 +4,7 @@
 
 ## Prepare
 
-Open GOOGL_DCF_Valuation.xlsx in desktop Excel with Automatic calculation. Start on Summary. Confirm Base (Assumptions!D4 = 1), 2027 capex 46% (E84), DCF $212.65, forward P/E $364.83, and EV/EBITD $273.30. The saved file has native Excel caches, restored inputs, no macros and no external-workbook formula links. Adjust zoom for the projector. Keep valuation-notes.md, peer-methodology.md and validation-report.md available.
+Open GOOGL_DCF_Valuation.xlsx in desktop Excel with Automatic calculation. The file opens on Summary. Confirm Base (Assumptions!D4 = 1), 2027 capex 46% (E84), DCF $212.65, forward P/E implied price $364.83, and EV/EBITD implied price $273.30. The saved file has native Excel caches, restored inputs, no macros and no external-workbook formula links. Adjust zoom for the projector. Keep valuation-notes.md, peer-methodology.md and validation-report.md available. Use Ctrl+G with a quoted sheet reference, for example 'Assumptions'!E84, to jump directly to a live-edit cell.
 
 ## Five-minute walkthrough
 
@@ -18,6 +18,15 @@ Open GOOGL_DCF_Valuation.xlsx in desktop Excel with Automatic calculation. Start
 | 4:10–5:00 | Multiples!C84:J95 → Summary!C12:G13 | Define EBITD: EBIT + PP&E depreciation, with intangible amortization still expensed. Same TTM and addback policy for all; median implies $273.30. Explain why fully reconciled EBITDA was replaced. |
 
 Historical revenue/EBIT tie-outs are in Historicals rows 16/24; the equity bridge is in DCF rows 41–51. If a live edit misbehaves, restore Base and 46%, recalculate, and confirm the values above. Without Excel, use the reviewed previews and call the capex result a recorded test. A full interactive rehearsal has not been measured.
+
+## Questions to prepare for
+
+- **Why does terminal value dominate?** The explicit forecast includes heavy AI investment and early negative cash flow. At 94.0% of EV, terminal economics deserve more attention than the second decimal of the share value. Optional demonstration: Assumptions!D15 from 1.15x to 1.50x lowers value to $178.87; restore 1.15x.
+- **Does reducing capex preserve revenue growth?** The 2027 capex edit is a mechanical sensitivity. Revenue and D&A drivers are held fixed; it does not establish that lower real-world investment leaves future growth unchanged.
+- **Why not EBITDA?** The chosen EBITD metric keeps intangible amortization expensed for every issuer and avoids invented interim amortization. Different lease mixes and asset lives still matter.
+- **Why does growth show #N/A?** A Gordon perpetuity requires WACC greater than growth. Summary gives the reason. Restore terminal growth to 3.0%; do not read a value from invalid combinations.
+
+Before presenting, rehearse the five-minute sequence once on the actual projector and use the slide 30 corrections below. These environment and timing checks are presenter tasks, not claimed as completed by programmatic Excel tests.
 
 ## Slide 30 corrections
 
@@ -47,7 +56,7 @@ $dcfPython = 'C:/Users/h_min/.cache/codex-runtimes/codex-primary-runtime/depende
 & $dcfPython (Join-Path $dcfRun 'finalize_run.py')
 ```
 
-Inspect regenerated previews after layout changes before declaring visual QA current. collect_peer_sources.py refreshes downloads; prepare_peer_inputs.py extracts dated consensus and SEC facts from the archive. The original DCF inputs remain manually verified in the builder. For a new date, update periods, quotes, assumptions and stub dates deliberately; downloading files alone does not refresh the whole model.
+After rebuilding, inspect the changed previews and refresh visual-review.json with the exact reviewed image hashes before finalizing. The finalizer rejects missing or stale visual evidence; it no longer equates image existence with visual review. collect_peer_sources.py refreshes downloads; prepare_peer_inputs.py extracts dated consensus and SEC facts from the archive. The original DCF inputs remain manually verified in the builder. For a new date, update periods, quotes, assumptions and stub dates deliberately; downloading files alone does not refresh the whole model.
 
 ## Evidence
 

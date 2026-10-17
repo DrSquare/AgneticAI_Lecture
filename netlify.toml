@@ -1,0 +1,6 @@
+[build]
+  command = "python3 scripts/build_site.py"
+  publish = "dist"
+
+[build.processing]
+  skip_processing = true

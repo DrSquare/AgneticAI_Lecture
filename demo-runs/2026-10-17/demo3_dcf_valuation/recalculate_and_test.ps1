@@ -69,16 +69,35 @@ try {
  Add-Check 'Peer source restored after propagation test' ([math]::Abs([double]$s.Range('E12').Value2-$originalPeerValue)-lt 0.000001) @{source_restored=$m.Range('G37').Value2;peer_value=$s.Range('E12').Value2}
  Add-Check 'Lecture comparison is labeled EBITD, not EBITDA' (($s.Range('C12').Value2 -eq 'EV / EBITD') -and ($m.Range('C50').Value2 -eq 'EV / EBITD')) @{summary_label=$s.Range('C12').Value2;multiple_label=$m.Range('C50').Value2}
  $report.ebitd_bridge=$bridge
+ $quote=[double]$a.Range('D7').Value2;$a.Range('D7').Value2=$quote+10.0;Calc
+ Add-Check 'One Alphabet quote drives DCF, peer multiples and Summary' (([double]$m.Range('D8').Value2-eq [double]$a.Range('D7').Value2) -and ([double]$s.Range('G6').Value2-eq [double]$a.Range('D7').Value2) -and ([math]::Abs([double]$m.Range('D10').Value2-[double]$d.Range('D6').Value2)-lt 0.000001) -and ([math]::Abs([double]$m.Range('D48').Value2-($quote+10.0)/[double]$m.Range('D77').Value2)-lt 0.000001)) @{quote=$a.Range('D7').Value2;peer_price=$m.Range('D8').Value2;dcf_equity=$d.Range('D6').Value2;peer_equity=$m.Range('D10').Value2;forward_pe=$m.Range('D48').Value2}
+ $a.Range('D7').Value2=$quote;Calc
+ Add-Check 'Meta market value uses period-end Class A plus Class B shares' (([double]$m.Range('F9').Value2-eq 2548) -and ([math]::Abs([double]$m.Range('F10').Value2-2548*[double]$m.Range('F8').Value2)-lt 0.000001)) @{class_a=$m.Range('F68').Value2;class_b=$m.Range('F69').Value2;total=$m.Range('F9').Value2;formula=$m.Range('F9').Formula}
+ $baseGrowth=[double]$a.Range('D14').Value2;$baseRF=[double]$a.Range('D9').Value2;$equityWeight=[double]$d.Range('D12').Value2;$gridTests=@()
+ foreach($test in @(@('E12',-0.005,-0.005),@('G14',0.005,0.005))){$gridExpected=[double]$sen.Range($test[0]).Value2;$a.Range('D9').Value2=$baseRF+[double]$test[1]/$equityWeight;$a.Range('D14').Value2=$baseGrowth+[double]$test[2];Calc;$gridTests+=@{grid_cell=$test[0];grid_value=$gridExpected;native_dcf=$s.Range('E9').Value2;difference=[double]$s.Range('E9').Value2-$gridExpected};$a.Range('D9').Value2=$baseRF;$a.Range('D14').Value2=$baseGrowth;Calc}
+ Add-Check 'Noncentral WACC-growth grid cells match native model edits' (($gridTests|Where-Object{[math]::Abs($_.difference)-gt 0.000001}).Count-eq 0) $gridTests
+ foreach($excess in 0.0,0.005){$a.Range('D14').Value2=[double]$d.Range('D15').Value2+$excess;Calc;Add-Check "Gordon model rejects growth at WACC plus $excess" (($d.Range('D35').Text-eq '#N/A') -and ($s.Range('E9').Text-eq '#N/A') -and ($sen.Range('F13').Text-eq '#N/A') -and ($s.Range('D24').Value2-eq 'Growth must be below WACC')) @{growth=$a.Range('D14').Value2;wacc=$d.Range('D15').Value2;summary=$s.Range('E9').Text;message=$s.Range('D24').Value2}}
+ $a.Range('D14').Value2=$baseGrowth;Calc
+ $terminalRatio=[double]$a.Range('D15').Value2;$a.Range('D15').Value2=1.5;Calc
+ $terminalStress=[double]$s.Range('E9').Value2
+ $terminalExpected=-[double]$d.Range('D31').Value2*(1.5-$terminalRatio)/([double]$d.Range('D15').Value2-$baseGrowth)/[math]::Pow(1+[double]$d.Range('D15').Value2,[double]$d.Range('D36').Value2)/[double]$d.Range('D50').Value2
+ Add-Check 'Terminal capex stress matches independent valuation impact' (([math]::Abs(($terminalStress-$base)-$terminalExpected)-lt 0.000001) -and ($terminalStress-lt $base)) @{base_ratio=$terminalRatio;stress_ratio=1.5;before=$base;after=$terminalStress;delta=$terminalStress-$base;expected_delta=$terminalExpected}
+ $a.Range('D15').Value2=$terminalRatio;Calc
+ Add-Check 'All review edits restored to the dated lecture state' (([math]::Abs([double]$s.Range('E9').Value2-$base)-lt 0.000001) -and ([double]$a.Range('D7').Value2-eq $quote) -and ([double]$a.Range('D14').Value2-eq $baseGrowth) -and ([double]$a.Range('D15').Value2-eq $terminalRatio)) @{dcf=$s.Range('E9').Value2;quote=$a.Range('D7').Value2;growth=$a.Range('D14').Value2;terminal_capex_ratio=$a.Range('D15').Value2}
  $errors=@();$formulas=0
  foreach($sheet in $book.Worksheets){try{$cells=$sheet.UsedRange.SpecialCells(-4123);foreach($cell in $cells){$formulas++;if($cell.Text -match '^#(REF!|DIV/0!|VALUE!|NAME\?|N/A|NUM!|NULL!|SPILL!|CALC!)$'){$errors+=@{sheet=$sheet.Name;cell=$cell.Address();error=$cell.Text}}}}catch{if($_.Exception.Message -notmatch 'No cells were found'){throw}}}
  Add-Check 'Zero final Excel formula errors' ($errors.Count -eq 0) @{errors=$errors;formula_cells=$formulas}
  Add-Check 'Scenario selector and native bar chart exported' (($a.Range('D4').Validation.Type -eq 3) -and ($s.ChartObjects().Count -eq 1)) @{validation_type=$a.Range('D4').Validation.Type;charts=$s.ChartObjects().Count}
  $report.summary=[ordered]@{base_dcf=$s.Range('E9').Value2;low_dcf=$s.Range('D9').Value2;high_dcf=$s.Range('F9').Value2;market=$s.Range('G6').Value2;wacc=$d.Range('D15').Value2;terminal_growth=$a.Range('D14').Value2;terminal_share=$d.Range('D40').Value2;revenue2030=$p.Range('H15').Value2;capex2027=$p.Range('E33').Value2;cloud_share2030=[double]$p.Range('H12').Value2/[double]$p.Range('H15').Value2;required_terminal_fcf_ratio=$sen.Range('D23').Value2;peer_pe=$s.Range('E10').Value2;peer_sales=$s.Range('E11').Value2;peer_ebitd_verified=$s.Range('E12').Value2;fcf=@($p.Range('D40').Value2,$p.Range('E40').Value2,$p.Range('F40').Value2,$p.Range('G40').Value2,$p.Range('H40').Value2)}
  $report.summary.peer_forward_pe=$s.Range('E13').Value2
+ $report.summary.terminal_capex_stress=$terminalStress
+ $report.summary.terminal_capex_stress_ratio=1.5
+ $s.Activate();$s.Range('C2').Select()
  $book.Save()
  $book.Close($false);$book=$null
  $book=$excel.Workbooks.Open($file,0,$true)
  Add-Check 'Saved workbook reopens with restored Base' (([double]$book.Worksheets.Item('Assumptions').Range('D4').Value2 -eq 1) -and ([math]::Abs([double]$book.Worksheets.Item('Summary').Range('E9').Value2-$base)-lt 0.000001)) @{saved_value=$book.Worksheets.Item('Summary').Range('E9').Value2}
+ Add-Check 'Workbook opens on the lecture Summary' ($book.ActiveSheet.Name-eq 'Summary') @{active_sheet=$book.ActiveSheet.Name}
  $report.status=$(if(($report.checks|Where-Object status -eq 'fail').Count -eq 0){'pass'}else{'fail'})
 } catch { $report.status='failed';$report.error=$_.Exception.Message;throw }
 finally {if($book){$book.Close($false)};if($excel){$excel.Quit();[void][Runtime.InteropServices.Marshal]::ReleaseComObject($excel)};$report|ConvertTo-Json -Depth 15|Set-Content -LiteralPath (Join-Path $run 'validation-report.json') -Encoding utf8}

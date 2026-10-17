@@ -28,3 +28,13 @@ The refresh command rebuilds the self-contained HTML, the JSON index and the com
 For maintenance, run `python -m unittest lecture_launcher.test_launcher -v`. Browser acceptance tests are in `lecture_launcher/test_browser.cjs`; run them with Node and Playwright installed (`node lecture_launcher/test_browser.cjs`). An optional `PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH` selects an existing Chromium executable. Tests cover direct offline opening, hosted opening, all demo views, file search and downloads, note dialogs, clipboard fallback, timer behavior, keyboard navigation, printing, storage restrictions and mobile layouts. Screenshots and test results are saved under `.git/ui-refresh/`, or `LECTURE_QA_OUTPUT` if supplied.
 
 The four core demos correspond to the four directories in the ZIP. The later vibe-coding prompts on slides 43-48 are separate optional classroom exercises.
+
+## Netlify website
+
+The website uses the same interactive launcher and saved artifacts as the offline copy. Timers, workflow exploration, notes, search, completion tracking and the NVIDIA dashboard run in the visitor's browser. Workbooks download for use in Excel; hosting does not run agents or recalculate Excel models.
+
+Build with `python scripts/build_site.py`. The generated `dist/` directory contains `index.html`, the original `LECTURE_DEMOS.html` URL, and every local file linked by the launcher and embedded notes. The builder checks readiness and fails on missing or unsupported public links. It excludes Git history, PowerPoint files, build scripts and unlinked working files.
+
+In Netlify, import **DrSquare/AgneticAI_Lecture**, select `main`, and use the committed `netlify.toml`: build command `python3 scripts/build_site.py`, publish directory `dist`. For a manual deploy, upload only the generated `dist` folder. The repository root is not a publish directory. Hash links such as `/#demo-4/files` work without rewrite rules; missing files return a real 404 page.
+
+To preview the bundle locally, run `python -m http.server 8765 --directory dist` and open `http://localhost:8765/`. Rebuild after changing demo outputs.

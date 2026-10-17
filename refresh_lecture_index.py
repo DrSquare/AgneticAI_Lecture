@@ -74,7 +74,7 @@ def inspect_demo(config):
                 original = str(Path(artifact['name']).with_suffix('.pptx')).replace('\\', '/')
                 for field in ('action', 'label'):
                     step[field] = step[field].replace(original, artifact['name'])
-        step['artifacts'] = [a['name'] for a in result['available'] if a['name'] in step['label'] or Path(a['name']).name in step['label']]
+        step['artifacts'] = [a['name'] for a in result['available'] if a['path'] in step['action'] or a['name'] in step['label'] or Path(a['name']).name in step['label']]
     result['prompt'] = reusable_prompt(text)
     prompt = ROOT / 'Agentic_AI_Demos' / config['folder'] / 'prompt.md'
     if prompt.is_file():

@@ -78,6 +78,7 @@ class LauncherTests(unittest.TestCase):
             self.assertGreaterEqual(len(steps), 5)
             self.assertLessEqual(len(steps), 8)
             self.assertIn('0:00', steps[0]['time'])
+            self.assertTrue(all('](' not in s['label'] for s in steps))
             self.assertIn('5:00', steps[-1]['time'])
             prompt = reusable_prompt(text)
             if prompt:

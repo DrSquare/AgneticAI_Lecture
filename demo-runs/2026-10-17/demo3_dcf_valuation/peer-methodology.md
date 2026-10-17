@@ -1,8 +1,8 @@
 # Peer comparability — October 17, 2026
 
-## Selected lecture treatment
+## Valuation methods
 
-The presenter selected **EV/EBITD = EV / (EBIT + PP&E depreciation)** in place of EV/EBITDA, alongside resolved forward P/E. This is an explicit metric substitution. Full reported TTM intangible amortization cannot be reconciled for Alphabet and Amazon from the collected filings. Every company's intangible amortization stays expensed; no missing amortization is estimated. The workbook, chart, notes and slide corrections consistently call this EBITD.
+The model uses **EV/EBITD = EV / (EBIT + PP&E depreciation)** alongside forward P/E. Full reported TTM intangible amortization cannot be reconciled for Alphabet and Amazon from the collected filings. Every company's intangible amortization stays expensed; no missing amortization is estimated.
 
 ## Dated forward P/E
 
@@ -35,7 +35,7 @@ USD millions. The source arithmetic is:
 - META: 18,000 − 8,120 + 11,670 = 21,550, using rounded reported PP&E depreciation.
 - AMZN: 41,860 − 18,822 + 26,703 = 49,741.
 
-This replaces the old mixed addbacks of 25,237 / 38,534 / 22,729 / 75,200. Those old broad cash-flow lines no longer feed peer valuations. Peer-median EV/EBITD implies **$273.30** per GOOGL share, applying the same EV-to-common-equity bridge as the DCF. Inputs: Multiples rows 35–43; output: rows 45, 50, 56 and 61; reconciliation: rows 84–95; Summary row 12.
+Peer-median EV/EBITD implies **$273.30** per GOOGL share, applying the same EV-to-common-equity bridge as the DCF. Inputs: Multiples rows 35–43; output: rows 45, 50, 56 and 61; reconciliation: rows 84–95; Summary row 12.
 
 ## Evidence and practical limits
 
@@ -46,6 +46,6 @@ This replaces the old mixed addbacks of 25,237 / 38,534 / 22,729 / 75,200. Those
 
 Raw pages and SEC JSON are archived in sources/peer-refresh with SHA-256 hashes. peer-inputs.json records taxonomy tags, filing accession, filing date, period and extracted value. No filing later than October 17 is used. Forward EPS dates and non-GAAP caveats are preserved in the archived text.
 
-Meta market capitalization now uses 2,548 million June 30 shares: 2,206 million Class A + 342 million Class B, from the [10-Q balance sheet](https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm). Multiples!F68:F69 contain the sourced components; F9 sums them. The old 2,543 million quarterly weighted-average proxy was removed. Alphabet price and share count now link to the same authoritative inputs used by the DCF.
+Meta market capitalization uses 2,548 million June 30 shares: 2,206 million Class A + 342 million Class B, from the [10-Q balance sheet](https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm). Multiples!F68:F69 contain the sourced components; F9 sums them. Alphabet price and share count link to the same authoritative inputs used by the DCF.
 
-EV excludes lease liabilities uniformly; different lease mixes and useful lives still affect comparison. June balances and share counts are not rolled to October, and GAAP P/E contains investment gains. These are valuation limitations, separate from the resolved mismatch in addback definitions. This is a teaching comparison, not a claim of economically identical peers or standardized GAAP EBITD.
+EV excludes lease liabilities uniformly; different lease mixes and useful lives still affect comparison. June balances and share counts are not rolled to October, and GAAP P/E contains investment gains. These are valuation limitations. This is a teaching comparison, not a claim of economically identical peers or standardized GAAP EBITD.

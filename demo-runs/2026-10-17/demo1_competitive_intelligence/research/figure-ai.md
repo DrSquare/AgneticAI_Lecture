@@ -51,9 +51,3 @@
 [10] Figure, *Introducing Figure 03*, 2025-10-09. https://www.figure.ai/news/introducing-figure-03
 
 [11] Figure / Brett Adcock, *Master Plan*, 2022-05-20 (historical founding-era identity baseline). https://www.figure.ai/master-plan
-
-**Research handoff and challenges**
-
-Independent Figure researcher completed live search and opened the cited primary pages. Three material spot checks are recorded in `figure-ai-data.json`. Challenges: conflicting tracker funding figures, an undisclosed Nscale equity amount, non-retrieved social-source production claim, and company-reported performance. The parent synthesis should preserve blank numeric cells for unknown capital and avoid calculating valuation/capital from an invented denominator. Latest verified evidence publication: 2026-09-30. No communications, publishing or automations were performed.
-
-

@@ -23,28 +23,38 @@ class Links(HTMLParser):
 
 
 class LauncherTests(unittest.TestCase):
-    def test_readiness_fails_closed(self):
+    def test_required_audience_files_fail_closed(self):
         with tempfile.TemporaryDirectory() as folder:
             root = Path(folder)
             run_root = root / 'runs'
             config = copy.deepcopy(launcher.DEMOS[0])
             run = run_root / config['folder']
             run.mkdir(parents=True)
+            (root / 'lecture_launcher').mkdir()
+            (root / 'lecture_launcher/audience.json').write_text('{"1":{"sources":[]}}')
             with patch.object(launcher, 'ROOT', root), patch.object(launcher, 'RUN_ROOT', run_root):
-                self.assertEqual(launcher.inspect_demo(config)['status'], 'unverified')
-                (run / 'readiness.json').write_text('{broken', encoding='utf8')
-                self.assertEqual(launcher.inspect_demo(config)['status'], 'partial')
-                (run / 'readiness.json').write_text(json.dumps({'status':'ready'}))
-                result = launcher.inspect_demo(config)
-                self.assertEqual(result['status'], 'partial')
-                self.assertIn('IC-pack.pdf', result['missing'])
-                for item in ['RUNBOOK.md'] + config['primary']:
+                self.assertIn('IC-pack.pdf', launcher.inspect_demo(config)['missing'])
+                for item in ['GUIDE.md'] + config['primary']:
                     p = run / item; p.parent.mkdir(parents=True, exist_ok=True); p.write_text('saved')
-                self.assertEqual(launcher.inspect_demo(config)['status'], 'ready')
-                (run / 'readiness.json').write_text(json.dumps({'status':'ready','checks':[{'status':'failed'}]}))
-                self.assertEqual(launcher.inspect_demo(config)['status'], 'partial')
-                (run / 'readiness.json').write_text(json.dumps({'status':'ready','limitations':None}))
-                self.assertEqual(launcher.inspect_demo(config)['status'], 'partial')
+                self.assertEqual(launcher.inspect_demo(config)['missing'], [])
+                (run/'readiness.json').write_text('{"status":"ready","private_note":"internal"}')
+                self.assertNotIn('private_note', str(launcher.inspect_demo(config)))
+
+    def test_preparation_records_cannot_be_published(self):
+        from lecture_launcher.public_policy import is_public_path
+        for path in ['RUNBOOK.md', 'readiness.json', 'REVIEW.md', 'lecture-slide30-corrections.md', 'x/evidence/log.json', 'x/build/check.txt', '.git/config', 'slides.pptx']:
+            self.assertFalse(is_public_path(path), path)
+        for path in ['GUIDE.md', 'review-numbers.md', 'financials.md', 'inputs/sources.json']:
+            self.assertTrue(is_public_path(path), path)
+        page = (launcher.ROOT/'LECTURE_DEMOS.html').read_text('utf8')
+        data = json.loads(re.search(r'<script type="application/json" id="lecture-data">(.*?)</script>', page, re.S)[1])
+        for demo in data['demos']:
+            self.assertFalse(set(demo) & {'checks','slide_corrections','thread_id','limitations','status'})
+            for artifact in demo['available']:
+                self.assertTrue(is_public_path(artifact['path']), artifact['path'])
+        for path,doc in data['documents'].items():
+            self.assertTrue(is_public_path(path), path)
+            self.assertNotRegex(doc['text'], r'(?i)presenter|readiness|genuine reviewer exchange|genuine reviewer challenge|checks performed|actual reviewer exchanges')
 
     def test_note_renderer_escapes_and_restricts_links(self):
         root = launcher.ROOT
@@ -60,9 +70,9 @@ class LauncherTests(unittest.TestCase):
         self.assertIsNone(link_target('//evil.example/x', source, root))
         self.assertIsNone(link_target('missing.pdf', source, root))
 
-    def test_walkthrough_and_prompt_are_from_saved_runbooks(self):
+    def test_walkthrough_and_prompt_are_from_audience_guides(self):
         for config in launcher.DEMOS:
-            path = launcher.RUN_ROOT / config['folder'] / 'RUNBOOK.md'
+            path = launcher.RUN_ROOT / config['folder'] / 'GUIDE.md'
             text = path.read_text(encoding='utf-8-sig')
             steps = walkthrough(text, path, launcher.ROOT)
             self.assertGreaterEqual(len(steps), 5)
@@ -95,9 +105,7 @@ class LauncherTests(unittest.TestCase):
             path = launcher.ROOT / unquote(url.path)
             self.assertTrue(path.is_file(), href)
             self.assertNotEqual(path.suffix.lower(), '.pptx', href)
-        corrections = data['demos'][2]['slide_corrections']
-        self.assertTrue(all(isinstance(item, str) for item in corrections))
-        self.assertTrue(any('Slide 30' in item for item in corrections))
+
 
 
 if __name__ == '__main__':

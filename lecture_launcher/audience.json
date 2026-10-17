@@ -1,0 +1,30 @@
+{
+  "1": {
+    "sources": [
+      "Research window: October 17, 2025 to October 17, 2026. Older financing benchmarks are dated explicitly.",
+      "Profiles link to company announcements, counterparty reports, filings and attributed press reports.",
+      "Company-reported operating metrics are unaudited. Proposed SPAC values and reported acquisition talks are not closed financing rounds."
+    ]
+  },
+  "2": {
+    "sources": [
+      "Fictional GraspLoop AI deck: 11 pages. KPI data: September 2025 through September 2026.",
+      "Paying revenue, unpaid pilots, best-site performance and fleet averages have distinct definitions.",
+      "157.14% NRR covers the original three-customer cohort. The payback calculation uses net new MRR; acquisition-cohort inputs and a funded forward cash plan are unavailable."
+    ]
+  },
+  "3": {
+    "sources": [
+      "Snapshot: October 17, 2026. Market quotes and adjusted EPS consensus are dated October 16; financial inputs run through June 30.",
+      "The workbook contains sources, explicit assumptions and live formulas. Open it in Excel for recalculation. This is a teaching model, not investment advice.",
+      "WACC is 9.75%; terminal growth is 3.0%. Peer methodologies and economic limitations are explained in the valuation memo and peer methodology."
+    ]
+  },
+  "4": {
+    "sources": [
+      "NVIDIA FY2026 annual report and Q2, Q3 and Q4 earnings releases. FY2026 ended January 25, 2026; the 10-K was filed February 25.",
+      "Financial citations show printed 10-K pages and PDF pages. The annual-report front matter produces an 88-page offset.",
+      "Reported segments and end markets are different reporting views. Missing disclosures remain unavailable; calculations show inputs and formulas."
+    ]
+  }
+}

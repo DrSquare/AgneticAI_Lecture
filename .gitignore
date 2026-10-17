@@ -24,3 +24,13 @@ Thumbs.db
 # Generated website and local Netlify state
 dist/
 .netlify/
+
+# Local author preparation and review records
+**/RUNBOOK.md
+**/readiness.json
+**/presenter-notes.md
+**/REVIEW.md
+**/lecture-slide*-corrections.md
+**/validation-report.*
+**/visual-review.*
+**/visual-qa.*

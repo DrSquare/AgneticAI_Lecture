@@ -58,52 +58,6 @@ The investor cannot connect the target segment's sites and robots per site to a 
 
 Named relevant roles on page 9 merit credit as a team presentation, although affiliations, exits, and operational claims need references. I agree with the narrative reviewer that Team presentation 3/5 is defensible and Market & competition 2/5 fits the supplied rubric. Vague bios are not in my top five reasons to pass, and missing detail is not evidence of a nonexistent team or market. This review does not independently authenticate any fictional company claim.
 
-## Actual reviewer exchanges and resulting changes
-
-The following are verbatim reviewer messages from this run, grouped by reviewer; they are not simulated dialogue. Message order within each reviewer thread is preserved. Messages to the coordinating lead are omitted because they are status handoffs, not reviewer challenges.
-
-### Narrative reviewer exchange
-
-**Received from /root/narrative:**
-> Narrative initial challenge: slides 3 and 6 describe a plausible learning loop and commercial traction, but the supplied inputs do not establish that the loop causes a defensible product advantage or that marquee logos are paying. Any pass case should be conditional on those missing proofs. Conversely, slide 9's vague bios and slide 5's top-down market are presentation/diligence gaps, not evidence the team or market is false. Do you see grounds to rank market story above 2/5 or reject purely for missing detail?
-
-**Received from /root/narrative:**
-> My provisional narrative scores are Problem & insight 2/5, Market & competition story 2/5, Team presentation 3/5, Plan & ask story 2/5. Please challenge any you disagree with. Team 3 credits named people plus relevant operating/technical roles on p9, but the affiliations and exits are vague; 2 may better reflect rubric if you view credibility, not readability, as decisive.
-
-**Sent to /root/narrative:**
-> Devil challenge after reading all 11 PDF pages and CSV: I agree Market & competition 2/5. Missing bottom-up assumptions and unnamed categories on p8 weaken underwriting but do not prove the market or team false. Team 3/5 is defensible for named relevant roles, conditional on references; I would not make bios a top-five pass reason. My concern is your product-loop framing: CSV intervention rates fall 41→14 per 1,000 and mixed-SKU success rises 94.1%→97.2%, which are real improvements within the fictional dataset, but fleet/mix changes and no controlled cohort prevent attributing those gains to proprietary learning. Please make that causal limitation explicit and do not call the moat rented without licensing evidence. My top passes are metric comparability, observed unit economics, missing funded scale plan, unproven defensibility, and unsubstantiated obtainable market.
-
-**Received from /root/narrative:**
-> Accepted the causal challenge. My p3 revision will separate 'reported fleet metrics improved' from the unproven claim that LoopBrain caused the improvement; I will ask for a fixed-site/SKU or controlled learning evaluation and data/model-rights evidence, and will not label the moat rented. I retain Team presentation 3/5 after your defense because named relevant roles communicate the team, with references still unverified; bios remain below economics, metric comparability and funded plan in fix priority. Market story stays 2/5: absent obtainable-market assumptions limit underwriting, not proof of no market.
-
-**Resolution:** Narrative retained Team 3/5 and Market 2/5, and explicitly separated observed fleet improvement from causal product evidence. This review likewise keeps missing team details below the five investment-critical objections.
-
-### Numbers reviewer exchange
-
-**Sent to /root/numbers:**
-> Devil verification request (source PDF pages 6, 7, 10, 11): my draft relies on Sep paying ARR $1.932M vs $2.436M including pilots; Sep mixed-SKU success 97.2% vs best-site 99.7%; actual GM 41%; latest cash $6,038,215 / burn $713,990 = ~8.46 months. Please verify each and advise CAC interval sensitivity, whether a 26-month figure is reproducible, and why cash plus raise/current burn cannot establish forward runway when headcount rises 38→85 and robot hardware is $42K. I will label unprovided forward hiring/capex assumptions unavailable, not prove 24 months false.
-
-**Received from /root/numbers:**
-> Quant challenge: avoid treating 24mo runway as arithmetically disproved merely from current cash. Cash6.038m/current burn713,990=8.457mo BEFORE ask; adding18m at unchanged burn gives33.667mo. 24mo after ask is unverified forward plan; max average burn1.001592m/mo including capex. Headcount-proportional opex85/38 gives burn1.678727m/mo and14.319mo postraise, but is stress scenario, NOT forecast. No capex/financing schedules. Also ~26mo CAC supported by Q3 proxy490k/[(161k−115.5k)×41%]=26.266mo; Sep29.62/full12mo27.87. All use net new MRR, not cohort CAC. Please preserve methodological uncertainty while challenging the deck.
-
-**Sent to /root/numbers:**
-> Agreed; I have revised the funding critique to '24-month forward plan unverifiable' and will not use the pre-raise 8.46 months as a rebuttal to post-raise runway. I will show 33.67 months only as static post-raise arithmetic and the $1.0016M average all-in burn ceiling for 24 months as a conditional budget. I will describe Q3 26.27 months as an aggregate net-new-MRR proxy, with September/full-year sensitivity, not verified cohort CAC.
-
-**Received from /root/numbers:**
-> All figures verified from CSV physical row14 Sep26; paying ARR=161k×12=1.932m, pilots annualized12×3500×12=.504m, total2.436m;97.2% mixed vs99.7 best-site;41% GM; cash/burn8.457mo. Accepted your revision to forward runway unverifiable. Need flag hardware42k itself unverified (deckp7 only, no invoices/BOM/financing); hardware-funded growth therefore can be scenario arithmetic only. CSV burn equals opex−MRR×GM all13months and cash rolls exactly thereafter; this model exposes no separate capex cash-flow line, but it does not prove hardware cost is absent rather than embedded in opex/GM.
-
-**Sent to /root/numbers:**
-> Accepted hardware/cash-flow limitation: I will treat $42K as an unverified deck assumption, and say no separate capex line is exposed, not that hardware is definitely omitted. Any deployment hardware arithmetic is illustrative only, contingent on cash ownership/financing and cost assumptions. Please retain this exchange in your reviewer log; I will record it verbatim too.
-
-**Resolution:** Changed the funding critique to unavailable forward evidence; explicitly separated pre-raise, static post-raise, and forward runway. Clarified 26.27 months as the Q3 proxy and added interval/cohort limitations. Hardware price and capex treatment remain unverified; absence of a separate capex column does not prove omission from cash burn. The hypothetical headcount stress case is not used as a forecast or as proof that the deck's runway is false.
-
-## Review checks and limits
-
-- Read the assigned devil's advocate instructions, bundled review skill, data-room README, all 11 PDF pages through complete per-page text extraction, and all 13 CSV rows.
-- Verified page references against extracted PDF page order and printed page numbers. This review makes no claim of visual/layout inspection of PDF renders.
-- Requested independent numerical verification from the numbers reviewer and incorporated the replies above. The coordinating calculation script/results are the reproducible source for the consolidated numerical claims.
-- No external lookup, reference-output copying, founder contact, sending, publishing, or scheduling occurred.
-
 ## The one thing that would change my mind
 
 **An independently reconciled paid deployment cohort demonstrating repeatable, fully loaded economics at the scale the company proposes to fund.** That evidence would have to connect contracted paying revenue to actual customer acquisition and delivery costs, including hardware and remote operations, so the investment case can be tested rather than inferred from mixed headline metrics.

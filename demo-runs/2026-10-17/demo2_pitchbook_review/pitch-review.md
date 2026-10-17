@@ -123,7 +123,7 @@ The panel ran as three independent subagents, then exchanged direct messages. Th
 | Narrative and Devil -> Numbers | Verify CAC and distinguish the proposed approximately 26-month correction from p7's actual 4-month claim. | Q3 ending-GM proxy 26.27; TTM 27.87; September 29.62. Exact CAC remains unverifiable. |
 | Lead -> Numbers | Different margin weighting methods generate different proxy answers. | Monthly-increment GM and revenue-weighted period GM remain distinctly labelled; no forced numerical consensus. |
 
-Remaining difference is emphasis: narrative sees a repairable, coherent product story, while the devil requires reconciled evidence before investment advocacy. The lead adopts conditional diligence, not an average of enthusiasm and skepticism. Detailed handoff record: `conflicts-log.md`.
+Remaining difference is emphasis: narrative sees a repairable, coherent product story, while the devil requires reconciled evidence before investment advocacy. The lead adopts conditional diligence, not an average of enthusiasm and skepticism.
 
 ## Top five fixes, ranked by investor impact
 
@@ -139,9 +139,3 @@ Remaining difference is emphasis: narrative sees a repairable, coherent product 
 2. What is included in gross margin, what assumptions produce 68%, and what acquisition cohort and spend/new-MRR timing supports the stated 4-month payback?
 3. What controlled results demonstrate SKU learning, installation time and fleet performance, how much teleoperation is required, and who owns the models and training data?
 4. After the raise's actual closing date, how do monthly deployments, the 38-to-85 hiring plan, hardware purchases/financing and collections produce 24 months of cash runway?
-
-## Execution and verification
-
-Lead and numbers reviewer independently calculated the key metrics from the original CSV. `calculate.py` writes 53 source-identity/cash-roll-forward checks, all passing, plus claim and sensitivity artifacts. Passing reconciliation checks prove internal arithmetic consistency, not authenticity. Every source PDF page was extracted and rendered. The supplied reference output was preserved and was not used as the basis of this review. Source hashes are recorded in `evidence/source-manifest.json`.
-
-The source period is September 2025-September 2026 even though this review runs October 17, 2026. No current external company data, contract authenticity, native PowerPoint execution or live financial-system test is claimed. `founder-email.md` is an unsent local draft. No communications, schedules or external publishing occurred.

@@ -10,6 +10,8 @@ import subprocess
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from lecture_launcher.public_policy import is_public_path, validate_public_data, validate_public_file
 DIST = ROOT / "dist"
 ALLOWED = {".html", ".css", ".js", ".svg", ".png", ".jpg", ".jpeg", ".webp", ".ico", ".pdf", ".xlsx", ".csv", ".json", ".md", ".txt"}
 
@@ -27,6 +29,7 @@ def build():
     subprocess.run([sys.executable, str(ROOT / "refresh_lecture_index.py"), "--check"], cwd=ROOT, check=True)
     page = (ROOT / "LECTURE_DEMOS.html").read_text(encoding="utf-8")
     data = json.loads(re.search(r'<script type="application/json" id="lecture-data">(.*?)</script>', page, re.S)[1])
+    validate_public_data(data)
     files = set()
     queue = []
 
@@ -37,6 +40,8 @@ def build():
         candidate = ((ROOT if parsed.path.startswith("/") else base) / unquote(parsed.path).lstrip("/")).resolve()
         if not candidate.is_relative_to(ROOT) or any(p.startswith(".") for p in candidate.relative_to(ROOT).parts):
             raise ValueError(f"Non-public path: {url}")
+        if not is_public_path(candidate.relative_to(ROOT).as_posix()):
+            raise ValueError(f"Internal preparation file cannot be published: {url}")
         if candidate.suffix.lower() not in ALLOWED:
             raise ValueError(f"Unsupported public file: {url}")
         if not candidate.is_file():
@@ -76,6 +81,7 @@ def build():
     DIST.mkdir()
     manifest = []
     for source in sorted(files):
+        validate_public_file(source)
         relative = source.relative_to(ROOT)
         target = DIST / relative
         target.parent.mkdir(parents=True, exist_ok=True)

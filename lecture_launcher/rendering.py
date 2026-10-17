@@ -113,7 +113,7 @@ def walkthrough(text, source, root):
         for line in match[1].splitlines():
             row = cells(line)
             if len(row) >= 3 and re.match(r'^\d+:\d+', row[0]):
-                steps.append({'time': row[0], 'action': inline(row[1], source, root), 'point': inline(row[2], source, root), 'label': re.sub(r'[`*]', '', row[1])})
+                steps.append({'time': row[0], 'action': inline(row[1], source, root), 'point': inline(row[2], source, root), 'label': re.sub(r'!?\[([^\]]+)\]\([^)]+\)', r'\1', re.sub(r'[`*]', '', row[1]))})
     return steps
 
 

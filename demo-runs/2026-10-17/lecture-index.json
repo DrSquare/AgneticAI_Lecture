@@ -1,6 +1,6 @@
 {
   "run_date": "2026-10-17",
-  "snapshot_timestamp": "2026-10-17T16:32:10-07:00",
+  "snapshot_timestamp": "2026-10-17T16:34:32-07:00",
   "project": "Agentic AI Lecture",
   "demos": [
     {
@@ -52,7 +52,7 @@
           "name": "GUIDE.md",
           "label": "Demo guide",
           "path": "demo-runs/2026-10-17/demo1_competitive_intelligence/GUIDE.md",
-          "bytes": 2665,
+          "bytes": 2639,
           "type": "MD",
           "primary": false
         },
@@ -84,7 +84,7 @@
           "name": "research/figure-ai.md",
           "label": "Figure ai",
           "path": "demo-runs/2026-10-17/demo1_competitive_intelligence/research/figure-ai.md",
-          "bytes": 7135,
+          "bytes": 7082,
           "type": "MD",
           "primary": false
         },
@@ -92,7 +92,7 @@
           "name": "research/physical-intelligence.md",
           "label": "Physical intelligence",
           "path": "demo-runs/2026-10-17/demo1_competitive_intelligence/research/physical-intelligence.md",
-          "bytes": 6719,
+          "bytes": 6677,
           "type": "MD",
           "primary": false
         },
@@ -100,7 +100,7 @@
           "name": "research/skild-ai.md",
           "label": "Skild ai",
           "path": "demo-runs/2026-10-17/demo1_competitive_intelligence/research/skild-ai.md",
-          "bytes": 5808,
+          "bytes": 5764,
           "type": "MD",
           "primary": false
         },
@@ -108,7 +108,7 @@
           "name": "research/agility-robotics.md",
           "label": "Agility robotics",
           "path": "demo-runs/2026-10-17/demo1_competitive_intelligence/research/agility-robotics.md",
-          "bytes": 6194,
+          "bytes": 6148,
           "type": "MD",
           "primary": false
         },
@@ -116,7 +116,7 @@
           "name": "research/1x-technologies.md",
           "label": "1x technologies",
           "path": "demo-runs/2026-10-17/demo1_competitive_intelligence/research/1x-technologies.md",
-          "bytes": 7843,
+          "bytes": 7796,
           "type": "MD",
           "primary": false
         },
@@ -147,7 +147,7 @@
           "time": "0:35–1:20",
           "action": "Compare <a href=\"demo-runs/2026-10-17/demo1_competitive_intelligence/research/figure-ai.md\" target=\"_blank\" rel=\"noopener noreferrer\">Figure AI</a> and <a href=\"demo-runs/2026-10-17/demo1_competitive_intelligence/research/physical-intelligence.md\" target=\"_blank\" rel=\"noopener noreferrer\">Physical Intelligence</a>.",
           "point": "The same five headings keep dates, definitions and sources alongside each claim.",
-          "label": "Compare [Figure AI](research/figure-ai.md) and [Physical Intelligence](research/physical-intelligence.md).",
+          "label": "Compare Figure AI and Physical Intelligence.",
           "artifacts": [
             "research/figure-ai.md",
             "research/physical-intelligence.md"
@@ -157,7 +157,7 @@
           "time": "1:20–2:10",
           "action": "Read the <a href=\"demo-runs/2026-10-17/demo1_competitive_intelligence/research/summary.md\" target=\"_blank\" rel=\"noopener noreferrer\">research synthesis</a>.",
           "point": "Compare five differentiators and three investment committee implications. Momentum labels are analytical judgments.",
-          "label": "Read the [research synthesis](research/summary.md).",
+          "label": "Read the research synthesis.",
           "artifacts": [
             "research/summary.md"
           ]
@@ -166,7 +166,7 @@
           "time": "2:10–3:10",
           "action": "Open the <a href=\"demo-runs/2026-10-17/demo1_competitive_intelligence/research/competitor-matrix.xlsx\" target=\"_blank\" rel=\"noopener noreferrer\">competitor matrix</a>.",
           "point": "Inspect dated numeric inputs and evidence-age formulas. Missing capital is not zero.",
-          "label": "Open the [competitor matrix](research/competitor-matrix.xlsx).",
+          "label": "Open the competitor matrix.",
           "artifacts": [
             "research/competitor-matrix.xlsx"
           ]
@@ -182,7 +182,7 @@
           "time": "4:00–5:00",
           "action": "Explore the <a href=\"demo-runs/2026-10-17/demo1_competitive_intelligence/IC-pack.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">IC slides</a>.",
           "point": "Connect the landscape and differentiators to the next diligence questions.",
-          "label": "Explore the [IC slides](IC-pack.pdf).",
+          "label": "Explore the IC slides.",
           "artifacts": [
             "IC-pack.pdf"
           ]
@@ -232,7 +232,7 @@
           "name": "GUIDE.md",
           "label": "Demo guide",
           "path": "demo-runs/2026-10-17/demo2_pitchbook_review/GUIDE.md",
-          "bytes": 3019,
+          "bytes": 2995,
           "type": "MD",
           "primary": false
         },
@@ -240,7 +240,7 @@
           "name": "pitch-review.md",
           "label": "Consolidated pitch review",
           "path": "demo-runs/2026-10-17/demo2_pitchbook_review/pitch-review.md",
-          "bytes": 21492,
+          "bytes": 21351,
           "type": "MD",
           "primary": true
         },
@@ -264,7 +264,7 @@
           "name": "partner-briefing.md",
           "label": "Partner briefing",
           "path": "demo-runs/2026-10-17/demo2_pitchbook_review/partner-briefing.md",
-          "bytes": 2002,
+          "bytes": 1977,
           "type": "MD",
           "primary": false
         },
@@ -272,7 +272,7 @@
           "name": "review-narrative.md",
           "label": "Review narrative",
           "path": "demo-runs/2026-10-17/demo2_pitchbook_review/review-narrative.md",
-          "bytes": 11127,
+          "bytes": 11068,
           "type": "MD",
           "primary": false
         },
@@ -280,7 +280,7 @@
           "name": "review-numbers.md",
           "label": "Review numbers",
           "path": "demo-runs/2026-10-17/demo2_pitchbook_review/review-numbers.md",
-          "bytes": 14997,
+          "bytes": 14872,
           "type": "MD",
           "primary": false
         },
@@ -288,7 +288,7 @@
           "name": "review-devils-advocate.md",
           "label": "Review devils advocate",
           "path": "demo-runs/2026-10-17/demo2_pitchbook_review/review-devils-advocate.md",
-          "bytes": 9107,
+          "bytes": 9044,
           "type": "MD",
           "primary": false
         },
@@ -328,14 +328,14 @@
           "time": "0:00–0:45",
           "action": "Read the fictional <a href=\"Agentic_AI_Demos/demo2_pitchbook_review/inputs/pitch-deck.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">pitch deck</a>, pages 6–7.",
           "point": "Compare its ARR, gross margin and CAC claims with the supplied data. All company data are invented.",
-          "label": "Read the fictional [pitch deck](../../../Agentic_AI_Demos/demo2_pitchbook_review/inputs/pitch-deck.pdf), pages 6–7.",
+          "label": "Read the fictional pitch deck, pages 6–7.",
           "artifacts": []
         },
         {
           "time": "0:45–1:25",
           "action": "Open the <a href=\"demo-runs/2026-10-17/demo2_pitchbook_review/partner-briefing.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">partner briefing</a>.",
           "point": "Paying ARR is $1.932M; September gross margin is 41%. The conclusion supports a focused founder meeting.",
-          "label": "Open the [partner briefing](partner-briefing.pdf).",
+          "label": "Open the partner briefing.",
           "artifacts": [
             "partner-briefing.pdf"
           ]
@@ -344,7 +344,7 @@
           "time": "1:25–2:20",
           "action": "Explore the <a href=\"demo-runs/2026-10-17/demo2_pitchbook_review/calculation-results.md\" target=\"_blank\" rel=\"noopener noreferrer\">calculation results</a>.",
           "point": "Q3 sales and marketing spend / net new MRR / ending gross margin gives 26.27 months. This is a proxy, not verified acquisition-cohort CAC.",
-          "label": "Explore the [calculation results](calculation-results.md).",
+          "label": "Explore the calculation results.",
           "artifacts": [
             "calculation-results.md"
           ]
@@ -360,7 +360,7 @@
           "time": "3:25–4:15",
           "action": "Read the <a href=\"demo-runs/2026-10-17/demo2_pitchbook_review/pitch-review.md\" target=\"_blank\" rel=\"noopener noreferrer\">consolidated review</a> and <a href=\"demo-runs/2026-10-17/demo2_pitchbook_review/forward-burn-sensitivity.csv\" target=\"_blank\" rel=\"noopener noreferrer\">burn sensitivities</a>.",
           "point": "A 24-month runway requires a forward hiring, deployment and cash plan. Pre-raise cash/current burn cannot settle that claim.",
-          "label": "Read the [consolidated review](pitch-review.md) and [burn sensitivities](forward-burn-sensitivity.csv).",
+          "label": "Read the consolidated review and burn sensitivities.",
           "artifacts": [
             "pitch-review.md",
             "forward-burn-sensitivity.csv"
@@ -370,7 +370,7 @@
           "time": "4:15–5:00",
           "action": "Explore the <a href=\"demo-runs/2026-10-17/demo2_pitchbook_review/founder-email.md\" target=\"_blank\" rel=\"noopener noreferrer\">founder email example</a>.",
           "point": "Turn the findings into specific questions and priorities. The example is an unsent draft.",
-          "label": "Explore the [founder email example](founder-email.md).",
+          "label": "Explore the founder email example.",
           "artifacts": [
             "founder-email.md"
           ]
@@ -415,7 +415,7 @@
           "name": "GUIDE.md",
           "label": "Demo guide",
           "path": "demo-runs/2026-10-17/demo3_dcf_valuation/GUIDE.md",
-          "bytes": 2153,
+          "bytes": 2129,
           "type": "MD",
           "primary": false
         },
@@ -471,7 +471,7 @@
           "time": "0:00–0:45",
           "action": "Open <a href=\"demo-runs/2026-10-17/demo3_dcf_valuation/GOOGL_DCF_Valuation.xlsx\" target=\"_blank\" rel=\"noopener noreferrer\">the workbook</a> on Summary.",
           "point": "Base DCF is $212.65; sensitivity is $158.92–$312.31. The dated market price is $340.59.",
-          "label": "Open [the workbook](GOOGL_DCF_Valuation.xlsx) on Summary.",
+          "label": "Open the workbook on Summary.",
           "artifacts": [
             "GOOGL_DCF_Valuation.xlsx"
           ]
@@ -501,7 +501,7 @@
           "time": "3:15–4:10",
           "action": "Read <a href=\"demo-runs/2026-10-17/demo3_dcf_valuation/peer-methodology.md\" target=\"_blank\" rel=\"noopener noreferrer\">peer methodology</a> and Multiples!C72:J82.",
           "point": "Forward P/E uses dated CY2027 adjusted EPS. Microsoft uses an equal-half fiscal-year approximation. Peer median implies $364.83.",
-          "label": "Read [peer methodology](peer-methodology.md) and Multiples!C72:J82.",
+          "label": "Read peer methodology and Multiples!C72:J82.",
           "artifacts": [
             "peer-methodology.md"
           ]
@@ -510,7 +510,7 @@
           "time": "4:10–5:00",
           "action": "Inspect Multiples!C84:J95 and the <a href=\"demo-runs/2026-10-17/demo3_dcf_valuation/valuation-notes.md\" target=\"_blank\" rel=\"noopener noreferrer\">valuation memo</a>.",
           "point": "EV/EBITD uses EBIT plus PP&amp;E depreciation, keeping intangible amortization expensed. Peer median implies $273.30.",
-          "label": "Inspect Multiples!C84:J95 and the [valuation memo](valuation-notes.md).",
+          "label": "Inspect Multiples!C84:J95 and the valuation memo.",
           "artifacts": [
             "valuation-notes.md"
           ]
@@ -562,7 +562,7 @@
           "name": "GUIDE.md",
           "label": "Demo guide",
           "path": "demo-runs/2026-10-17/demo4_annual_report_dashboard/GUIDE.md",
-          "bytes": 3798,
+          "bytes": 3745,
           "type": "MD",
           "primary": false
         },
@@ -578,7 +578,7 @@
           "name": "financials.md",
           "label": "Extracted financial evidence",
           "path": "demo-runs/2026-10-17/demo4_annual_report_dashboard/financials.md",
-          "bytes": 232527,
+          "bytes": 231501,
           "type": "MD",
           "primary": true
         },
@@ -642,7 +642,7 @@
           "time": "0:00–0:45",
           "action": "Open the <a href=\"demo-runs/2026-10-17/demo4_annual_report_dashboard/inputs/10K-NVDA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">annual report</a> and <a href=\"demo-runs/2026-10-17/demo4_annual_report_dashboard/financials.md\" target=\"_blank\" rel=\"noopener noreferrer\">financial evidence</a>.",
           "point": "FY2026 ended January 25, 2026. Printed 10-K page 51 is PDF page 139.",
-          "label": "Open the [annual report](inputs/10K-NVDA.pdf) and [financial evidence](financials.md).",
+          "label": "Open the annual report and financial evidence.",
           "artifacts": [
             "financials.md",
             "inputs/10K-NVDA.pdf"
@@ -652,7 +652,7 @@
           "time": "0:45–1:35",
           "action": "Read the <a href=\"demo-runs/2026-10-17/demo4_annual_report_dashboard/trends.md\" target=\"_blank\" rel=\"noopener noreferrer\">trend analysis</a>.",
           "point": "Distinguish reported figures, calculated changes and analytical interpretations.",
-          "label": "Read the [trend analysis](trends.md).",
+          "label": "Read the trend analysis.",
           "artifacts": [
             "trends.md"
           ]
@@ -661,7 +661,7 @@
           "time": "1:35–2:20",
           "action": "Explore the <a href=\"demo-runs/2026-10-17/demo4_annual_report_dashboard/exec-summary.md\" target=\"_blank\" rel=\"noopener noreferrer\">Board summary</a>.",
           "point": "Follow five headlines, three risks and three management questions back to their evidence.",
-          "label": "Explore the [Board summary](exec-summary.md).",
+          "label": "Explore the Board summary.",
           "artifacts": [
             "exec-summary.md"
           ]
@@ -670,7 +670,7 @@
           "time": "2:20–3:20",
           "action": "Open the <a href=\"demo-runs/2026-10-17/demo4_annual_report_dashboard/dashboard.html\" target=\"_blank\" rel=\"noopener noreferrer\">interactive dashboard</a>. Change View as and the segment filter.",
           "point": "Board, CFO and Investor views prioritize different information. Group-only measures remain clearly labeled.",
-          "label": "Open the [interactive dashboard](dashboard.html). Change View as and the segment filter.",
+          "label": "Open the interactive dashboard. Change View as and the segment filter.",
           "artifacts": [
             "dashboard.html"
           ]

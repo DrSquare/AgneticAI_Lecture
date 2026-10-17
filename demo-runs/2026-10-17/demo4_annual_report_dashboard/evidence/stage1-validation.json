@@ -1,0 +1,1146 @@
+{
+  "stage": 1,
+  "execution_date": "2026-10-17",
+  "company": "NVIDIA",
+  "fiscal_year": 2026,
+  "period_end": "2026-01-25",
+  "prior_period_end": "2025-01-26",
+  "filing_date": "2026-02-25",
+  "source_scope": "Approved official annual-report PDF, mechanical extraction, supplied Q2/Q3/Q4 releases and SEC filing index only. No reference outputs or other demos read.",
+  "sources": [
+    {
+      "id": "annual_report",
+      "file": "inputs/10K-NVDA.pdf",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-Annual-Report-Web.pdf",
+      "sha256": "0e725ba048221539dca3eb1a4e70febfcbb785e9afb96cd3ff0b035d7d734e5c",
+      "retrieved_on": "2026-10-17",
+      "bytes": 15850437
+    },
+    {
+      "id": "q4_release",
+      "file": "inputs/q4-release.html",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Fourth-Quarter-and-Fiscal-2026/default.aspx",
+      "sha256": "37cdf8b5418188eea345423a482a20f39255ccc145b23be8d1f7d6266831de54",
+      "retrieved_on": "2026-10-17",
+      "bytes": 482563
+    },
+    {
+      "id": "q3_release",
+      "file": "inputs/q3-release.html",
+      "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2026/default.aspx",
+      "sha256": "7b8aee30e332f9c51a0797ca8ef965991f7f47a2b3746eaa62699be8d5c636c6",
+      "retrieved_on": "2026-10-17",
+      "bytes": 453307
+    },
+    {
+      "id": "q2_release",
+      "file": "inputs/q2-release.html",
+      "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2026/default.aspx",
+      "sha256": "969e1c44852984b96479ea267c9073087dd049eae6c7293f872480abd31ec2c8",
+      "retrieved_on": "2026-10-17",
+      "bytes": 449249
+    },
+    {
+      "id": "filing_index",
+      "file": "inputs/filing-index.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.htm",
+      "sha256": "c05d68d5bb8aaf0c5be57d68530407a79667376377c4c19ba7ab6eecfa812cc9",
+      "retrieved_on": "2026-10-17",
+      "bytes": 13691
+    }
+  ],
+  "source_map": {
+    "AR1": {
+      "id": "AR1",
+      "document": "NVIDIA FY2026 Form 10-K in 2026 Annual Report",
+      "printed_page": 1,
+      "pdf_page": 89,
+      "pdf_index": 88,
+      "heading": "Form 10-K cover (unnumbered cover; logical printed page 1)",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-Annual-Report-Web.pdf#page=89"
+    },
+    "AR15": {
+      "id": "AR15",
+      "document": "NVIDIA FY2026 Form 10-K in 2026 Annual Report",
+      "printed_page": 15,
+      "pdf_page": 103,
+      "pdf_index": 102,
+      "heading": "Risk Factors - Risks Related to Demand, Supply, and Manufacturing",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-Annual-Report-Web.pdf#page=103"
+    },
+    "AR16": {
+      "id": "AR16",
+      "document": "NVIDIA FY2026 Form 10-K in 2026 Annual Report",
+      "printed_page": 16,
+      "pdf_page": 104,
+      "pdf_index": 103,
+      "heading": "Risk Factors - Risks Related to Demand, Supply, and Manufacturing",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-Annual-Report-Web.pdf#page=104"
+    },
+    "AR33": {
+      "id": "AR33",
+      "document": "NVIDIA FY2026 Form 10-K in 2026 Annual Report",
+      "printed_page": 33,
+      "pdf_page": 121,
+      "pdf_index": 120,
+      "heading": "Item 5 - Stock split and Issuer Purchases of Equity Securities",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-Annual-Report-Web.pdf#page=121"
+    },
+    "AR36": {
+      "id": "AR36",
+      "document": "NVIDIA FY2026 Form 10-K in 2026 Annual Report",
+      "printed_page": 36,
+      "pdf_page": 124,
+      "pdf_index": 123,
+      "heading": "MD&A - Recent Developments, Future Objectives and Challenges",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-Annual-Report-Web.pdf#page=124"
+    },
+    "AR37": {
+      "id": "AR37",
+      "document": "NVIDIA FY2026 Form 10-K in 2026 Annual Report",
+      "printed_page": 37,
+      "pdf_page": 125,
+      "pdf_index": 124,
+      "heading": "MD&A - Investments and Fiscal Year 2026 Summary",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-Annual-Report-Web.pdf#page=125"
+    },
+    "AR38": {
+      "id": "AR38",
+      "document": "NVIDIA FY2026 Form 10-K in 2026 Annual Report",
+      "printed_page": 38,
+      "pdf_page": 126,
+      "pdf_index": 125,
+      "heading": "MD&A - Critical Accounting Estimates - Inventories",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-Annual-Report-Web.pdf#page=126"
+    },
+    "AR41": {
+      "id": "AR41",
+      "document": "NVIDIA FY2026 Form 10-K in 2026 Annual Report",
+      "printed_page": 41,
+      "pdf_page": 129,
+      "pdf_index": 128,
+      "heading": "MD&A - Concentration of Revenue; Gross Profit and Gross Margin; Operating Expenses",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-Annual-Report-Web.pdf#page=129"
+    },
+    "AR42": {
+      "id": "AR42",
+      "document": "NVIDIA FY2026 Form 10-K in 2026 Annual Report",
+      "printed_page": 42,
+      "pdf_page": 130,
+      "pdf_index": 129,
+      "heading": "MD&A - Total Other Income, Net; Income Taxes; Liquidity and Capital Resources",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-Annual-Report-Web.pdf#page=130"
+    },
+    "AR43": {
+      "id": "AR43",
+      "document": "NVIDIA FY2026 Form 10-K in 2026 Annual Report",
+      "printed_page": 43,
+      "pdf_page": 131,
+      "pdf_index": 130,
+      "heading": "MD&A - Liquidity and Capital Return to Shareholders",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-Annual-Report-Web.pdf#page=131"
+    },
+    "AR44": {
+      "id": "AR44",
+      "document": "NVIDIA FY2026 Form 10-K in 2026 Annual Report",
+      "printed_page": 44,
+      "pdf_page": 132,
+      "pdf_index": 131,
+      "heading": "MD&A - Material Cash Requirements and Other Obligations",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-Annual-Report-Web.pdf#page=132"
+    },
+    "AR51": {
+      "id": "AR51",
+      "document": "NVIDIA FY2026 Form 10-K in 2026 Annual Report",
+      "printed_page": 51,
+      "pdf_page": 139,
+      "pdf_index": 138,
+      "heading": "Consolidated Statements of Income",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-Annual-Report-Web.pdf#page=139"
+    },
+    "AR53": {
+      "id": "AR53",
+      "document": "NVIDIA FY2026 Form 10-K in 2026 Annual Report",
+      "printed_page": 53,
+      "pdf_page": 141,
+      "pdf_index": 140,
+      "heading": "Consolidated Balance Sheets",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-Annual-Report-Web.pdf#page=141"
+    },
+    "AR54": {
+      "id": "AR54",
+      "document": "NVIDIA FY2026 Form 10-K in 2026 Annual Report",
+      "printed_page": 54,
+      "pdf_page": 142,
+      "pdf_index": 141,
+      "heading": "Consolidated Statements of Shareholders' Equity",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-Annual-Report-Web.pdf#page=142"
+    },
+    "AR55": {
+      "id": "AR55",
+      "document": "NVIDIA FY2026 Form 10-K in 2026 Annual Report",
+      "printed_page": 55,
+      "pdf_page": 143,
+      "pdf_index": 142,
+      "heading": "Consolidated Statements of Cash Flows",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-Annual-Report-Web.pdf#page=143"
+    },
+    "AR56": {
+      "id": "AR56",
+      "document": "NVIDIA FY2026 Form 10-K in 2026 Annual Report",
+      "printed_page": 56,
+      "pdf_page": 144,
+      "pdf_index": 143,
+      "heading": "Note 1 - Organization and Summary of Significant Accounting Policies",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-Annual-Report-Web.pdf#page=144"
+    },
+    "AR60": {
+      "id": "AR60",
+      "document": "NVIDIA FY2026 Form 10-K in 2026 Annual Report",
+      "printed_page": 60,
+      "pdf_page": 148,
+      "pdf_index": 147,
+      "heading": "Note 1 - Non-Marketable Equity Securities",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-Annual-Report-Web.pdf#page=148"
+    },
+    "AR61": {
+      "id": "AR61",
+      "document": "NVIDIA FY2026 Form 10-K in 2026 Annual Report",
+      "printed_page": 61,
+      "pdf_page": 149,
+      "pdf_index": 148,
+      "heading": "Note 2 - Groq; Note 3 - Stock-Based Compensation",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-Annual-Report-Web.pdf#page=149"
+    },
+    "AR65": {
+      "id": "AR65",
+      "document": "NVIDIA FY2026 Form 10-K in 2026 Annual Report",
+      "printed_page": 65,
+      "pdf_page": 153,
+      "pdf_index": 152,
+      "heading": "Note 7 - Cash Equivalents and Marketable Securities",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-Annual-Report-Web.pdf#page=153"
+    },
+    "AR66": {
+      "id": "AR66",
+      "document": "NVIDIA FY2026 Form 10-K in 2026 Annual Report",
+      "printed_page": 66,
+      "pdf_page": 154,
+      "pdf_index": 153,
+      "heading": "Note 7 - Cash Equivalents and Marketable Securities; Note 8",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-Annual-Report-Web.pdf#page=154"
+    },
+    "AR67": {
+      "id": "AR67",
+      "document": "NVIDIA FY2026 Form 10-K in 2026 Annual Report",
+      "printed_page": 67,
+      "pdf_page": 155,
+      "pdf_index": 154,
+      "heading": "Note 8 - Non-marketable Equity Securities; Note 9 - Balance Sheet Components",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-Annual-Report-Web.pdf#page=155"
+    },
+    "AR68": {
+      "id": "AR68",
+      "document": "NVIDIA FY2026 Form 10-K in 2026 Annual Report",
+      "printed_page": 68,
+      "pdf_page": 156,
+      "pdf_index": 155,
+      "heading": "Note 9 - Balance Sheet Components",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-Annual-Report-Web.pdf#page=156"
+    },
+    "AR69": {
+      "id": "AR69",
+      "document": "NVIDIA FY2026 Form 10-K in 2026 Annual Report",
+      "printed_page": 69,
+      "pdf_page": 157,
+      "pdf_index": 156,
+      "heading": "Note 10 - Facility Lease Guarantees",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-Annual-Report-Web.pdf#page=157"
+    },
+    "AR70": {
+      "id": "AR70",
+      "document": "NVIDIA FY2026 Form 10-K in 2026 Annual Report",
+      "printed_page": 70,
+      "pdf_page": 158,
+      "pdf_index": 157,
+      "heading": "Note 11 - Debt; Note 12 - Commitments and Contingencies - Commitments",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-Annual-Report-Web.pdf#page=158"
+    },
+    "AR72": {
+      "id": "AR72",
+      "document": "NVIDIA FY2026 Form 10-K in 2026 Annual Report",
+      "printed_page": 72,
+      "pdf_page": 160,
+      "pdf_index": 159,
+      "heading": "Note 13 - Income Taxes",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-Annual-Report-Web.pdf#page=160"
+    },
+    "AR73": {
+      "id": "AR73",
+      "document": "NVIDIA FY2026 Form 10-K in 2026 Annual Report",
+      "printed_page": 73,
+      "pdf_page": 161,
+      "pdf_index": 160,
+      "heading": "Note 13 - FY2026 income tax reconciliation",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-Annual-Report-Web.pdf#page=161"
+    },
+    "AR74": {
+      "id": "AR74",
+      "document": "NVIDIA FY2026 Form 10-K in 2026 Annual Report",
+      "printed_page": 74,
+      "pdf_page": 162,
+      "pdf_index": 161,
+      "heading": "Note 13 - FY2025/FY2024 income tax reconciliation",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-Annual-Report-Web.pdf#page=162"
+    },
+    "AR75": {
+      "id": "AR75",
+      "document": "NVIDIA FY2026 Form 10-K in 2026 Annual Report",
+      "printed_page": 75,
+      "pdf_page": 163,
+      "pdf_index": 162,
+      "heading": "Note 13 - Deferred tax assets and valuation allowance",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-Annual-Report-Web.pdf#page=163"
+    },
+    "AR76": {
+      "id": "AR76",
+      "document": "NVIDIA FY2026 Form 10-K in 2026 Annual Report",
+      "printed_page": 76,
+      "pdf_page": 164,
+      "pdf_index": 163,
+      "heading": "Note 14 - Shareholders' Equity; Note 16 - Segment Information",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-Annual-Report-Web.pdf#page=164"
+    },
+    "AR77": {
+      "id": "AR77",
+      "document": "NVIDIA FY2026 Form 10-K in 2026 Annual Report",
+      "printed_page": 77,
+      "pdf_page": 165,
+      "pdf_index": 164,
+      "heading": "Note 16 - Segment Information",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-Annual-Report-Web.pdf#page=165"
+    },
+    "AR78": {
+      "id": "AR78",
+      "document": "NVIDIA FY2026 Form 10-K in 2026 Annual Report",
+      "printed_page": 78,
+      "pdf_page": 166,
+      "pdf_index": 165,
+      "heading": "Note 16 - Segment reconciliation, geography, and concentration",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-Annual-Report-Web.pdf#page=166"
+    },
+    "AR79": {
+      "id": "AR79",
+      "document": "NVIDIA FY2026 Form 10-K in 2026 Annual Report",
+      "printed_page": 79,
+      "pdf_page": 167,
+      "pdf_index": 166,
+      "heading": "Note 16 - Revenue by End Market; Note 17 - Leases",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-Annual-Report-Web.pdf#page=167"
+    },
+    "AR85": {
+      "id": "AR85",
+      "document": "NVIDIA FY2026 Form 10-K in 2026 Annual Report",
+      "printed_page": 85,
+      "pdf_page": 173,
+      "pdf_index": 172,
+      "heading": "Signatures",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-Annual-Report-Web.pdf#page=173"
+    },
+    "Q2_SUMMARY": {
+      "id": "Q2_SUMMARY",
+      "document": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2026",
+      "heading": "Q2 Fiscal 2026 Summary",
+      "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2026/default.aspx",
+      "printed_page": null,
+      "pdf_page": null,
+      "pdf_index": null
+    },
+    "Q2_INTRO": {
+      "id": "Q2_INTRO",
+      "document": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2026",
+      "heading": "Opening financial results narrative (before quarterly summary)",
+      "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2026/default.aspx",
+      "printed_page": null,
+      "pdf_page": null,
+      "pdf_index": null
+    },
+    "Q2_OUTLOOK": {
+      "id": "Q2_OUTLOOK",
+      "document": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2026",
+      "heading": "Outlook",
+      "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2026/default.aspx",
+      "printed_page": null,
+      "pdf_page": null,
+      "pdf_index": null
+    },
+    "Q2_RECON": {
+      "id": "Q2_RECON",
+      "document": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2026",
+      "heading": "RECONCILIATION OF GAAP TO NON-GAAP FINANCIAL MEASURES",
+      "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2026/default.aspx",
+      "printed_page": null,
+      "pdf_page": null,
+      "pdf_index": null
+    },
+    "Q2_OUTLOOK_RECON": {
+      "id": "Q2_OUTLOOK_RECON",
+      "document": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2026",
+      "heading": "RECONCILIATION OF GAAP TO NON-GAAP OUTLOOK",
+      "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2026/default.aspx",
+      "printed_page": null,
+      "pdf_page": null,
+      "pdf_index": null
+    },
+    "Q3_SUMMARY": {
+      "id": "Q3_SUMMARY",
+      "document": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2026",
+      "heading": "Q3 Fiscal 2026 Summary",
+      "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2026/default.aspx",
+      "printed_page": null,
+      "pdf_page": null,
+      "pdf_index": null
+    },
+    "Q3_INTRO": {
+      "id": "Q3_INTRO",
+      "document": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2026",
+      "heading": "Opening financial results narrative (before quarterly summary)",
+      "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2026/default.aspx",
+      "printed_page": null,
+      "pdf_page": null,
+      "pdf_index": null
+    },
+    "Q3_OUTLOOK": {
+      "id": "Q3_OUTLOOK",
+      "document": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2026",
+      "heading": "Outlook",
+      "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2026/default.aspx",
+      "printed_page": null,
+      "pdf_page": null,
+      "pdf_index": null
+    },
+    "Q3_RECON": {
+      "id": "Q3_RECON",
+      "document": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2026",
+      "heading": "RECONCILIATION OF GAAP TO NON-GAAP FINANCIAL MEASURES",
+      "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2026/default.aspx",
+      "printed_page": null,
+      "pdf_page": null,
+      "pdf_index": null
+    },
+    "Q3_OUTLOOK_RECON": {
+      "id": "Q3_OUTLOOK_RECON",
+      "document": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2026",
+      "heading": "RECONCILIATION OF GAAP TO NON-GAAP OUTLOOK",
+      "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2026/default.aspx",
+      "printed_page": null,
+      "pdf_page": null,
+      "pdf_index": null
+    },
+    "Q4_SUMMARY": {
+      "id": "Q4_SUMMARY",
+      "document": "NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026",
+      "heading": "Q4 Fiscal 2026 Summary",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Fourth-Quarter-and-Fiscal-2026/default.aspx",
+      "printed_page": null,
+      "pdf_page": null,
+      "pdf_index": null
+    },
+    "Q4_INTRO": {
+      "id": "Q4_INTRO",
+      "document": "NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026",
+      "heading": "Opening financial results narrative (before quarterly summary)",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Fourth-Quarter-and-Fiscal-2026/default.aspx",
+      "printed_page": null,
+      "pdf_page": null,
+      "pdf_index": null
+    },
+    "Q4_OUTLOOK": {
+      "id": "Q4_OUTLOOK",
+      "document": "NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026",
+      "heading": "Outlook",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Fourth-Quarter-and-Fiscal-2026/default.aspx",
+      "printed_page": null,
+      "pdf_page": null,
+      "pdf_index": null
+    },
+    "Q4_RECON": {
+      "id": "Q4_RECON",
+      "document": "NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026",
+      "heading": "RECONCILIATION OF GAAP TO NON-GAAP FINANCIAL MEASURES",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Fourth-Quarter-and-Fiscal-2026/default.aspx",
+      "printed_page": null,
+      "pdf_page": null,
+      "pdf_index": null
+    },
+    "Q4_OUTLOOK_RECON": {
+      "id": "Q4_OUTLOOK_RECON",
+      "document": "NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026",
+      "heading": "RECONCILIATION OF GAAP TO NON-GAAP OUTLOOK",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Fourth-Quarter-and-Fiscal-2026/default.aspx",
+      "printed_page": null,
+      "pdf_page": null,
+      "pdf_index": null
+    },
+    "Q4_ANNUAL": {
+      "id": "Q4_ANNUAL",
+      "document": "NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026",
+      "heading": "Fiscal 2026 Summary",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Fourth-Quarter-and-Fiscal-2026/default.aspx",
+      "printed_page": null,
+      "pdf_page": null,
+      "pdf_index": null
+    },
+    "Q4_MEASURES": {
+      "id": "Q4_MEASURES",
+      "document": "NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026",
+      "heading": "Non-GAAP Measures",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Fourth-Quarter-and-Fiscal-2026/default.aspx",
+      "printed_page": null,
+      "pdf_page": null,
+      "pdf_index": null
+    },
+    "SEC_INDEX": {
+      "id": "SEC_INDEX",
+      "document": "SEC Form 10-K filing index",
+      "heading": "Filing Detail - Filing Date and Period of Report",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.htm",
+      "printed_page": null,
+      "pdf_page": null,
+      "pdf_index": null
+    },
+    "Q4_INCOME": {
+      "id": "Q4_INCOME",
+      "document": "NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026",
+      "heading": "CONDENSED CONSOLIDATED STATEMENTS OF INCOME",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Fourth-Quarter-and-Fiscal-2026/default.aspx",
+      "printed_page": null,
+      "pdf_page": null,
+      "pdf_index": null
+    }
+  },
+  "input_provenance": [
+    {
+      "file": "inputs/10K-NVDA.pdf",
+      "sha256": "0e725ba048221539dca3eb1a4e70febfcbb785e9afb96cd3ff0b035d7d734e5c",
+      "bytes": 15850437
+    },
+    {
+      "file": "inputs/annual-report-pages.json",
+      "sha256": "65dbe9c8290b06685f7302d4b53f7379258583f4a7a48c8ef8679e832c688975",
+      "bytes": 663906
+    },
+    {
+      "file": "inputs/annual-report.txt",
+      "sha256": "0231cb22de3d93c1cdea5fa2b6350a3a47dfcca7722f601838c0f198e8cab6f8",
+      "bytes": 654942
+    },
+    {
+      "file": "inputs/q2-release.html",
+      "sha256": "969e1c44852984b96479ea267c9073087dd049eae6c7293f872480abd31ec2c8",
+      "bytes": 449249
+    },
+    {
+      "file": "inputs/q2-release.txt",
+      "sha256": "71d7a306dcfe616a66770f0626199119a9311ebb1fc90a8b45b8ad2efbd6e72a",
+      "bytes": 29819
+    },
+    {
+      "file": "inputs/q3-release.html",
+      "sha256": "7b8aee30e332f9c51a0797ca8ef965991f7f47a2b3746eaa62699be8d5c636c6",
+      "bytes": 453307
+    },
+    {
+      "file": "inputs/q3-release.txt",
+      "sha256": "799d5dcef34d0daa9c204d2d3a59a550f0184dd62d87a9a74f419ae58b170064",
+      "bytes": 29408
+    },
+    {
+      "file": "inputs/q4-release.html",
+      "sha256": "37cdf8b5418188eea345423a482a20f39255ccc145b23be8d1f7d6266831de54",
+      "bytes": 482563
+    },
+    {
+      "file": "inputs/q4-release.txt",
+      "sha256": "fceff7cead0310ea66883792aebcdae448ccd605bca7b4b9dbe86f43b1ad0769",
+      "bytes": 31879
+    },
+    {
+      "file": "inputs/sources.json",
+      "sha256": "20e6c537fc57f947253a2d665c438f5ca8ad9c08cffaa1fc493db3d10aec8eee",
+      "bytes": 1760
+    },
+    {
+      "file": "inputs/filing-index.html",
+      "sha256": "c05d68d5bb8aaf0c5be57d68530407a79667376377c4c19ba7ab6eecfa812cc9",
+      "bytes": 13691
+    },
+    {
+      "file": "inputs/filing-index.txt",
+      "sha256": "e00b0179c1e6f204171a39372000439accd30356b9b07808a1d40ae838fca7e0",
+      "bytes": 2343
+    }
+  ],
+  "page_mapping": {
+    "full_pdf_pages": 175,
+    "ten_k_cover_pdf_page": 89,
+    "ten_k_cover_pdf_index": 88,
+    "cover_logical_printed_page": 1,
+    "cover_number_visibly_printed": false,
+    "pdf_page_formula": "printed_page + 88",
+    "pdf_index_formula": "printed_page + 87",
+    "verified_numbered_pages": [
+      51,
+      53,
+      55,
+      77,
+      78,
+      79
+    ]
+  },
+  "metric_count": 385,
+  "status_counts": {
+    "reported": 316,
+    "calc": 36,
+    "not disclosed": 33
+  },
+  "checks": [
+    {
+      "name": "income_gross_profit_fy26",
+      "actual": 153463,
+      "expected": 153463,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "AR51",
+      "note": ""
+    },
+    {
+      "name": "income_opex_fy26",
+      "actual": 23076,
+      "expected": 23076,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "AR51",
+      "note": ""
+    },
+    {
+      "name": "income_operating_fy26",
+      "actual": 130387,
+      "expected": 130387,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "AR51",
+      "note": ""
+    },
+    {
+      "name": "income_other_fy26",
+      "actual": 11063,
+      "expected": 11063,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "AR51",
+      "note": ""
+    },
+    {
+      "name": "income_pretax_fy26",
+      "actual": 141450,
+      "expected": 141450,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "AR51",
+      "note": ""
+    },
+    {
+      "name": "income_net_fy26",
+      "actual": 120067,
+      "expected": 120067,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "AR51",
+      "note": ""
+    },
+    {
+      "name": "segment_revenue_fy26",
+      "actual": 215938,
+      "expected": 215938,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "AR77",
+      "note": ""
+    },
+    {
+      "name": "segment_oi_fy26",
+      "actual": 139297,
+      "expected": 139297,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "AR77",
+      "note": ""
+    },
+    {
+      "name": "segment_bridge_fy26",
+      "actual": 130387,
+      "expected": 130387,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "AR78",
+      "note": ""
+    },
+    {
+      "name": "platform_revenue_fy26",
+      "actual": 215938,
+      "expected": 215938,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "AR79",
+      "note": ""
+    },
+    {
+      "name": "data_center_fy26",
+      "actual": 193737,
+      "expected": 193737,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "AR79",
+      "note": ""
+    },
+    {
+      "name": "geographic_revenue_fy26",
+      "actual": 215938,
+      "expected": 215938,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "AR78",
+      "note": ""
+    },
+    {
+      "name": "inventory_fy26",
+      "actual": 21403,
+      "expected": 21403,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "AR67",
+      "note": ""
+    },
+    {
+      "name": "cash_marketable_fy26",
+      "actual": 62556,
+      "expected": 62556,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "AR42;AR53",
+      "note": ""
+    },
+    {
+      "name": "fcf_fy26",
+      "actual": 96575,
+      "expected": 96575,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "AR55;Q4_RECON",
+      "note": ""
+    },
+    {
+      "name": "balance_sheet_fy26",
+      "actual": 206803,
+      "expected": 206803,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "AR53",
+      "note": ""
+    },
+    {
+      "name": "net_cash_change_fy26",
+      "actual": 2016,
+      "expected": 2016,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "AR55",
+      "note": ""
+    },
+    {
+      "name": "non_gaap_income_fy26",
+      "actual": 137300,
+      "expected": 137300,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "Q4_RECON",
+      "note": ""
+    },
+    {
+      "name": "rounded_diluted_eps_fy26",
+      "actual": 4.9,
+      "expected": 4.9,
+      "difference": 0.0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "AR51",
+      "note": ""
+    },
+    {
+      "name": "income_gross_profit_fy25",
+      "actual": 97858,
+      "expected": 97858,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "AR51",
+      "note": ""
+    },
+    {
+      "name": "income_opex_fy25",
+      "actual": 16405,
+      "expected": 16405,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "AR51",
+      "note": ""
+    },
+    {
+      "name": "income_operating_fy25",
+      "actual": 81453,
+      "expected": 81453,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "AR51",
+      "note": ""
+    },
+    {
+      "name": "income_other_fy25",
+      "actual": 2573,
+      "expected": 2573,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "AR51",
+      "note": ""
+    },
+    {
+      "name": "income_pretax_fy25",
+      "actual": 84026,
+      "expected": 84026,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "AR51",
+      "note": ""
+    },
+    {
+      "name": "income_net_fy25",
+      "actual": 72880,
+      "expected": 72880,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "AR51",
+      "note": ""
+    },
+    {
+      "name": "segment_revenue_fy25",
+      "actual": 130497,
+      "expected": 130497,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "AR77",
+      "note": ""
+    },
+    {
+      "name": "segment_oi_fy25",
+      "actual": 87960,
+      "expected": 87960,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "AR77",
+      "note": ""
+    },
+    {
+      "name": "segment_bridge_fy25",
+      "actual": 81453,
+      "expected": 81453,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "AR78",
+      "note": ""
+    },
+    {
+      "name": "platform_revenue_fy25",
+      "actual": 130497,
+      "expected": 130497,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "AR79",
+      "note": ""
+    },
+    {
+      "name": "data_center_fy25",
+      "actual": 115186,
+      "expected": 115186,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "AR79",
+      "note": ""
+    },
+    {
+      "name": "geographic_revenue_fy25",
+      "actual": 130497,
+      "expected": 130497,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "AR78",
+      "note": ""
+    },
+    {
+      "name": "inventory_fy25",
+      "actual": 10080,
+      "expected": 10080,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "AR67",
+      "note": ""
+    },
+    {
+      "name": "cash_marketable_fy25",
+      "actual": 43210,
+      "expected": 43210,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "AR42;AR53",
+      "note": ""
+    },
+    {
+      "name": "fcf_fy25",
+      "actual": 60724,
+      "expected": 60724,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "AR55;Q4_RECON",
+      "note": ""
+    },
+    {
+      "name": "balance_sheet_fy25",
+      "actual": 111601,
+      "expected": 111601,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "AR53",
+      "note": ""
+    },
+    {
+      "name": "net_cash_change_fy25",
+      "actual": 1309,
+      "expected": 1309,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "AR55",
+      "note": ""
+    },
+    {
+      "name": "non_gaap_income_fy25",
+      "actual": 86789,
+      "expected": 86789,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "Q4_RECON",
+      "note": ""
+    },
+    {
+      "name": "rounded_diluted_eps_fy25",
+      "actual": 2.94,
+      "expected": 2.94,
+      "difference": 0.0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "AR51",
+      "note": ""
+    },
+    {
+      "name": "quarter_revenue_sum",
+      "actual": 215938,
+      "expected": 215938,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "Q2_SUMMARY;Q3_SUMMARY;Q4_SUMMARY",
+      "note": ""
+    },
+    {
+      "name": "quarter_gp_sum",
+      "actual": 153463,
+      "expected": 153463,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "Q2_RECON;Q3_RECON;Q4_RECON",
+      "note": ""
+    },
+    {
+      "name": "quarter_net_income_sum",
+      "actual": 120067,
+      "expected": 120067,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "Q2_SUMMARY;Q3_SUMMARY;Q4_SUMMARY",
+      "note": ""
+    },
+    {
+      "name": "cloud_schedule",
+      "actual": 27000,
+      "expected": 27000,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "AR70",
+      "note": ""
+    },
+    {
+      "name": "private_equity_rollforward_fy26",
+      "actual": 22251,
+      "expected": 22251,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "AR67",
+      "note": ""
+    },
+    {
+      "name": "private_equity_rollforward_fy25",
+      "actual": 3387,
+      "expected": 3387,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "AR67",
+      "note": ""
+    },
+    {
+      "name": "public_equity_balance",
+      "actual": 17726,
+      "expected": 17726,
+      "difference": 0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "AR65",
+      "note": ""
+    },
+    {
+      "name": "capital_return_rounding",
+      "actual": 41.1,
+      "expected": 41.1,
+      "difference": 0.0,
+      "passed": true,
+      "tolerance": 1e-07,
+      "source": "AR55;Q4_INTRO",
+      "note": ""
+    }
+  ],
+  "all_numeric_checks_passed": true,
+  "precision_observations": [
+    {
+      "name": "Quarter GAAP opex total",
+      "sum": 23076,
+      "annual": 23076,
+      "status": "exact"
+    },
+    {
+      "name": "Quarter non-GAAP opex total",
+      "sum": 16695,
+      "annual": 16694,
+      "status": "difference of 1m from reported rounded quarterly data; preserve source values"
+    },
+    {
+      "name": "Q1/Q2 H20",
+      "q1_table": 4538,
+      "q1_annual_narrative": 4500,
+      "q2_release": -180,
+      "status": "different precision; annual exact net absent"
+    },
+    {
+      "name": "Inventory provision components FY2025",
+      "components_sum": 3600,
+      "combined": 3700,
+      "status": "rounded narrative components; do not force exact equality"
+    },
+    {
+      "name": "Q4 prior GAAP opex guidance",
+      "reconciliation": 6650,
+      "narrative_approx": 6700,
+      "status": "both preserved; exact comparison uses reconciliation"
+    },
+    {
+      "name": "Repurchase bases",
+      "fy26_cash": 40086,
+      "fy26_accounting": 40388,
+      "status": "not interchangeable; timing/tax basis differences not fully quantified"
+    }
+  ],
+  "caveats": [
+    "This is a historical FY2026 annual-report dataset, executed 2026-10-17. FY2026 ended 2026-01-25 and the 10-K was filed 2026-02-25 [AR1; SEC_INDEX]. Q4 FY2026 is not described as the latest quarter on the execution date. Later actuals were outside the source scope.",
+    "The full annual-report PDF contains annual-review/proxy front matter. The Form 10-K begins at PDF page 89 (index 88), logically page 1; the cover does not print a page number. Verified numbered 10-K pages follow PDF page = printed page + 88 and PDF index = printed page + 87. Printed 51 = PDF 139/index 138; printed 77 = PDF 165/index 164. Financial citations use the 10-K printed pages, not the proxy pagination.",
+    "Amounts are USD million unless shown otherwise. Exact table values are retained; rounded billion disclosures are converted to million and labeled. Parentheses retain expense/outflow signs where applicable. Cash spending metrics show positive spending amounts with an explicit note. Percent changes differ from percentage-point changes.",
+    "Reported segments are Compute & Networking and Graphics [AR77]. End markets are a different disclosure [AR79]. Data Center is not identical to Compute & Networking. Data Center Compute plus Networking is a subtotal, not additional revenue. Segment expenses exclude selected corporate costs; segment margins are not consolidated margins.",
+    "The current annual report has no separately named All Other line. The analytical All Other equivalent is a calculated negative bridge, not a third segment [AR77; AR78].",
+    "Management attributes margin decline to the Hopper HGX-to-Blackwell full-scale datacenter transition and the H20 charge [AR41]. Broad inventory provisions include H20. Reserve releases mitigate some charges. No complete quantitative bridge or isolated Blackwell impact is disclosed; do not attribute the residual entirely to Blackwell.",
+    "FY2026 standard non-GAAP margins still include H20 charges/releases. H20-adjusted Q1/Q2 margins are separate company measures. The exact Q1 H20 charge is 4,538 in the Q2 reconciliation versus rounded 4.5bn in annual narrative; Q3/Q4 effects are insignificant, not zero [Q2_RECON; Q4_RECON; AR41].",
+    "FCF follows the company definition: CFO less purchases related to PP&E/intangible assets less principal payments on those assets [Q4_MEASURES]. It does not subtract Groq's separately classified payment or investment purchases. Do not present FCF as cash left after all investments. Cash return uses cash repurchase payments plus dividends, not the accounting repurchase-cost line [AR54; AR55].",
+    "Geography is based on direct-customer headquarters; prior years are recast after the change in Q3 FY2026 [AR78]. It is not billing, shipping, deployment, or end-use geography. Billing-basis annual data are not disclosed in the approved sources. The Taiwan end-customer estimate applies only to Taiwan-headquartered Data Center revenue.",
+    "Concentration remains anonymous. The largest disclosed direct-customer shares are 22% in FY2026 and 12% in FY2025 [AR78]; this does not establish a ten-point increase for the same customer. Do not add direct and indirect shares, or equate accounts-receivable concentration with revenue concentration.",
+    "Other income includes large investment gains [AR42; AR65; AR67]. Public unrealized gains and private unrealized changes are disclosed at differing precision; a complete exact realized/unrealized decomposition is unavailable. Not significant is recorded as not disclosed numerically, never zero.",
+    "Prepaid supply balances are not separately quantified. Total prepaid expenses and other current assets is broader and cannot stand in for them [AR15; AR16; AR53]. Prior-year supply/cloud/investment commitments and guarantee comparatives are not disclosed in the approved sources; do not retrieve them from prior demo artifacts or estimate them.",
+    "Commitments, recognized liabilities, portfolio balances, annual purchases, escrow and contingent guarantees are different measures. Do not sum them into one debt or spending figure. Facility guarantees support partner buildouts in exchange for warrants; partner escrow mitigates contingent exposure [AR69].",
+    "Q4 FY2026 prior GAAP opex outlook is 6,650 in the reconciliation versus approximately 6.7bn in narrative [Q3_OUTLOOK_RECON; Q3_OUTLOOK]. Use the former for precise variance. Q4 revenue exceeded the 65bn midpoint and upper bound; gross margins were within their stated bands. Tax guidance excluded discrete items, so the actual GAAP tax rate is not a clean beat/miss comparison.",
+    "Q1 FY2027 guidance was forward-looking as of 2026-02-25, not an actual result or current outlook. Its non-GAAP basis includes SBC, unlike FY2026. The 17%-19% tax range is full FY2027, not Q1-only [Q4_OUTLOOK; Q4_OUTLOOK_RECON].",
+    "No financial-statement error correction/restatement is indicated on the 10-K cover [AR1]. Geography prior periods were recast [AR78]; non-marketable equity was reclassified from Other assets to a separate line with no total-asset or cash-flow impact [AR56]. New tax disclosure rules were adopted prospectively [AR72]. These presentation changes are not a profit restatement.",
+    "All share/per-share figures are retrospectively adjusted for the June 2024 ten-for-one stock split [AR33]. FY2026 and FY2025 are both 52-week years; FY2027 is a 53-week year with a 14-week fourth quarter [AR56].",
+    "PDF printed page 40 / PDF128 has corrupt extracted font encoding. No figures were transcribed from its corrupt text; clean Note 16 data and calculated ratios from the income statement are used instead. Parent independently visually spot-checks original PDF financial pages; this stage relies on mechanical extraction and complete relevant-page reading."
+  ],
+  "handoff_decisions": [
+    "Stage 2 starts only after parent review.",
+    "Use annual report for annual GAAP table values, releases for non-GAAP, FCF and quarters/guidance.",
+    "All Other is analytical calc, not a reported third segment.",
+    "Headquarters geography is recast and not billing or end-use.",
+    "Q4 FY2026 is historical, not latest as of execution.",
+    "Q1 FY2027 guidance uses changed non-GAAP definition; full-year tax guidance stays FY2027.",
+    "No unsupported private/customer identity attribution.",
+    "Missing comparative commitments/prepaid balances remain not disclosed.",
+    "Do not attribute margin residual wholly to Blackwell.",
+    "Parent performs independent rendered-page verification; this script did not inspect parent evidence or any downstream output."
+  ],
+  "artifacts": [
+    "financials.md",
+    "evidence/stage1-validation.json",
+    "scripts/stage1_extract.py"
+  ]
+}

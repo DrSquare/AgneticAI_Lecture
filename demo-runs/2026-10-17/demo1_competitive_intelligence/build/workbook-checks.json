@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Five evidence-age formulas",
+    "status": "passed",
+    "evidence": {
+      "actual": [
+        17,
+        4,
+        18,
+        2,
+        52
+      ],
+      "expected": [
+        17,
+        4,
+        18,
+        2,
+        52
+      ]
+    }
+  },
+  {
+    "name": "Recalculation and missing-data boundaries",
+    "status": "passed",
+    "evidence": "Date +1 reduces age by 1. Temporary comparable capital 1 produces 39x. Zero and blank suppress ratio. Original inputs restored."
+  }
+]

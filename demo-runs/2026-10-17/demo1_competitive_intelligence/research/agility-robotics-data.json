@@ -1,0 +1,85 @@
+{
+  "company": "Agility Robotics",
+  "layer": "Integrated industrial humanoid + physical AI + fleet software",
+  "flagship": "Digit 4 deployed; Digit 5 announced, H1 2027 early access planned",
+  "research_window": {
+    "start": "2025-10-17",
+    "end": "2026-10-17"
+  },
+  "prepared_at": "2026-10-17",
+  "timezone": "America/Los_Angeles",
+  "valuation_usd_billion": 2.5,
+  "valuation_date": "2026-06-24",
+  "valuation_basis": "Proposed SPAC pre-money equity valuation; not closed as of cutoff",
+  "valuation_source": "https://www.sec.gov/Archives/edgar/data/2074973/000121390026071287/ea029548401ex99-1.htm",
+  "total_capital_usd_billion": null,
+  "total_capital_date": null,
+  "total_capital_basis": "Comparable cumulative closed capital not verified; exclude proposed SPAC proceeds",
+  "total_capital_source": null,
+  "latest_round_usd_billion": 0.1,
+  "latest_round_date": "2026-07",
+  "latest_round_publication_date": "2026-09-30",
+  "latest_round_basis": "SAFE financing disclosed as raised; not priced equity round",
+  "latest_round_source": "https://www.sec.gov/Archives/edgar/data/1727116/000121390026105334/ea0297114-05.htm",
+  "revenue_signal": "FY2025 net sales $1.782M, primary indexed prospectus table; full-file audit unavailable",
+  "revenue_usd_million": 1.782,
+  "revenue_period": "FY2025",
+  "revenue_source": "https://www.sec.gov/Archives/edgar/data/2074973/000121390026109058/ea0297114-07.htm",
+  "customers": "GXO; Schaeffler; Toyota Motor Manufacturing Canada",
+  "scale": "Company-reported 9 committed facility deployments and 65,000 operating hours as of May 2026; RoboFab designed for 10,000/year, not actual output",
+  "top_risk": "Conditional concentrated order conversion, Digit 5 scale/safety execution, and financing continuity",
+  "momentum": "gaining — analyst inference from Toyota agreement, Digit 5 unveiling and scheduled vote; conversion into durable revenue remains unproven",
+  "latest_evidence_date": "2026-10-15",
+  "latest_evidence_source": "https://www.agilityrobotics.com/content/agility-robotics-selects-nyobolt-as-its-ultra-fast-charging-battery-technology-partner-for-digit-5",
+  "spot_checks": [
+    {
+      "claim": "$2.5B SPAC valuation and Nov. 2, 2026 shareholder vote",
+      "date": "2026-10-13",
+      "primary_url": "https://www.agilityrobotics.com/content/agility-robotics-and-churchill-capital-corp-xi-s-4-registration-statement-declared-effective-by-sec-in-connection-with-proposed-business-combination",
+      "corroborating_url": "https://www.sec.gov/Archives/edgar/data/2074973/000121390026071287/ea029548401ex99-1.htm",
+      "verdict": "verified_with_qualification",
+      "evidence": "June24 announcement supplies proposed pre-money value; Oct13 release schedules vote. Neither establishes closing or funds received."
+    },
+    {
+      "claim": "FY2025 revenue approximately $1.78M",
+      "date": "2026-10-13",
+      "primary_url": "https://www.sec.gov/Archives/edgar/data/2074973/000121390026109058/ea0297114-07.htm",
+      "verdict": "corroborated_primary_indexed_extract",
+      "evidence": "Indexed prospectus table has 2025 net sales 1,782 in thousands. Full HTML exceeds web-reader limit and direct SEC download rejected; not a full financial-statement audit."
+    },
+    {
+      "claim": ">$300M order headline concentrated in one customer",
+      "date": "2026-10-06",
+      "primary_url": "https://www.sec.gov/Archives/edgar/data/2074973/000121390026107259/ea030784201ex99-1.htm",
+      "corroborating_url": "https://www.sec.gov/Archives/edgar/data/2074973/000121390026090791/filename1.htm",
+      "verdict": "verified_with_qualification",
+      "evidence": "Deck footnote identifies 1,000 robots/three-year RaaS with milestones and deployment-linked warrants. Draft risk factor identifies one customer; draft publication day unresolved."
+    }
+  ],
+  "limitations": [
+    "Full SEC S-4/prospectus retrieval failed; revenue uses accessible primary indexed extract.",
+    "Exact cumulative closed capital not independently established; workbook value null.",
+    "One-customer risk identified in indexed SEC draft; exact draft publication day unresolved.",
+    "Operational metrics are company-reported and unaudited; no hands-on robot test."
+  ],
+  "slide_corrections": [
+    "SPAC valuation/proceeds are proposed, not closed; Nov. 2 vote is future at cutoff.",
+    "FY2025 $1.782M net sales is historical revenue, not ARR.",
+    "$300M is conditional multi-year order value, not current revenue or deliveries.",
+    "Digit 5 early access H1 2027; 10,000/year factory design capacity is not actual shipments."
+  ],
+  "handoff": "Independent Agility research delivered to synthesis agent; no other research folders modified.",
+  "sources": {
+    "deal": "https://www.sec.gov/Archives/edgar/data/2074973/000121390026071287/ea029548401ex99-1.htm",
+    "vote": "https://www.agilityrobotics.com/content/agility-robotics-and-churchill-capital-corp-xi-s-4-registration-statement-declared-effective-by-sec-in-connection-with-proposed-business-combination",
+    "s4": "https://www.sec.gov/Archives/edgar/data/1727116/000121390026105334/ea0297114-05.htm",
+    "prospectus": "https://www.sec.gov/Archives/edgar/data/2074973/000121390026109058/ea0297114-07.htm",
+    "digit": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale",
+    "battery": "https://www.agilityrobotics.com/content/agility-robotics-selects-nyobolt-as-its-ultra-fast-charging-battery-technology-partner-for-digit-5",
+    "deck": "https://www.sec.gov/Archives/edgar/data/2074973/000121390026107259/ea030784201ex99-1.htm",
+    "toyota": "https://www.agilityrobotics.com/content/agility-robotics-announces-commercial-agreement-with-toyota-motor-manufacturing-canada",
+    "fremont": "https://www.agilityrobotics.com/content/agility-opens-new-fremont-facility-to-accelerate-physical-ai-development",
+    "cfo": "https://www.agilityrobotics.com/content/agility-robotics-strengthens-executive-leadership-team-with-appointment-of-michael-beer-as-chief-financial-officer",
+    "draft": "https://www.sec.gov/Archives/edgar/data/2074973/000121390026090791/filename1.htm"
+  }
+}

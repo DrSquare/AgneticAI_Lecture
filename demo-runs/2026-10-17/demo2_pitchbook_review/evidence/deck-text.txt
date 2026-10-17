@@ -1,0 +1,127 @@
+PAGE 1
+FICTIONAL COMPANY · TEACHING DEMO · ALL DATA INVENTED 1
+GraspLoop AI
+Robotic picking that learns every SKU
+Series A · October 2026
+
+PAGE 2
+Mid-size warehouses can’t hire pickers fast enough
+FICTIONAL COMPANY · TEACHING DEMO · ALL DATA INVENTED 2
+>100%
+peak-season picker 
+turnover
+3×
+order growth vs. headcount 
+since 2020
+$0.42
+fully loaded cost per pick, 
+rising 9%/yr
+Automation vendors serve the top 1% of warehouses. The other 99% are left with clipboards.
+
+PAGE 3
+GraspLoop: an arm, a brain and a safety net
+FICTIONAL COMPANY · TEACHING DEMO · ALL DATA INVENTED 3
+1
+Arm
+Off-the-shelf 6-axis arm + our 
+suction/finger gripper. Installs 
+in a day.
+2
+LoopBrain
+Our grasping model learns a 
+new SKU in 10 minutes from 
+20 picks.
+3
+Safety net
+Remote operators resolve hard 
+picks in seconds; every fix 
+becomes training data.
+
+PAGE 4
+Why now
+FICTIONAL COMPANY · TEACHING DEMO · ALL DATA INVENTED 4
+• Robot foundation models made generalist grasping practical in 2025–
+26
+• Collaborative arms fell below $25K
+• E-commerce returns and SKU proliferation broke rule-based picking
+• Labor costs in logistics keep rising
+
+PAGE 5
+A $120B market
+FICTIONAL COMPANY · TEACHING DEMO · ALL DATA INVENTED 5
+TAM  $120B
+Global warehouse automation, 2030
+SAM  $9B
+US/EU piece-picking, mid-size sites
+SOM  $450M
+Reachable by 2030
+
+PAGE 6
+Traction
+FICTIONAL COMPANY · TEACHING DEMO · ALL DATA INVENTED 6
+$2.4M
+ARR
+8×
+YoY ARR growth
+14
+customers incl. 3 Fortune 500 
+retailers
+99.7%
+pick success
+160%
+net revenue retention
+
+PAGE 7
+Business model: Robots-as-a-Service
+FICTIONAL COMPANY · TEACHING DEMO · ALL DATA INVENTED 7
+Metric Value
+Price $3,500 per robot per month, 3-year term
+Gross margin 68%
+CAC payback 4 months
+Sales cycle 9 months (pilot → contract)
+Hardware cost per robot $42,000
+
+PAGE 8
+Competition
+FICTIONAL COMPANY · TEACHING DEMO · ALL DATA INVENTED 8
+Generalist (any SKU) →
+↑ Affordable for mid-size sites
+GraspLoop
+Large AS/RS systems
+Rule-based pick cells
+Manual labor
+
+PAGE 9
+Team
+FICTIONAL COMPANY · TEACHING DEMO · ALL DATA INVENTED 9
+Dana Whitfield
+CEO
+Ex-ops lead at a large e-commerce 
+robotics program; 2 prior exits
+Arjun Mehta, PhD
+CTO
+Robot learning PhD; ex-research 
+scientist at a big-tech lab
+Lena Okafor
+VP Customer Ops
+Ran 14 fulfillment centers at a 3PL
+All people are fictional.
+
+PAGE 10
+Path to $100M ARR
+FICTIONAL COMPANY · TEACHING DEMO · ALL DATA INVENTED 10
+2026 2027 2028 2029
+$2.4M
+$9.0M
+$30.0M
+$100.0M
+
+PAGE 11
+The ask: $18M Series A
+FICTIONAL COMPANY · TEACHING DEMO · ALL DATA INVENTED 11
+$18M
+at $90M pre-money
+• 50% R&D: LoopBrain v2, new grippers
+• 30% go-to-market: 12 AEs, 3 regions
+• 20% operations and remote-ops center
+• Headcount 38 → 85; 24 months of runway

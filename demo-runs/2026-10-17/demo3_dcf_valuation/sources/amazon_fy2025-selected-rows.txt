@@ -1,0 +1,36 @@
+Net income |  | 20,004 |  |  |  | 21,192 |  |  |  | 59,248 |  |  |  | 77,670 | 
+Adjustments to reconcile net income to net cash from operating activities: |  |  |  |  |  |  | 
+Depreciation and amortization of property and equipment and capitalized content costs, operating lease assets, and other |  | 15,631 |  |  |  | 19,471 |  |  |  | 52,795 |  |  |  | 65,756 | 
+Proceeds from long-term debt |  | — |  |  |  | 14,927 |  |  |  | — |  |  |  | 15,673 | 
+Repayments of long-term debt |  | (2,500 | ) |  |  | (1,262 | ) |  |  | (9,182 | ) |  |  | (5,021 | )
+Total net sales |  | 187,792 |  |  |  | 213,386 |  |  |  | 637,959 |  |  |  | 716,924 | 
+Operating income |  | 21,203 |  |  |  | 24,977 |  |  |  | 68,593 |  |  |  | 79,975 | 
+Total non-operating income |  | 1,146 |  |  |  | 1,628 |  |  |  | 21 |  |  |  | 17,336 | 
+Net income | $ | 20,004 |  |  | $ | 21,192 |  |  | $ | 59,248 |  |  | $ | 77,670 | 
+Net income | $ | 20,004 |  |  | $ | 21,192 |  |  | $ | 59,248 |  |  | $ | 77,670 | 
+Operating income | $ | 9,256 |  |  | $ | 11,472 |  |  | $ | 24,967 |  |  | $ | 29,619 | 
+Operating income | $ | 1,315 |  |  | $ | 1,040 |  |  | $ | 3,792 |  |  | $ | 4,750 | 
+Operating income | $ | 10,632 |  |  | $ | 12,465 |  |  | $ | 39,834 |  |  | $ | 45,606 | 
+Operating income |  | 21,203 |  |  |  | 24,977 |  |  |  | 68,593 |  |  |  | 79,975 | 
+Total non-operating income |  | 1,146 |  |  |  | 1,628 |  |  |  | 21 |  |  |  | 17,336 | 
+Net income | $ | 20,004 |  |  | $ | 21,192 |  |  | $ | 59,248 |  |  | $ | 77,670 | 
+Cash and cash equivalents | $ | 78,779 |  |  | $ | 86,810 | 
+Long-term debt |  | 52,623 |  |  |  | 65,648 | 
+Common stock ($0.01 par value; 100,000 shares authorized; 11,108 and 11,246 shares issued; 10,593 and 10,731 shares outstanding) |  | 111 |  |  |  | 112 | 
+Operating income | $ | 17,411 |  | $ | 21,203 |  | $ | 18,405 |  | $ | 19,171 |  | $ | 17,422 |  | $ | 24,977 |  | 18 | %
+Operating income -- Y/Y growth (decline), excluding F/X |  | 55 | % |  | 60 | % |  | 20 | % |  | 30 | % |  | (1 | )% |  | 18 | % | N/A | 
+Operating income -- TTM | $ | 60,599 |  | $ | 68,593 |  | $ | 71,691 |  | $ | 76,190 |  | $ | 76,201 |  | $ | 79,975 |  | 17 | %
+Operating income -- TTM Y/Y growth, excluding F/X |  | 129 | % |  | 86 | % |  | 51 | % |  | 40 | % |  | 25 | % |  | 16 | % | N/A | 
+Net income | $ | 15,328 |  | $ | 20,004 |  | $ | 17,127 |  | $ | 18,164 |  | $ | 21,187 |  | $ | 21,192 |  | 6 | %
+Net income per diluted share | $ | 1.43 |  | $ | 1.86 |  | $ | 1.59 |  | $ | 1.68 |  | $ | 1.95 |  | $ | 1.95 |  | 5 | %
+Net income -- TTM | $ | 49,868 |  | $ | 59,248 |  | $ | 65,944 |  | $ | 70,623 |  | $ | 76,482 |  | $ | 77,670 |  | 31 | %
+Net income per diluted share -- TTM | $ | 4.67 |  | $ | 5.53 |  | $ | 6.13 |  | $ | 6.55 |  | $ | 7.08 |  | $ | 7.17 |  | 30 | %
+Operating income | $ | 5,663 |  | $ | 9,256 |  | $ | 5,841 |  | $ | 7,517 |  | $ | 4,789 |  | $ | 11,472 |  | 24 | %
+Operating income -- Y/Y growth (decline), excluding F/X |  | 32 | % |  | 44 | % |  | 18 | % |  | 49 | % |  | (14 | )% |  | 25 | % | N/A | 
+Operating income -- TTM | $ | 22,172 |  | $ | 24,967 |  | $ | 25,825 |  | $ | 28,277 |  | $ | 27,403 |  | $ | 29,619 |  | 19 | %
+Operating income | $ | 1,301 |  | $ | 1,315 |  | $ | 1,017 |  | $ | 1,494 |  | $ | 1,199 |  | $ | 1,040 |  | (21 | )%
+Operating income -- Y/Y growth (decline), excluding F/X |  | N/A |  |  | N/A |  |  | 19 | % |  | 324 | % |  | (31 | )% |  | (45 | )% | N/A | 
+Operating income -- TTM | $ | 2,058 |  | $ | 3,792 |  | $ | 3,906 |  | $ | 5,127 |  | $ | 5,025 |  | $ | 4,750 |  | 25 | %
+Operating income | $ | 10,447 |  | $ | 10,632 |  | $ | 11,547 |  | $ | 10,160 |  | $ | 11,434 |  | $ | 12,465 |  | 17 | %
+Operating income -- Y/Y growth, excluding F/X |  | 50 | % |  | 48 | % |  | 21 | % |  | 10 | % |  | 11 | % |  | 19 | % | N/A | 
+Operating income -- TTM | $ | 36,369 |  | $ | 39,834 |  | $ | 41,960 |  | $ | 42,786 |  | $ | 43,773 |  | $ | 45,606 |  | 14 | %

@@ -1,0 +1,10 @@
+from pathlib import Path
+p=Path('demo-runs/2026-10-17/demo1_competitive_intelligence/build/build-artifacts.mjs')
+s=p.read_text(encoding='utf-8')
+s=s.replace('const checks=[];', "if(process.argv[2]!=='deck'){\nconst checks=[];")
+s=s.replace("console.log('WORKBOOK_COMPLETE');", "console.log('WORKBOOK_COMPLETE');\n}")
+s=s.replace('fontFamily:font','typeface:font')
+s=s.replace('top:10,bottom:10','top:6,bottom:6')
+s=s.replace('fontSize:21','fontSize:20')
+p.write_text(s,encoding='utf-8')
+print('Patched font key, table margins, and deck-only rebuild mode')

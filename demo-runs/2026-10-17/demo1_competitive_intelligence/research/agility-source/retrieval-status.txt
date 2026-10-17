@@ -1,0 +1,1 @@
+SEC full-file download was attempted on 2026-10-17 but failed. The web reader reported a 4 MB size limit; a direct download returned automated-access rejection. No complete source snapshot is saved. Primary indexed excerpts and company release pages were used as described in the profile.

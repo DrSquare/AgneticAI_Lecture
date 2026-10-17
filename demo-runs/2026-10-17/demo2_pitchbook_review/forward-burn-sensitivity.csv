@@ -1,0 +1,25 @@
+fictional_teaching_material,source_data_as_of,scenario,month_after_raise,assumed_headcount,assumed_opex_usd,assumed_gross_profit_usd,assumed_burn_usd,ending_cash_usd
+True,2026-09-30,Illustrative linear 24-month headcount ramp; not forecast; no separate capex,1,39.958333333333336,820197.3684210526,66010.0,754187.3684210526,23284027.63157895
+True,2026-09-30,Illustrative linear 24-month headcount ramp; not forecast; no separate capex,2,41.916666666666664,860394.7368421053,66010.0,794384.7368421053,22489642.89473684
+True,2026-09-30,Illustrative linear 24-month headcount ramp; not forecast; no separate capex,3,43.875,900592.1052631579,66010.0,834582.1052631579,21655060.789473683
+True,2026-09-30,Illustrative linear 24-month headcount ramp; not forecast; no separate capex,4,45.833333333333336,940789.4736842106,66010.0,874779.4736842106,20780281.315789472
+True,2026-09-30,Illustrative linear 24-month headcount ramp; not forecast; no separate capex,5,47.791666666666664,980986.8421052631,66010.0,914976.8421052631,19865304.47368421
+True,2026-09-30,Illustrative linear 24-month headcount ramp; not forecast; no separate capex,6,49.75,1021184.2105263158,66010.0,955174.2105263158,18910130.263157893
+True,2026-09-30,Illustrative linear 24-month headcount ramp; not forecast; no separate capex,7,51.708333333333336,1061381.5789473683,66010.0,995371.5789473683,17914758.684210524
+True,2026-09-30,Illustrative linear 24-month headcount ramp; not forecast; no separate capex,8,53.666666666666664,1101578.9473684211,66010.0,1035568.9473684211,16879189.736842103
+True,2026-09-30,Illustrative linear 24-month headcount ramp; not forecast; no separate capex,9,55.625,1141776.3157894737,66010.0,1075766.3157894737,15803423.42105263
+True,2026-09-30,Illustrative linear 24-month headcount ramp; not forecast; no separate capex,10,57.58333333333333,1181973.6842105263,66010.0,1115963.6842105263,14687459.736842103
+True,2026-09-30,Illustrative linear 24-month headcount ramp; not forecast; no separate capex,11,59.54166666666667,1222171.0526315789,66010.0,1156161.0526315789,13531298.684210524
+True,2026-09-30,Illustrative linear 24-month headcount ramp; not forecast; no separate capex,12,61.5,1262368.4210526317,66010.0,1196358.4210526317,12334940.263157893
+True,2026-09-30,Illustrative linear 24-month headcount ramp; not forecast; no separate capex,13,63.45833333333333,1302565.7894736843,66010.0,1236555.7894736843,11098384.473684208
+True,2026-09-30,Illustrative linear 24-month headcount ramp; not forecast; no separate capex,14,65.41666666666667,1342763.1578947369,66010.0,1276753.1578947369,9821631.315789472
+True,2026-09-30,Illustrative linear 24-month headcount ramp; not forecast; no separate capex,15,67.375,1382960.5263157894,66010.0,1316950.5263157894,8504680.789473683
+True,2026-09-30,Illustrative linear 24-month headcount ramp; not forecast; no separate capex,16,69.33333333333333,1423157.894736842,66010.0,1357147.894736842,7147532.89473684
+True,2026-09-30,Illustrative linear 24-month headcount ramp; not forecast; no separate capex,17,71.29166666666666,1463355.2631578946,66010.0,1397345.2631578946,5750187.631578946
+True,2026-09-30,Illustrative linear 24-month headcount ramp; not forecast; no separate capex,18,73.25,1503552.6315789474,66010.0,1437542.6315789474,4312644.999999998
+True,2026-09-30,Illustrative linear 24-month headcount ramp; not forecast; no separate capex,19,75.20833333333334,1543750.0000000002,66010.0,1477740.0000000002,2834904.999999998
+True,2026-09-30,Illustrative linear 24-month headcount ramp; not forecast; no separate capex,20,77.16666666666666,1583947.3684210523,66010.0,1517937.3684210523,1316967.6315789458
+True,2026-09-30,Illustrative linear 24-month headcount ramp; not forecast; no separate capex,21,79.125,1624144.7368421052,66010.0,1558134.7368421052,-241167.10526315938
+True,2026-09-30,Illustrative linear 24-month headcount ramp; not forecast; no separate capex,22,81.08333333333334,1664342.105263158,66010.0,1598332.105263158,-1839499.2105263174
+True,2026-09-30,Illustrative linear 24-month headcount ramp; not forecast; no separate capex,23,83.04166666666666,1704539.4736842103,66010.0,1638529.4736842103,-3478028.6842105277
+True,2026-09-30,Illustrative linear 24-month headcount ramp; not forecast; no separate capex,24,85.0,1744736.8421052631,66010.0,1678726.8421052631,-5156755.526315791

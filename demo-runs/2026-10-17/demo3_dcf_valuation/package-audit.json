@@ -1,0 +1,133 @@
+{
+  "completed_at": "2026-10-17T11:55:34-07:00",
+  "status": "pass",
+  "checks": [
+    {
+      "name": "Fixed eight-tab order",
+      "status": "pass",
+      "evidence": [
+        "README",
+        "Assumptions",
+        "Summary",
+        "Historicals",
+        "Projections",
+        "DCF",
+        "Sensitivity",
+        "Multiples"
+      ]
+    },
+    {
+      "name": "Every numeric input has cell-level provenance",
+      "status": "pass",
+      "evidence": {
+        "numeric_cells": 441,
+        "uncovered": []
+      }
+    },
+    {
+      "name": "Blue inputs, black formulas and green cross-sheet formulas",
+      "status": "pass",
+      "evidence": []
+    },
+    {
+      "name": "Saved formulas have recalculated caches and no errors",
+      "status": "pass",
+      "evidence": {
+        "formula_cells": 632,
+        "missing_caches": [],
+        "errors": []
+      }
+    },
+    {
+      "name": "All 35 sensitivity cells are live SUMPRODUCT formulas",
+      "status": "pass",
+      "evidence": "Sensitivity!D10:H16; no What-If data table"
+    },
+    {
+      "name": "Saved Base and 46% capex restored",
+      "status": "pass",
+      "evidence": {
+        "selector": "1",
+        "capex": "0.46"
+      }
+    },
+    {
+      "name": "Saved Summary matches Excel validation",
+      "status": "pass",
+      "evidence": {
+        "cached_summary": "212.65234753731744",
+        "validated_summary": 212.65234753731744
+      }
+    },
+    {
+      "name": "Saved peer outputs match the selected EBITD policy",
+      "status": "pass",
+      "evidence": {
+        "forward_pe": 364.8325358851675,
+        "verified_ebitd": 273.2973917092706
+      }
+    },
+    {
+      "name": "No external-workbook links or VBA",
+      "status": "pass",
+      "evidence": "Source URLs are documentation; calculations are contained in the workbook."
+    },
+    {
+      "name": "All eight sheets rendered and visually reviewed",
+      "status": "pass",
+      "evidence": "All eight PNG previews reviewed. Key labels and values legible; no clipping in reviewed ranges. Native Excel UI walkthrough was not performed."
+    },
+    {
+      "name": "Forward and EBITD bridge previews reviewed",
+      "status": "pass",
+      "evidence": "Two additional previews reviewed: dated forward EPS and reported EBITD reconciliation with explicit metric labels."
+    },
+    {
+      "name": "All eight peer source snapshots match their recorded hashes",
+      "status": "pass",
+      "evidence": [
+        {
+          "id": "forecast_GOOGL",
+          "matches": true
+        },
+        {
+          "id": "forecast_MSFT",
+          "matches": true
+        },
+        {
+          "id": "forecast_META",
+          "matches": true
+        },
+        {
+          "id": "forecast_AMZN",
+          "matches": true
+        },
+        {
+          "id": "facts_GOOGL",
+          "matches": true
+        },
+        {
+          "id": "facts_MSFT",
+          "matches": true
+        },
+        {
+          "id": "facts_META",
+          "matches": true
+        },
+        {
+          "id": "facts_AMZN",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "name": "Peer facts use the intended periods and contain no later filings",
+      "status": "pass",
+      "evidence": {
+        "fact_count": 17,
+        "consensus_as_of": "2026-10-16"
+      }
+    }
+  ],
+  "xlsx_sha256": "5232c37708b709bc6420dd99dad1700d4935814af77ce4888ad3eb1f8b43108a"
+}

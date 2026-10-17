@@ -1,0 +1,11 @@
+{
+  "fictional_teaching_material": true,
+  "data_as_of": "2026-09-30",
+  "pdf_page_count": 11,
+  "rendered_page_count": 11,
+  "hashes": {
+    "Agentic_AI_Demos\\demo2_pitchbook_review\\inputs\\pitch-deck.pdf": "1fcffd216ea388ed588d47e75f50305e029dfad3c1ee92605c2b4d0f4c54e116",
+    "Agentic_AI_Demos\\demo2_pitchbook_review\\inputs\\data-room\\kpi-monthly.csv": "0e761452e0cfe99bd3129dcc4d2279c61b0c501c1dcdf8332ab9e3a967238d24",
+    "Agentic_AI_Demos\\demo2_pitchbook_review\\outputs\\pitch-review.md": "6a1a4c8f0116d64b4cadfcc5a4d11a9dc32c5361f09cae4fb929b4c32ecdc78c"
+  }
+}

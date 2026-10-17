@@ -1,0 +1,121 @@
+{
+  "demo": 1,
+  "title": "Competitive intelligence fan-out: five robotics startups",
+  "status": "ready",
+  "completed_at": "2026-10-17T17:18:17.061989+00:00",
+  "outputs": [
+    "RUNBOOK.md",
+    "IC-pack.pptx",
+    "research/summary.md",
+    "research/competitor-matrix.xlsx",
+    "research/evidence-checks.md",
+    "research/handoffs.md",
+    "research/figure-ai.md",
+    "research/physical-intelligence.md",
+    "research/skild-ai.md",
+    "research/agility-robotics.md",
+    "research/1x-technologies.md"
+  ],
+  "checks": [
+    {
+      "name": "Independent fan-out and handoffs",
+      "status": "passed",
+      "evidence": "Five distinct company researchers in two batches; research/handoffs.md and per-company evidence JSON."
+    },
+    {
+      "name": "Common five-heading profiles",
+      "status": "passed",
+      "evidence": "build/profile-checks.json: all five passed."
+    },
+    {
+      "name": "Material fact spot-checks",
+      "status": "passed_with_limitations",
+      "evidence": "17 checks documented in research/evidence-checks.md, including reported/unconfirmed verdicts. Three additional coordinator checks in build/coordinator-source-checks.json."
+    },
+    {
+      "name": "Workbook formula recalculation and sensitivity",
+      "status": "passed",
+      "evidence": "build/workbook-checks.json; ages 17, 4, 18, 2, 52 days. Changed input tests and zero/blank guards passed; originals restored."
+    },
+    {
+      "name": "Workbook saved package and errors",
+      "status": "passed",
+      "evidence": "build/saved-xlsx-checks.json verifies 10 formulas, cached values and typed numbers. build/workbook-error-scan.ndjson has zero error matches."
+    },
+    {
+      "name": "Workbook visual review",
+      "status": "passed",
+      "evidence": "Matrix, source area and both Landscape sections rendered and reviewed in build/*.png; no clipped cells or formula errors observed."
+    },
+    {
+      "name": "Three-slide package, layout and import",
+      "status": "passed",
+      "evidence": "build/IC-pack.validation.json: 3 slides, 2 native editable tables, 0 findings, 0 layout warnings, IBM Plex Sans font policy and first-party import passed."
+    },
+    {
+      "name": "Slide visual review and citations",
+      "status": "passed",
+      "evidence": "All three rendered slide layouts reviewed. Subsequent notes-only revision adds complete primary/secondary source bibliography; saved PPTX notes checked for PI API and 1X reported transaction links."
+    },
+    {
+      "name": "Final deck copied without alteration",
+      "status": "passed",
+      "evidence": "Final SHA256 matches validation receipt: 310cfb2d0064f8ea358af855b58b9b760b7070e0268a6c41f73a10c25aaa99bf"
+    },
+    {
+      "name": "Native Office UI testing",
+      "status": "not_performed",
+      "evidence": "No native Excel or PowerPoint interaction is claimed."
+    },
+    {
+      "name": "Scope preservation",
+      "status": "passed",
+      "evidence": "All created outputs and scripts remain in Demo 1 run folder. Supplied reference outputs and source lecture deck were only read. No recurring automation, publication or communications activated."
+    }
+  ],
+  "limitations": [
+    "Full Agility definitive SEC filing retrieval failed. $1.782M FY2025 sales is corroborated using primary indexed table text, not a full-file financial audit.",
+    "Exact current cumulative capital is unavailable for all five. Ratios remain Not comparable; no missing capital is treated as zero.",
+    "Reported acquisitions, proposed SPAC transactions and company-reported operational metrics remain explicitly qualified.",
+    "No native Excel or PowerPoint UI test, API product test, robot execution, physical delivery inspection or exhaustive legal docket review was performed.",
+    "Public-source research is bounded by the stated cutoff. Nondisclosure does not establish zero or absence.",
+    "Native font rendering is not verified in PowerPoint. Artifact Tool renders and the saved slide previews were visually reviewed."
+  ],
+  "slide_corrections": [
+    "Use 2026-10-17 as this run cutoff, replacing slide 24 dated 2026-10-16.",
+    "Figure $39B is a September 2025 historical financing baseline outside the window; output at BotQ is not paid customer deliveries. Nscale compute commitment is not funding proceeds.",
+    "PI revenue is not disclosed, not established as zero or pre-revenue. $5.6B is a dated investor baseline with unspecified valuation basis; later financing records conflict.",
+    "Skild >$100M ARR and 60+ customers are company-reported. January revenue is not a comparable ARR starting point. Acquired robotics operations make model-only incomplete.",
+    "Agility $2.5B value and SPAC proceeds are proposed. November 2 is a scheduled vote, not a completed listing. FY2025 sales and conditional multi-year orders are not current ARR.",
+    "Digit 5 availability targets 2027. Capacity and operating-hour claims are not actual new-robot delivery counts.",
+    "1X ~$6B is reported acquisition talks, not a closed financing. Capacity and potential EQT rollout are not deliveries or firm orders. External deliveries remain unverified.",
+    "Remove unsupported claims that model firms raised faster or that a SPAC vote necessarily sets a public-market price.",
+    "Momentum is analyst judgment. This run treats Figure as gaining on milestones and 1X as holding pending delivery evidence."
+  ],
+  "sources_as_of": {
+    "research_window_start": "2025-10-17",
+    "research_window_end": "2026-10-17",
+    "prepared_date": "2026-10-17",
+    "timezone": "America/Los_Angeles",
+    "latest_dated_evidence_by_company": {
+      "Figure AI": "2026-09-30",
+      "Physical Intelligence": "2026-10-13",
+      "Skild AI": "2026-09-29",
+      "Agility Robotics": "2026-10-15",
+      "1X Technologies": "2026-08-26"
+    }
+  },
+  "artifact_hashes": {
+    "RUNBOOK.md": "8abde8dad2ed41b7d1722a620ee850fc743b67c3c11d5e6e67eca173e74011c4",
+    "IC-pack.pptx": "310cfb2d0064f8ea358af855b58b9b760b7070e0268a6c41f73a10c25aaa99bf",
+    "research/summary.md": "0e8c12bdb4b2cfc99fd3247ddec51a083324a96b2fd6502f1d44c696770c0902",
+    "research/competitor-matrix.xlsx": "bd2892e8570155262f1ee80aac3aa156daf6c6ddd235e44c68b2b23ba72f5d0f",
+    "research/evidence-checks.md": "9fc964c88c7f9e1b5afbeef29166adc145ba502c04f58ada924c9069aac31d3c",
+    "research/handoffs.md": "5deb8ea0297d30483d4d75f76a2439ad72adca26decdd11386989d7b511d7f4c",
+    "research/figure-ai.md": "18c0881093141c800624a5ea4b660b48a5458de5e24a0a21401890f6beb75d00",
+    "research/physical-intelligence.md": "d9d5d24f96428d262b2f3dac8d7c4fb8031c613b6561268dcd86780c973ff8b2",
+    "research/skild-ai.md": "ab025c2b81b51964cc35b594ff83a64557d83852f1b6831728f766e7d00f56d0",
+    "research/agility-robotics.md": "f0159c1383995c3e130e8a94ba4700d6b9c935a532e9fb46904feccf729e3e29",
+    "research/1x-technologies.md": "41aac066a80d4d790e59fa562a6920ffdda5ed0542c1819fadaebbb27869659a"
+  }
+}

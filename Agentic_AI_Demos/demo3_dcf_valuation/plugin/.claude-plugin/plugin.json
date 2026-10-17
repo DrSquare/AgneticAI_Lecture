@@ -1,0 +1,6 @@
+{
+  "name": "equity-valuation",
+  "version": "1.0.0",
+  "description": "Builds formula-driven DCF and trading-multiples valuation models in Excel from public filings.",
+  "author": { "name": "Minha Hwang" }
+}

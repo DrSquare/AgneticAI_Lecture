@@ -1,0 +1,42 @@
+[
+  {
+    "id": "annual_report",
+    "file": "inputs/10K-NVDA.pdf",
+    "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-Annual-Report-Web.pdf",
+    "sha256": "0e725ba048221539dca3eb1a4e70febfcbb785e9afb96cd3ff0b035d7d734e5c",
+    "retrieved_on": "2026-10-17",
+    "bytes": 15850437
+  },
+  {
+    "id": "q4_release",
+    "file": "inputs/q4-release.html",
+    "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Fourth-Quarter-and-Fiscal-2026/default.aspx",
+    "sha256": "37cdf8b5418188eea345423a482a20f39255ccc145b23be8d1f7d6266831de54",
+    "retrieved_on": "2026-10-17",
+    "bytes": 482563
+  },
+  {
+    "id": "q3_release",
+    "file": "inputs/q3-release.html",
+    "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2026/default.aspx",
+    "sha256": "7b8aee30e332f9c51a0797ca8ef965991f7f47a2b3746eaa62699be8d5c636c6",
+    "retrieved_on": "2026-10-17",
+    "bytes": 453307
+  },
+  {
+    "id": "q2_release",
+    "file": "inputs/q2-release.html",
+    "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2026/default.aspx",
+    "sha256": "969e1c44852984b96479ea267c9073087dd049eae6c7293f872480abd31ec2c8",
+    "retrieved_on": "2026-10-17",
+    "bytes": 449249
+  },
+  {
+    "id": "filing_index",
+    "file": "inputs/filing-index.html",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.htm",
+    "sha256": "c05d68d5bb8aaf0c5be57d68530407a79667376377c4c19ba7ab6eecfa812cc9",
+    "retrieved_on": "2026-10-17",
+    "bytes": 13691
+  }
+]

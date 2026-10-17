@@ -1,0 +1,164 @@
+EDGAR Filing Documents for 0001045810-26-000021
+This page uses Javascript. Your browser either doesn't support Javascript or you have it turned off. To see this page as it is meant to appear please use a Javascript enabled browser.
+SEC.gov
+EDGAR
+Latest Filings
+Filings search tools
+Filing Detail
+SEC Home
+»
+Company Search
+»
+Current Page
+Form 10-K
+- Annual report [Section 13 and 15(d), not S-K Item 405]:
+SEC
+Accession
+No.
+0001045810-26-000021
+Filing Date
+2026-02-25
+Accepted
+2026-02-25 16:42:19
+Documents
+112
+Period of Report
+2026-01-25
+Interactive Data
+Document Format Files
+Seq
+Description
+Document
+Type
+Size
+1
+10-K
+nvda-20260125.htm
+iXBRL
+10-K
+1967816
+2
+EX-19.1
+nvda-2026xex191.htm
+EX-19.1
+20490
+3
+EX-21.1
+subsidiariesofregistrantfy.htm
+EX-21.1
+3583
+4
+EX-23.1
+a2026auditorconsentletter.htm
+EX-23.1
+2030
+5
+EX-31.1
+nvda-2026xex311.htm
+EX-31.1
+8584
+6
+EX-31.2
+nvda-2026xex312.htm
+EX-31.2
+8431
+7
+EX-32.1
+nvda-2026xex321.htm
+EX-32.1
+5760
+8
+EX-32.2
+nvda-2026xex322.htm
+EX-32.2
+5531
+14
+NVDA LOGO
+image_0.jpg
+GRAPHIC
+63541
+15
+NVDA LOGO 2
+nvda-20260125_g1.jpg
+GRAPHIC
+7474
+16
+5YR STOCK PERFORMANCE GRAPH
+nvda-20260125_g2.jpg
+GRAPHIC
+125979
+Complete submission text file
+0001045810-26-000021.txt
+11461765
+Data Files
+Seq
+Description
+Document
+Type
+Size
+9
+XBRL TAXONOMY EXTENSION SCHEMA DOCUMENT
+nvda-20260125.xsd
+EX-101.SCH
+65719
+10
+XBRL TAXONOMY EXTENSION CALCULATION LINKBASE DOCUMENT
+nvda-20260125_cal.xml
+EX-101.CAL
+139207
+11
+XBRL TAXONOMY EXTENSION DEFINITION LINKBASE DOCUMENT
+nvda-20260125_def.xml
+EX-101.DEF
+332152
+12
+XBRL TAXONOMY EXTENSION LABEL LINKBASE DOCUMENT
+nvda-20260125_lab.xml
+EX-101.LAB
+903401
+13
+XBRL TAXONOMY EXTENSION PRESENTATION LINKBASE DOCUMENT
+nvda-20260125_pre.xml
+EX-101.PRE
+644869
+115
+EXTRACTED
+XBRL INSTANCE DOCUMENT
+nvda-20260125_htm.xml
+XML
+1685733
+Mailing Address
+2788 SAN TOMAS EXPRESSWAY
+SANTA CLARA
+CA
+95051
+Business Address
+2788 SAN TOMAS EXPRESSWAY
+SANTA CLARA
+CA
+95051
+408-486-2000
+NVIDIA CORP (Filer)
+CIK
+:
+0001045810 (see all company filings)
+EIN.
+:
+943177549
+| State of Incorp.:
+DE
+| Fiscal Year End:
+0125
+Type:
+10-K
+| Act:
+34
+| File No.:
+000-23985
+| Film No.:
+26679581
+SIC
+:
+3674
+Semiconductors & Related Devices
+(CF Office: 04 Manufacturing)

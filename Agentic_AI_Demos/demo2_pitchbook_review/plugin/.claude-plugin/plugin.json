@@ -1,0 +1,6 @@
+{
+  "name": "pitch-review-panel",
+  "version": "1.0.0",
+  "description": "Agent-team (panel) review of a startup pitch deck: narrative, numbers and devil's-advocate reviewers who challenge each other, plus a scoring rubric skill.",
+  "author": { "name": "Minha Hwang" }
+}

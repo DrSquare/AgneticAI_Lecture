@@ -1,0 +1,92 @@
+{
+  "company": "Skild AI",
+  "window_start": "2025-10-17",
+  "window_end": "2026-10-17",
+  "prepared": "2026-10-17",
+  "timezone": "America/Los_Angeles",
+  "layer": "Robot foundation model; software-led with acquired robotics operations",
+  "flagship": "S1 / Skild Brain",
+  "valuation_usd_billion": 14,
+  "valuation_comparator": ">",
+  "valuation_date": "2026-01-14",
+  "valuation_basis": "Company announcement says over $14B; 14 is a threshold, not exact valuation. Post-money basis not explicit.",
+  "valuation_source": "https://skild.ai/blogs/series-c",
+  "total_capital_usd_billion": null,
+  "capital_date": "2026-10-17",
+  "capital_basis": "Exact cumulative capital not verified in reviewed primary announcements; omit valuation/capital multiple.",
+  "capital_source": "https://skild.ai/blogs/series-c",
+  "latest_round_usd_billion": 1.4,
+  "latest_round_date": "2026-01-14",
+  "latest_round_source": "https://skild.ai/blogs/series-c",
+  "revenue_signal": "> $100M ARR; $50M recognized since first deployment; company-reported, unaudited (2026-09-10).",
+  "customers": "60+ paying customers claimed; NVIDIA/Foxconn deployment work; Sumitomo planned; Mitsui pilot; PIT proof-of-concept.",
+  "scale": "OEM channels plus acquired Zebra Robotics Automation; unit shipments/capacity not disclosed.",
+  "top_risk": "Production reliability, intervention cost and revenue-quality evidence remain unverified.",
+  "momentum": "gaining",
+  "momentum_basis": "Analyst assessment: financing, model release and expanded deployment channels.",
+  "latest_evidence_date": "2026-09-29",
+  "sources_as_of": "2026-10-17",
+  "spot_checks": [
+    {
+      "claim": "Series C raised $1.4B; valuation above $14B.",
+      "date": "2026-01-14",
+      "source_title": "Announcing Series C",
+      "publication_date": "2026-01-14",
+      "primary_url": "https://skild.ai/blogs/series-c",
+      "verdict": "verified_as_company_announced",
+      "source_evidence_paraphrase": "Opening paragraph states amount raised, valuation threshold and SoftBank lead.",
+      "limitations": "Not an independently audited capitalization table; exact valuation absent."
+    },
+    {
+      "claim": "ARR exceeds $100M; recognized revenue $50M; 60+ paying customers.",
+      "date": "2026-09-10",
+      "source_title": "The Hidden Pillar of Robotics",
+      "publication_date": "2026-09-10",
+      "primary_url": "https://skild.ai/blogs/skild-crosses-100m-arr",
+      "verdict": "verified_as_company_reported_not_audited",
+      "source_evidence_paraphrase": "Founders distinguish ARR from revenue recognized over ten months and state customer count.",
+      "limitations": "No audited accounts or customer-level reconciliation."
+    },
+    {
+      "claim": "Skild acquired Zebra Robotics Automation for cash and equity.",
+      "date": "2026-04-15",
+      "source_title": "Skild AI Acquires Zebra Technologies’ Robotics Automation Business",
+      "publication_date": "2026-04-15",
+      "primary_url": "https://www.zebra.com/us/en/about-zebra/newsroom/press-releases/2026/skild-ai-acquires-zebra-technologies--robotics-automation-busine.html",
+      "corroborating_url": "https://skild.ai/blogs/skild-zebra",
+      "verdict": "verified_buyer_and_seller_announcements",
+      "source_evidence_paraphrase": "Zebra states the completed sale and receipt of cash plus Skild equity; buyer confirms acquisition.",
+      "limitations": "Seller text retrieved via web search; direct open later errored. Consideration amount not stated."
+    }
+  ],
+  "supplementary_check": {
+    "claim": "PIT airport pilot plans up to four robots; not confirmed deliveries.",
+    "publication_date": "2026-09-29",
+    "source_title": "Pittsburgh Tech Powers Aviation Industry Innovation",
+    "primary_url": "https://blueskypit.com/pittsburgh-tech-powers-aviation-industry-innovation/",
+    "verdict": "verified_partner_pilot_plan"
+  },
+  "limitations": [
+    "Numeric financial and model-performance metrics are company-reported, not audited or independently reproduced.",
+    "Exact cumulative capital, full-year 2026 sales, complete customer list, pricing, shipments and capacity not established.",
+    "Official index dates S1 August 18, while September 10 post says released two weeks earlier; date conflict preserved.",
+    "Profitability and G10 paying-customer status in supplied reference not verified."
+  ],
+  "slide_corrections": [
+    "Keep >$14B qualifier, not exact $14B.",
+    "Do not turn January ~$30M revenue into ARR or present growth to September ARR as comparable.",
+    "S1: official index 2026-08-18, not 2026-08-25; acknowledge date conflict.",
+    "Zebra acquisition announced 2026-04-15, not 2026-04-16.",
+    "Named pilots/planned deployments are not automatically paying customers.",
+    "Software-only characterization incomplete after Zebra acquisition."
+  ],
+  "handoff": {
+    "agent": "skild_research",
+    "independent_research": true,
+    "skill_read": true,
+    "reference_used_as_truth": false,
+    "checks": "Live primary pages and external seller/airport partner evidence.",
+    "challenge": "Preserved revenue metric definitions, missing total capital and source date conflicts.",
+    "output_owner": "research/skild-ai.md and research/skild-ai-data.json only"
+  }
+}

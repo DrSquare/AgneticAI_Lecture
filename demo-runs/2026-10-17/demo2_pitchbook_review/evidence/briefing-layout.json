@@ -1,0 +1,272 @@
+{
+  "page_count": 1,
+  "min_content_bottom": 146.5,
+  "blocks": [
+    {
+      "x": 36,
+      "top": 738,
+      "bottom": 711,
+      "width": 540,
+      "text": "GraspLoop AI"
+    },
+    {
+      "x": 36,
+      "top": 707,
+      "bottom": 692,
+      "width": 540,
+      "text": "Partner briefing | Fictional teaching material"
+    },
+    {
+      "x": 36,
+      "top": 687,
+      "bottom": 676,
+      "width": 540,
+      "text": "Reviewed October 17, 2026 (America/Los_Angeles) | KPI data through September 2026"
+    },
+    {
+      "x": 36,
+      "top": 662,
+      "bottom": 634,
+      "width": 540,
+      "text": "<b>Conditional go: focused founder diligence.</b> No-go for investment approval on this evidence. Paying growth merits a conversation; metric definitions, acquisition economics and the funded deployment plan need reconciliation."
+    },
+    {
+      "x": 36,
+      "top": 614,
+      "bottom": 598,
+      "width": 264,
+      "text": "What the data changes"
+    },
+    {
+      "x": 36,
+      "top": 589,
+      "bottom": 576,
+      "width": 264,
+      "text": "$2.4M ARR / 8x YoY (p6)"
+    },
+    {
+      "x": 36,
+      "top": 573,
+      "bottom": 548.0,
+      "width": 264,
+      "text": "$1.932M paying ARR; $2.436M includes unpaid pilots. Paying YoY is 6.57x (+557%)."
+    },
+    {
+      "x": 36,
+      "top": 539.0,
+      "bottom": 526.0,
+      "width": 264,
+      "text": "14 customers / 99.7% success (p6)"
+    },
+    {
+      "x": 36,
+      "top": 523.0,
+      "bottom": 498.0,
+      "width": 264,
+      "text": "11 paying + 3 unpaid pilots. 99.7% is best site, single SKU; fleet mixed-SKU success is 97.2%."
+    },
+    {
+      "x": 36,
+      "top": 489.0,
+      "bottom": 476.0,
+      "width": 264,
+      "text": "160% NRR (p6)"
+    },
+    {
+      "x": 36,
+      "top": 473.0,
+      "bottom": 448.0,
+      "width": 264,
+      "text": "157.14% for the three-customer September 2025 cohort. Broader retention is unverified."
+    },
+    {
+      "x": 36,
+      "top": 439.0,
+      "bottom": 426.0,
+      "width": 264,
+      "text": "68% GM / 4-month CAC (p7)"
+    },
+    {
+      "x": 36,
+      "top": 423.0,
+      "bottom": 398.0,
+      "width": 264,
+      "text": "September GM is 41%. Q3 net-new-MRR payback proxy is 26.27 months; TTM is 27.87. Actual cohort CAC is unverified."
+    },
+    {
+      "x": 36,
+      "top": 389.0,
+      "bottom": 376.0,
+      "width": 264,
+      "text": "24-month runway (p11)"
+    },
+    {
+      "x": 36,
+      "top": 373.0,
+      "bottom": 335.5,
+      "width": 264,
+      "text": "Forward plan is unverified. Flat burn: 8.46 months before raise, 33.67 after an immediate $18M raise. Hiring and capex change this."
+    },
+    {
+      "x": 36,
+      "top": 319.5,
+      "bottom": 303.5,
+      "width": 264,
+      "text": "Five fixes, in priority order"
+    },
+    {
+      "x": 36,
+      "top": 298.5,
+      "bottom": 286.0,
+      "width": 264,
+      "text": "1. Separate paying, pilot, fleet and site metrics."
+    },
+    {
+      "x": 36,
+      "top": 281.0,
+      "bottom": 268.5,
+      "width": 264,
+      "text": "2. Rebuild actual GM and acquisition-cohort CAC."
+    },
+    {
+      "x": 36,
+      "top": 263.5,
+      "bottom": 251.0,
+      "width": 264,
+      "text": "3. Tie deployments, hiring and financing to cash."
+    },
+    {
+      "x": 36,
+      "top": 246.0,
+      "bottom": 233.5,
+      "width": 264,
+      "text": "4. Evidence learning, operator cost and competitors."
+    },
+    {
+      "x": 36,
+      "top": 228.5,
+      "bottom": 216.0,
+      "width": 264,
+      "text": "5. Support bottom-up market and team records."
+    },
+    {
+      "x": 320,
+      "top": 614,
+      "bottom": 598,
+      "width": 256,
+      "text": "Scorecard (1-5)"
+    },
+    {
+      "x": 320,
+      "top": 593,
+      "bottom": 580.5,
+      "width": 256,
+      "text": "Problem & insight: <b>2</b>"
+    },
+    {
+      "x": 320,
+      "top": 575.5,
+      "bottom": 563.0,
+      "width": 256,
+      "text": "Product & technology: <b>3</b>"
+    },
+    {
+      "x": 320,
+      "top": 558.0,
+      "bottom": 545.5,
+      "width": 256,
+      "text": "Traction: <b>2</b>"
+    },
+    {
+      "x": 320,
+      "top": 540.5,
+      "bottom": 528.0,
+      "width": 256,
+      "text": "Unit economics: <b>1</b>"
+    },
+    {
+      "x": 320,
+      "top": 523.0,
+      "bottom": 510.5,
+      "width": 256,
+      "text": "Market & competition: <b>2</b>"
+    },
+    {
+      "x": 320,
+      "top": 505.5,
+      "bottom": 493.0,
+      "width": 256,
+      "text": "Team: <b>3</b>"
+    },
+    {
+      "x": 320,
+      "top": 488.0,
+      "bottom": 475.5,
+      "width": 256,
+      "text": "Plan & ask: <b>2</b>"
+    },
+    {
+      "x": 320,
+      "top": 458.5,
+      "bottom": 442.5,
+      "width": 256,
+      "text": "Four founder questions"
+    },
+    {
+      "x": 320,
+      "top": 434.5,
+      "bottom": 409.5,
+      "width": 256,
+      "text": "Which contracts are paying, future starts or unpaid pilots? Show the revenue/cohort bridge."
+    },
+    {
+      "x": 320,
+      "top": 401.5,
+      "bottom": 376.5,
+      "width": 256,
+      "text": "What costs and acquisition cohorts support the stated margin and 4-month payback?"
+    },
+    {
+      "x": 320,
+      "top": 368.5,
+      "bottom": 343.5,
+      "width": 256,
+      "text": "What controlled tests show learning, and who owns the models and training data?"
+    },
+    {
+      "x": 320,
+      "top": 335.5,
+      "bottom": 310.5,
+      "width": 256,
+      "text": "How do monthly hiring, deployments, hardware funding and collections support 24 months after the raise closes?"
+    },
+    {
+      "x": 320,
+      "top": 294.5,
+      "bottom": 278.5,
+      "width": 256,
+      "text": "What the panel challenged"
+    },
+    {
+      "x": 320,
+      "top": 272.5,
+      "bottom": 235.0,
+      "width": 256,
+      "text": "Keep strong growth in the story. Do not infer dishonest intent. Pre-raise runway cannot disprove a post-raise plan. Fleet improvement is not causal proof of a moat."
+    },
+    {
+      "x": 320,
+      "top": 227.0,
+      "bottom": 189.5,
+      "width": 256,
+      "text": "Narrative sees a repairable story; the devil requires commercial and cash reconciliation before investment advocacy."
+    },
+    {
+      "x": 36,
+      "top": 166.5,
+      "bottom": 146.5,
+      "width": 540,
+      "text": "Sources: deck pp 6-7, 10-11; CSV rows 2, 11-14; data-room README. See pitch-review.md for the full 42-claim inventory, 53 numerical checks and exact methodological limits. All company data are invented."
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "as_of": "2026-10-17",
+  "consensus_as_of": "2026-10-16",
+  "forward_horizon": "CY2027",
+  "eps_basis": "S&P Global adjusted non-GAAP consensus, via Stock Analysis",
+  "microsoft_calendarization": "0.5 * FY2027 EPS + 0.5 * FY2028 EPS; equal-half earnings assumption, not quarterly consensus",
+  "forward": {
+    "GOOGL": {
+      "fy2027_eps": 15.25,
+      "fy2028_eps": null,
+      "fy2027_end": "2027-12-31",
+      "cy2027_first_fy_weight": 1,
+      "url": "https://stockanalysis.com/stocks/googl/forecast/"
+    },
+    "MSFT": {
+      "fy2027_eps": 19.78,
+      "fy2028_eps": 23.72,
+      "fy2027_end": "2027-06-30",
+      "cy2027_first_fy_weight": 0.5,
+      "url": "https://stockanalysis.com/stocks/msft/forecast/"
+    },
+    "META": {
+      "fy2027_eps": 34.63,
+      "fy2028_eps": null,
+      "fy2027_end": "2027-12-31",
+      "cy2027_first_fy_weight": 1,
+      "url": "https://stockanalysis.com/stocks/meta/forecast/"
+    },
+    "AMZN": {
+      "fy2027_eps": 10.45,
+      "fy2028_eps": null,
+      "fy2027_end": "2027-12-31",
+      "cy2027_first_fy_weight": 1,
+      "url": "https://stockanalysis.com/stocks/amzn/forecast/"
+    }
+  },
+  "ppe_depreciation": {
+    "GOOGL": {
+      "fy2025": 21136.0,
+      "h1_2025": 9485.0,
+      "h1_2026": 13586.0
+    },
+    "MSFT": {
+      "direct_ttm": 34300.0
+    },
+    "META": {
+      "fy2025": 18000.0,
+      "h1_2025": 8120.0,
+      "h1_2026": 11670.0
+    },
+    "AMZN": {
+      "fy2025": 41860.0,
+      "h1_2025": 18822.0,
+      "h1_2026": 26703.0
+    }
+  },
+  "amortization": {
+    "GOOGL": {
+      "h1_2025": 246.0,
+      "h1_2026": 545.0,
+      "status": "incomplete TTM: excluded from the selected EBITD metric"
+    },
+    "MSFT": {
+      "direct_ttm": 4700.0,
+      "status": "reported"
+    },
+    "META": {
+      "total_da_fy2025": 18616.0,
+      "total_da_h1_2025": 8242.0,
+      "total_da_h1_2026": 12355.0,
+      "status": "derived: reported total D&A less rounded PP&E depreciation; total EBITDA exact to reported D&A"
+    },
+    "AMZN": {
+      "fy2025": 817.0,
+      "status": "FY2025 only: excluded from the selected EBITD metric"
+    }
+  },
+  "source_facts": [
+    {
+      "ticker": "GOOGL",
+      "taxonomy": "us-gaap:Depreciation",
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "val": 21136000000,
+      "accn": "0001652044-26-000018",
+      "fy": 2025,
+      "fp": "FY",
+      "form": "10-K",
+      "filed": "2026-02-05",
+      "frame": "CY2025",
+      "value_usd_millions": 21136.0,
+      "api_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001652044.json"
+    },
+    {
+      "ticker": "GOOGL",
+      "taxonomy": "us-gaap:Depreciation",
+      "start": "2025-01-01",
+      "end": "2025-06-30",
+      "val": 9485000000,
+      "accn": "0001652044-26-000071",
+      "fy": 2026,
+      "fp": "Q2",
+      "form": "10-Q",
+      "filed": "2026-07-23",
+      "value_usd_millions": 9485.0,
+      "api_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001652044.json"
+    },
+    {
+      "ticker": "GOOGL",
+      "taxonomy": "us-gaap:Depreciation",
+      "start": "2026-01-01",
+      "end": "2026-06-30",
+      "val": 13586000000,
+      "accn": "0001652044-26-000071",
+      "fy": 2026,
+      "fp": "Q2",
+      "form": "10-Q",
+      "filed": "2026-07-23",
+      "value_usd_millions": 13586.0,
+      "api_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001652044.json"
+    },
+    {
+      "ticker": "GOOGL",
+      "taxonomy": "us-gaap:AmortizationOfIntangibleAssets",
+      "start": "2025-01-01",
+      "end": "2025-06-30",
+      "val": 246000000,
+      "accn": "0001652044-26-000071",
+      "fy": 2026,
+      "fp": "Q2",
+      "form": "10-Q",
+      "filed": "2026-07-23",
+      "value_usd_millions": 246.0,
+      "api_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001652044.json"
+    },
+    {
+      "ticker": "GOOGL",
+      "taxonomy": "us-gaap:AmortizationOfIntangibleAssets",
+      "start": "2026-01-01",
+      "end": "2026-06-30",
+      "val": 545000000,
+      "accn": "0001652044-26-000071",
+      "fy": 2026,
+      "fp": "Q2",
+      "form": "10-Q",
+      "filed": "2026-07-23",
+      "value_usd_millions": 545.0,
+      "api_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001652044.json"
+    },
+    {
+      "ticker": "MSFT",
+      "taxonomy": "us-gaap:Depreciation",
+      "start": "2025-07-01",
+      "end": "2026-06-30",
+      "val": 34300000000,
+      "accn": "0001193125-26-323660",
+      "fy": 2026,
+      "fp": "FY",
+      "form": "10-K",
+      "filed": "2026-07-29",
+      "frame": "CY2026",
+      "value_usd_millions": 34300.0,
+      "api_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json"
+    },
+    {
+      "ticker": "MSFT",
+      "taxonomy": "us-gaap:AmortizationOfIntangibleAssets",
+      "start": "2025-07-01",
+      "end": "2026-06-30",
+      "val": 4700000000,
+      "accn": "0001193125-26-323660",
+      "fy": 2026,
+      "fp": "FY",
+      "form": "10-K",
+      "filed": "2026-07-29",
+      "frame": "CY2026",
+      "value_usd_millions": 4700.0,
+      "api_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json"
+    },
+    {
+      "ticker": "META",
+      "taxonomy": "us-gaap:Depreciation",
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "val": 18000000000,
+      "accn": "0001628280-26-003942",
+      "fy": 2025,
+      "fp": "FY",
+      "form": "10-K",
+      "filed": "2026-01-29",
+      "frame": "CY2025",
+      "value_usd_millions": 18000.0,
+      "api_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326801.json"
+    },
+    {
+      "ticker": "META",
+      "taxonomy": "us-gaap:Depreciation",
+      "start": "2025-01-01",
+      "end": "2025-06-30",
+      "val": 8120000000,
+      "accn": "0001628280-26-050705",
+      "fy": 2026,
+      "fp": "Q2",
+      "form": "10-Q",
+      "filed": "2026-07-30",
+      "value_usd_millions": 8120.0,
+      "api_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326801.json"
+    },
+    {
+      "ticker": "META",
+      "taxonomy": "us-gaap:Depreciation",
+      "start": "2026-01-01",
+      "end": "2026-06-30",
+      "val": 11670000000,
+      "accn": "0001628280-26-050705",
+      "fy": 2026,
+      "fp": "Q2",
+      "form": "10-Q",
+      "filed": "2026-07-30",
+      "value_usd_millions": 11670.0,
+      "api_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326801.json"
+    },
+    {
+      "ticker": "META",
+      "taxonomy": "us-gaap:DepreciationDepletionAndAmortization",
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "val": 18616000000,
+      "accn": "0001628280-26-003942",
+      "fy": 2025,
+      "fp": "FY",
+      "form": "10-K",
+      "filed": "2026-01-29",
+      "frame": "CY2025",
+      "value_usd_millions": 18616.0,
+      "api_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326801.json"
+    },
+    {
+      "ticker": "META",
+      "taxonomy": "us-gaap:DepreciationDepletionAndAmortization",
+      "start": "2025-01-01",
+      "end": "2025-06-30",
+      "val": 8242000000,
+      "accn": "0001628280-26-050705",
+      "fy": 2026,
+      "fp": "Q2",
+      "form": "10-Q",
+      "filed": "2026-07-30",
+      "value_usd_millions": 8242.0,
+      "api_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326801.json"
+    },
+    {
+      "ticker": "META",
+      "taxonomy": "us-gaap:DepreciationDepletionAndAmortization",
+      "start": "2026-01-01",
+      "end": "2026-06-30",
+      "val": 12355000000,
+      "accn": "0001628280-26-050705",
+      "fy": 2026,
+      "fp": "Q2",
+      "form": "10-Q",
+      "filed": "2026-07-30",
+      "value_usd_millions": 12355.0,
+      "api_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326801.json"
+    },
+    {
+      "ticker": "AMZN",
+      "taxonomy": "us-gaap:Depreciation",
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "val": 41860000000,
+      "accn": "0001018724-26-000004",
+      "fy": 2025,
+      "fp": "FY",
+      "form": "10-K",
+      "filed": "2026-02-06",
+      "frame": "CY2025",
+      "value_usd_millions": 41860.0,
+      "api_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json"
+    },
+    {
+      "ticker": "AMZN",
+      "taxonomy": "us-gaap:Depreciation",
+      "start": "2025-01-01",
+      "end": "2025-06-30",
+      "val": 18822000000,
+      "accn": "0001018724-26-000026",
+      "fy": 2026,
+      "fp": "Q2",
+      "form": "10-Q",
+      "filed": "2026-07-31",
+      "value_usd_millions": 18822.0,
+      "api_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json"
+    },
+    {
+      "ticker": "AMZN",
+      "taxonomy": "us-gaap:Depreciation",
+      "start": "2026-01-01",
+      "end": "2026-06-30",
+      "val": 26703000000,
+      "accn": "0001018724-26-000026",
+      "fy": 2026,
+      "fp": "Q2",
+      "form": "10-Q",
+      "filed": "2026-07-31",
+      "value_usd_millions": 26703.0,
+      "api_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json"
+    },
+    {
+      "ticker": "AMZN",
+      "taxonomy": "us-gaap:AmortizationOfIntangibleAssets",
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "val": 817000000,
+      "accn": "0001018724-26-000004",
+      "fy": 2025,
+      "fp": "FY",
+      "form": "10-K",
+      "filed": "2026-02-06",
+      "frame": "CY2025",
+      "value_usd_millions": 817.0,
+      "api_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json"
+    }
+  ],
+  "selected_peer_metric": "EV/EBITD: user-selected substitute for incomplete TTM EBITDA; EBIT + reported PPE depreciation only",
+  "unavailable_exact_ttm_inputs": [
+    "Alphabet FY2025 intangible amortization is not separately supplied in the filing facts; H1 figures alone cannot reconstruct TTM.",
+    "Amazon interim intangible amortization is not separately supplied; FY2025 amortization cannot be treated as TTM actuals.",
+    "Broad cash-flow addbacks are not interchangeable with PP&E depreciation plus intangible amortization."
+  ]
+}

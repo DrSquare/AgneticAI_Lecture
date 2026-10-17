@@ -1,0 +1,137 @@
+{
+  "company": "Physical Intelligence",
+  "prepared_at": "2026-10-17",
+  "timezone": "America/Los_Angeles",
+  "window_start": "2025-10-17",
+  "window_end": "2026-10-17",
+  "layer": "Robot foundation models; managed training and hosted inference",
+  "flagship": "π0.7 research model (2026-04-16); Pi API beta (2026-10-13)",
+  "valuation_usd_billion": 5.6,
+  "valuation_date": "2025-11",
+  "valuation_basis": "Investor-confirmed dated baseline; Outset does not specify pre-money/post-money. Not represented as latest current valuation.",
+  "valuation_source": {
+    "title": "Physical Intelligence Raises $600M at $5.6B Valuation",
+    "publication_date": "2025-11",
+    "url": "https://outsetcapital.com/blog/physical-intelligence-series-b"
+  },
+  "total_capital_usd_billion": null,
+  "capital_date": null,
+  "capital_basis": "No directly verified primary aggregate disclosure retrieved; later secondary financing records conflict and underlying filings were not retrieved.",
+  "capital_source": null,
+  "latest_round_usd_billion": 0.6,
+  "latest_round_date": "2025-11-20",
+  "latest_round_basis": "Latest round directly verified from investor sources in this run, not asserted as the latest round ever completed",
+  "latest_round_source": {
+    "title": "Insights — Physical Intelligence entry; Series B investment announcement",
+    "publication_date": "2025-11-20",
+    "url": "https://capitalg.com/insights/",
+    "corroborating_url": "https://capitalg.com/insights/physical-intelligence-bringing-general-purpose-ai-into-the-physical-world/"
+  },
+  "revenue_signal": "Revenue: not disclosed. Partner deployments and API beta are observable; PI ARR, pricing and paid-customer counts unavailable in inspected sources.",
+  "customers": "Named partners: Weave, Ultra; October API collaborators include Actor, CloudChef, Chef Robotics and Formic Robotics. Paid customer status not established for each.",
+  "scale": "Not applicable for factory metrics at model/software layer; scale through partner robots and hosted API. No verified PI unit-delivery count.",
+  "top_risk": "Intervention economics, safe operation under cloud connectivity failures, and beta-to-paid conversion remain unproven publicly.",
+  "momentum": "gaining",
+  "momentum_basis": "Analyst judgment from dated model and API releases; not a revenue-growth conclusion.",
+  "latest_evidence_date": "2026-10-13",
+  "sources_as_of": "2026-10-17; latest dated company announcement 2026-10-13",
+  "spot_checks": [
+    {
+      "claim": "$600 million Series B led by CapitalG",
+      "date": "2025-11-20",
+      "primary_url": "https://capitalg.com/insights/",
+      "source_title": "Insights — Physical Intelligence entry",
+      "source_publication_date": "2025-11-20",
+      "verdict": "verified investor announcement",
+      "evidence": "The dated investor index states the round amount and lead role; the linked investment post calls it Series B.",
+      "secondary_primary_url": "https://capitalg.com/insights/physical-intelligence-bringing-general-purpose-ai-into-the-physical-world/"
+    },
+    {
+      "claim": "$5.6 billion valuation for November 2025 financing",
+      "date": "2025-11",
+      "primary_url": "https://outsetcapital.com/blog/physical-intelligence-series-b",
+      "source_title": "Physical Intelligence Raises $600M at $5.6B Valuation",
+      "source_publication_date": "2025-11",
+      "verdict": "verified investor statement; valuation basis unspecified",
+      "evidence": "Outset identifies PI as its portfolio company and states the valuation; no pre-money/post-money qualifier appears."
+    },
+    {
+      "claim": "Ultra full-shift packaging operation at 96.4% autonomy with π0.6",
+      "date": "2026-02-24",
+      "primary_url": "https://www.pi.website/blog/partner",
+      "source_title": "The Physical Intelligence Layer",
+      "source_publication_date": "2026-02-24",
+      "verdict": "verified that partner/company reports it; not independently audited performance",
+      "evidence": "Ultra's authored section captions a customer-site full-shift packaging run with this autonomy percentage."
+    }
+  ],
+  "additional_sources": [
+    {
+      "title": "π*0.6: a VLA that Learns from Experience",
+      "publication_date": "2025-11-17",
+      "url": "https://www.pi.website/blog/pistar06",
+      "use": "Experimental method and company-reported performance"
+    },
+    {
+      "title": "π0.7: a Steerable Model with Emergent Capabilities",
+      "publication_date": "2026-04-16",
+      "url": "https://www.pi.website/blog/pi07",
+      "use": "Dated model milestone"
+    },
+    {
+      "title": "Frontier Models for Every Robot: Announcing our API beta",
+      "publication_date": "2026-10-13",
+      "url": "https://www.pi.website/blog/api-beta",
+      "use": "API availability, partner breadth, connectivity limitation"
+    },
+    {
+      "title": "Physical Intelligence — CapitalG portfolio",
+      "publication_date": null,
+      "url": "https://capitalg.com/portfolio/physical-intelligence/",
+      "use": "CEO; undated page"
+    },
+    {
+      "title": "Physical Intelligence is reportedly in talks to raise $1B, again",
+      "publication_date": "2026-03-27",
+      "url": "https://techcrunch.com/2026/03/27/physical-intelligence-is-reportedly-in-talks-to-raise-1-billion-again/",
+      "use": "Reported talks only"
+    }
+  ],
+  "unverified_claims": [
+    {
+      "claim": "Forge lists $1.05 billion May 2026 Series C at $11.19 billion post-money",
+      "source": "https://forgeglobal.com/physical-intelligence_ipo/",
+      "publication_date": null,
+      "status": "Secondary database; underlying filing not retrieved; excluded from verified matrix values"
+    },
+    {
+      "claim": "Legion lists $1.6 billion August 2026 growth round at $11.2 billion",
+      "source": "https://app.uselegion.com/c/physical-intelligence-company",
+      "publication_date": null,
+      "status": "Conflicts with other database records; no primary close confirmation retrieved; excluded"
+    }
+  ],
+  "limitations": [
+    "Primary verified financing baseline is November 2025; absence of a retrieved later primary confirmation is not evidence that no later financing happened.",
+    "Total capital remains null rather than summing heterogeneous or unverified funding records.",
+    "Revenue, ARR, paid-customer count and PI delivered-unit count not disclosed in inspected sources.",
+    "Partner autonomy metrics are company/partner-reported and task-specific, not independently audited here.",
+    "No API interaction, robot execution, safety test, regulatory/legal search or corporate filing inspection was performed.",
+    "Source publication dates were read from dated pages; undated dynamic pages are explicitly labelled."
+  ],
+  "handoff": {
+    "researcher": "Physical Intelligence independent subagent",
+    "date": "2026-10-17",
+    "method": "Opened company and investor sources; searched competing funding claims; communicated dated baseline and caveats to synthesis parent.",
+    "challenges": [
+      "Initial shell reads stalled before succeeding.",
+      "Later funding aggregators disagree; headline valuations must not be treated as independently verified closed rounds.",
+      "Partner revenue-generating fleet language can be incorrectly attributed to PI."
+    ],
+    "slide_correction_candidates": [
+      "Use π0.7 / Pi API beta as current dated technical milestones.",
+      "Do not label $11B+ fundraising talks or conflicting 2026 database entries as a primary-verified closed valuation.",
+      "Do not present Ultra's fleet revenue or autonomy metric as PI ARR or universal robot reliability."
+    ]
+  }
+}

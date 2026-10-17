@@ -1,0 +1,22 @@
+# Local dependency installations and caches
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local credentials; sample configuration remains shareable
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
+
+# Keep editable PowerPoint sources local; publish PDF handouts
+*.[pP][pP][tT][xX]

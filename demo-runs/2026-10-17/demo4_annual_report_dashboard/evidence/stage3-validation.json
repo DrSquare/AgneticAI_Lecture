@@ -1,0 +1,285 @@
+{
+  "stage": "stage3_board_summary",
+  "status": "content_validated_ready_for_parent_render_gate",
+  "sole_business_input": {
+    "path": "C:/Users/h_min/repos/SNU_Agentic_AI_Lecture/demo-runs/2026-10-17/demo4_annual_report_dashboard/trends.md",
+    "sha256": "2D54C33C73D9C30A962214866D491EDF0D54BCD798C242E5C484AB5D03BBD7E9"
+  },
+  "output": {
+    "path": "C:/Users/h_min/repos/SNU_Agentic_AI_Lecture/demo-runs/2026-10-17/demo4_annual_report_dashboard/exec-summary.md",
+    "sha256": "86203D3B00D0402686D340929DA6C9805C2F40A087840D15EDC9BC707E67862A",
+    "saved_output_read_back": true
+  },
+  "item_counts": {
+    "5 headlines": 5,
+    "3 risks": 3,
+    "3 questions": 3
+  },
+  "word_count": {
+    "visible_text_including_title_headings_item_numbers_and_source_labels": 421,
+    "method": "Replace inline Markdown links with visible labels, remove # and * markers, count whitespace-delimited tokens.",
+    "requested_target": "roughly 400-475",
+    "within_target": true
+  },
+  "numerical_claim_source_coverage": {
+    "method": "Read-only review against trends.md and its inherited source map; no official source was opened. Every selected amount, rate, ratio, change and explicit zero assumption was checked for an adjacent exact annual-report printed/PDF locator or official release heading.",
+    "quantified_financial_claim_count": 22,
+    "covered_quantified_financial_claim_count": 22,
+    "unsupported_numeric_claims_found": [],
+    "source_locator_convention": "Each annual-report link label names exact printed and PDF pages. Multi-page labels retain all supporting pages; the link opens one of those pages. Release links name the exact source-map heading and identify the Q4 FY2026 release through the full official URL.",
+    "by_item": [
+      {
+        "item": "headline 1",
+        "claims": [
+          "Revenue 215,938",
+          "Revenue growth 65.47% calc",
+          "Operating-income growth 60.08% calc",
+          "Net-margin decline 0.25 pp calc",
+          "Net margin 55.60% calc"
+        ],
+        "source_ids": [
+          "AR51"
+        ],
+        "exact_locator": "printed 51 / PDF 139"
+      },
+      {
+        "item": "headline 2",
+        "claims": [
+          "Data Center revenue share 89.72% calc"
+        ],
+        "source_ids": [
+          "AR51",
+          "AR79"
+        ],
+        "exact_locator": "printed 51,79 / PDF 139,167"
+      },
+      {
+        "item": "headline 3",
+        "claims": [
+          "Net-income growth 64.75% calc"
+        ],
+        "source_ids": [
+          "AR51"
+        ],
+        "exact_locator": "printed 51 / PDF 139",
+        "qualitative_management_explanation_source": "AR42; printed 42 / PDF 130"
+      },
+      {
+        "item": "headline 4",
+        "claims": [
+          "Operating cash flow 102,718",
+          "FCF 96,575 calc",
+          "FCF/net-income decline 2.89 pp calc",
+          "FCF/net income 80.43% calc"
+        ],
+        "source_ids": [
+          "AR51",
+          "AR55",
+          "Q4_MEASURES"
+        ],
+        "exact_locator": "printed 51,55 / PDF 139,143; Q4 release heading Non-GAAP Measures",
+        "note": "FCF was recomputed using cash-flow deductions given in trends.md. Excluded investing outflows are described qualitatively; no additional amounts were introduced."
+      },
+      {
+        "item": "headline 5",
+        "claims": [
+          "Historical revenue outlook 78,000",
+          "Outlook tolerance ±2%",
+          "Zero China Data Center compute revenue assumption"
+        ],
+        "source_ids": [
+          "Q4_OUTLOOK"
+        ],
+        "exact_locator": "Q4 release heading Outlook"
+      },
+      {
+        "item": "risk 1",
+        "claims": [
+          "Inventory growth 112.33% calc",
+          "Ending inventory 21,403",
+          "Supply commitments approximately 95,200 (rounded disclosure)",
+          "Anonymous direct-customer share 22%",
+          "Anonymous direct-customer share 14%"
+        ],
+        "source_ids": [
+          "AR53",
+          "AR70",
+          "AR78"
+        ],
+        "exact_locator": "printed 53,70,78 / PDF 141,158,166"
+      },
+      {
+        "item": "risk 3",
+        "claims": [
+          "GAAP gross-margin decline 3.90 pp calc",
+          "GAAP gross margin 71.1%",
+          "Incremental inventory-provision headwind 0.30 pp calc"
+        ],
+        "source_ids": [
+          "AR41"
+        ],
+        "exact_locator": "printed 41 / PDF 129"
+      }
+    ],
+    "period_and_basis_coverage": [
+      {
+        "claim": "Historical FY2026 ended January 25, 2026",
+        "source_id": "AR51",
+        "exact_locator": "printed 51 / PDF 139"
+      },
+      {
+        "claim": "Historical outlook issued February 25, 2026 for Q1 FY2027",
+        "source_id": "Q4_OUTLOOK",
+        "exact_locator": "Q4 release heading Outlook",
+        "note": "Date and period inherited from trends.md; not represented as current guidance."
+      },
+      {
+        "claim": "FY2027 non-GAAP includes stock-based compensation",
+        "source_id": "Q4_OUTLOOK_RECON",
+        "exact_locator": "Q4 release heading RECONCILIATION OF GAAP TO NON-GAAP OUTLOOK"
+      },
+      {
+        "claim": "Prepared October 17, 2026",
+        "source": "Current task preparation metadata, not a financial-source claim"
+      }
+    ],
+    "exclusions_from_financial_numeric_count": [
+      "Section/item numbering",
+      "Fiscal-period identifiers and dates covered separately",
+      "Source locator page numbers",
+      "H20 product identifier"
+    ]
+  },
+  "calculation_review": {
+    "input_scope": "Only numerical inputs embedded in trends.md",
+    "checks": [
+      {
+        "metric": "Revenue growth",
+        "expression": "(215938 / 130497 - 1) * 100",
+        "result": 65.47353579009479,
+        "summary_value": 65.47,
+        "decimals": 2,
+        "pass": true
+      },
+      {
+        "metric": "Operating income growth",
+        "expression": "(130387 / 81453 - 1) * 100",
+        "result": 60.076363055995486,
+        "summary_value": 60.08,
+        "decimals": 2,
+        "pass": true
+      },
+      {
+        "metric": "Net margin",
+        "expression": "120067 / 215938 * 100",
+        "result": 55.60253406070261,
+        "summary_value": 55.6,
+        "decimals": 2,
+        "pass": true
+      },
+      {
+        "metric": "Net-margin decline",
+        "expression": "(72880 / 130497 - 120067 / 215938) * 100",
+        "result": 0.24549309700983013,
+        "summary_value": 0.25,
+        "decimals": 2,
+        "pass": true
+      },
+      {
+        "metric": "Data Center revenue share",
+        "expression": "193737 / 215938 * 100",
+        "result": 89.718808176421,
+        "summary_value": 89.72,
+        "decimals": 2,
+        "pass": true
+      },
+      {
+        "metric": "Net-income growth",
+        "expression": "(120067 / 72880 - 1) * 100",
+        "result": 64.74615806805708,
+        "summary_value": 64.75,
+        "decimals": 2,
+        "pass": true
+      },
+      {
+        "metric": "FCF",
+        "expression": "102718 - 6042 - 101",
+        "result": 96575,
+        "summary_value": 96575,
+        "decimals": 0,
+        "pass": true
+      },
+      {
+        "metric": "FCF/net income",
+        "expression": "96575 / 120067 * 100",
+        "result": 80.43425753954043,
+        "summary_value": 80.43,
+        "decimals": 2,
+        "pass": true
+      },
+      {
+        "metric": "FCF/net-income decline",
+        "expression": "(60724 / 72880 - 96575 / 120067) * 100",
+        "result": 2.886269353983184,
+        "summary_value": 2.89,
+        "decimals": 2,
+        "pass": true
+      },
+      {
+        "metric": "Inventory growth",
+        "expression": "(21403 / 10080 - 1) * 100",
+        "result": 112.33134920634922,
+        "summary_value": 112.33,
+        "decimals": 2,
+        "pass": true
+      },
+      {
+        "metric": "Gross-margin decline",
+        "expression": "75.0 - 71.1",
+        "result": 3.9000000000000057,
+        "summary_value": 3.9,
+        "decimals": 2,
+        "pass": true
+      },
+      {
+        "metric": "Incremental inventory-provision headwind",
+        "expression": "2.6 - 2.3",
+        "result": 0.30000000000000027,
+        "summary_value": 0.3,
+        "decimals": 2,
+        "pass": true
+      }
+    ],
+    "passed": 12,
+    "total": 12
+  },
+  "selection_challenges_and_decisions": [
+    "The five-headline limit required choosing the conditional historical outlook over a separate Q4 guidance-beat headline. Q4 beat, tax detail, EPS and geography were omitted rather than compressed into unsupported shorthand.",
+    "The Board needs both group performance and platform dependence. Retained Data Center share and its distinction from the Compute & Networking segment; omitted segment-margin tables and unallocated reconciliation to avoid mixing reporting views.",
+    "Cash-flow strength could be mistaken for cash remaining after all investments. Retained the company FCF definition, conversion decline and excluded private-equity/Groq outflows, without presenting undisclosed liquidity sensitivity or adding unlike commitment categories.",
+    "Preserved the 0.25 pp net-margin decline and 0.30 pp incremental inventory headwind. A one-page narrative did not justify rounding either to zero or describing growth rates as percentage-point changes.",
+    "Margin attribution was a substantive selection challenge: kept management's stated Blackwell/H20 explanation, but also retained the missing causal bridge and undisclosed exact annual net H20/isolated Blackwell effects. Parent review prompted explicit exact and approximately qualifiers for the missing H20 effect and rounded supply commitments, respectively.",
+    "Concentration and partner exposure were combined into Board scenarios without identifying anonymous customers, assuming the same customer across periods, or asserting circular revenue.",
+    "Stock-based-compensation treatment changes the prospective non-GAAP basis. Retained this warning and a management bridge question rather than reporting unsupported like-for-like non-GAAP growth."
+  ],
+  "semantic_checks": {
+    "exactly_required_headings": true,
+    "all_derived_figures_marked_calc": true,
+    "percentage_vs_percentage_point_distinction_preserved": true,
+    "small_margin_changes_preserved": true,
+    "management_explanations_distinct_from_analyst_interpretation": true,
+    "anonymous_concentration_preserved": true,
+    "missing_margin_data_not_filled": true,
+    "group_and_end_market_views_distinct": true,
+    "historical_date_scope_explicit": true,
+    "changed_non_gaap_basis_explicit": true,
+    "no_fresh_external_business_input": true
+  },
+  "truthful_limitations": [
+    "No fresh review of annual-report PDF, earnings-release pages, financials.md, prior-stage scripts/evidence, other demos or reference outputs was performed.",
+    "Source correctness is inherited from trends.md. Link destinations and exact locator labels were copied from its source map but were not opened or independently verified.",
+    "The summary is selective and does not reproduce all trends, qualifications, calculations or disclosures.",
+    "A4 pagination and visual verification are delegated to the parent. This stage verifies word count and content only; it does not claim that a PDF has been rendered or that one-page fit has already been observed."
+  ],
+  "final_save_confirmation": "exec-summary.md was saved and read back after the parent precision edits; the validation JSON is also read back and parsed as the final handoff check. Parent PDF rendering remains pending."
+}

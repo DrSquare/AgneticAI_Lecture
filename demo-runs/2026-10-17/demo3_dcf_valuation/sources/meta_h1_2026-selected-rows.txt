@@ -1,0 +1,12 @@
+Net income | $ 15,848 |  | $ 18,337 |  | (14) %
+Net income | $ 15,848 |  | $ 18,337 |  | $ 42,621 |  | $ 34,981
+Cash and cash equivalents | $ 15,462 |  | $ 35,873
+Long-term debt | 83,664 |  | 58,744
+Common stock and additional paid-in capital | 103,981 |  | 95,793
+Net income | $ 15,848 |  | $ 18,337 |  | $ 42,621 |  | $ 34,981
+Adjustments to reconcile net income to net cash provided by operating activities: |  |  |  |  |  |  | 
+Depreciation and amortization | 6,356 |  | 4,342 |  | 12,355 |  | 8,242
+Repurchases of Class A common stock | — |  | (10,167) |  | — |  | (22,921)
+Proceeds from issuance of long-term debt, net | 24,910 |  | — |  | 24,910 |  | —
+Cash and cash equivalents | $ 15,462 |  | $ 12,005 |  | $ 15,462 |  | $ 12,005
+Total revenue | $ 60,801 |  | $ 47,516 |  | $ 117,111 |  | $ 89,830

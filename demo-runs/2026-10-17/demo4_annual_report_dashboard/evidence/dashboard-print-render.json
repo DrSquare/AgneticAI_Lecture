@@ -1,0 +1,17 @@
+{
+  "pdf": "evidence/dashboard-print.pdf",
+  "pages": 7,
+  "rendered_pages": [
+    "evidence/dashboard-print-page-1.png",
+    "evidence/dashboard-print-page-2.png",
+    "evidence/dashboard-print-page-3.png",
+    "evidence/dashboard-print-page-4.png",
+    "evidence/dashboard-print-page-5.png",
+    "evidence/dashboard-print-page-6.png",
+    "evidence/dashboard-print-page-7.png"
+  ],
+  "renderer": "C:\\Users\\h_min\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe",
+  "scale_to": 1500,
+  "visual_review_pending": false,
+  "visual_review": "evidence/visual-review.json"
+}

@@ -1,0 +1,502 @@
+{
+  "engine": "Microsoft Excel COM",
+  "completed_at": "2026-10-17",
+  "timezone": "America/Los_Angeles",
+  "checks": [
+    {
+      "name": "2027 capex 46% to 36% flows to Summary",
+      "status": "pass",
+      "evidence": {
+        "delta": 4.519990461095915,
+        "before": 212.65234753731744,
+        "output": "Summary!E9",
+        "cell": "Assumptions!E84",
+        "expected_delta": 4.51999046109591,
+        "after": 217.17233799841335
+      }
+    },
+    {
+      "name": "Base restored after capex test",
+      "status": "pass",
+      "evidence": {
+        "capex": 0.46,
+        "value": 212.65234753731744
+      }
+    },
+    {
+      "name": "Historical actuals unchanged in case 1",
+      "status": "pass",
+      "evidence": {
+        "reported_FY2025_revenue": 402836.0
+      }
+    },
+    {
+      "name": "Historical actuals unchanged in case 2",
+      "status": "pass",
+      "evidence": {
+        "reported_FY2025_revenue": 402836.0
+      }
+    },
+    {
+      "name": "Historical actuals unchanged in case 3",
+      "status": "pass",
+      "evidence": {
+        "reported_FY2025_revenue": 402836.0
+      }
+    },
+    {
+      "name": "Bull / base / bear change valuation in expected order",
+      "status": "pass",
+      "evidence": [
+        {
+          "selector": 1,
+          "name": "Base",
+          "dcf": 212.65234753731744,
+          "revenue2030": 880073.9025138962,
+          "capex2027": 271599.0876320001
+        },
+        {
+          "selector": 2,
+          "name": "Bull",
+          "dcf": 301.6743674526652,
+          "revenue2030": 1050171.689119904,
+          "capex2027": 250766.86559999996
+        },
+        {
+          "selector": 3,
+          "name": "Bear",
+          "dcf": 119.17608654042674,
+          "revenue2030": 681040.221131262,
+          "capex2027": 265670.4392
+        }
+      ]
+    },
+    {
+      "name": "2030 Cloud input flows through forecast and DCF",
+      "status": "pass",
+      "evidence": {
+        "cell": "Assumptions!H49",
+        "before": 212.65234753731744,
+        "after": 215.29423039941133
+      }
+    },
+    {
+      "name": "Blank unselected driver does not block Base",
+      "status": "pass",
+      "evidence": {
+        "blank_cell": "Assumptions!E85",
+        "selected": "Base"
+      }
+    },
+    {
+      "name": "Selecting missing case exposes missing input",
+      "status": "pass",
+      "evidence": {
+        "summary": "#VALUE!",
+        "active": "Missing input"
+      }
+    },
+    {
+      "name": "Zero capex is a valid driver, not missing",
+      "status": "pass",
+      "evidence": {
+        "value": 233.44430365835862,
+        "active_capex": 0.0
+      }
+    },
+    {
+      "name": "Historical revenue and EBIT tie-outs",
+      "status": "pass",
+      "evidence": [
+        {
+          "cell": "Historicals!D16",
+          "difference": 0.0
+        },
+        {
+          "cell": "Historicals!D24",
+          "difference": 0.0
+        },
+        {
+          "cell": "Historicals!E16",
+          "difference": 0.0
+        },
+        {
+          "cell": "Historicals!E24",
+          "difference": 0.0
+        },
+        {
+          "cell": "Historicals!F16",
+          "difference": 0.0
+        },
+        {
+          "cell": "Historicals!F24",
+          "difference": 0.0
+        },
+        {
+          "cell": "Historicals!G16",
+          "difference": 0.0
+        },
+        {
+          "cell": "Historicals!G24",
+          "difference": 0.0
+        },
+        {
+          "cell": "Historicals!H16",
+          "difference": 0.0
+        },
+        {
+          "cell": "Historicals!H24",
+          "difference": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Sensitivity center equals DCF",
+      "status": "pass",
+      "evidence": {
+        "difference": 0.0
+      }
+    },
+    {
+      "name": "Segment cash-flow allocations reconcile",
+      "status": "pass",
+      "evidence": [
+        {
+          "cell": "Projections!D90",
+          "difference": 0.0
+        },
+        {
+          "cell": "Projections!E90",
+          "difference": 0.0
+        },
+        {
+          "cell": "Projections!F90",
+          "difference": 4.3655745685100555E-11
+        },
+        {
+          "cell": "Projections!G90",
+          "difference": 0.0
+        },
+        {
+          "cell": "Projections!H90",
+          "difference": 0.0
+        }
+      ]
+    },
+    {
+      "name": "2026 capex equals guidance midpoint",
+      "status": "pass",
+      "evidence": {
+        "actual": 200000.0,
+        "source": "Company Q2 2026 call: $195–205bn"
+      }
+    },
+    {
+      "name": "Stub excludes elapsed 2026 period",
+      "status": "pass",
+      "evidence": {
+        "full_year_fcf": -37533.43332,
+        "years": 0.20821917808219179,
+        "valued_fcf": -12487.226806086956,
+        "start": "2026-10-17"
+      }
+    },
+    {
+      "name": "WACC capital weights sum to one",
+      "status": "pass",
+      "evidence": {
+        "equity": 0.9729434268020263,
+        "preferred": 0.004496348579552098,
+        "debt": 0.022560224618421762
+      }
+    },
+    {
+      "name": "Forward P/E uses dated CY2027 EPS for all four companies",
+      "status": "pass",
+      "evidence": [
+        {
+          "ticker": "GOOGL",
+          "difference": 0.0,
+          "date": "2026-10-16",
+          "pe": 22.33377049180328,
+          "eps": 15.25
+        },
+        {
+          "ticker": "MSFT",
+          "difference": 0.0,
+          "date": "2026-10-16",
+          "pe": 24.324137931034482,
+          "eps": 21.75
+        },
+        {
+          "ticker": "META",
+          "difference": 0.0,
+          "date": "2026-10-16",
+          "pe": 20.48281836557898,
+          "eps": 34.63
+        },
+        {
+          "ticker": "AMZN",
+          "difference": 0.0,
+          "date": "2026-10-16",
+          "pe": 23.923444976076556,
+          "eps": 10.45
+        }
+      ]
+    },
+    {
+      "name": "Microsoft fiscal estimates calendarize to CY2027",
+      "status": "pass",
+      "evidence": {
+        "calendar2027": 21.75,
+        "fy2027": 19.78,
+        "fy2028": 23.72
+      }
+    },
+    {
+      "name": "Forward EPS change propagates through calendarization and multiple",
+      "status": "pass",
+      "evidence": {
+        "eps_after": 22.25,
+        "eps_before": 21.75,
+        "pe_after": 23.77752808988764
+      }
+    },
+    {
+      "name": "Forward peer median excludes Alphabet and flows to Summary",
+      "status": "pass",
+      "evidence": {
+        "peer_median": 23.923444976076556,
+        "implied_value": 364.8325358851675,
+        "median_formula": "=MEDIAN(E48:G48)"
+      }
+    },
+    {
+      "name": "Peer edits do not change the DCF",
+      "status": "pass",
+      "evidence": {
+        "dcf": 212.65234753731744
+      }
+    },
+    {
+      "name": "All four EBITD denominators use EBIT plus reported PPE depreciation",
+      "status": "pass",
+      "evidence": [
+        {
+          "ebitd": 172865.0,
+          "multiple": 23.384465912706442,
+          "bridge_difference": 0.0,
+          "ppe_difference": 0.0,
+          "ebit": 147628.0,
+          "ppe": 25237.0,
+          "ticker": "GOOGL"
+        },
+        {
+          "ebitd": 189537.0,
+          "multiple": 20.537970686462273,
+          "bridge_difference": 0.0,
+          "ppe_difference": 0.0,
+          "ebit": 155237.0,
+          "ppe": 34300.0,
+          "ticker": "MSFT"
+        },
+        {
+          "ebitd": 108476.0,
+          "multiple": 16.56776392934843,
+          "bridge_difference": 0.0,
+          "ppe_difference": 0.0,
+          "ebit": 86926.0,
+          "ppe": 21550.0,
+          "ticker": "META"
+        },
+        {
+          "ebitd": 143453.0,
+          "multiple": 18.856252570528326,
+          "bridge_difference": 0.0,
+          "ppe_difference": 0.0,
+          "ebit": 93712.0,
+          "ppe": 49741.0,
+          "ticker": "AMZN"
+        }
+      ]
+    },
+    {
+      "name": "EBITD peer median excludes Alphabet and flows to Summary",
+      "status": "pass",
+      "evidence": {
+        "formula": "=MEDIAN(E50:G50)",
+        "value": 273.2973917092706,
+        "median": 18.856252570528326
+      }
+    },
+    {
+      "name": "PPE source edit flows through TTM EBITD and peer valuation",
+      "status": "pass",
+      "evidence": {
+        "peer_after": 271.45233620903633,
+        "peer_before": 273.2973917092706,
+        "edited": "Multiples!G37",
+        "dcf": 212.65234753731744
+      }
+    },
+    {
+      "name": "Peer source restored after propagation test",
+      "status": "pass",
+      "evidence": {
+        "source_restored": 26703.0,
+        "peer_value": 273.2973917092706
+      }
+    },
+    {
+      "name": "Lecture comparison is labeled EBITD, not EBITDA",
+      "status": "pass",
+      "evidence": {
+        "multiple_label": "EV / EBITD",
+        "summary_label": "EV / EBITD"
+      }
+    },
+    {
+      "name": "Zero final Excel formula errors",
+      "status": "pass",
+      "evidence": {
+        "formula_cells": 632,
+        "errors": []
+      }
+    },
+    {
+      "name": "Scenario selector and native bar chart exported",
+      "status": "pass",
+      "evidence": {
+        "validation_type": 3,
+        "charts": 1
+      }
+    },
+    {
+      "name": "Saved workbook reopens with restored Base",
+      "status": "pass",
+      "evidence": {
+        "saved_value": 212.65234753731744
+      }
+    }
+  ],
+  "scenarios": [
+    {
+      "selector": 1,
+      "name": "Base",
+      "dcf": 212.65234753731744,
+      "revenue2030": 880073.9025138962,
+      "capex2027": 271599.0876320001
+    },
+    {
+      "selector": 2,
+      "name": "Bull",
+      "dcf": 301.6743674526652,
+      "revenue2030": 1050171.689119904,
+      "capex2027": 250766.86559999996
+    },
+    {
+      "selector": 3,
+      "name": "Bear",
+      "dcf": 119.17608654042674,
+      "revenue2030": 681040.221131262,
+      "capex2027": 265670.4392
+    }
+  ],
+  "limitations": [
+    "Native Excel calculation tested programmatically; no interactive UI walkthrough was performed."
+  ],
+  "excel_version": "16.0",
+  "forward_comparables": [
+    {
+      "ticker": "GOOGL",
+      "difference": 0.0,
+      "date": "2026-10-16",
+      "pe": 22.33377049180328,
+      "eps": 15.25
+    },
+    {
+      "ticker": "MSFT",
+      "difference": 0.0,
+      "date": "2026-10-16",
+      "pe": 24.324137931034482,
+      "eps": 21.75
+    },
+    {
+      "ticker": "META",
+      "difference": 0.0,
+      "date": "2026-10-16",
+      "pe": 20.48281836557898,
+      "eps": 34.63
+    },
+    {
+      "ticker": "AMZN",
+      "difference": 0.0,
+      "date": "2026-10-16",
+      "pe": 23.923444976076556,
+      "eps": 10.45
+    }
+  ],
+  "ebitd_bridge": [
+    {
+      "ebitd": 172865.0,
+      "multiple": 23.384465912706442,
+      "bridge_difference": 0.0,
+      "ppe_difference": 0.0,
+      "ebit": 147628.0,
+      "ppe": 25237.0,
+      "ticker": "GOOGL"
+    },
+    {
+      "ebitd": 189537.0,
+      "multiple": 20.537970686462273,
+      "bridge_difference": 0.0,
+      "ppe_difference": 0.0,
+      "ebit": 155237.0,
+      "ppe": 34300.0,
+      "ticker": "MSFT"
+    },
+    {
+      "ebitd": 108476.0,
+      "multiple": 16.56776392934843,
+      "bridge_difference": 0.0,
+      "ppe_difference": 0.0,
+      "ebit": 86926.0,
+      "ppe": 21550.0,
+      "ticker": "META"
+    },
+    {
+      "ebitd": 143453.0,
+      "multiple": 18.856252570528326,
+      "bridge_difference": 0.0,
+      "ppe_difference": 0.0,
+      "ebit": 93712.0,
+      "ppe": 49741.0,
+      "ticker": "AMZN"
+    }
+  ],
+  "summary": {
+    "base_dcf": 212.65234753731744,
+    "low_dcf": 158.91956089630858,
+    "high_dcf": 312.30693811940796,
+    "market": 340.59,
+    "wacc": 0.09746873366497001,
+    "terminal_growth": 0.03,
+    "terminal_share": 0.9402105046917963,
+    "revenue2030": 880073.9025138962,
+    "capex2027": 271599.0876320001,
+    "cloud_share2030": 0.3614413477088389,
+    "required_terminal_fcf_ratio": 1.660939547528119,
+    "peer_pe": 528.7243764324836,
+    "peer_sales": 293.83206968582164,
+    "peer_ebitd_verified": 273.2973917092706,
+    "fcf": [
+      -37533.43332,
+      -68108.00314240006,
+      12831.94982655994,
+      107438.8822980304,
+      186743.38632113708
+    ],
+    "peer_forward_pe": 364.8325358851675
+  },
+  "status": "pass"
+}

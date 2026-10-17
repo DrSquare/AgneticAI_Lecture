@@ -1,0 +1,562 @@
+{
+  "fictional_teaching_material": true,
+  "review_date": "2026-10-17",
+  "review_timezone": "America/Los_Angeles",
+  "source_data_through": "2026-09",
+  "source_relative_path": "Agentic_AI_Demos\\demo2_pitchbook_review\\inputs\\data-room\\kpi-monthly.csv",
+  "source_sha256": "0e761452e0cfe99bd3129dcc4d2279c61b0c501c1dcdf8332ab9e3a967238d24",
+  "row_reference_convention": "Physical CSV rows, including header as row 1.",
+  "paying_arr_usd": 1932000.0,
+  "booked_including_unpaid_pilots_usd": 2436000.0,
+  "unpaid_pilot_annualized_capacity_usd": 504000.0,
+  "paying_arr_overstatement_pct": 26.086956521739136,
+  "paying_arr_yoy_multiple": 6.571428571428571,
+  "paying_arr_yoy_growth_pct": 557.1428571428571,
+  "booked_including_pilots_yoy_multiple": 8.285714285714286,
+  "latest_paying_customers": 11.0,
+  "latest_unpaid_pilot_customers": 3.0,
+  "reported_mixed_sku_success_pct": 97.2,
+  "reported_best_site_single_sku_success_pct": 99.7,
+  "september_2025_cohort_n": 3.0,
+  "september_2025_cohort_nrr_pct": 157.14285714285714,
+  "september_2026_reported_gm_pct": 41.0,
+  "september_2026_implied_cogs_usd": 94990.00000000001,
+  "september_2026_gross_profit_usd": 66010.0,
+  "monthly_mrr_growth": [
+    {
+      "month": "2025-10",
+      "csv_rows": [
+        2,
+        3
+      ],
+      "mrr_growth_pct": 14.28571428571428
+    },
+    {
+      "month": "2025-11",
+      "csv_rows": [
+        3,
+        4
+      ],
+      "mrr_growth_pct": 25.0
+    },
+    {
+      "month": "2025-12",
+      "csv_rows": [
+        4,
+        5
+      ],
+      "mrr_growth_pct": 19.999999999999996
+    },
+    {
+      "month": "2026-01",
+      "csv_rows": [
+        5,
+        6
+      ],
+      "mrr_growth_pct": 16.666666666666675
+    },
+    {
+      "month": "2026-02",
+      "csv_rows": [
+        6,
+        7
+      ],
+      "mrr_growth_pct": 21.42857142857142
+    },
+    {
+      "month": "2026-03",
+      "csv_rows": [
+        7,
+        8
+      ],
+      "mrr_growth_pct": 17.647058823529417
+    },
+    {
+      "month": "2026-04",
+      "csv_rows": [
+        8,
+        9
+      ],
+      "mrr_growth_pct": 19.999999999999996
+    },
+    {
+      "month": "2026-05",
+      "csv_rows": [
+        9,
+        10
+      ],
+      "mrr_growth_pct": 16.666666666666675
+    },
+    {
+      "month": "2026-06",
+      "csv_rows": [
+        10,
+        11
+      ],
+      "mrr_growth_pct": 17.85714285714286
+    },
+    {
+      "month": "2026-07",
+      "csv_rows": [
+        11,
+        12
+      ],
+      "mrr_growth_pct": 15.15151515151516
+    },
+    {
+      "month": "2026-08",
+      "csv_rows": [
+        12,
+        13
+      ],
+      "mrr_growth_pct": 10.526315789473696
+    },
+    {
+      "month": "2026-09",
+      "csv_rows": [
+        13,
+        14
+      ],
+      "mrr_growth_pct": 9.523809523809534
+    }
+  ],
+  "q3_mrr_cumulative_growth_pct": 39.393939393939405,
+  "q3_geometric_monthly_mrr_growth_pct": 11.707233731169708,
+  "year_geometric_monthly_mrr_growth_pct": 16.987191752873244,
+  "cac_proxy_intervals": [
+    {
+      "interval": "September 2026",
+      "spend_csv_rows": [
+        14
+      ],
+      "baseline_csv_row": 13,
+      "baseline_month": "2026-08",
+      "sales_marketing_usd": 170000.0,
+      "net_new_mrr_usd": 14000.0,
+      "ending_gross_margin": 0.41,
+      "ending_gm_proxy_months": 29.61672473867596,
+      "revenue_weighted_period_gross_margin": 0.41,
+      "weighted_gm_proxy_months": 29.61672473867596,
+      "limitation": "Aggregate net-new-MRR proxy. Not acquisition cohort CAC; no gross adds, churn/expansion decomposition, attribution or lag data."
+    },
+    {
+      "interval": "Q3 2026: July-September",
+      "spend_csv_rows": [
+        12,
+        13,
+        14
+      ],
+      "baseline_csv_row": 11,
+      "baseline_month": "2026-06",
+      "sales_marketing_usd": 490000.0,
+      "net_new_mrr_usd": 45500.0,
+      "ending_gross_margin": 0.41,
+      "ending_gm_proxy_months": 26.26641651031895,
+      "revenue_weighted_period_gross_margin": 0.3976190476190476,
+      "weighted_gm_proxy_months": 27.084292952556428,
+      "limitation": "Aggregate net-new-MRR proxy. Not acquisition cohort CAC; no gross adds, churn/expansion decomposition, attribution or lag data."
+    },
+    {
+      "interval": "April-September 2026",
+      "spend_csv_rows": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "baseline_csv_row": 8,
+      "baseline_month": "2026-03",
+      "sales_marketing_usd": 910000.0,
+      "net_new_mrr_usd": 91000.0,
+      "ending_gross_margin": 0.41,
+      "ending_gm_proxy_months": 24.390243902439025,
+      "revenue_weighted_period_gross_margin": 0.375260663507109,
+      "weighted_gm_proxy_months": 26.648143470573377,
+      "limitation": "Aggregate net-new-MRR proxy. Not acquisition cohort CAC; no gross adds, churn/expansion decomposition, attribution or lag data."
+    },
+    {
+      "interval": "October 2025-September 2026",
+      "spend_csv_rows": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "baseline_csv_row": 2,
+      "baseline_month": "2025-09",
+      "sales_marketing_usd": 1560000.0,
+      "net_new_mrr_usd": 136500.0,
+      "ending_gross_margin": 0.41,
+      "ending_gm_proxy_months": 27.874564459930312,
+      "revenue_weighted_period_gross_margin": 0.33784246575342464,
+      "weighted_gm_proxy_months": 33.8281080298313,
+      "limitation": "Aggregate net-new-MRR proxy. Not acquisition cohort CAC; no gross adds, churn/expansion decomposition, attribution or lag data."
+    }
+  ],
+  "current_pre_raise_static_runway_months": 8.457002198910349,
+  "post_raise_static_runway_months": 33.66743931987843,
+  "max_average_monthly_net_cash_burn_for_24_months_usd": 1001592.2916666666,
+  "headcount_proportional_opex_stress_scenario": {
+    "not_a_forecast": true,
+    "assumptions": "Immediate 85/38 scaling of all Sep26 opex; MRR and GM flat; raise immediately; zero fees; no additional explicit capex.",
+    "forward_opex_usd": 1744736.8421052631,
+    "forward_burn_usd": 1678726.8421052631,
+    "post_raise_runway_months": 14.319312944239385
+  },
+  "price_constant_robot_target_scenario": [
+    {
+      "year": 2026,
+      "deck_arr_usd": 2400000,
+      "minimum_paying_robots": 58
+    },
+    {
+      "year": 2027,
+      "deck_arr_usd": 9000000,
+      "minimum_paying_robots": 215
+    },
+    {
+      "year": 2028,
+      "deck_arr_usd": 30000000,
+      "minimum_paying_robots": 715
+    },
+    {
+      "year": 2029,
+      "deck_arr_usd": 100000000,
+      "minimum_paying_robots": 2381
+    }
+  ],
+  "ask_allocation_usd": {
+    "R_and_D_50pct": 9000000,
+    "go_to_market_30pct": 5400000,
+    "operations_20pct": 3600000
+  },
+  "proposed_postmoney_usd": 108000000,
+  "proposed_new_money_ownership_pct": 16.666666666666664,
+  "checks": [
+    {
+      "name": "13 consecutive observations",
+      "status": "pass",
+      "evidence": "CSV physical rows 2-14"
+    },
+    {
+      "name": "MRR equals paying robots times 3500",
+      "status": "pass",
+      "evidence": "All 13 rows"
+    },
+    {
+      "name": "Booked field includes unpaid pilots",
+      "status": "pass",
+      "evidence": "All 13 rows; does not prove pilot contracts"
+    },
+    {
+      "name": "Reported burn equals opex minus gross profit",
+      "status": "pass",
+      "evidence": "All 13 rows; no separately visible capex line"
+    },
+    {
+      "name": "Cash rollforward",
+      "status": "pass",
+      "evidence": "Rows 3-14 against prior row; opening Sep25 cash not supplied"
+    },
+    {
+      "name": "Q3 proxy rounds to 26 months",
+      "status": "pass",
+      "evidence": "490000 / ((161000-115500)*0.41) = 26.2664 months"
+    },
+    {
+      "name": "Paying ARR is below blended booked field",
+      "status": "pass",
+      "evidence": "161000*12; difference504000 from12 unpaid pilot robots"
+    },
+    {
+      "name": "NRR near 160 is not exact and has n=3",
+      "status": "pass",
+      "evidence": "38500/24500*100; rows2,14"
+    }
+  ],
+  "source_rows": [
+    {
+      "month": "2025-09",
+      "paying_customers": 3.0,
+      "pilot_customers_unpaid": 0.0,
+      "robots_live_paying": 7.0,
+      "robots_in_unpaid_pilots": 0.0,
+      "mrr_usd": 24500.0,
+      "booked_arr_incl_pilots_usd": 294000.0,
+      "picks_millions": 0.6,
+      "pick_success_mixed_sku_pct": 94.1,
+      "pick_success_best_site_single_sku_pct": 98.9,
+      "teleop_interventions_per_1k_picks": 41.0,
+      "gross_margin_pct": 12.0,
+      "opex_usd": 520000.0,
+      "sales_marketing_usd": 90000.0,
+      "net_burn_usd": 517060.0,
+      "cash_end_usd": 13482940.0,
+      "headcount": 24.0,
+      "sep2025_cohort_mrr_usd": 24500.0,
+      "csv_physical_row": 2
+    },
+    {
+      "month": "2025-10",
+      "paying_customers": 3.0,
+      "pilot_customers_unpaid": 0.0,
+      "robots_live_paying": 8.0,
+      "robots_in_unpaid_pilots": 0.0,
+      "mrr_usd": 28000.0,
+      "booked_arr_incl_pilots_usd": 336000.0,
+      "picks_millions": 0.68,
+      "pick_success_mixed_sku_pct": 94.6,
+      "pick_success_best_site_single_sku_pct": 99.0,
+      "teleop_interventions_per_1k_picks": 38.0,
+      "gross_margin_pct": 15.0,
+      "opex_usd": 535000.0,
+      "sales_marketing_usd": 95000.0,
+      "net_burn_usd": 530800.0,
+      "cash_end_usd": 12952140.0,
+      "headcount": 25.0,
+      "sep2025_cohort_mrr_usd": 24500.0,
+      "csv_physical_row": 3
+    },
+    {
+      "month": "2025-11",
+      "paying_customers": 4.0,
+      "pilot_customers_unpaid": 1.0,
+      "robots_live_paying": 10.0,
+      "robots_in_unpaid_pilots": 2.0,
+      "mrr_usd": 35000.0,
+      "booked_arr_incl_pilots_usd": 504000.0,
+      "picks_millions": 1.02,
+      "pick_success_mixed_sku_pct": 95.0,
+      "pick_success_best_site_single_sku_pct": 99.1,
+      "teleop_interventions_per_1k_picks": 35.0,
+      "gross_margin_pct": 18.0,
+      "opex_usd": 550000.0,
+      "sales_marketing_usd": 100000.0,
+      "net_burn_usd": 543700.0,
+      "cash_end_usd": 12408440.0,
+      "headcount": 26.0,
+      "sep2025_cohort_mrr_usd": 28000.0,
+      "csv_physical_row": 4
+    },
+    {
+      "month": "2025-12",
+      "paying_customers": 5.0,
+      "pilot_customers_unpaid": 1.0,
+      "robots_live_paying": 12.0,
+      "robots_in_unpaid_pilots": 2.0,
+      "mrr_usd": 42000.0,
+      "booked_arr_incl_pilots_usd": 588000.0,
+      "picks_millions": 1.19,
+      "pick_success_mixed_sku_pct": 95.3,
+      "pick_success_best_site_single_sku_pct": 99.2,
+      "teleop_interventions_per_1k_picks": 31.0,
+      "gross_margin_pct": 21.0,
+      "opex_usd": 570000.0,
+      "sales_marketing_usd": 105000.0,
+      "net_burn_usd": 561180.0,
+      "cash_end_usd": 11847260.0,
+      "headcount": 27.0,
+      "sep2025_cohort_mrr_usd": 28000.0,
+      "csv_physical_row": 5
+    },
+    {
+      "month": "2026-01",
+      "paying_customers": 5.0,
+      "pilot_customers_unpaid": 2.0,
+      "robots_live_paying": 14.0,
+      "robots_in_unpaid_pilots": 4.0,
+      "mrr_usd": 49000.0,
+      "booked_arr_incl_pilots_usd": 756000.0,
+      "picks_millions": 1.53,
+      "pick_success_mixed_sku_pct": 95.8,
+      "pick_success_best_site_single_sku_pct": 99.3,
+      "teleop_interventions_per_1k_picks": 28.0,
+      "gross_margin_pct": 24.0,
+      "opex_usd": 590000.0,
+      "sales_marketing_usd": 110000.0,
+      "net_burn_usd": 578240.0,
+      "cash_end_usd": 11269020.0,
+      "headcount": 28.0,
+      "sep2025_cohort_mrr_usd": 31500.0,
+      "csv_physical_row": 6
+    },
+    {
+      "month": "2026-02",
+      "paying_customers": 6.0,
+      "pilot_customers_unpaid": 2.0,
+      "robots_live_paying": 17.0,
+      "robots_in_unpaid_pilots": 4.0,
+      "mrr_usd": 59500.0,
+      "booked_arr_incl_pilots_usd": 882000.0,
+      "picks_millions": 1.79,
+      "pick_success_mixed_sku_pct": 96.0,
+      "pick_success_best_site_single_sku_pct": 99.3,
+      "teleop_interventions_per_1k_picks": 26.0,
+      "gross_margin_pct": 27.0,
+      "opex_usd": 610000.0,
+      "sales_marketing_usd": 115000.0,
+      "net_burn_usd": 593935.0,
+      "cash_end_usd": 10675085.0,
+      "headcount": 29.0,
+      "sep2025_cohort_mrr_usd": 31500.0,
+      "csv_physical_row": 7
+    },
+    {
+      "month": "2026-03",
+      "paying_customers": 7.0,
+      "pilot_customers_unpaid": 2.0,
+      "robots_live_paying": 20.0,
+      "robots_in_unpaid_pilots": 6.0,
+      "mrr_usd": 70000.0,
+      "booked_arr_incl_pilots_usd": 1092000.0,
+      "picks_millions": 2.21,
+      "pick_success_mixed_sku_pct": 96.2,
+      "pick_success_best_site_single_sku_pct": 99.4,
+      "teleop_interventions_per_1k_picks": 23.0,
+      "gross_margin_pct": 30.0,
+      "opex_usd": 630000.0,
+      "sales_marketing_usd": 125000.0,
+      "net_burn_usd": 609000.0,
+      "cash_end_usd": 10066085.0,
+      "headcount": 30.0,
+      "sep2025_cohort_mrr_usd": 31500.0,
+      "csv_physical_row": 8
+    },
+    {
+      "month": "2026-04",
+      "paying_customers": 7.0,
+      "pilot_customers_unpaid": 2.0,
+      "robots_live_paying": 24.0,
+      "robots_in_unpaid_pilots": 6.0,
+      "mrr_usd": 84000.0,
+      "booked_arr_incl_pilots_usd": 1260000.0,
+      "picks_millions": 2.55,
+      "pick_success_mixed_sku_pct": 96.5,
+      "pick_success_best_site_single_sku_pct": 99.5,
+      "teleop_interventions_per_1k_picks": 21.0,
+      "gross_margin_pct": 32.0,
+      "opex_usd": 655000.0,
+      "sales_marketing_usd": 130000.0,
+      "net_burn_usd": 628120.0,
+      "cash_end_usd": 9437965.0,
+      "headcount": 31.0,
+      "sep2025_cohort_mrr_usd": 35000.0,
+      "csv_physical_row": 9
+    },
+    {
+      "month": "2026-05",
+      "paying_customers": 8.0,
+      "pilot_customers_unpaid": 3.0,
+      "robots_live_paying": 28.0,
+      "robots_in_unpaid_pilots": 8.0,
+      "mrr_usd": 98000.0,
+      "booked_arr_incl_pilots_usd": 1512000.0,
+      "picks_millions": 3.06,
+      "pick_success_mixed_sku_pct": 96.7,
+      "pick_success_best_site_single_sku_pct": 99.5,
+      "teleop_interventions_per_1k_picks": 19.0,
+      "gross_margin_pct": 34.0,
+      "opex_usd": 680000.0,
+      "sales_marketing_usd": 140000.0,
+      "net_burn_usd": 646680.0,
+      "cash_end_usd": 8791285.0,
+      "headcount": 33.0,
+      "sep2025_cohort_mrr_usd": 35000.0,
+      "csv_physical_row": 10
+    },
+    {
+      "month": "2026-06",
+      "paying_customers": 9.0,
+      "pilot_customers_unpaid": 3.0,
+      "robots_live_paying": 33.0,
+      "robots_in_unpaid_pilots": 8.0,
+      "mrr_usd": 115500.0,
+      "booked_arr_incl_pilots_usd": 1722000.0,
+      "picks_millions": 3.49,
+      "pick_success_mixed_sku_pct": 96.9,
+      "pick_success_best_site_single_sku_pct": 99.6,
+      "teleop_interventions_per_1k_picks": 17.0,
+      "gross_margin_pct": 36.0,
+      "opex_usd": 705000.0,
+      "sales_marketing_usd": 150000.0,
+      "net_burn_usd": 663420.0,
+      "cash_end_usd": 8127865.0,
+      "headcount": 34.0,
+      "sep2025_cohort_mrr_usd": 35000.0,
+      "csv_physical_row": 11
+    },
+    {
+      "month": "2026-07",
+      "paying_customers": 10.0,
+      "pilot_customers_unpaid": 3.0,
+      "robots_live_paying": 38.0,
+      "robots_in_unpaid_pilots": 10.0,
+      "mrr_usd": 133000.0,
+      "booked_arr_incl_pilots_usd": 2016000.0,
+      "picks_millions": 4.08,
+      "pick_success_mixed_sku_pct": 97.0,
+      "pick_success_best_site_single_sku_pct": 99.6,
+      "teleop_interventions_per_1k_picks": 16.0,
+      "gross_margin_pct": 38.0,
+      "opex_usd": 730000.0,
+      "sales_marketing_usd": 155000.0,
+      "net_burn_usd": 679460.0,
+      "cash_end_usd": 7448405.0,
+      "headcount": 35.0,
+      "sep2025_cohort_mrr_usd": 38500.0,
+      "csv_physical_row": 12
+    },
+    {
+      "month": "2026-08",
+      "paying_customers": 10.0,
+      "pilot_customers_unpaid": 3.0,
+      "robots_live_paying": 42.0,
+      "robots_in_unpaid_pilots": 10.0,
+      "mrr_usd": 147000.0,
+      "booked_arr_incl_pilots_usd": 2184000.0,
+      "picks_millions": 4.42,
+      "pick_success_mixed_sku_pct": 97.1,
+      "pick_success_best_site_single_sku_pct": 99.7,
+      "teleop_interventions_per_1k_picks": 15.0,
+      "gross_margin_pct": 40.0,
+      "opex_usd": 755000.0,
+      "sales_marketing_usd": 165000.0,
+      "net_burn_usd": 696200.0,
+      "cash_end_usd": 6752205.0,
+      "headcount": 37.0,
+      "sep2025_cohort_mrr_usd": 38500.0,
+      "csv_physical_row": 13
+    },
+    {
+      "month": "2026-09",
+      "paying_customers": 11.0,
+      "pilot_customers_unpaid": 3.0,
+      "robots_live_paying": 46.0,
+      "robots_in_unpaid_pilots": 12.0,
+      "mrr_usd": 161000.0,
+      "booked_arr_incl_pilots_usd": 2436000.0,
+      "picks_millions": 4.93,
+      "pick_success_mixed_sku_pct": 97.2,
+      "pick_success_best_site_single_sku_pct": 99.7,
+      "teleop_interventions_per_1k_picks": 14.0,
+      "gross_margin_pct": 41.0,
+      "opex_usd": 780000.0,
+      "sales_marketing_usd": 170000.0,
+      "net_burn_usd": 713990.0,
+      "cash_end_usd": 6038215.0,
+      "headcount": 38.0,
+      "sep2025_cohort_mrr_usd": 38500.0,
+      "csv_physical_row": 14
+    }
+  ]
+}

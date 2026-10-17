@@ -1,0 +1,90 @@
+[
+  {
+    "id": "alphabet_2025_10k",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+    "status": "download_failed_web_tool_verified",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "alphabet_h1_2026_10q",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm",
+    "status": "download_failed_web_tool_verified",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "alphabet_q2_2026_call",
+    "url": "https://alphabet2025ir.q4web.com/investor/events/event-details/2026/2026-Q2-Earnings-Call-2026-GgTAq7Is0z/default.aspx",
+    "status": "downloaded",
+    "retrieved": "2026-10-17",
+    "sha256": "9a33a959bedc0ac6159fbf79bae41c63de8dfc0f7a4b1e7825a65e9f672d9142"
+  },
+  {
+    "id": "microsoft_fy2026",
+    "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
+    "status": "downloaded",
+    "retrieved": "2026-10-17",
+    "sha256": "711a99ba225616f212b7b11968b2f224425ecdc3fe48443ef35c4a3eac5cfb0e"
+  },
+  {
+    "id": "microsoft_2026_10k",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+    "status": "download_failed_web_tool_verified",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "meta_h1_2026",
+    "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/",
+    "status": "downloaded",
+    "retrieved": "2026-10-17",
+    "sha256": "177bb9fed7a42362fbfc91979cdfd7bf281d495a4c630302da4b04ac569c137f"
+  },
+  {
+    "id": "meta_fy2025",
+    "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx",
+    "status": "downloaded",
+    "retrieved": "2026-10-17",
+    "sha256": "8bfa82cc4b467f66c9c5327d160646adb5f1c3ce0ca193b84dce2847053b2920"
+  },
+  {
+    "id": "amazon_h1_2026",
+    "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/default.aspx",
+    "status": "downloaded",
+    "retrieved": "2026-10-17",
+    "sha256": "b4fac0c35302bf717055571cf4cd8e4597352302d0f6b657b5a3078dc02ecbb6"
+  },
+  {
+    "id": "amazon_fy2025",
+    "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Fourth-Quarter-Results/default.aspx",
+    "status": "downloaded",
+    "retrieved": "2026-10-17",
+    "sha256": "30d10f7a7f92bcaa39e6b136fea549f3d39bb9f088c4c8844e61f5ab90acc82d"
+  },
+  {
+    "id": "quote_GOOGL",
+    "url": "https://www.google.com/finance/quote/GOOGL:NASDAQ",
+    "status": "downloaded",
+    "retrieved": "2026-10-17",
+    "sha256": "5a2e0b0b07021dfbbf93b8757046e77320fd53484f20988e34e0fc509da7bf0b"
+  },
+  {
+    "id": "quote_MSFT",
+    "url": "https://www.google.com/finance/quote/MSFT:NASDAQ",
+    "status": "downloaded",
+    "retrieved": "2026-10-17",
+    "sha256": "d64952211c878c9df475353f74c935512cd12d31909316621818508c2f67c480"
+  },
+  {
+    "id": "quote_META",
+    "url": "https://www.google.com/finance/quote/META:NASDAQ",
+    "status": "downloaded",
+    "retrieved": "2026-10-17",
+    "sha256": "a3dc099f4cd1aff8b62565206a2a1aa19d2f7910c79fd92f07bd4b24f0f07be8"
+  },
+  {
+    "id": "quote_AMZN",
+    "url": "https://www.google.com/finance/quote/AMZN:NASDAQ",
+    "status": "downloaded",
+    "retrieved": "2026-10-17",
+    "sha256": "9f25b93de2c14a2d7b9a3b8676698c3f5eb3647f311e3e5e0a3b761c5695adc7"
+  }
+]

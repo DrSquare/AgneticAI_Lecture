@@ -1,0 +1,243 @@
+{
+  "fictional_teaching_material": true,
+  "data_as_of": "2026-09-30",
+  "review_date": "2026-10-17",
+  "timezone": "America/Los_Angeles",
+  "paying_arr_usd": 1932000.0,
+  "pilot_inclusive_metric_usd": 2436000.0,
+  "unpaid_pilot_arr_equivalent_usd": 504000.0,
+  "pilot_inclusive_overstatement_relative_to_paying_pct": 26.086956521739136,
+  "paying_yoy_multiple": 6.571428571428571,
+  "paying_yoy_growth_pct": 557.1428571428571,
+  "pilot_inclusive_yoy_multiple": 8.285714285714286,
+  "paying_mrr_monthly_growth_pct": [
+    {
+      "month": "2025-10",
+      "csv_row": 3,
+      "growth_pct": 14.28571428571428
+    },
+    {
+      "month": "2025-11",
+      "csv_row": 4,
+      "growth_pct": 25.0
+    },
+    {
+      "month": "2025-12",
+      "csv_row": 5,
+      "growth_pct": 19.999999999999996
+    },
+    {
+      "month": "2026-01",
+      "csv_row": 6,
+      "growth_pct": 16.666666666666675
+    },
+    {
+      "month": "2026-02",
+      "csv_row": 7,
+      "growth_pct": 21.42857142857142
+    },
+    {
+      "month": "2026-03",
+      "csv_row": 8,
+      "growth_pct": 17.647058823529417
+    },
+    {
+      "month": "2026-04",
+      "csv_row": 9,
+      "growth_pct": 19.999999999999996
+    },
+    {
+      "month": "2026-05",
+      "csv_row": 10,
+      "growth_pct": 16.666666666666675
+    },
+    {
+      "month": "2026-06",
+      "csv_row": 11,
+      "growth_pct": 17.85714285714286
+    },
+    {
+      "month": "2026-07",
+      "csv_row": 12,
+      "growth_pct": 15.15151515151516
+    },
+    {
+      "month": "2026-08",
+      "csv_row": 13,
+      "growth_pct": 10.526315789473696
+    },
+    {
+      "month": "2026-09",
+      "csv_row": 14,
+      "growth_pct": 9.523809523809534
+    }
+  ],
+  "paying_mrr_12mo_compound_monthly_growth_pct": 16.987191752873244,
+  "paying_mrr_q3_growth_pct": 39.393939393939405,
+  "paying_customers": 11.0,
+  "unpaid_pilot_customers": 3.0,
+  "fleet_mixed_sku_success_pct": 97.2,
+  "best_site_single_sku_success_pct": 99.7,
+  "gross_margin_pct": 41.0,
+  "gross_profit_usd": 66010.0,
+  "implied_cogs_usd": 94990.0,
+  "revenue_weighted_12mo_gross_margin_pct": 33.784246575342465,
+  "nrr_sep2025_cohort_pct": 157.14285714285714,
+  "nrr_starting_customer_count": 3,
+  "cac_payback_proxies": [
+    {
+      "months": 1,
+      "spend_period": "2026-09 to 2026-09",
+      "spend_csv_rows": [
+        14
+      ],
+      "mrr_baseline_month": "2026-08",
+      "baseline_csv_row": 13,
+      "sales_marketing_usd": 170000.0,
+      "net_new_mrr_usd": 14000.0,
+      "ending_gross_margin": 0.41,
+      "payback_proxy_months": 29.61672473867596,
+      "monthly_margin_weighted_proxy_months": 29.61672473867596,
+      "warning": "Net new MRR includes expansion/contraction/churn; not gross new-logo MRR. Spend is not acquisition-cohort aligned. Actual CAC payback unverifiable."
+    },
+    {
+      "months": 3,
+      "spend_period": "2026-07 to 2026-09",
+      "spend_csv_rows": [
+        12,
+        13,
+        14
+      ],
+      "mrr_baseline_month": "2026-06",
+      "baseline_csv_row": 11,
+      "sales_marketing_usd": 490000.0,
+      "net_new_mrr_usd": 45500.0,
+      "ending_gross_margin": 0.41,
+      "payback_proxy_months": 26.26641651031895,
+      "monthly_margin_weighted_proxy_months": 27.237354085603112,
+      "warning": "Net new MRR includes expansion/contraction/churn; not gross new-logo MRR. Spend is not acquisition-cohort aligned. Actual CAC payback unverifiable."
+    },
+    {
+      "months": 6,
+      "spend_period": "2026-04 to 2026-09",
+      "spend_csv_rows": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "mrr_baseline_month": "2026-03",
+      "baseline_csv_row": 8,
+      "sales_marketing_usd": 910000.0,
+      "net_new_mrr_usd": 91000.0,
+      "ending_gross_margin": 0.41,
+      "payback_proxy_months": 24.390243902439025,
+      "monthly_margin_weighted_proxy_months": 27.139874739039666,
+      "warning": "Net new MRR includes expansion/contraction/churn; not gross new-logo MRR. Spend is not acquisition-cohort aligned. Actual CAC payback unverifiable."
+    },
+    {
+      "months": 12,
+      "spend_period": "2025-10 to 2026-09",
+      "spend_csv_rows": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "mrr_baseline_month": "2025-09",
+      "baseline_csv_row": 2,
+      "sales_marketing_usd": 1560000.0,
+      "net_new_mrr_usd": 136500.0,
+      "ending_gross_margin": 0.41,
+      "payback_proxy_months": 27.874564459930312,
+      "monthly_margin_weighted_proxy_months": 35.09561304836895,
+      "warning": "Net new MRR includes expansion/contraction/churn; not gross new-logo MRR. Spend is not acquisition-cohort aligned. Actual CAC payback unverifiable."
+    }
+  ],
+  "cash_end_usd": 6038215.0,
+  "september_net_burn_usd": 713990.0,
+  "24mo_max_average_burn_after_raise_usd": 1001592.2916666666,
+  "runway_sensitivities": [
+    {
+      "scenario": "No raise, September burn unchanged",
+      "opening_cash_usd": 6038215.0,
+      "monthly_burn_usd": 713990.0,
+      "runway_months": 8.457002198910349,
+      "type": "Illustrative sensitivity, not a forecast. No fees, separate capex, financing flows or working capital."
+    },
+    {
+      "scenario": "Raise closes immediately; September burn unchanged",
+      "opening_cash_usd": 24038215.0,
+      "monthly_burn_usd": 713990.0,
+      "runway_months": 33.66743931987843,
+      "type": "Illustrative sensitivity, not a forecast. No fees, separate capex, financing flows or working capital."
+    },
+    {
+      "scenario": "Raise closes immediately; full 85-person opex scale at constant September gross profit",
+      "opening_cash_usd": 24038215.0,
+      "monthly_burn_usd": 1678726.8421052631,
+      "runway_months": 14.319312944239385,
+      "type": "Illustrative sensitivity, not a forecast. No fees, separate capex, financing flows or working capital."
+    }
+  ],
+  "linear_24mo_headcount_ramp_runout_month": 20.845220634929213,
+  "linear_ramp_24mo_ending_cash_usd": -5156755.526315791,
+  "headcount_increase_pct": 123.6842105263158,
+  "forward_targets": [
+    {
+      "year": 2026,
+      "deck_arr_target_usd": 2400000,
+      "required_paying_robots_at_current_price": 58,
+      "incremental_robots_vs_sep2026": 12,
+      "illustrative_incremental_hardware_usd_at_unverified_42000_unit_cost": 504000.0
+    },
+    {
+      "year": 2027,
+      "deck_arr_target_usd": 9000000,
+      "required_paying_robots_at_current_price": 215,
+      "incremental_robots_vs_sep2026": 169,
+      "illustrative_incremental_hardware_usd_at_unverified_42000_unit_cost": 7098000.0
+    },
+    {
+      "year": 2028,
+      "deck_arr_target_usd": 30000000,
+      "required_paying_robots_at_current_price": 715,
+      "incremental_robots_vs_sep2026": 669,
+      "illustrative_incremental_hardware_usd_at_unverified_42000_unit_cost": 28098000.0
+    },
+    {
+      "year": 2029,
+      "deck_arr_target_usd": 100000000,
+      "required_paying_robots_at_current_price": 2381,
+      "incremental_robots_vs_sep2026": 2335,
+      "illustrative_incremental_hardware_usd_at_unverified_42000_unit_cost": 98070000.0
+    }
+  ],
+  "hardware_scenario_assumption": "Each incremental paying robot above September 46 is newly purchased; no conversion/reuse of existing 12 pilot robots, no spare inventory, no leasing or vendor finance. Unit cost42000 is unverified.",
+  "2026_to_2029_target_cagr_pct": 246.68063717531732,
+  "pre_money_usd": 90000000,
+  "post_money_usd": 108000000,
+  "new_money_ownership_pct_simple": 16.666666666666668,
+  "use_of_proceeds_usd": {
+    "rnd": 9000000,
+    "gtm": 5400000,
+    "operations": 3600000
+  },
+  "hardware_revenue_recovery_months_unverified_cost": 12.0,
+  "hardware_gp_recovery_months_unverified_cost": 29.26829268292683,
+  "limitations": [
+    "Fictional aggregated data, no contracts, invoices, customer identities, cohort movements or cost ledger.",
+    "Actual CAC payback, true contracted ARR and forward runway cannot be established.",
+    "Hardware cost, team records, market claims, fundraising and hiring assumptions are deck-only and unverifiable."
+  ]
+}

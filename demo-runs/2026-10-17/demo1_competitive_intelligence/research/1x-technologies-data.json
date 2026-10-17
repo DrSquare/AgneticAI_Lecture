@@ -1,0 +1,88 @@
+{
+  "company": "1X Technologies",
+  "window_start": "2025-10-17",
+  "window_end": "2026-10-17",
+  "prepared_at": "2026-10-17",
+  "timezone": "America/Los_Angeles",
+  "layer": "Vertically integrated home humanoid + embodied AI; industrial partnerships",
+  "flagship": "NEO; Redwood AI / 1XWM",
+  "valuation_usd_billion": 6,
+  "valuation_date": "2026-08-26",
+  "valuation_basis": "Reported SoftBank majority-stake acquisition talks, not closed or primary-verified; Reuters could not confirm",
+  "valuation_source": "https://live.euronext.com/en/financial-news/softbank-talks-buy-stake-1x-6-billion-valuation-information-reports",
+  "total_capital_usd_billion": null,
+  "total_capital_date": null,
+  "total_capital_basis": "Current lifetime total not verified; January 2024 primary release stated >$125M in less than 12 months, not current total",
+  "total_capital_source": "https://www.1x.tech/discover/1x-secures-100m-in-series-b-funding",
+  "latest_round_usd_billion": 0.1,
+  "latest_round_date": "2024-01-13",
+  "latest_round_source": "https://www.1x.tech/discover/1x-secures-100m-in-series-b-funding",
+  "latest_round_basis": "Historical latest primary disclosed sized round located, outside window; current page Jan13 conflicts with legacy Jan11; not a claim that no later financing occurred",
+  "revenue_signal": "Revenue: not disclosed. $20,000 ownership / $499 monthly subscription advertised; $200 refundable reservation deposit, not revenue.",
+  "customers": "Consumers unnamed; EQT portfolio access framework and IFS development partnership, not confirmed deployed customer fleet.",
+  "scale": "Company-reported 10,000 NEO/year capacity ramp; 100,000+/year end-2027 target; complete external customer deliveries not verified.",
+  "top_risk": "Home autonomy and expert-service economics remain unverified at customer scale; financing status unclear.",
+  "momentum": "holding",
+  "momentum_basis": "Analyst judgment: dated factory/model/hand advances, unresolved independent deliveries and closed valuation.",
+  "latest_evidence_date": "2026-08-26",
+  "live_pages_checked_at": "2026-10-17",
+  "spot_checks": [
+    {
+      "claim": "Hayward has up to 10,000 NEO annual capacity, not 10,000 delivered units",
+      "date": "2026-04-30",
+      "primary_url": "https://www.1x.tech/discover/neo-factory",
+      "verdict": "Supported only as company-reported capacity/ramp",
+      "evidence": "Factory update describes capacity and ramp toward 10k; current units prioritize internal home testing."
+    },
+    {
+      "claim": "NEO preorder prices do not establish realized revenue",
+      "date": "2025-10-28",
+      "primary_url": "https://www.1x.tech/discover/neo-home-robot",
+      "corroboration_url": "https://www.1x.tech/order",
+      "verdict": "Pricing verified; deliveries/revenue not verified",
+      "evidence": "Launch lists $20k Early Access and $499/month; live order page shows $200 refundable deposit and 2026 delivery promise."
+    },
+    {
+      "claim": "Eric Jang left 1X in January 2026",
+      "date": "2026-01-21",
+      "primary_url": "https://evjang.com/2026/01/21/leaving-1x.html",
+      "verdict": "Verified first-person announcement",
+      "evidence": "Jang states he decided to leave; no adverse execution outcome is established."
+    },
+    {
+      "claim": "EQT 10,000-robot opportunity is a firm order",
+      "date": "2025-12-11",
+      "primary_url": "https://via.tt.se/pressmeddelande/4187254/1x-announces-strategic-partnership-to-make-up-to-10000-humanoid-robots-available-to-eqts-global-portfolio?lang=en&publisherId=259167",
+      "verdict": "Not supported as firm order",
+      "evidence": "Release specifies shared intent, up to 10k during 2026-2030, and individual portfolio-company implementation decisions."
+    },
+    {
+      "claim": "~$6B is a closed current valuation",
+      "date": "2026-08-26",
+      "primary_url": null,
+      "secondary_url": "https://live.euronext.com/en/financial-news/softbank-talks-buy-stake-1x-6-billion-valuation-information-reports",
+      "verdict": "Unconfirmed acquisition-talk value only",
+      "evidence": "Reuters attributes talks to The Information and explicitly could not confirm."
+    }
+  ],
+  "discrepancies": [
+    "Do not present ~$6B as a closed financing valuation.",
+    "Do not treat 10,000 annual robot capacity or 10,000 hands of component capacity as deliveries.",
+    "EQT up to 10,000 deployment framework is not a binding 10,000-robot order.",
+    "Customer delivery count is unverified, not proven zero.",
+    "January 2024 current company funding page says Jan13; legacy copy says Jan11."
+  ],
+  "handoff": {
+    "researcher": "onex_research",
+    "date": "2026-10-17",
+    "method": "Independent live web research; primary sources and Reuters report checked; five fixed headings; handoff to synthesis agent.",
+    "challenges": "Capital comparability, date discrepancy, acquisition talks vs closed valuation, roadmap vs deliveries, hands vs complete robots."
+  },
+  "limitations": [
+    "No physical robot testing or customer interviews.",
+    "No independently verified external delivery count or revenue.",
+    "Current total capital unavailable from verified primary sources.",
+    "Undated live company timeline includes forecast language."
+  ],
+  "sources_as_of": "2026-10-17"
+}

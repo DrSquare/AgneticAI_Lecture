@@ -1,0 +1,1669 @@
+file:///C:/Users/h_min/.codex/plugins/cache/openai-primary-runtime/presentations/26.1013.11914/skills/presentations/container_tools/artifact_tool_utils.mjs:483
+  const error = new Error(`${message}${details ? `\n${details.slice(0, 8000)}` : ""}`, {
+                ^
+
+Error: presentation-layout validator did not pass
+{
+
+  "finding_count": 78,
+
+  "findings": [
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "6",
+
+      "script": "latin",
+
+      "slide": 1
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "2",
+
+      "script": "latin",
+
+      "slide": 1
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "3",
+
+      "script": "latin",
+
+      "slide": 1
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "5",
+
+      "script": "latin",
+
+      "slide": 1
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "table-cell-1",
+
+      "script": "latin",
+
+      "slide": 1
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "table-cell-2",
+
+      "script": "latin",
+
+      "slide": 1
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "table-cell-3",
+
+      "script": "latin",
+
+      "slide": 1
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "table-cell-4",
+
+      "script": "latin",
+
+      "slide": 1
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "table-cell-4",
+
+      "script": "latin",
+
+      "slide": 1
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "table-cell-5",
+
+      "script": "latin",
+
+      "slide": 1
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "table-cell-5",
+
+      "script": "latin",
+
+      "slide": 1
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "table-cell-6",
+
+      "script": "latin",
+
+      "slide": 1
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "table-cell-6",
+
+      "script": "latin",
+
+      "slide": 1
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "table-cell-7",
+
+      "script": "latin",
+
+      "slide": 1
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "table-cell-7",
+
+      "script": "latin",
+
+      "slide": 1
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "table-cell-8",
+
+      "script": "latin",
+
+      "slide": 1
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "table-cell-8",
+
+      "script": "latin",
+
+      "slide": 1
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "table-cell-9",
+
+      "script": "latin",
+
+      "slide": 1
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "table-cell-9",
+
+      "script": "latin",
+
+      "slide": 1
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "table-cell-10",
+
+      "script": "latin",
+
+      "slide": 1
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "table-cell-10",
+
+      "script": "latin",
+
+      "slide": 1
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "table-cell-11",
+
+      "script": "latin",
+
+      "slide": 1
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "table-cell-11",
+
+      "script": "latin",
+
+      "slide": 1
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "table-cell-12",
+
+      "script": "latin",
+
+      "slide": 1
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "table-cell-12",
+
+      "script": "latin",
+
+      "slide": 1
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "table-cell-13",
+
+      "script": "latin",
+
+      "slide": 1
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "table-cell-13",
+
+      "script": "latin",
+
+      "slide": 1
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "table-cell-14",
+
+      "script": "latin",
+
+      "slide": 1
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "table-cell-14",
+
+      "script": "latin",
+
+      "slide": 1
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "table-cell-15",
+
+      "script": "latin",
+
+      "slide": 1
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "table-cell-15",
+
+      "script": "latin",
+
+      "slide": 1
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "table-cell-16",
+
+      "script": "latin",
+
+      "slide": 1
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "table-cell-16",
+
+      "script": "latin",
+
+      "slide": 1
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "table-cell-17",
+
+      "script": "latin",
+
+      "slide": 1
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "table-cell-17",
+
+      "script": "latin",
+
+      "slide": 1
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "table-cell-18",
+
+      "script": "latin",
+
+      "slide": 1
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "table-cell-18",
+
+      "script": "latin",
+
+      "slide": 1
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "6",
+
+      "script": "latin",
+
+      "slide": 2
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "2",
+
+      "script": "latin",
+
+      "slide": 2
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "3",
+
+      "script": "latin",
+
+      "slide": 2
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "5",
+
+      "script": "latin",
+
+      "slide": 2
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "table-cell-1",
+
+      "script": "latin",
+
+      "slide": 2
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "table-cell-2",
+
+      "script": "latin",
+
+      "slide": 2
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "table-cell-3",
+
+      "script": "latin",
+
+      "slide": 2
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "table-cell-4",
+
+      "script": "latin",
+
+      "slide": 2
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_presentation_font",
+
+      "object_id": "table-cell-5",
+
+      "script": "latin",
+
+      "slide": 2
+
+    },
+
+    {
+
+      "font_family": "Aptos",
+
+      "kind": "unapproved_pres
+    at processFailure (file:///C:/Users/h_min/.codex/plugins/cache/openai-primary-runtime/presentations/26.1013.11914/skills/presentations/container_tools/artifact_tool_utils.mjs:483:17)
+    at executeValidator (file:///C:/Users/h_min/.codex/plugins/cache/openai-primary-runtime/presentations/26.1013.11914/skills/presentations/container_tools/artifact_tool_utils.mjs:510:11)
+    at finalizePresentation (file:///C:/Users/h_min/.codex/plugins/cache/openai-primary-runtime/presentations/26.1013.11914/skills/presentations/container_tools/artifact_tool_utils.mjs:946:24)
+    at async file:///C:/Users/h_min/repos/SNU_Agentic_AI_Lecture/demo-runs/2026-10-17/demo1_competitive_intelligence/build/build-artifacts.mjs:96:14 {
+  code: 'PRESENTATION_VALIDATION_FAILED',
+  validator: 'presentation-layout',
+  exitCode: 1,
+  signal: null,
+  stdout: '{\r\n' +
+    '  "finding_count": 78,\r\n' +
+    '  "findings": [\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "6",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 1\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "2",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 1\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "3",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 1\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "5",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 1\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-1",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 1\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-2",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 1\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-3",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 1\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-4",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 1\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-4",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 1\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-5",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 1\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-5",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 1\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-6",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 1\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-6",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 1\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-7",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 1\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-7",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 1\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-8",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 1\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-8",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 1\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-9",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 1\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-9",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 1\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-10",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 1\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-10",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 1\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-11",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 1\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-11",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 1\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-12",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 1\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-12",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 1\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-13",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 1\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-13",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 1\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-14",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 1\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-14",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 1\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-15",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 1\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-15",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 1\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-16",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 1\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-16",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 1\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-17",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 1\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-17",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 1\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-18",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 1\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-18",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 1\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "6",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 2\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "2",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 2\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "3",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 2\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "5",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 2\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-1",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 2\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-2",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 2\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-3",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 2\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-4",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 2\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-5",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 2\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-5",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 2\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-6",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 2\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-6",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 2\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-7",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 2\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-8",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 2\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-8",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 2\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-9",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 2\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-9",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 2\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-10",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 2\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-11",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 2\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-11",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide": 2\r\n' +
+    '    },\r\n' +
+    '    {\r\n' +
+    '      "font_family": "Aptos",\r\n' +
+    '      "kind": "unapproved_presentation_font",\r\n' +
+    '      "object_id": "table-cell-12",\r\n' +
+    '      "script": "latin",\r\n' +
+    '      "slide":'... 4460 more characters,
+  stderr: '',
+  report: {
+    finding_count: 78,
+    findings: [
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: '6',
+        script: 'latin',
+        slide: 1
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: '2',
+        script: 'latin',
+        slide: 1
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: '3',
+        script: 'latin',
+        slide: 1
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: '5',
+        script: 'latin',
+        slide: 1
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-1',
+        script: 'latin',
+        slide: 1
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-2',
+        script: 'latin',
+        slide: 1
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-3',
+        script: 'latin',
+        slide: 1
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-4',
+        script: 'latin',
+        slide: 1
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-4',
+        script: 'latin',
+        slide: 1
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-5',
+        script: 'latin',
+        slide: 1
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-5',
+        script: 'latin',
+        slide: 1
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-6',
+        script: 'latin',
+        slide: 1
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-6',
+        script: 'latin',
+        slide: 1
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-7',
+        script: 'latin',
+        slide: 1
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-7',
+        script: 'latin',
+        slide: 1
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-8',
+        script: 'latin',
+        slide: 1
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-8',
+        script: 'latin',
+        slide: 1
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-9',
+        script: 'latin',
+        slide: 1
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-9',
+        script: 'latin',
+        slide: 1
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-10',
+        script: 'latin',
+        slide: 1
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-10',
+        script: 'latin',
+        slide: 1
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-11',
+        script: 'latin',
+        slide: 1
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-11',
+        script: 'latin',
+        slide: 1
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-12',
+        script: 'latin',
+        slide: 1
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-12',
+        script: 'latin',
+        slide: 1
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-13',
+        script: 'latin',
+        slide: 1
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-13',
+        script: 'latin',
+        slide: 1
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-14',
+        script: 'latin',
+        slide: 1
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-14',
+        script: 'latin',
+        slide: 1
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-15',
+        script: 'latin',
+        slide: 1
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-15',
+        script: 'latin',
+        slide: 1
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-16',
+        script: 'latin',
+        slide: 1
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-16',
+        script: 'latin',
+        slide: 1
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-17',
+        script: 'latin',
+        slide: 1
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-17',
+        script: 'latin',
+        slide: 1
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-18',
+        script: 'latin',
+        slide: 1
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-18',
+        script: 'latin',
+        slide: 1
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: '6',
+        script: 'latin',
+        slide: 2
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: '2',
+        script: 'latin',
+        slide: 2
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: '3',
+        script: 'latin',
+        slide: 2
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: '5',
+        script: 'latin',
+        slide: 2
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-1',
+        script: 'latin',
+        slide: 2
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-2',
+        script: 'latin',
+        slide: 2
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-3',
+        script: 'latin',
+        slide: 2
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-4',
+        script: 'latin',
+        slide: 2
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-5',
+        script: 'latin',
+        slide: 2
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-5',
+        script: 'latin',
+        slide: 2
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-6',
+        script: 'latin',
+        slide: 2
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-6',
+        script: 'latin',
+        slide: 2
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-7',
+        script: 'latin',
+        slide: 2
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-8',
+        script: 'latin',
+        slide: 2
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-8',
+        script: 'latin',
+        slide: 2
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-9',
+        script: 'latin',
+        slide: 2
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-9',
+        script: 'latin',
+        slide: 2
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-10',
+        script: 'latin',
+        slide: 2
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-11',
+        script: 'latin',
+        slide: 2
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-11',
+        script: 'latin',
+        slide: 2
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-12',
+        script: 'latin',
+        slide: 2
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-12',
+        script: 'latin',
+        slide: 2
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-13',
+        script: 'latin',
+        slide: 2
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-14',
+        script: 'latin',
+        slide: 2
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-14',
+        script: 'latin',
+        slide: 2
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-15',
+        script: 'latin',
+        slide: 2
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-15',
+        script: 'latin',
+        slide: 2
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-16',
+        script: 'latin',
+        slide: 2
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-17',
+        script: 'latin',
+        slide: 2
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-17',
+        script: 'latin',
+        slide: 2
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-18',
+        script: 'latin',
+        slide: 2
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: 'table-cell-18',
+        script: 'latin',
+        slide: 2
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: '10',
+        script: 'latin',
+        slide: 3
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: '2',
+        script: 'latin',
+        slide: 3
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: '3',
+        script: 'latin',
+        slide: 3
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: '4',
+        script: 'latin',
+        slide: 3
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: '5',
+        script: 'latin',
+        slide: 3
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: '6',
+        script: 'latin',
+        slide: 3
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: '7',
+        script: 'latin',
+        slide: 3
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: '8',
+        script: 'latin',
+        slide: 3
+      },
+      {
+        font_family: 'Aptos',
+        kind: 'unapproved_presentation_font',
+        object_id: '9',
+        script: 'latin',
+        slide: 3
+      }
+    ],
+    font_policy: {
+      checked_text_script_count: 78,
+      native_font_rendering_verified: false,
+      observed_font_families: [ 'Aptos' ],
+      observed_font_use_counts: { Aptos: 78 },
+      passed: false,
+      performed: true
+    },
+    slide_count: 3,
+    slide_size_in: [ 13.3333, 7.5 ],
+    warning_count: 2,
+    warnings: [
+      {
+        available_bottom_in: 6.5104,
+        columns: 3,
+        declared_bottom_in: 6.3542,
+        estimated_native_bottom_in: 6.6557,
+        footer_object_ids: [ '5' ],
+        kind: 'native_table_overflow',
+        overflow_in: 0.1453,
+        rows: 6,
+        slide: 1,
+        table_id: '4'
+      },
+      {
+        available_bottom_in: 6.5104,
+        columns: 3,
+        declared_bottom_in: 6.3542,
+        estimated_native_bottom_in: 6.9549,
+        footer_object_ids: [ '5' ],
+        kind: 'native_table_overflow',
+        overflow_in: 0.4445,
+        rows: 6,
+        slide: 2,
+        table_id: '4'
+      }
+    ]
+  },
+  [cause]: undefined
+}
+
+Node.js v24.19.0

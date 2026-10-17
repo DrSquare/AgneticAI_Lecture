@@ -1,0 +1,27 @@
+[
+  {
+    "company": "figure-ai",
+    "dated_cited_bullets": 16,
+    "status": "passed"
+  },
+  {
+    "company": "physical-intelligence",
+    "dated_cited_bullets": 15,
+    "status": "passed"
+  },
+  {
+    "company": "skild-ai",
+    "dated_cited_bullets": 11,
+    "status": "passed"
+  },
+  {
+    "company": "agility-robotics",
+    "dated_cited_bullets": 12,
+    "status": "passed"
+  },
+  {
+    "company": "1x-technologies",
+    "dated_cited_bullets": 15,
+    "status": "passed"
+  }
+]

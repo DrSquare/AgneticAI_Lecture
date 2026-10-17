@@ -1,0 +1,218 @@
+"""Build local Demo 2 synthesis and one-page PDF. All company data are fictional."""
+from pathlib import Path
+import json,html,subprocess,shutil
+from reportlab.pdfgen import canvas
+from reportlab.lib.colors import HexColor,white
+from reportlab.lib.styles import ParagraphStyle
+from reportlab.platypus import Paragraph
+from pypdf import PdfReader
+H=Path(__file__).resolve().parent
+M=json.loads((H/'calculations.json').read_text())
+C=json.loads((H/'claims.json').read_text())['claims']
+
+score=[('Problem & insight',2,'Specific warehouse pain; p2 percentages and cost-per-pick lack underlying study.'),('Product & technology',3,'CSV shows an operating fleet and improving outcomes. SKU-learning, installation and causal model claims remain unverified (pp3,6).'),('Traction',2,'Strong paying growth is real within the fictional CSV, but p6 combines paying/pilot and best-site/fleet metrics.'),('Unit economics',1,'p7 margin conflicts with current CSV; acquisition-cohort CAC and hardware accounting are missing.'),('Market & competition',2,'p5 is top-down sizing; p8 uses categories instead of named, evidenced alternatives.'),('Team',3,'Named complementary roles, but institution, contribution and outcome details are vague on p9.'),('Plan & ask',2,'p10 targets and p11 budget percentages are legible; monthly deployment, hiring and cash drivers are absent.')]
+
+intro='''# GraspLoop AI pitch review
+
+**FICTIONAL COMPANY AND DATA - TEACHING MATERIAL**
+
+Review date: October 17, 2026 (America/Los_Angeles). Data room: September 2025 through September 2026, 13 monthly records. All amounts USD. Source: supplied 11-page pitch deck, KPI CSV and data-room README. No external verification or live company lookup was appropriate for this invented company.
+
+## Verdict
+
+**Conditional go for a focused founder diligence meeting; no-go for investment approval on this evidence.** The CSV supports $1.932M paying ARR, 6.57x paying YoY growth and improving fleet performance. Those are sufficient reasons to explore the product. The deck nevertheless presents unpaid pilots within ARR and customers, best-site performance without scope, and a 68% gross margin inconsistent with the September 41%. The stated 4-month CAC payback and 24-month funded runway cannot be established from the supplied aggregate data. Proceed only if founders can reconcile the commercial definitions, acquisition economics and cash-funded deployment plan. The panel does not infer intent or dishonesty.
+
+## Scorecard
+
+Scores use the bundled 1-5 Series A teaching rubric. These are the lead's reasoned dimension scores, not averages of reviewer opinions. No numerical disagreement is invented: the narrative reviewer retained its initial 2/2/3/2 scores after adding qualifications. The numbers reviewer scores traction 2 and unit economics 1.
+
+| Dimension | Score / 5 | Basis |
+|---|---:|---|
+'''
+report=intro+'\n'.join(f'| {a} | {b} | {c} |' for a,b,c in score)
+report+='''
+
+## Claim checks and source convention
+
+CSV references count the header as physical row 1; rows 2-14 cover September 2025-September 2026. The PDF's printed page numbers match its physical pages 1-11. `claims.json` is the machine-readable inventory of 42 quantitative, time-bound and planned claims. Page labels, diagram sequence labels and page 1's presentation date are metadata, not performance claims. A missing underlying source means **unverifiable**, not false. Projection arithmetic can be checked without validating the projection.
+
+| ID / page | Deck claim | Finding and evidence | Status |
+|---|---|---|---|
+'''
+for c in C:
+    report+=f"| {c['id']} / p{c['page']} | {c['claim']} | {c['result']} Source: {c['evidence']}."+(f" Formula: `{c['formula']}`." if c['formula'] else '')+f" | {c['status'].replace('_',' ')} |\n"
+report+='''
+## Key calculations and methodological limits
+
+**Paying versus pilot-inclusive ARR (p6).** September MRR is $161,000, so paying ARR is $161,000 x 12 = **$1,932,000**. The column called `booked_arr_incl_pilots_usd` is (46 paying robots + 12 unpaid pilot robots) x $3,500 x 12 = **$2,436,000**. Its $504,000 gap is annualized unpaid pilot capacity, not evidenced contracted revenue. Calling the column "booked" does not supply signed contracts. The pilot-inclusive metric is 26.09% above paying ARR. Actual contracted ARR is unverifiable without contract dates, terms and billing start dates. The 14 customer total comprises 11 paying and 3 unpaid pilots (row 14, September 2026).
+
+**Growth (p6).** $161,000 / $24,500 = **6.5714x**, or **+557.14%**, paying YoY (rows 2 and 14). The pilot-inclusive series gives $2,436,000 / $294,000 = 8.2857x, explaining the approximately 8x headline but changing its basis. Recent MRR growth slows from +15.15% in July to +10.53% in August and +9.52% in September (rows 11-14). This is slower positive growth, not stalled growth. Q3 endpoint growth is 39.39% and 12-month compound monthly growth is 16.99%.
+
+**Margin and operating scope (pp6-7).** September GM is **41%**, gross profit $66,010 and implied COGS $94,990. None of the 13 monthly margins reaches 68%; it is not labelled a target on p7. Twelve-month revenue-weighted GM is 33.78%. September 99.7% success is the best single site on single-SKU lanes; fleet mixed-SKU success is 97.2%. The fleet series improves from 94.1% to 97.2% and interventions fall from 41 to 14 per 1,000 picks (rows 2 and 14), but this does not isolate the model's causal effect from site/SKU changes or human support. COGS composition and human-operator cost are unavailable.
+
+**CAC payback (p7): why approximately 26 can be demonstrated.** The deck actually says **4 months**. The demo prompt's approximately 26-month correction is reproducible for **Q3 2026** using ending gross margin:
+
+`($155,000 + $165,000 + $170,000) / (($161,000 - $115,500) x 41%) = 26.2664 months`
+
+The numerator is July-September spending (rows 12-14); the denominator uses September less June MRR (rows 14 and 11). This is a **net-new-MRR proxy**. A trailing-year interval uses October 2025-September 2026 spending of $1.56M (rows 3-14), net MRR additions of $136,500 (rows 14 minus 2) and the same 41% margin, producing **27.8746 months**. September alone yields **29.6167 months**. None corroborates 4 months, but none proves an acquisition-cohort CAC payback either: new-logo MRR, expansion, contraction, churn, attributable acquisition spend and sales-lag alignment are absent.
+
+Margin conventions also matter. Multiplying each Q3 monthly MRR increment by its own monthly margin gives $17,990 of incremental gross-profit proxy and **27.24 months**. Applying Q3 revenue-weighted margin to total net new MRR gives **27.08 months** (independently calculated by the numbers reviewer). These methods answer slightly different approximation questions. Do not call all of them "the actual CAC." See `calculation-results.md`, `calculations.json` and the numbers review for inputs and alternatives.
+
+**NRR (p6).** $38,500 / $24,500 = **157.14%** for the three customers paying in September 2025 (rows 2 and 14; README). A coarse 160% headline needs both its rounding and n=3 disclosure. Aggregate cohort MRR does not establish zero logo churn or representative retention across later cohorts. Customer-level bridges and concentration are missing.
+
+**Runway and forward burn (pp10-11).** September end cash is **$6,038,215** and monthly burn is **$713,990**, giving **8.46 months** only if this burn remains constant and no raise occurs. If the full $18M closes immediately, no fees are paid and burn stays flat, the same arithmetic gives **33.67 months**. These are illustrative cases, not a test that disproves p11's 24-month plan. To achieve 24 months with all $24,038,215 available immediately, average net cash use must not exceed **$1,001,592 per month**, including hardware, working capital and fees.
+
+The CSV burn exactly equals opex minus reported gross profit in all 13 rows. No separate hardware/capex series is identifiable; this does not prove capex is zero or excluded from every reported cost. A stress case that scales all September opex by 85/38 while holding September gross profit constant yields burn of **$1,678,727/month** and **14.32 months** after the hypothetical raise. A linear 24-month headcount ramp under the same opex scaling assumption exhausts cash around **month 20.85**, before separate capex. Scaling all opex with headcount is an analyst assumption, not a payroll forecast. See `forward-burn-sensitivity.csv` for the full 24-month schedule.
+
+At $3,500 per month, $9M ARR requires at least **215 paying robots**, and $100M requires **2,381**. If every increment above today's 46 paying robots requires a new unit at the deck's unverified $42,000 cost, reaching $9M implies $7.098M of hardware purchases. This scenario assumes no conversion/reuse of the 12 existing pilot robots, no spare inventory, no leasing or vendor financing. It is not an asserted funding shortfall. The same $42,000 price divided by monthly revenue gives 12 months of hardware revenue recovery, or 29.27 months at 41% gross margin, neither of which is customer acquisition payback; accounting double counting must be resolved first.
+
+## Narrative findings
+
+The deck follows the expected sequence: identity (p1), problem (p2), product (p3), why now (p4), market (p5), traction (p6), business model (p7), competition (p8), team (p9), growth plan (p10) and ask (p11). The core problem is evidence and definitions, not slide order. Use a concrete customer workflow on p2, qualify the arm/model/teleoperation loop on p3, and move verified paying traction into the opening hook. Pair best-site performance with fleet context on p6. Replace the unsupported economics on p7, name evidence-backed alternatives on p8, specify each fictional executive's actual contribution on p9, and connect robot deployments to revenue and cash on pp10-11. Full page-by-page notes and score revisions are in `review-narrative.md`.
+
+## Devil's advocate: five reasons to pass now
+
+1. **Metric presentation prevents a reliable read (p6).** Paid/pilot and fleet/best-site definitions materially change the impression. This raises a diligence burden, not a finding of dishonesty.
+2. **The current economics do not support the stated efficiency story (p7).** September margin is weaker and available payback proxies are longer. Acquisition-cohort economics and cost composition remain unverified.
+3. **The ask has no funded deployment bridge (pp10-11).** Hiring, robot purchases, conversions, receipts and financing need a monthly cash model. Current cash/current burn alone cannot invalidate post-raise runway.
+4. **The learning advantage is unproven (pp3,6,8).** Off-the-shelf arms do not prove the model is rented; improved fleet outcomes do not prove a proprietary causal moat. Request controlled results and training-data/IP rights.
+5. **Attainable demand and competition are unsubstantiated (pp5,8).** Top-down TAM and a category-only chart do not establish reachable customers, differentiated performance or sales conversion. Unsupported market size is not proven false.
+
+The devil reviewer would change its mind for a reconciled, customer-level commercial and cash model corroborated by contracts and deployment evidence. See `review-devils-advocate.md`.
+
+## Conflicts and challenges
+
+The panel ran as three independent subagents, then exchanged direct messages. The following is a factual paraphrase of those exchanges; exact sent/received text is preserved in the reviewer files. Agreement is recorded as agreement, not manufactured conflict.
+
+| From -> to | Challenge | Resolution / remaining tension |
+|---|---|---|
+| Narrative -> Numbers | Can p6's $2.4M, 8x, 14 customers, 99.7% and 160% lead the story? | Numbers supplied paying/pilot, fleet/site and n=3 distinctions. Narrative rewrote the proposed hook and retained its rubric scores. |
+| Numbers -> Narrative | The corrected story still has 6.57x paying growth; do not imply stalled growth. | Narrative preserves strong growth and distinguish deceleration from stagnation. |
+| Devil -> Narrative | Improved fleet outcomes do not demonstrate a causal learning flywheel. | Narrative accepted the causal limit and requests controlled results and data rights. No assertion of a rented moat. |
+| Numbers -> Devil | 24 months on p11 belongs to the raise and hiring plan; 8.46 pre-raise months alone cannot disprove it. | Devil narrowed its claim to an unverified forward cash plan. Flat post-raise and hiring sensitivities are explicitly assumptions. |
+| Narrative -> Devil | Separate business-risk pass reasons from proof of misconduct, and preserve a possible conditional meeting. | Devil supports a conditional diligence meeting while arguing no investment approval yet. No founder-intent allegation. |
+| Narrative and Devil -> Numbers | Verify CAC and distinguish the proposed approximately 26-month correction from p7's actual 4-month claim. | Q3 ending-GM proxy 26.27; TTM 27.87; September 29.62. Exact CAC remains unverifiable. |
+| Lead -> Numbers | Different margin weighting methods generate different proxy answers. | Monthly-increment GM and revenue-weighted period GM remain distinctly labelled; no forced numerical consensus. |
+
+Remaining difference is emphasis: narrative sees a repairable, coherent product story, while the devil requires reconciled evidence before investment advocacy. The lead adopts conditional diligence, not an average of enthusiasm and skepticism. Detailed handoff record: `conflicts-log.md`.
+
+## Top five fixes, ranked by investor impact
+
+1. **Repair the metric definitions on p6.** Show $1.932M paying ARR, $504k annualized unpaid pilot capacity separately, 11 paying plus 3 pilots, 6.57x paying YoY, best-site/fleet success, and the three-customer NRR cohort.
+2. **Rebuild p7 around auditable economics.** Show actual 41% September GM and COGS composition; show acquisition-cohort CAC with sales-lag and gross-new-MRR inputs. Label 68% as a target only if a supported target model exists.
+3. **Replace pp10-11 with a monthly deployment and funding bridge.** Tie paying robots, pilots, hires, pricing, retention, hardware ownership, capex, working capital and financing to cash. Explain the 24-month runway under actual closing assumptions.
+4. **Evidence the product advantage and comparison (pp3,6,8).** Show controlled mixed-SKU performance, operator cost, deployment time, data rights and named competitor alternatives.
+5. **Make the addressable market and team evidence concrete (pp2,5,8,9).** Build SAM from eligible sites and realistic contract values; disclose comparable alternatives and attributable executive experience.
+
+## Four questions for the founders
+
+1. Which robots and customers are currently paying, which have signed but not commenced contracts, and which are unpaid pilots? Provide the customer-level revenue and cohort bridge, including identities and churn.
+2. What is included in gross margin, what assumptions produce 68%, and what acquisition cohort and spend/new-MRR timing supports the stated 4-month payback?
+3. What controlled results demonstrate SKU learning, installation time and fleet performance, how much teleoperation is required, and who owns the models and training data?
+4. After the raise's actual closing date, how do monthly deployments, the 38-to-85 hiring plan, hardware purchases/financing and collections produce 24 months of cash runway?
+
+## Execution and verification
+
+Lead and numbers reviewer independently calculated the key metrics from the original CSV. `calculate.py` writes 53 source-identity/cash-roll-forward checks, all passing, plus claim and sensitivity artifacts. Passing reconciliation checks prove internal arithmetic consistency, not authenticity. Every source PDF page was extracted and rendered. The supplied reference output was preserved and was not used as the basis of this review. Source hashes are recorded in `evidence/source-manifest.json`.
+
+The source period is September 2025-September 2026 even though this review runs October 17, 2026. No current external company data, contract authenticity, native PowerPoint execution or live financial-system test is claimed. `founder-email.md` is an unsent local draft. No communications, schedules or external publishing occurred.
+'''
+# Use computed values rather than rounded approximations accidentally mistyped in prose.
+report=report.replace('16.99%',f"{M['paying_mrr_12mo_compound_monthly_growth_pct']:.2f}%")
+report=report.replace('33.78%',f"{M['revenue_weighted_12mo_gross_margin_pct']:.2f}%")
+(H/'pitch-review.md').write_text(report,encoding='utf-8')
+
+brief='''# Partner briefing - GraspLoop AI
+
+FICTIONAL COMPANY AND DATA - TEACHING MATERIAL
+
+Review: October 17, 2026, America/Los_Angeles. Data through September 2026.
+
+**Conditional go for a focused founder meeting. No-go for investment approval on present evidence.** The CSV supports strong paying growth. Correct the definitions, economics and cash plan before advocacy.
+
+| Claim | Checked result |
+|---|---|
+| $2.4M ARR (p6) | $1.932M paying; $2.436M includes unpaid pilots. |
+| 8x YoY / 14 customers (p6) | 6.57x paying; 11 paying + 3 unpaid pilots. |
+| 99.7% success / 160% NRR (p6) | 97.2% fleet; 99.7% best site. NRR 157.14%, n=3. |
+| 68% GM / 4mo CAC (p7) | September GM 41%. Q3 payback proxy 26.27mo; TTM 27.87mo. Actual cohort CAC unverified. |
+| 24mo runway (p11) | Unverified forward plan. Pre-raise flat burn 8.46mo; immediate raise + flat burn 33.67mo. |
+
+Scorecard (1-5): Problem 2; Product 3; Traction 2; Unit economics 1; Market 2; Team 3; Plan 2. These are dimension judgments, not a reviewer average.
+
+Top five fixes: (1) repair paying/pilot and fleet/site definitions; (2) rebuild current GM and cohort CAC; (3) connect deployment, hiring, capex and financing to monthly cash; (4) evidence model advantage, operator cost and competitors; (5) support bottom-up market and attributable team records.
+
+Four questions: Which contracts are paying vs future vs pilot? What supports margin and 4-month CAC? What proves learning and data rights? What monthly cash plan supports 24-month runway?
+
+Panel challenges changed the review: keep strong growth; do not infer dishonest intent; pre-raise runway does not disprove a post-raise plan; fleet improvement is not causal proof of a moat. Narrative favors a repairable story; devil requires commercial and cash reconciliation before investment advocacy.
+
+Evidence: deck pp 6-7, 10-11; CSV rows 2, 11-14; README. Full 42-claim inventory and 53 checks are in claims.json and numerical-checks.json. All company facts are invented for teaching.
+'''
+(H/'partner-briefing.md').write_text(brief,encoding='utf-8')
+email='''# Founder email - UNSENT DRAFT
+
+FICTIONAL COMPANY AND DATA - TEACHING MATERIAL
+
+Drafted October 17, 2026 (America/Los_Angeles), based on data through September 2026. Saved locally for partner review only. No recipient or send action has been created.
+
+Subject: GraspLoop follow-up: metric definitions and funding plan
+
+Hi GraspLoop team,
+
+The paying growth and progress in mixed-SKU performance give us a useful basis for a deeper discussion. To make the Series A case easier to assess, please prioritize five updates:
+
+1. Separate paying ARR and customers from unpaid pilots, and label the site/fleet scope and the three-customer NRR cohort on slide6.
+2. Reconcile September's41% gross margin with slide7's68%, and provide the acquisition-cohort inputs behind the4-month CAC payback.
+3. Connect your revenue and hiring targets to monthly deployment costs, hardware funding and cash runway.
+4. Add controlled product comparisons, operator-cost evidence and clarity on model/data rights.
+5. Support the market estimate with eligible sites and contract economics, and make team responsibilities and outcomes more specific.
+
+Four questions would help us prepare: Which contracts are paying, signed for future starts, or unpaid pilots? What costs and acquisition cohorts support margin and CAC? Which controlled tests demonstrate the learning advantage and who owns the data? How does the monthly deployment/hiring plan support24months of runway after the raise's actual close?
+
+We calculated a Q3 net-new-MRR payback proxy of26.27months, which is a diagnostic approximation rather than verified cohort CAC. Please share the underlying data so we can reconcile the difference fairly.
+
+Best,
+[Partner name - draft placeholder]
+'''
+# Restore natural spacing in compact numerical draft phrases.
+for a,b in [('slide6','slide 6'),('slide7','slide 7'),("September's41%","September's 41%"),("slide 7's68%","slide 7's 68%"),('the4-month','the 4-month'),('support24months','support 24 months'),('of26.27months','of 26.27 months')]:email=email.replace(a,b)
+(H/'founder-email.md').write_text(email,encoding='utf-8')
+
+# One-page artifact with explicit blocks and retained block geometry for QA.
+pdf=H/'partner-briefing.pdf'
+c=canvas.Canvas(str(pdf),pagesize=(612,792));c.setTitle('GraspLoop AI - Fictional Partner Briefing');c.setAuthor('Demo 2 review panel')
+navy=HexColor('#142f44');teal=HexColor('#0f6b69');gray=HexColor('#4b5563');light=HexColor('#edf2f5')
+blocks=[]
+def para(text,x,y,w,size=10,leading=13,color=navy,bold=False):
+    sty=ParagraphStyle('x',fontName='Helvetica-Bold' if bold else 'Helvetica',fontSize=size,leading=leading,textColor=color)
+    p=Paragraph(text,sty); pw,ph=p.wrap(w,700);p.drawOn(c,x,y-ph);blocks.append({'x':x,'top':y,'bottom':y-ph,'width':w,'text':text});return y-ph
+c.setFillColor(teal);c.rect(36,750,540,4,fill=1,stroke=0)
+y=para('GraspLoop AI',36,738,540,23,27,bold=True)
+y=para('Partner briefing | Fictional teaching material',36,y-4,540,11,15,color=gray)
+y=para('Reviewed October 17, 2026 (America/Los_Angeles) | KPI data through September 2026',36,y-5,540,8.5,11,color=gray)
+y=para('<b>Conditional go: focused founder diligence.</b> No-go for investment approval on this evidence. Paying growth merits a conversation; metric definitions, acquisition economics and the funded deployment plan need reconciliation.',36,y-14,540,10.5,14)
+start=y-20; lx=36;rx=320;lw=264;rw=256
+ly=para('What the data changes',lx,start,lw,12,16,bold=True)
+for title,body in [('$2.4M ARR / 8x YoY (p6)','$1.932M paying ARR; $2.436M includes unpaid pilots. Paying YoY is 6.57x (+557%).'),('14 customers / 99.7% success (p6)','11 paying + 3 unpaid pilots. 99.7% is best site, single SKU; fleet mixed-SKU success is 97.2%.'),('160% NRR (p6)','157.14% for the three-customer September 2025 cohort. Broader retention is unverified.'),('68% GM / 4-month CAC (p7)','September GM is 41%. Q3 net-new-MRR payback proxy is 26.27 months; TTM is 27.87. Actual cohort CAC is unverified.'),('24-month runway (p11)','Forward plan is unverified. Flat burn: 8.46 months before raise, 33.67 after an immediate $18M raise. Hiring and capex change this.')]:
+    ly=para(title,lx,ly-9,lw,10,13,bold=True);ly=para(body,lx,ly-3,lw,9.5,12.5)
+ly=para('Five fixes, in priority order',lx,ly-16,lw,12,16,bold=True)
+for t in ['1. Separate paying, pilot, fleet and site metrics.','2. Rebuild actual GM and acquisition-cohort CAC.','3. Tie deployments, hiring and financing to cash.','4. Evidence learning, operator cost and competitors.','5. Support bottom-up market and team records.']:
+    ly=para(t,lx,ly-5,lw,9.5,12.5)
+ry=para('Scorecard (1-5)',rx,start,rw,12,16,bold=True)
+for name,num,_ in score:
+    ry=para(f'{name}: <b>{num}</b>',rx,ry-5,rw,9.5,12.5)
+ry=para('Four founder questions',rx,ry-17,rw,12,16,bold=True)
+for t in ['Which contracts are paying, future starts or unpaid pilots? Show the revenue/cohort bridge.','What costs and acquisition cohorts support the stated margin and 4-month payback?','What controlled tests show learning, and who owns the models and training data?','How do monthly hiring, deployments, hardware funding and collections support 24 months after the raise closes?']:
+    ry=para(t,rx,ry-8,rw,9.5,12.5)
+ry=para('What the panel challenged',rx,ry-16,rw,12,16,bold=True)
+ry=para('Keep strong growth in the story. Do not infer dishonest intent. Pre-raise runway cannot disprove a post-raise plan. Fleet improvement is not causal proof of a moat.',rx,ry-6,rw,9.5,12.5)
+ry=para('Narrative sees a repairable story; the devil requires commercial and cash reconciliation before investment advocacy.',rx,ry-8,rw,9.5,12.5)
+footer=min(ly,ry)-15
+c.setStrokeColor(HexColor('#ccd6de'));c.line(36,footer,576,footer)
+para('Sources: deck pp 6-7, 10-11; CSV rows 2, 11-14; data-room README. See pitch-review.md for the full 42-claim inventory, 53 numerical checks and exact methodological limits. All company data are invented.',36,footer-8,540,8,10,color=gray)
+assert min(b['bottom'] for b in blocks)>28, 'One-page layout exceeds safe bottom margin'
+c.showPage();c.save()
+assert len(PdfReader(pdf).pages)==1
+(H/'evidence'/'briefing-layout.json').write_text(json.dumps({'page_count':1,'min_content_bottom':min(b['bottom'] for b in blocks),'blocks':blocks},indent=2),encoding='utf-8')
+subprocess.run([shutil.which('pdftoppm'),'-png','-scale-to','1600',str(pdf),str(H/'evidence'/'partner-briefing')],check=True)
+print('Created synthesis, founder draft, editable partner brief and one-page PDF; PDF rendered for visual inspection.')

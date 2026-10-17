@@ -1,0 +1,1422 @@
+NVIDIA Corporation - NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026
+Skip to main content
+Skip to main content
+News
+Events & Presentations
+Events & Presentations
+Presentations
+Stock Info
+Stock Quote & Chart
+Historical Price Lookup
+Investment Calculator
+Fundamentals
+Analyst Coverage
+Financial Info
+Financial Reports
+SEC Filings
+Quarterly Results
+Annual Reports and Proxies
+Annual Meeting
+Governance
+Management Team
+Board of Directors
+Governance Documents
+Committee Composition
+Contact the Board
+Investor Resources
+Download Library
+Contact Investor Relations
+Request Information
+FAQs
+Email Alerts
+RSS
+Application Catalog
+News
+Events & Presentations
+Events & Presentations
+Presentations
+Stock Info
+Stock Quote & Chart
+Historical Price Lookup
+Investment Calculator
+Fundamentals
+Analyst Coverage
+Financial Info
+Financial Reports
+SEC Filings
+Quarterly Results
+Annual Reports and Proxies
+Annual Meeting
+Governance
+Management Team
+Board of Directors
+Governance Documents
+Committee Composition
+Contact the Board
+Investor Resources
+Download Library
+Contact Investor Relations
+Request Information
+FAQs
+Email Alerts
+RSS
+Application Catalog
+Press Release Details
+News
+Events & Presentations
+Events & Presentations
+Presentations
+Stock Info
+Stock Quote & Chart
+Historical Price Lookup
+Investment Calculator
+Fundamentals
+Analyst Coverage
+Financial Info
+Financial Reports
+SEC Filings
+Quarterly Results
+Annual Reports and Proxies
+Annual Meeting
+Governance
+Management Team
+Board of Directors
+Governance Documents
+Committee Composition
+Contact the Board
+Investor Resources
+Download Library
+Contact Investor Relations
+Request Information
+FAQs
+Email Alerts
+RSS
+Application Catalog
+View all news
+NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026
+February 25, 2026
+Download this Press Release
+PDF Format (opens in new window)
+Record quarterly revenue of $68.1 billion, up 20% from Q3 and up 73% from a year ago
+Record quarterly Data Center revenue of $62.3 billion, up 22% from Q3 and up 75% from a year ago
+Record full-year revenue of $215.9 billion, up 65%
+SANTA CLARA, Calif., Feb.  25, 2026  (GLOBE NEWSWIRE) -- NVIDIA (NASDAQ: NVDA) today reported record revenue for the fourth quarter ended January 25, 2026, of $68.1 billion, up 20% from the previous quarter and up 73% from a year ago. For fiscal 2026, revenue was $215.9 billion, up 65% from a year ago.
+For the quarter, GAAP and non-GAAP gross margins were 75.0% and 75.2%, respectively. For fiscal 2026, GAAP and non-GAAP gross margins were 71.1% and 71.3%, respectively.
+For the quarter, GAAP and non-GAAP earnings per diluted share were $1.76 and $1.62, respectively. For fiscal 2026, GAAP and non-GAAP earnings per diluted share were $4.90 and $4.77, respectively.
+“Computing demand is growing exponentially — the agentic AI inflection point has arrived. Grace Blackwell with NVLink is the king of inference today — delivering an order-of-magnitude lower cost per token — and Vera Rubin will extend that leadership even further,” said Jensen Huang, founder and CEO of NVIDIA. “Enterprise adoption of agents is skyrocketing. Our customers are racing to invest in AI compute — the factories powering the AI industrial revolution and their future growth.”
+During fiscal 2026, NVIDIA returned $41.1 billion to shareholders in the form of shares repurchased and cash dividends. As of the end of the fourth quarter, the company had $58.5 billion remaining under its share repurchase authorization.
+NVIDIA will pay its next quarterly cash dividend of $0.01 per share on April 1, 2026, to all shareholders of record on March 11, 2026.
+Q4 Fiscal 2026 Summary
+GAAP
+($ in millions, except earnings per share)
+Q4 FY26
+Q3 FY26
+Q4 FY25
+Q/Q
+Y/Y
+Revenue
+$68,127
+$57,006
+$39,331
+20 %
+73 %
+Gross margin
+75.0 %
+73.4 %
+73.0 %
+1.6 pts
+2.0 pts
+Operating expenses
+$6,794
+$5,839
+$4,689
+16 %
+45 %
+Operating income
+$44,299
+$36,010
+$24,034
+23 %
+84 %
+Net income
+$42,960
+$31,910
+$22,091
+35 %
+94 %
+Diluted earnings per share
+$1.76
+$1.30
+$0.89
+35 %
+98 %
+Non-GAAP
+($ in millions, except earnings per share)
+Q4 FY26
+Q3 FY26
+Q4 FY25
+Q/Q
+Y/Y
+Revenue
+$68,127
+$57,006
+$39,331
+20 %
+73 %
+Gross margin
+75.2 %
+73.6 %
+73.5 %
+1.6 pts
+1.7 pts
+Operating expenses
+$5,102
+$4,215
+$3,378
+21 %
+51 %
+Operating income
+$46,107
+$37,752
+$25,516
+22 %
+81 %
+Net income
+$39,552
+$31,767
+$22,066
+25 %
+79 %
+Diluted earnings per share
+$1.62
+$1.30
+$0.89
+25 %
+82 %
+Fiscal 2026 Summary
+GAAP
+($ in millions, except earnings per share)
+FY26
+FY25
+Y/Y
+Revenue
+$215,938
+$130,497
+65 %
+Gross margin
+71.1 %
+75.0 %
+(3.9) pts
+Operating expenses
+$23,076
+$16,405
+41 %
+Operating income
+$130,387
+$81,453
+60 %
+Net income
+$120,067
+$72,880
+65 %
+Diluted earnings per share
+$4.90
+$2.94
+67 %
+Non-GAAP
+($ in millions, except earnings per share)
+FY26
+FY25
+Y/Y
+Revenue
+$215,938
+$130,497
+65 %
+Gross margin
+71.3 %
+75.5 %
+(4.2) pts
+Operating expenses
+$16,694
+$11,716
+42 %
+Operating income
+$137,300
+$86,789
+58  %
+Net income
+$116,997
+$74,265
+58 %
+Diluted earnings per share
+$4.77
+$2.99
+60 %
+Outlook
+Beginning in the first quarter of fiscal 2027, NVIDIA will include stock-based compensation expense in non-GAAP financial measures. Stock-based compensation is a foundational component of NVIDIA’s compensation program to attract and retain world-class talent.
+NVIDIA’s outlook for the first quarter of fiscal 2027 is as follows:
+Revenue is expected to be $78.0 billion, plus or minus 2%. NVIDIA is not assuming any Data Center compute revenue from China in its outlook.
+GAAP and non-GAAP gross margins are expected to be 74.9% and 75.0%, respectively, plus or minus 50 basis points, inclusive of a 0.1% impact from stock-based compensation expense.
+GAAP and non-GAAP operating expenses are expected to be approximately $7.7 billion and $7.5 billion, respectively, inclusive of $1.9 billion of stock-based compensation expense.
+For the full year fiscal 2027, GAAP and non-GAAP tax rates are expected to be between 17.0% and 19.0%, excluding any discrete items and material changes to NVIDIA’s tax environment.
+Highlights
+Data Center
+Fourth-quarter revenue was a record $62.3 billion, up 22% from the previous quarter and up 75% from a year ago, driven by the major platform shifts — accelerated computing and AI. Full-year revenue rose 68% to a record $193.7 billion.
+Unveiled the
+NVIDIA Rubin
+platform, comprising six new chips to deliver up to a 10x reduction in inference token cost, compared with the NVIDIA Blackwell platform; cloud providers Amazon Web Services (AWS), Google Cloud, Microsoft Azure and Oracle Cloud Infrastructure will be among the first to deploy Vera Rubin-based instances.
+Announced that the NVIDIA BlueField
+®
+-4 data processor powers the
+NVIDIA Inference Context Memory Storage Platform
+, a new class of AI-native storage infrastructure for the next frontier of AI.
+Announced a multiyear, multigenerational strategic partnership with
+Meta
+spanning on-premises, cloud and AI infrastructure, including the large-scale deployment of NVIDIA CPUs, networking and millions of NVIDIA Blackwell and Rubin GPUs.
+Revealed that
+NVIDIA Blackwell Ultra
+delivers up to 50x better performance and 35x lower cost for agentic AI compared with the NVIDIA Hopper platform, according to new SemiAnalysis InferenceX benchmark results.
+Expanded
+AWS
+partnership with new technology integrations across interconnect technology, cloud infrastructure, open models and physical AI.
+Revealed that leading inference providers, including Baseten, DeepInfra, Fireworks AI and Together AI, cut AI costs by up to 10x with open source models on
+NVIDIA Blackwell
+.
+Debuted the
+NVIDIA Nemotron™ 3
+family of open models, data and libraries designed to power transparent, efficient and specialized agentic AI development across industries; released
+new open models
+, data and tools for agentic AI, physical AI and autonomous vehicle development.
+Announced an investment and deep technology partnership with
+Anthropic
+, which is scaling its Claude model on Microsoft Azure, powered by NVIDIA systems.
+Entered into a non-exclusive licensing agreement with
+Groq
+to accelerate AI inference at global scale.
+Strengthened a collaboration with
+CoreWeave
+to accelerate the buildout of more than 5 gigawatts of AI factories by 2030.
+Announced an expanded strategic partnership with
+Synopsys
+to revolutionize engineering and design across industries.
+Announced a co-innovation AI lab with
+Lilly
+to reinvent drug discovery in the age of AI.
+Announced a major expansion of
+NVIDIA BioNeMo™
+, an open development platform that enables lab-in-the-loop workflows to develop breakthroughs in AI-driven biology and drug discovery.
+Joined the U.S. Department of Energy’s
+Genesis Mission
+as a private industry partner to support U.S. AI leadership in key areas including energy, scientific research and national security.
+Launched the
+NVIDIA Earth-2
+family of open models — the world’s first fully open, accelerated set of models and tools for AI weather.
+Revealed that India’s global systems integrators Infosys, Persistent, Tech Mahindra and Wipro are building the next wave of enterprise agents with
+NVIDIA AI
+.
+Partnered with global industrial software leaders Cadence, Siemens and Synopsys and India’s largest manufacturers to drive India’s AI boom using applications accelerated by
+NVIDIA CUDA-X™
+and NVIDIA Omniverse™ libraries.
+Gaming and AI PC
+Fourth-quarter Gaming revenue was $3.7 billion, up 47% from a year ago, driven by strong Blackwell demand, and down 13% from the previous quarter as channel inventory naturally moderated following a season of strong holiday demand. Full-year revenue rose 41% to a record $16.0 billion.
+Announced
+NVIDIA DLSS 4.5
+, delivering major AI-powered advances in graphics quality.
+Launched
+NVIDIA G-SYNC
+®
+Pulsar
+, extending the ultimate gaming display platform with new levels of motion clarity in esports.
+Advanced
+NVIDIA RTX™
+AI performance and adoption, delivering up to 35% faster large language model inference in leading AI PC frameworks and up to 3x performance in AI-generated visuals.
+Professional Visualization
+Fourth-quarter revenue was $1.3 billion, up 74% from the previous quarter and up 159% from a year ago, driven by exceptional demand for Blackwell. Full-year revenue rose 70% to a record $3.2 billion.
+Launched the
+NVIDIA RTX PRO™ 5000 72GB Blackwell GPU
+to power larger models and agentic workflows.
+Expanded global availability of
+NVIDIA DGX Spark™
+for the latest open models and delivered updates for improved performance.
+Automotive and Robotics
+Fourth-quarter Automotive revenue was $604 million, up 2% from the previous quarter and up 6% from a year ago, driven by continued adoption of NVIDIA’s self-driving platforms. Full-year revenue rose 39% to a record $2.3 billion.
+Unveiled the
+NVIDIA Alpamayo
+family of open AI models, simulation tools and datasets designed to accelerate the next era of safe, reasoning‑based autonomous vehicle (AV) development.
+Partnered with Mercedes-Benz on the all-new Mercedes-Benz CLA, which introduces enhanced level 2 driver assistance powered by
+NVIDIA DRIVE AV
+software, AI infrastructure and accelerated compute.
+Announced that the
+NVIDIA DRIVE Hyperion™
+ecosystem is expanding to include tier 1 suppliers, automotive integrators and sensor partners including Aeva, AUMOVIO, Astemo, Arbe, Bosch, Hesai, Magna, Omnivision, Quanta, Sony and ZF Group.
+Announced new
+NVIDIA Cosmos™ and NVIDIA Isaac™ GR00T
+open models, frameworks and AI infrastructure for physical AI; global industry leaders including Boston Dynamics, Caterpillar, Franka Robotics, Humanoid, LG Electronics and NEURA Robotics are using the NVIDIA robotics stack.
+Expanded a strategic partnership with
+Siemens
+to build the industrial AI operating system.
+Announced a strategic partnership with
+Dassault Systèmes
+to build an industrial AI platform powering virtual twins.
+CFO Commentary
+Commentary on the quarter by Colette Kress, NVIDIA’s executive vice president and chief financial officer, is available at
+https://investor.nvidia.com
+.
+Conference Call and Webcast Information
+NVIDIA will conduct a conference call with analysts and investors to discuss its fourth quarter and fiscal 2026 financial results and current financial prospects today at 2 p.m. Pacific time (5 p.m. Eastern time). A live webcast (listen-only mode) of the conference call will be accessible at NVIDIA’s investor relations website,
+https://investor.nvidia.com
+. The webcast will be recorded and available for replay until NVIDIA’s conference call to discuss its financial results for its first quarter of fiscal 2027.
+Non-GAAP Measures
+To supplement NVIDIA’s condensed consolidated financial statements presented in accordance with GAAP, the company uses non-GAAP measures of certain components of financial performance. These non-GAAP measures include non-GAAP gross profit, non-GAAP gross margin, non-GAAP operating expenses, non-GAAP operating income, non-GAAP other income (expense), net, non-GAAP net income, non-GAAP net income, or earnings, per diluted share, and free cash flow. For NVIDIA’s investors to be better able to compare its current results with those of previous periods, the company has shown a reconciliation of GAAP to non-GAAP financial measures. The reconciliations for fiscal years 2025 and 2026 adjust the related GAAP financial measures to exclude stock-based compensation expense, acquisition-related and other costs, other, gains/losses from non-marketable and publicly-held equity securities, net, interest expense related to amortization of debt discount, and the associated tax impact of these items where applicable. Beginning in the first quarter of fiscal 2027, NVIDIA’s non-GAAP financial measures will no longer exclude stock-based compensation expense. Free cash flow is calculated as GAAP net cash provided by operating activities less both purchases related to property and equipment and intangible assets and principal payments on property and equipment and intangible assets. NVIDIA believes the presentation of its non-GAAP financial measures enhances the user’s overall understanding of the company’s historical financial performance. The presentation of the company’s non-GAAP financial measures is not meant to be considered in isolation or as a substitute for the company’s financial results prepared in accordance with GAAP, and the company’s non-GAAP measures may be different from non-GAAP measures used by other companies.
+NVIDIA CORPORATION
+CONDENSED CONSOLIDATED STATEMENTS OF INCOME
+(In millions, except per share data)
+(Unaudited)
+Three Months Ended
+Twelve Months Ended
+January 25,
+January 26,
+January 25,
+January 26,
+2026
+2025
+2026
+2025
+Revenue
+$
+68,127
+$
+39,331
+$
+215,938
+$
+130,497
+Cost of revenue
+17,034
+10,608
+62,475
+32,639
+Gross profit
+51,093
+28,723
+153,463
+97,858
+Operating expenses
+Research and development
+5,512
+3,714
+18,497
+12,914
+Sales, general and administrative
+1,282
+975
+4,579
+3,491
+Total operating expenses
+6,794
+4,689
+23,076
+16,405
+Operating income
+44,299
+24,034
+130,387
+81,453
+Interest income
+568
+511
+2,300
+1,786
+Interest expense
+(74
+)
+(61
+)
+(259
+)
+(247
+)
+Other income, net
+5,604
+733
+9,022
+1,034
+Total other income, net
+6,098
+1,183
+11,063
+2,573
+Income before income tax
+50,397
+25,217
+141,450
+84,026
+Income tax expense
+7,437
+3,126
+21,383
+11,146
+Net income
+$
+42,960
+$
+22,091
+$
+120,067
+$
+72,880
+Net income per share:
+Basic
+$
+1.77
+$
+0.90
+$
+4.93
+$
+2.97
+Diluted
+$
+1.76
+$
+0.89
+$
+4.90
+$
+2.94
+Weighted average shares used in per share computation:
+Basic
+24,304
+24,489
+24,359
+24,555
+Diluted
+24,432
+24,706
+24,514
+24,804
+NVIDIA CORPORATION
+CONDENSED CONSOLIDATED BALANCE SHEETS
+(In millions)
+(Unaudited)
+January 25,
+January 26,
+2026
+2025
+ASSETS
+Current assets:
+Cash, cash equivalents and marketable securities
+$
+62,556
+$
+43,210
+Accounts receivable, net
+38,466
+23,065
+Inventories
+21,403
+10,080
+Prepaid expenses and other current assets
+3,180
+3,771
+Total current assets
+125,605
+80,126
+Property and equipment, net
+10,383
+6,283
+Operating lease assets
+2,867
+1,793
+Goodwill
+20,832
+5,188
+Intangible assets, net
+3,306
+807
+Deferred income tax assets
+13,258
+10,979
+Non-marketable equity securities
+22,251
+3,387
+Other assets
+8,301
+3,038
+Total assets
+$
+206,803
+$
+111,601
+LIABILITIES AND SHAREHOLDERS' EQUITY
+Current liabilities:
+Accounts payable
+$
+9,812
+$
+6,310
+Accrued and other current liabilities
+21,352
+11,737
+Short-term debt
+999
+-
+Total current liabilities
+32,163
+18,047
+Long-term debt
+7,469
+8,463
+Long-term operating lease liabilities
+2,572
+1,519
+Other long-term liabilities
+7,306
+4,245
+Total liabilities
+49,510
+32,274
+Shareholders' equity
+157,293
+79,327
+Total liabilities and shareholders' equity
+$
+206,803
+$
+111,601
+NVIDIA CORPORATION
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS
+(In millions)
+(Unaudited)
+Three Months Ended
+Twelve Months Ended
+January 25,
+January 26,
+January 25,
+January 26,
+2026
+2025
+2026
+2025
+Cash flows from operating activities:
+Net income
+$
+42,960
+$
+22,091
+$
+120,067
+$
+72,880
+Adjustments to reconcile net income to net cash
+provided by operating activities:
+Stock-based compensation expense
+1,633
+1,321
+6,386
+4,737
+Depreciation and amortization
+811
+543
+2,843
+1,864
+Gains on non-marketable equity securities and publicly-held equity securities, net
+(5,491
+)
+(727
+)
+(8,918
+)
+(1,030
+)
+Deferred income taxes
+611
+(598
+)
+(1,424
+)
+(4,477
+)
+Other
+(9
+)
+(138
+)
+(287
+)
+(502
+)
+Changes in operating assets and liabilities, net of acquisitions:
+Accounts receivable
+(5,073
+)
+(5,370
+)
+(15,399
+)
+(13,063
+)
+Inventories
+(1,621
+)
+(2,424
+)
+(11,324
+)
+(4,781
+)
+Prepaid expenses and other assets
+(281
+)
+331
+577
+(395
+)
+Accounts payable
+1,064
+867
+3,096
+3,357
+Accrued and other current liabilities
+1,053
+360
+5,257
+4,278
+Other long-term liabilities
+533
+372
+1,844
+1,221
+Net cash provided by operating activities
+36,190
+16,628
+102,718
+64,089
+Cash flows from investing activities:
+Proceeds from sales of marketable securities
+14,670
+177
+15,157
+495
+Proceeds from maturities of marketable securities
+2,246
+1,710
+11,226
+11,195
+Proceeds from sales of non-marketable equity securities
+12
+-
+84
+171
+Purchases of marketable securities
+(20,540
+)
+(7,010
+)
+(40,616
+)
+(26,575
+)
+Purchases of non-marketable equity securities
+(12,800
+)
+(478
+)
+(17,502
+)
+(1,486
+)
+Groq, Inc.
+(13,000
+)
+-
+(13,000
+)
+-
+Purchases related to property and equipment and intangible assets
+(1,284
+)
+(1,077
+)
+(6,042
+)
+(3,236
+)
+Acquisitions, net of cash acquired
+(165
+)
+(542
+)
+(1,535
+)
+(1,007
+)
+Other
+-
+22
+-
+22
+Net cash used in investing activities
+(30,861
+)
+(7,198
+)
+(52,228
+)
+(20,421
+)
+Cash flows from financing activities:
+Proceeds related to employee stock plans
+-
+-
+644
+490
+Payments related to repurchases of common stock
+(3,815
+)
+(7,810
+)
+(40,086
+)
+(33,706
+)
+Payments related to employee stock plan taxes
+(2,139
+)
+(1,861
+)
+(7,948
+)
+(6,930
+)
+Dividends paid
+(243
+)
+(245
+)
+(974
+)
+(834
+)
+Principal payments on property and equipment and intangible assets
+(4
+)
+(32
+)
+(101
+)
+(129
+)
+Repayment of debt
+-
+-
+-
+(1,250
+)
+Other
+(9
+)
+-
+(9
+)
+-
+Net cash used in financing activities
+(6,210
+)
+(9,948
+)
+(48,474
+)
+(42,359
+)
+Change in cash and cash equivalents
+(881
+)
+(518
+)
+2,016
+1,309
+Cash and cash equivalents at beginning of period
+11,486
+9,107
+8,589
+7,280
+Cash and cash equivalents at end of period
+$
+10,605
+$
+8,589
+$
+10,605
+$
+8,589
+Supplemental disclosures of cash flow information:
+Cash paid for income taxes, net
+$
+6,979
+$
+4,129
+$
+20,288
+$
+15,118
+NVIDIA CORPORATION
+RECONCILIATION OF GAAP TO NON-GAAP FINANCIAL MEASURES
+(In millions, except per share data)
+(Unaudited)
+Three Months Ended
+Twelve Months Ended
+January 25,
+October 26,
+January 26,
+January 25,
+January 26,
+2026
+2025
+2025
+2026
+2025
+GAAP cost of revenue
+$
+17,034
+$
+15,157
+$
+10,608
+$
+62,475
+$
+32,639
+GAAP gross profit
+$
+51,093
+$
+41,849
+$
+28,723
+$
+153,463
+$
+97,858
+GAAP gross margin
+75.0
+%
+73.4
+%
+73.0
+%
+71.1
+%
+75.0
+%
+Acquisition-related and other costs (A)
+48
+48
+118
+267
+472
+Stock-based compensation expense (B)
+69
+70
+53
+261
+178
+Other
+(1
+)
+-
+-
+3
+(3
+)
+Non-GAAP cost of revenue
+$
+16,918
+$
+15,039
+$
+10,437
+$
+61,944
+$
+31,992
+Non-GAAP gross profit
+$
+51,209
+$
+41,967
+$
+28,894
+$
+153,994
+$
+98,505
+Non-GAAP gross margin**
+75.2
+%
+73.6
+%
+73.5
+%
+71.3
+%
+75.5
+%
+GAAP operating expenses
+$
+6,794
+$
+5,839
+$
+4,689
+$
+23,076
+$
+16,405
+Stock-based compensation expense (B)
+(1,564
+)
+(1,585
+)
+(1,268
+)
+(6,125
+)
+(4,559
+)
+Acquisition-related and other costs (A)
+(90
+)
+(39
+)
+(43
+)
+(204
+)
+(130
+)
+Other
+(38
+)
+-
+-
+(53
+)
+-
+Non-GAAP operating expenses
+$
+5,102
+$
+4,215
+$
+3,378
+$
+16,694
+$
+11,716
+GAAP operating income
+$
+44,299
+$
+36,010
+$
+24,034
+$
+130,387
+$
+81,453
+Total impact of non-GAAP adjustments to operating income
+1,808
+1,742
+1,482
+6,913
+5,336
+Non-GAAP operating income
+$
+46,107
+$
+37,752
+$
+25,516
+$
+137,300
+$
+86,789
+GAAP total other income, net
+$
+6,098
+$
+1,926
+$
+1,183
+$
+11,063
+$
+2,573
+Gains from non-marketable equity securities and publicly-held equity securities, net
+(5,491
+)
+(1,354
+)
+(727
+)
+(8,918
+)
+(1,030
+)
+Other (C)
+13
+1
+1
+16
+4
+Non-GAAP total other income, net
+$
+620
+$
+573
+$
+457
+$
+2,161
+$
+1,547
+GAAP net income
+$
+42,960
+$
+31,910
+$
+22,091
+$
+120,067
+$
+72,880
+Total pre-tax impact of non-GAAP adjustments
+(3,670
+)
+389
+756
+(1,989
+)
+4,310
+Income tax impact of non-GAAP adjustments (D)
+262
+(532
+)
+(781
+)
+(1,129
+)
+(2,925
+)
+Tax expense from OBBBA*
+-
+-
+-
+48
+-
+Non-GAAP net income**
+$
+39,552
+$
+31,767
+$
+22,066
+$
+116,997
+$
+74,265
+Diluted net income per share
+GAAP
+$
+1.76
+$
+1.30
+$
+0.89
+$
+4.90
+$
+2.94
+Non-GAAP**
+$
+1.62
+$
+1.30
+$
+0.89
+$
+4.77
+$
+2.99
+Weighted average shares used in diluted net income per share computation
+24,432
+24,483
+24,706
+24,514
+24,804
+GAAP net cash provided by operating activities
+$
+36,190
+$
+23,750
+$
+16,628
+$
+102,718
+$
+64,089
+Purchases related to property and equipment and intangible assets
+(1,284
+)
+(1,637
+)
+(1,077
+)
+(6,042
+)
+(3,236
+)
+Principal payments on property and equipment and intangible assets
+(4
+)
+(24
+)
+(32
+)
+(101
+)
+(129
+)
+Free cash flow
+$
+34,902
+$
+22,089
+$
+15,519
+$
+96,575
+$
+60,724
+*Tax expense included represents impact from OBBBA (One Big Beautiful Bill Act).
+**Includes H20 charges/(releases), net, which were $4.5 billion and ($180 million) for the first and second quarter of fiscal 2026, respectively, and insignificant for both the third and fourth quarter of fiscal 2026.
+(A) Acquisition-related and other costs are comprised of amortization of intangible assets, transaction costs, and certain compensation charges and are included in the following line items:
+Three Months Ended
+Twelve Months Ended
+January 25,
+October 26,
+January 26,
+January 25,
+January 26,
+2026
+2025
+2025
+2026
+2025
+Cost of revenue
+$
+48
+$
+48
+$
+118
+$
+267
+$
+472
+Research and development
+$
+83
+$
+35
+$
+27
+$
+176
+$
+79
+Sales, general and administrative
+$
+7
+$
+4
+$
+16
+$
+28
+$
+51
+(B) Stock-based compensation consists of the following:
+Three Months Ended
+Twelve Months Ended
+January 25,
+October 26,
+January 26,
+January 25,
+January 26,
+2026
+2025
+2025
+2026
+2025
+Cost of revenue
+$
+69
+$
+70
+$
+53
+$
+261
+$
+178
+Research and development
+$
+1,217
+$
+1,206
+$
+955
+$
+4,676
+$
+3,423
+Sales, general and administrative
+$
+347
+$
+379
+$
+313
+$
+1,449
+$
+1,136
+(C) Interest expense related to acquisition consideration discount to be paid in the future and amortization of debt discount.
+(D) Income tax impact of non-GAAP adjustments, including the recognition of excess tax benefits or deficiencies related to stock-based compensation under GAAP accounting standard (ASU 2016-09).
+NVIDIA CORPORATION
+RECONCILIATION OF GAAP TO NON-GAAP OUTLOOK
+Q1 FY27
+Outlook
+($ in millions)
+GAAP gross margin
+74.9%
+Impact of acquisition-related costs and other costs
+0.1%
+Non-GAAP gross margin*
+75.0
+%
+GAAP operating expenses
+$
+7,700
+Acquisition-related costs and other costs
+(200
+)
+Non-GAAP operating expenses*
+$
+7,500
+*Beginning in the first quarter of fiscal 2027, NVIDIA will include stock-based compensation expense in its non-GAAP financial measures. Stock-based compensation expense for the first quarter of fiscal 2027 is expected to have a 0.1% impact on non-GAAP gross margin and $1.9 billion in non-GAAP operating expenses.
+About NVIDIA
+NVIDIA
+(NASDAQ: NVDA) is the world leader in AI and accelerated computing.
+For further information, contact:
+Toshiya Hari
+Mylene Mangalindan
+Investor Relations
+Corporate Communications
+NVIDIA Corporation
+NVIDIA Corporation
+[email protected]
+[email protected]
+Certain statements in this press release including, but not limited to, statements as to: computing demand growing exponentially; Grace Blackwell with NVLink being the king of inference today — delivering an order-of-magnitude lower cost per token — and Vera Rubin extending that leadership even further; enterprise adoption of agents skyrocketing; NVIDIA’s customers racing to invest in AI compute — the factories powering the AI industrial revolution and their future growth; expectations with respect to growth, performance and benefits of NVIDIA’s products, services and technologies, including Blackwell, and related trends and drivers; expectations with respect to supply and demand for NVIDIA’s products, services and technologies, including Blackwell, and related matters including inventory, production and distribution; expectations with respect to NVIDIA’s third party arrangements, including with its collaborators and partners; expectations with respect to technology developments, including Vera Rubin, and related trends and drivers; future NVIDIA cash dividends or other returns to stockholders; NVIDIA’s financial and business outlook for the first quarter of fiscal 2027 and beyond; projected market growth and trends; expectations with respect to AI and related industries; and other statements that are not historical facts are forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended, and Section 21E of the Securities Exchange Act of 1934, as amended, which are subject to the “safe harbor” created by those sections based on management’s beliefs and assumptions and on information currently available to management and are subject to risks and uncertainties that could cause results to be materially different than expectations. Important factors that could cause actual results to differ materially include: global economic and political conditions; NVIDIA’s reliance on third parties to manufacture, assemble, package and test NVIDIA’s products; the impact of technological development and competition; development of new products and technologies or enhancements to NVIDIA’s existing products and technologies; market acceptance of NVIDIA’s products or NVIDIA’s partners’ products; design, manufacturing or software defects; changes in consumer preferences or demands; changes in industry standards and interfaces; unexpected loss of performance of NVIDIA’s products or technologies when integrated into systems; NVIDIA’s ability to realize the potential benefits of business investments or acquisitions; and changes in applicable laws and regulations, as well as other factors detailed from time to time in the most recent reports NVIDIA files with the Securities and Exchange Commission, or SEC, including, but not limited to, its annual report on Form 10-K and quarterly reports on Form 10-Q. Copies of reports filed with the SEC are posted on the company’s website and are available from NVIDIA without charge. These forward-looking statements are not guarantees of future performance and speak only as of the date hereof, and, except as required by law, NVIDIA disclaims any obligation to update these forward-looking statements to reflect future events or circumstances.
+© 2026 NVIDIA Corporation. All rights reserved. NVIDIA, the NVIDIA logo, DGX Spark, BlueField, NVIDIA DRIVE Hyperion, NVIDIA RTX, NVIDIA RTX PRO, NVIDIA Cosmos, NVIDIA Isaac, Nemotron, BioNeMo, CUDA-X, Omniverse and G-SYNC are trademarks and/or registered trademarks of NVIDIA Corporation in the U.S. and/or other countries. Other company and product names may be trademarks of the respective companies with which they are associated. Features, pricing, availability and specifications are subject to change without notice.
+A photo accompanying this announcement is available at
+https://www.globenewswire.com/NewsRoom/AttachmentNg/aabe86db-ce89-4434-b83c-495082979801
+NVIDIA corporate headquarters
+NVIDIA corporate headquarters in Silicon Valley
+Source: NVIDIA
+Categories:
+Press Releases
+View all news
+Quick Links
+Email Alerts
+RSS
+Request Printed Materials
+Download Library
+Email Alerts
+To receive notifications via email, enter your email address and select at least one subscription below. After submitting your information, you will receive an email. You must click the link in the email to activate your subscription. You can sign up for additional subscriptions at any time.
+* Required
+Email Address
+*
+Investor Alert Options
+Mailing Lists
+*
+SEC Filing
+Presentation
+Event
+End of Day Stock Quote
+Enter the code shown above.
+*
+Email Alert Sign Up Confirmation
+Investor Contact
+2788 San Tomas Expressway
+Santa Clara, CA 95051
+Contact Investor Relations
+Investor Resources
+Download Library
+Request Information
+FAQs
+Email Alerts
+RSS
+Stock Info
+Stock Quote & Chart
+Historical Price Lookup
+Investment Calculator
+Fundamentals
+Analyst Coverage
+Governance
+Management Team
+Board of Directors
+Governance Documents
+Committee Composition
+Contact the Board
+Corporate Sustainability
+News
+News
+Events & Presentations
+Events & Presentations
+Financial Info
+Financial Reports
+SEC Filings
+Quarterly Results
+Annual Reports and Proxies
+Sign up for NVIDIA News
+Subscribe
+Follow NVIDIA
+Investors and others should note that we announce material financial information to our investors using our investor relations website, press releases, SEC filings and public conference calls
+    and webcasts. We intend to use our
+@NVIDIA
+Twitter account,
+NVIDIA Facebook
+page,
+NVIDIA LinkedIn
+page and company
+blog
+as a means of disclosing information about our company, our services and other matters and for complying with our disclosure obligations under Regulation FD. The information we post
+    through these social media channels may be deemed material. Accordingly, investors should monitor these accounts and the blog, in addition to following our press releases, SEC filings and public
+    conference calls and webcasts. This list may be updated from time to time.
+NVIDIA
+USA - United States
+Privacy Policy
+Your Privacy Choices
+Terms of Service
+Accessibility
+Corporate Policies
+Contact Us
+Copyright © 2026 NVIDIA Corporation
+Powered By Q4 Inc.
+5.190.1.9
+(opens in new window)
+(Opens in new window)

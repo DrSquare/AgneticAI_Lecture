@@ -1,0 +1,50 @@
+[
+  {
+    "id": "forecast_GOOGL",
+    "url": "https://stockanalysis.com/stocks/googl/forecast/",
+    "status": "downloaded",
+    "sha256": "3670a6586f0d6f8c9509cd60e73cb7229aafa6027b589ba5987b34676ca56862"
+  },
+  {
+    "id": "forecast_MSFT",
+    "url": "https://stockanalysis.com/stocks/msft/forecast/",
+    "status": "downloaded",
+    "sha256": "7ba458ccdc065018eafedd00b1e4da1b781a9ef2edbb5d2af995d053c4c51f06"
+  },
+  {
+    "id": "forecast_META",
+    "url": "https://stockanalysis.com/stocks/meta/forecast/",
+    "status": "downloaded",
+    "sha256": "942219a3353dae92360be9b3790e5125335b21af85476ef65ee0d53b3aff3f4e"
+  },
+  {
+    "id": "forecast_AMZN",
+    "url": "https://stockanalysis.com/stocks/amzn/forecast/",
+    "status": "downloaded",
+    "sha256": "1891fc557e6324abe34fc38d64dc32b8f396b49edf7cfe864c546d6c8e36751d"
+  },
+  {
+    "id": "facts_GOOGL",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001652044.json",
+    "status": "downloaded",
+    "sha256": "a017f26ee88cb4a639d1c1ddb06d53b4afe22f0ac89cabec7cd67c88919fe1c5"
+  },
+  {
+    "id": "facts_MSFT",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json",
+    "status": "downloaded",
+    "sha256": "f8aae2965b20ad0df44bdf7ccbedf797d275b6b8dc030154a7a311361bb7246f"
+  },
+  {
+    "id": "facts_META",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326801.json",
+    "status": "downloaded",
+    "sha256": "7518e76d6dac2d016e1a3d1dec1cc55ff9ea3bdd58a151b16fcaa067a6c9d94e"
+  },
+  {
+    "id": "facts_AMZN",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",
+    "status": "downloaded",
+    "sha256": "7549fb68446eee40e1f50a166fa06b2d2ee6349e07c8553a4828757e032d3cd4"
+  }
+]

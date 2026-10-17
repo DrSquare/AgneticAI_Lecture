@@ -1,0 +1,71 @@
+{
+  "passed": true,
+  "reviewed_at": "2026-10-17 18:37:15 UTC",
+  "reviewer": "Parent agent visual inspection of tool-rendered images",
+  "dashboard_print_pages": 7,
+  "summary_print_pages": 1,
+  "reviewed_images": [
+    "evidence/dashboard-board.png",
+    "evidence/dashboard-cfo-graphics.png",
+    "evidence/dashboard-evidence-search.png",
+    "evidence/dashboard-mobile.png",
+    "evidence/dashboard-mobile-cards.png",
+    "evidence/dashboard-performance.png",
+    "evidence/dashboard-outlook.png",
+    "evidence/exec-summary-page.png",
+    "evidence/dashboard-print-page-1.png",
+    "evidence/dashboard-print-page-2.png",
+    "evidence/dashboard-print-page-3.png",
+    "evidence/dashboard-print-page-4.png",
+    "evidence/dashboard-print-page-5.png",
+    "evidence/dashboard-print-page-6.png",
+    "evidence/dashboard-print-page-7.png"
+  ],
+  "checks": [
+    {
+      "name": "Desktop overview and selected Graphics scope",
+      "status": "pass",
+      "evidence": "Readable current/prior/change values, visible source locators and group-only labels; CFO order differs from Board."
+    },
+    {
+      "name": "Mobile header, controls and all eight cards",
+      "status": "pass",
+      "evidence": "390px viewport fits the document; labels and values remain legible in the two-column card grid."
+    },
+    {
+      "name": "Evidence search and formula presentation",
+      "status": "pass",
+      "evidence": "Search result table shows units, disclosure status, notes, source headings and precise locators. Numerical expressions and input IDs are visible in evidence and analytical panels."
+    },
+    {
+      "name": "Separated annual/quarterly amount and ratio charts",
+      "status": "pass",
+      "evidence": "Direct labels, distinct units and zero-baseline bars; quarterly plot labels and source references do not overlap in the corrected screen or print view."
+    },
+    {
+      "name": "Historical guidance and scope",
+      "status": "pass",
+      "evidence": "Q4 actual/prior-guidance comparison separated from historical Q1 FY2027 outlook; GAAP OpEx 6,650 table value versus prose approximately 6,700 identified; dated outlook and non-GAAP comparability notes visible."
+    },
+    {
+      "name": "All seven dashboard PDF pages",
+      "status": "pass",
+      "evidence": "No clipped text, overlapping chart content or orphaned major section headings. Each major report section starts clearly; final page explains omitted interactive ledger and source/FCF conventions."
+    },
+    {
+      "name": "One-page executive summary",
+      "status": "pass",
+      "evidence": "One A4 page; five headlines, three risks, three questions and references legible."
+    }
+  ],
+  "iterations": [
+    {
+      "finding": "Initial print layout let quarterly bars overlap source/quarter labels and stranded major section headings.",
+      "resolution": "Stage4 builder introduced proportional CSS-variable chart heights and dedicated plot boxes, explicit print page starts, and visible Board units. Revised browser bounds checks and all PDF pages passed."
+    }
+  ],
+  "limitations": [
+    "Headless Chromium print media and generated PDFs were verified; native OS print dialog was not exercised.",
+    "Full interactive evidence ledger is intentionally omitted from printed dashboard and remains available in self-contained HTML and filtered CSV."
+  ]
+}

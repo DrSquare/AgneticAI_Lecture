@@ -1,0 +1,32 @@
+[
+  {
+    "company": "Figure AI",
+    "headings": "passed",
+    "spot_checks": 3,
+    "latest_evidence_date": "2026-09-30"
+  },
+  {
+    "company": "Physical Intelligence",
+    "headings": "passed",
+    "spot_checks": 3,
+    "latest_evidence_date": "2026-10-13"
+  },
+  {
+    "company": "Skild AI",
+    "headings": "passed",
+    "spot_checks": 3,
+    "latest_evidence_date": "2026-09-29"
+  },
+  {
+    "company": "Agility Robotics",
+    "headings": "passed",
+    "spot_checks": 3,
+    "latest_evidence_date": "2026-10-15"
+  },
+  {
+    "company": "1X Technologies",
+    "headings": "passed",
+    "spot_checks": 5,
+    "latest_evidence_date": "2026-08-26"
+  }
+]

@@ -1,0 +1,84 @@
+{
+  "company": "Figure AI",
+  "window_start": "2025-10-17",
+  "window_end": "2026-10-17",
+  "prepared_at": "2026-10-17",
+  "timezone": "America/Los_Angeles",
+  "layer": "Vertically integrated humanoid hardware + proprietary physical-AI models",
+  "flagship": "Figure 03 + Helix 2.5",
+  "valuation_usd_billion": 39,
+  "valuation_date": "2025-09-16",
+  "valuation_basis": "Post-money priced Series C announcement; outside window, latest verified priced baseline",
+  "valuation_source": "https://www.figure.ai/news/series-c",
+  "total_capital_usd_billion": null,
+  "capital_date": "2026-09-03",
+  "capital_basis": "Complete cumulative capital not disclosed; Nscale strategic equity amount unknown. Compute commitment is not equity capital.",
+  "capital_source": "https://www.nscale.com/press-releases/nscale-and-figure",
+  "latest_round_usd_billion": null,
+  "latest_round_date": "2026-09-03",
+  "latest_round_source": "https://www.nscale.com/press-releases/nscale-and-figure",
+  "latest_round_basis": "Nscale strategic investment, undisclosed amount and valuation",
+  "latest_disclosed_priced_round_amount_lower_bound_usd_billion": 1,
+  "latest_disclosed_priced_round_amount_operator": ">",
+  "latest_disclosed_priced_round_date": "2025-09-16",
+  "latest_disclosed_priced_round_basis": "Committed Series C capital, not exact final proceeds",
+  "revenue_signal": "Revenue: not disclosed. Named industrial pilot and commercial agreement; no verified ARR.",
+  "customers": "BMW (customer-confirmed pilot and Figure 03 follow-on); Catalyst Brands (Figure-announced agreement)",
+  "scale": "Company-reported >350 Figure 03 from BotQ and one/hour demonstrated cycle time as of 2026-04-29; includes internal allocations, not external deliveries",
+  "top_risk": "Capital intensity and reliable autonomy/unit economics at commercial scale",
+  "momentum": "gaining",
+  "momentum_basis": "Analyst judgment: BMW follow-on, Catalyst agreement and Helix 2.5 research; not measured revenue growth",
+  "latest_evidence_date": "2026-09-30",
+  "spot_checks": [
+    {
+      "claim": "Latest verified priced funding baseline is >$1B committed Series C at $39B post-money.",
+      "date": "2025-09-16",
+      "source_title": "Figure Exceeds $1B in Series C Funding at $39B Post-Money Valuation",
+      "primary_url": "https://www.figure.ai/news/series-c",
+      "verdict": "Verified as company announcement; outside research window",
+      "evidence": "Announcement states capital commitments over $1B, $39B post-money, and Parkway lead. It does not state an exact final total."
+    },
+    {
+      "claim": "Figure 02 supported production of more than 30,000 BMW X3 vehicles in 2025.",
+      "date": "2026-06-25",
+      "source_title": "BMW Group advances the use of Physical AI in production with Figure 03 project in Spartanburg",
+      "primary_url": "https://www.press.bmwgroup.com/canada/article/detail/T0458794EN/bmw-group-advances-the-use-of-physical-ai-in-production-with-figure-03-project-in-spartanburg?showMedia=photo",
+      "verdict": "Customer-confirmed; limited task contribution, not complete-car assembly",
+      "evidence": "BMW describes ten months of sheet-metal positioning and a subsequent Figure 03 logistics project."
+    },
+    {
+      "claim": "Figure reported >350 Figure 03 from BotQ and demonstrated a one/hour cycle time.",
+      "date": "2026-04-29",
+      "source_title": "Ramping Figure 03 Production",
+      "primary_url": "https://www.figure.ai/news/ramping-figure-03-production",
+      "verdict": "Verified as company-reported manufacturing metric; external customer delivery count unverified",
+      "evidence": "Release gives both figures and explains allocations to research, data collection and commercial development."
+    }
+  ],
+  "additional_financial_check": {
+    "claim": "The $3.5B Nscale headline is initial compute commitment, not funding proceeds.",
+    "date": "2026-09-03",
+    "source_title": "Nscale and Figure Sign Strategic Partnership to Power the Next Generation of Physical AI",
+    "primary_url": "https://www.nscale.com/press-releases/nscale-and-figure",
+    "verdict": "Partner-confirmed distinction",
+    "evidence": "Nscale separately describes compute and an equity investment without its amount. Initial GPU deployment is targeted for H2 2027."
+  },
+  "limitations": [
+    "Valuation is a 2025-09-16 historical priced baseline outside the 12-month window.",
+    "Complete total capital, latest strategic equity amount, revenue, ARR and paid customer unit count are not disclosed in reviewed primary releases.",
+    "Factory and home benchmark results are company-reported, not independently audited.",
+    "Third-party July 2026 claim of 1,000th Figure 03 found; originating primary social post not retrieved, so not used as verified scale.",
+    "No IPO/SPAC claim was verified in reviewed primary company releases; this is a bounded search, not proof of absence."
+  ],
+  "slide_corrections": [
+    "Do not treat Figure's $39B financing valuation or >$1B committed Series C as a new 2026 round.",
+    "Do not label Nscale's $3.5B compute commitment as Figure funding.",
+    "Do not equate BotQ output, annual capacity plans, or cars supported at BMW with paid robot deliveries."
+  ],
+  "handoff": {
+    "researcher": "Independent Figure subagent",
+    "method": "Live web search, primary-page reading, dated spot checks",
+    "challenge": "Distinguishing capital commitments, compute contracts, manufacturing output and customer deployments",
+    "parent_instruction": "Keep unknown capital blank; retain inequality and company-reported labels."
+  }
+}

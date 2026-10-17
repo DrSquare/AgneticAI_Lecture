@@ -1,0 +1,6 @@
+{
+  "name": "annual-report-pipeline",
+  "version": "1.0.0",
+  "description": "Pipeline from a semiconductor company's annual report (10-K) to verified KPI tables, trends, a Board summary and an interactive role-based dashboard.",
+  "author": { "name": "Minha Hwang" }
+}

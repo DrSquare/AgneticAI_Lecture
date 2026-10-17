@@ -1,0 +1,14 @@
+DEMO 3 · BEAT 4 · RESULTS
+Alphabet: value per share by method vs. the $341 price
+WHAT DRIVES THE BASE CASE
+Revenue 
+$403B (2025) → ~$823B (2030E); Cloud from 15% to ~35% of revenue
+Capex 
+≈$199B in 2026E (guide $195–205B), ~$262B in 2027E → FCF negative until 2028
+Discounting 
+WACC 9.5%, terminal growth 3.0%; terminal value ≈95% of EV
+Result 
+DCF $230 (−32%); blended four-method base $284 (−17%)
+Read-across: 
+the price needs roughly WACC 8.0% with 3.5% growth — or faster Cloud and a quicker return to normal capex. Change the yellow cells and test it.
+Source: Demo 3 output (GOOGL_DCF_Valuation.xlsx) from Alphabet SEC filings and StockAnalysis.com prices (16 Oct 2026). Teaching demo — not investment advice.

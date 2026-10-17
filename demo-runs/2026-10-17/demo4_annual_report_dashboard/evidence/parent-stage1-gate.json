@@ -1,0 +1,48 @@
+{
+  "stage": 1,
+  "metric_count": 385,
+  "checks": [
+    {
+      "name": "Unique metric IDs",
+      "status": "pass",
+      "evidence": 385
+    },
+    {
+      "name": "Missing values stay null",
+      "status": "pass",
+      "evidence": "No missing disclosure is represented by zero"
+    },
+    {
+      "name": "Reported/calc values numeric",
+      "status": "pass",
+      "evidence": "Numeric schema"
+    },
+    {
+      "name": "Every row resolves to source map",
+      "status": "pass",
+      "evidence": "Exact PDF pages or earnings-release headings"
+    },
+    {
+      "name": "Every calculated row has formula",
+      "status": "pass",
+      "evidence": "Formula inputs preserved"
+    },
+    {
+      "name": "Stage1 reconciliation results",
+      "status": "pass",
+      "evidence": 46
+    },
+    {
+      "name": "Rendered revenue agrees",
+      "status": "pass",
+      "evidence": "evidence/source-pdf-139.png; printed51"
+    },
+    {
+      "name": "No source-copy reference output",
+      "status": "pass",
+      "evidence": "Agent provenance statement; original source hash recorded"
+    }
+  ],
+  "passed": true,
+  "financials_sha256": "7e723a3901f37782f634c4772d877cc9aa6bb3c786bb25b99063cf5bbb3724d6"
+}

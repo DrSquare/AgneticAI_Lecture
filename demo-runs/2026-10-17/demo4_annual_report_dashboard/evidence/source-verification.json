@@ -1,0 +1,72 @@
+{
+  "verified_on": "2026-10-17",
+  "timezone": "America/Los_Angeles",
+  "annual_period_end": "2026-01-25",
+  "checks": [
+    {
+      "name": "Income statement",
+      "status": "pass",
+      "pdf_page": 139,
+      "pdf_index": 138,
+      "printed_page": 51,
+      "observed_values": [
+        "215,938",
+        "130,497",
+        "130,387",
+        "120,067"
+      ],
+      "screenshot": "evidence/source-pdf-139.png",
+      "visual_review": "Parent agent inspected rendered page; values, fiscal columns and printed page match."
+    },
+    {
+      "name": "Balance sheet",
+      "status": "pass",
+      "pdf_page": 141,
+      "pdf_index": 140,
+      "printed_page": 53,
+      "observed_values": [
+        "21,403",
+        "10,080",
+        "10,605",
+        "51,951"
+      ],
+      "screenshot": "evidence/source-pdf-141.png",
+      "visual_review": "Parent agent inspected rendered page; values, fiscal columns and printed page match."
+    },
+    {
+      "name": "Reportable segments",
+      "status": "pass",
+      "pdf_page": 165,
+      "pdf_index": 164,
+      "printed_page": 77,
+      "observed_values": [
+        "193,479",
+        "22,459",
+        "130,141",
+        "9,156"
+      ],
+      "screenshot": "evidence/source-pdf-165.png",
+      "visual_review": "Parent agent inspected rendered page; values, fiscal columns and printed page match."
+    },
+    {
+      "name": "Margin drivers and concentration",
+      "status": "pass",
+      "pdf_page": 129,
+      "pdf_index": 128,
+      "printed_page": 41,
+      "observed_values": [
+        "71.1%",
+        "75.0%",
+        "22%",
+        "14%"
+      ],
+      "screenshot": "evidence/source-pdf-129.png",
+      "visual_review": "Parent agent inspected rendered page; values, fiscal columns and printed page match."
+    },
+    {
+      "name": "Archived official-source SHA256 integrity",
+      "status": "pass",
+      "evidence": "inputs/sources.json"
+    }
+  ]
+}

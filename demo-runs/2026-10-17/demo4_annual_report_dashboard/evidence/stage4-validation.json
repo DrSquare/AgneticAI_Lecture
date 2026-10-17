@@ -1,0 +1,788 @@
+{
+  "stage": 4,
+  "run_date": "2026-10-17",
+  "input_sha256": {
+    "financials.md": "7e723a3901f37782f634c4772d877cc9aa6bb3c786bb25b99063cf5bbb3724d6",
+    "trends.md": "2d54c33c73d9c30a962214866d491edf0d54bcd798c242e5c484ab5d03bbd7e9",
+    "exec-summary.md": "86203d3b00d0402686d340929da6c9805c2f40a087840d15edc9bc707e67862a"
+  },
+  "sole_business_inputs": [
+    "financials.md",
+    "trends.md",
+    "exec-summary.md"
+  ],
+  "original_financial_rows": 385,
+  "original_trend_rows": 99,
+  "original_arrays_unchanged_in_embedded_json": true,
+  "source_registry_entries": 52,
+  "arithmetic_checks": [
+    {
+      "check": "segment revenue fy25",
+      "actual": 130497,
+      "expected": 130497,
+      "passed": true
+    },
+    {
+      "check": "segment operating income fy25",
+      "actual": 87960,
+      "expected": 87960,
+      "passed": true
+    },
+    {
+      "check": "unallocated bridge fy25",
+      "actual": 81453,
+      "expected": 81453,
+      "passed": true
+    },
+    {
+      "check": "Data Center components fy25",
+      "actual": 115186,
+      "expected": 115186,
+      "passed": true
+    },
+    {
+      "check": "end-market total excluding nested subcategories fy25",
+      "actual": 130497,
+      "expected": 130497,
+      "passed": true
+    },
+    {
+      "check": "cash and marketable securities fy25",
+      "actual": 43210,
+      "expected": 43210,
+      "passed": true
+    },
+    {
+      "check": "company-defined free cash flow fy25",
+      "actual": 60724,
+      "expected": 60724,
+      "passed": true
+    },
+    {
+      "check": "headquarters-based geography fy25",
+      "actual": 130497,
+      "expected": 130497,
+      "passed": true
+    },
+    {
+      "check": "segment revenue fy26",
+      "actual": 215938,
+      "expected": 215938,
+      "passed": true
+    },
+    {
+      "check": "segment operating income fy26",
+      "actual": 139297,
+      "expected": 139297,
+      "passed": true
+    },
+    {
+      "check": "unallocated bridge fy26",
+      "actual": 130387,
+      "expected": 130387,
+      "passed": true
+    },
+    {
+      "check": "Data Center components fy26",
+      "actual": 193737,
+      "expected": 193737,
+      "passed": true
+    },
+    {
+      "check": "end-market total excluding nested subcategories fy26",
+      "actual": 215938,
+      "expected": 215938,
+      "passed": true
+    },
+    {
+      "check": "cash and marketable securities fy26",
+      "actual": 62556,
+      "expected": 62556,
+      "passed": true
+    },
+    {
+      "check": "company-defined free cash flow fy26",
+      "actual": 96575,
+      "expected": 96575,
+      "passed": true
+    },
+    {
+      "check": "headquarters-based geography fy26",
+      "actual": 215938,
+      "expected": 215938,
+      "passed": true
+    },
+    {
+      "check": "four quarters reconcile to FY2026 revenue",
+      "actual": 215938,
+      "expected": 215938,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: rd_pct_fy26",
+      "actual": 8.565884652076058,
+      "expected": 8.56588465,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: operating_margin_fy26",
+      "actual": 60.38168363141272,
+      "expected": 60.38168363,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: net_margin_fy26",
+      "actual": 55.60253406070261,
+      "expected": 55.60253406,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: rd_pct_fy25",
+      "actual": 9.896012935163261,
+      "expected": 9.89601294,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: operating_margin_fy25",
+      "actual": 62.417526839697466,
+      "expected": 62.41752684,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: net_margin_fy25",
+      "actual": 55.848027157712444,
+      "expected": 55.84802716,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: h20_initial_charge_annual_pts",
+      "actual": 2.083931498856153,
+      "expected": 2.0839315,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: all_other_bridge_fy26",
+      "actual": -8910,
+      "expected": -8910,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: cn_margin_fy26",
+      "actual": 67.26363067826483,
+      "expected": 67.26363068,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: graphics_margin_fy26",
+      "actual": 40.7676209982635,
+      "expected": 40.767621,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: all_other_bridge_fy25",
+      "actual": -6507,
+      "expected": -6507,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: cn_margin_fy25",
+      "actual": 71.32529498334668,
+      "expected": 71.32529498,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: graphics_margin_fy25",
+      "actual": 35.5494966442953,
+      "expected": 35.54949664,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: cash_capex_total_fy26",
+      "actual": 6143,
+      "expected": 6143,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: cash_capital_return_fy26",
+      "actual": 41060,
+      "expected": 41060,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: fcf_conversion_fy26",
+      "actual": 80.43425753954043,
+      "expected": 80.43425754,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: capital_return_fcf_fy26",
+      "actual": 42.516179135387006,
+      "expected": 42.51617914,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: cash_capex_total_fy25",
+      "actual": 3365,
+      "expected": 3365,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: cash_capital_return_fy25",
+      "actual": 34540,
+      "expected": 34540,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: fcf_conversion_fy25",
+      "actual": 83.3205268935236,
+      "expected": 83.32052689,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: capital_return_fcf_fy25",
+      "actual": 56.88031091495949,
+      "expected": 56.88031091,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: inventory_days_fy26",
+      "actual": 125.043537414966,
+      "expected": 125.04353741,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: inventory_days_fy25",
+      "actual": 112.72404179049603,
+      "expected": 112.72404179,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: groq_total_consideration",
+      "actual": 17000,
+      "expected": 17000,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: q4_revenue_beat_pct",
+      "actual": 4.810769230769241,
+      "expected": 4.81076923,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: q4_revenue_beat_amount",
+      "actual": 3127,
+      "expected": 3127,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: q4_revenue_guidance_low",
+      "actual": 63700.0,
+      "expected": 63700.0,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: q4_revenue_guidance_high",
+      "actual": 66300.0,
+      "expected": 66300.0,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: q4_gaap_gm_delta",
+      "actual": 0.20000000000000284,
+      "expected": 0.2,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: q4_ng_gm_delta",
+      "actual": 0.20000000000000284,
+      "expected": 0.2,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: q4_gaap_opex_delta",
+      "actual": 144,
+      "expected": 144,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: q4_ng_opex_delta",
+      "actual": 102,
+      "expected": 102,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: q4_gaap_etr",
+      "actual": 14.756830763735937,
+      "expected": 14.75683076,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: q4_actual_other_ex_equity",
+      "actual": 607,
+      "expected": 607,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: q1fy27_revenue_low",
+      "actual": 76440.0,
+      "expected": 76440.0,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: q1fy27_revenue_high",
+      "actual": 79560.0,
+      "expected": 79560.0,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: revenue_growth",
+      "actual": 65.47353579009479,
+      "expected": 65.47353579,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: cost_revenue_growth",
+      "actual": 91.41211434173842,
+      "expected": 91.41211434,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: gross_profit_growth",
+      "actual": 56.82213002513847,
+      "expected": 56.82213003,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: operating_income_growth",
+      "actual": 60.076363055995486,
+      "expected": 60.07636306,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: net_income_growth",
+      "actual": 64.74615806805708,
+      "expected": 64.74615807,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: opex_growth",
+      "actual": 40.664431575739115,
+      "expected": 40.66443158,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: rd_growth",
+      "actual": 43.23215115378658,
+      "expected": 43.23215115,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: sga_growth",
+      "actual": 31.165855055857918,
+      "expected": 31.16585506,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: diluted_eps_growth",
+      "actual": 66.66666666666667,
+      "expected": 66.66666667,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: diluted_shares_growth",
+      "actual": -1.169166263505883,
+      "expected": -1.16916626,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: non_gaap_oi_growth",
+      "actual": 58.199771860489236,
+      "expected": 58.19977186,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: non_gaap_net_income_growth",
+      "actual": 57.539890931125015,
+      "expected": 57.53989093,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: inventory_growth",
+      "actual": 112.33134920634922,
+      "expected": 112.33134921,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: cfo_growth",
+      "actual": 60.27399397712556,
+      "expected": 60.27399398,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: fcf_growth",
+      "actual": 59.03925960081682,
+      "expected": 59.0392596,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: gaap_gm_move",
+      "actual": -3.9000000000000057,
+      "expected": -3.9,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: non_gaap_gm_move",
+      "actual": -4.200000000000003,
+      "expected": -4.2,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: rd_pct_move",
+      "actual": -1.330128290000001,
+      "expected": -1.33012829,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: effective_tax_move",
+      "actual": 1.799999999999999,
+      "expected": 1.8,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: inventory_net_gm_impact_move",
+      "actual": -0.30000000000000027,
+      "expected": -0.3,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: fcf_conversion_move",
+      "actual": -2.886269349999992,
+      "expected": -2.88626935,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: capital_return_fcf_move",
+      "actual": -14.36413177,
+      "expected": -14.36413177,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: operating_margin_move",
+      "actual": -2.035843208284749,
+      "expected": -2.03584321,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: net_margin_move",
+      "actual": -0.24549309700983013,
+      "expected": -0.2454931,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: cn_margin_move",
+      "actual": -4.061664305081846,
+      "expected": -4.06166431,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: graphics_margin_move",
+      "actual": 5.218124353968201,
+      "expected": 5.21812435,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: inventory_days_move",
+      "actual": 12.319495619999998,
+      "expected": 12.31949562,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: operating_income_change",
+      "actual": 48934,
+      "expected": 48934,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: total_other_income_change",
+      "actual": 8490,
+      "expected": 8490,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: income_tax_change",
+      "actual": 10237,
+      "expected": 10237,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: net_income_change",
+      "actual": 47187,
+      "expected": 47187,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: net_vs_operating_growth_gap",
+      "actual": 4.6697950100000085,
+      "expected": 4.66979501,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: fcf_recomputed_fy26",
+      "actual": 96575,
+      "expected": 96575,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: fcf_recomputed_fy25",
+      "actual": 60724,
+      "expected": 60724,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: cn_revenue_growth",
+      "actual": 66.5151945470037,
+      "expected": 66.51519455,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: graphics_revenue_growth",
+      "actual": 57.01202460850112,
+      "expected": 57.01202461,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: dc_revenue_growth",
+      "actual": 68.19491952146963,
+      "expected": 68.19491952,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: dc_compute_growth",
+      "actual": 58.87216720810991,
+      "expected": 58.87216721,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: dc_networking_growth",
+      "actual": 141.53964588144726,
+      "expected": 141.53964588,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: gaming_growth",
+      "actual": 41.33920704845815,
+      "expected": 41.33920705,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: proviz_growth",
+      "actual": 69.91480298189563,
+      "expected": 69.91480298,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: automotive_growth",
+      "actual": 38.665879574970475,
+      "expected": 38.66587957,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: oem_other_growth",
+      "actual": 59.125964010282786,
+      "expected": 59.12596401,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: dc_share_fy26",
+      "actual": 89.718808176421,
+      "expected": 89.71880818,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: dc_share_fy25",
+      "actual": 88.26716322980604,
+      "expected": 88.26716323,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: largest_direct_share_move",
+      "actual": 10,
+      "expected": 10,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: top_two_direct_fy26",
+      "actual": 36,
+      "expected": 36,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: geo_china_growth",
+      "actual": -21.442829766847648,
+      "expected": -21.44282977,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: geo_china_share_fy26",
+      "actual": 9.112337800665006,
+      "expected": 9.1123378,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: geo_china_share_fy25",
+      "actual": 19.19431098032905,
+      "expected": 19.19431098,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: geo_china_share_move",
+      "actual": -10.081973179664043,
+      "expected": -10.08197318,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: geo_us_growth",
+      "actual": 93.09904235822512,
+      "expected": 93.09904236,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: geo_us_share_fy26",
+      "actual": 69.28701756985801,
+      "expected": 69.28701757,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: geo_us_share_fy25",
+      "actual": 59.374545008697524,
+      "expected": 59.37454501,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: geo_us_share_move",
+      "actual": 9.91247256116049,
+      "expected": 9.91247256,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: q4_revenue_above_upper",
+      "actual": 1827,
+      "expected": 1827.0,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: q4_gaap_gm_lower",
+      "actual": 74.3,
+      "expected": 74.3,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: q4_gaap_gm_upper",
+      "actual": 75.3,
+      "expected": 75.3,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: q4_ng_gm_lower",
+      "actual": 74.5,
+      "expected": 74.5,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: q4_ng_gm_upper",
+      "actual": 75.5,
+      "expected": 75.5,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: q4_other_adjustments",
+      "actual": 13,
+      "expected": 13,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: q1fy27_implied_revenue_growth",
+      "actual": 14.492051609494027,
+      "expected": 14.49205161,
+      "passed": true
+    },
+    {
+      "check": "trend arithmetic: q1fy27_gaap_gm_move",
+      "actual": -0.09999999999999432,
+      "expected": -0.1,
+      "passed": true
+    }
+  ],
+  "static_checks": [
+    "all row source IDs resolved against allowed markdown source registry",
+    "all literal row references resolved",
+    "no external asset URLs, CSS imports or automatic network APIs",
+    "embedded financials and trends arrays deep-equal parsed inputs",
+    "summary preserves five headlines, three risks and three questions",
+    "owned Python builder parsed and executed successfully"
+  ],
+  "javascript_syntax_check": "passed Node vm.Script compilation",
+  "stub_dom_checks": {
+    "syntax": "passed",
+    "stub_dom_render": "passed",
+    "all_evidence_rows": 451,
+    "scope_counts": [
+      {
+        "scope": "All",
+        "evidence": 451
+      },
+      {
+        "scope": "Compute & Networking",
+        "evidence": 380
+      },
+      {
+        "scope": "Graphics",
+        "evidence": 371
+      }
+    ],
+    "h20_rows": 64,
+    "role_orders": [
+      "revenue,gross-margin,operating-income,net-income,eps,fcf,cash,inventories",
+      "fcf,cash,inventories,operating-income,gross-margin,revenue,net-income,eps",
+      "revenue,eps,net-income,gross-margin,fcf,operating-income,cash,inventories"
+    ],
+    "numeric_sort": "passed",
+    "empty_search": "passed",
+    "note": "A minimal DOM stub executes rendering and data behavior; this is not browser interaction, visual, print, download or mobile testing."
+  },
+  "browser_checks_performed_by_this_stage": false,
+  "print_layout_repair": {
+    "reviewed": "Parent-generated evidence/dashboard-print-page-2.png showed bars overflowing below their baseline and an orphaned next-section heading.",
+    "changes": [
+      "Shared responsive quarter-bar-height CSS variable: 155px screen and 90px print.",
+      "Each quarter has a dedicated fixed-height plot area plus separately flowing quarter label and source reference; proportional bars retain a zero baseline.",
+      "Performance, segment/platform, historical guidance, Board brief and contextual analysis each start on a print page; headings avoid breaks before their content.",
+      "Board brief explicitly states USD-million units and calc labeling."
+    ],
+    "verification": "Static and minimal-DOM checks rerun. Parent will rerun real browser/PDF visual QA; this stage does not claim the revised PDF has been rendered."
+  },
+  "decisions": [
+    "Reorder the same eight cards for Board/CFO/Investor; do not change underlying business facts.",
+    "Segment filtering changes revenue/OI, annual dollar/ratio panels, segment table and evidence scope. Other cards keep consolidated context explicitly labeled Group only.",
+    "Segment-mode evidence includes selected segment and consolidated context; excludes the other segment. Platform tables and quarterly charts remain Group only.",
+    "Merge same-ID trend rows into a separate evidence ledger to expose numerical inputs; keep both raw arrays unchanged.",
+    "Add three explicit saved-input growth calculations for cash and marketable securities and the two segment operating-income comparisons.",
+    "Separate dollar and ratio charts; use zero-baseline bars with direct value labels.",
+    "Never double count Data Center Compute/Networking components with Data Center total.",
+    "Use two decimals for pp changes and retain exact evidence values.",
+    "Print omits the long interactive ledger with an explicit HTML/CSV disclosure and retains inline source references.",
+    "Use local fonts, inline styles/scripts/data and a restrictive connect-src none policy. Source links are optional user navigation."
+  ],
+  "limitations": [
+    "This isolated stage inherits source accuracy from the supplied saved extraction; no original sources or web pages were consulted.",
+    "Original-source claims and management attribution are not independently verified here.",
+    "Exact annual net H20 and isolated Blackwell margin effects are not disclosed; no residual attribution is made.",
+    "No segment allocation for group-only gross margin, net income, EPS, FCF, cash or inventories.",
+    "No platform/reportable-segment crosswalk is disclosed.",
+    "FY2025 headquarters geography is recast; headquarters is not deployment or end-use location.",
+    "FY2027 non-GAAP includes SBC; no unsupported like-for-like non-GAAP growth is calculated.",
+    "Actual browser interactions, mobile overflow, print and screenshot assessment are delegated to the parent acceptance stage; they are not claimed as completed."
+  ],
+  "output_sha256": "054b1d4397acf01600e7888a01ccc8ae6a5479deffe93f1f92ab8c812eff7637",
+  "output_bytes": 232838
+}

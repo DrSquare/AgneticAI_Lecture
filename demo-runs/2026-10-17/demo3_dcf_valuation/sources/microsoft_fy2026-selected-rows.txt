@@ -1,0 +1,31 @@
+Net Income | $35,766 | $(480) | $35,286 |  | $27,233 | $1,575 | $28,808 |  | 31% | 31% | $(2,055) | 22% | 22%
+Net Income | $133,749 | $(4,963) | $128,786 |  | $101,832 | $3,620 | $105,452 |  | 31% | 30% | $(8,583) | 22% | 20%
+Operating Income | $40,603 | - |  | $34,323 | - |  | 18% | - | $269 | 18% | -
+Net Income | $35,766 | $35,286 |  | $27,233 | $28,808 |  | 31% | 22% | $40 | 31% | 22%
+Operating Income | $155,237 | - |  | $128,528 | - |  | 21% | - | $2,896 | 19% | -
+Net Income | $133,749 | $128,786 |  | $101,832 | $105,452 |  | 31% | 22% | $1,772 | 30% | 20%
+Total revenue | 90,007 |  | 76,441 |  | 331,839 |  | 281,724
+Operating income | 40,603 |  | 34,323 |  | 155,237 |  | 128,528
+Net income | $35,766 |  | $27,233 |  | $133,749 |  | $101,832
+Net income | $35,766 |  | $27,233 |  | $133,749 |  | $101,832
+Cash and cash equivalents | $20,935 | $30,242
+Short-term investments | 55,908 | 64,323
+Total cash, cash equivalents, and short-term investments | 76,843 | 94,565
+Property and equipment, net of accumulated depreciation of $118,691 and $93,653 | 313,076 | 204,966
+Current portion of long-term debt | 9,227 | 2,999
+Long-term debt | 31,067 | 40,152
+Common stock and paid-in capital - shares authorized 24,000; outstanding 7,427 and 7,434 | 117,406 | 109,095
+Net income | $35,766 |  | $27,233 |  | $133,749 |  | $101,832
+Adjustments to reconcile net income to net cash from operations: |  |  |  |  |  |  | 
+Depreciation, amortization, and other | 11,022 |  | 9,317 |  | 38,534 |  | 29,433
+Common stock issued | 520 |  | 548 |  | 2,009 |  | 2,056
+Common stock repurchased | (4,579) |  | (4,546) |  | (22,271) |  | (18,420)
+Common stock cash dividends paid | (6,758) |  | (6,169) |  | (26,445) |  | (24,082)
+Effect of foreign exchange rates on cash and cash equivalents | (1) |  | 183 |  | (196) |  | 63
+Net change in cash and cash equivalents | (11,170) |  | 1,414 |  | (9,307) |  | 11,927
+Cash and cash equivalents, beginning of period | 32,105 |  | 28,828 |  | 30,242 |  | 18,315
+Cash and cash equivalents, end of period | $20,935 |  | $30,242 |  | $20,935 |  | $30,242
+Operating income | $21,900 |  | $18,993 |  | $83,879 |  | $69,773
+Operating income | $15,955 |  | $12,140 |  | $56,972 |  | $44,589
+Operating income | $2,748 |  | $3,190 |  | $14,386 |  | $14,166
+Operating income | $40,603 |  | $34,323 |  | $155,237 |  | $128,528

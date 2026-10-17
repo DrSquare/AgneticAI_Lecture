@@ -1,0 +1,9 @@
+file:///C:/Users/h_min/.codex/plugins/cache/openai-primary-runtime/presentations/26.1013.11914/skills/presentations/container_tools/artifact_tool_utils.mjs:999
+    throw new Error("Private validation receipt must stay inside the task workspace and outside final output");
+          ^
+
+Error: Private validation receipt must stay inside the task workspace and outside final output
+    at finalizePresentation (file:///C:/Users/h_min/.codex/plugins/cache/openai-primary-runtime/presentations/26.1013.11914/skills/presentations/container_tools/artifact_tool_utils.mjs:999:11)
+    at async file:///C:/Users/h_min/repos/SNU_Agentic_AI_Lecture/demo-runs/2026-10-17/demo1_competitive_intelligence/build/build-artifacts.mjs:99:14
+
+Node.js v24.19.0

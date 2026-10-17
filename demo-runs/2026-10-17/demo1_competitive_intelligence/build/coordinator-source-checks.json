@@ -1,0 +1,20 @@
+[
+  {
+    "company": "Figure AI",
+    "date": "2026-04-29",
+    "url": "https://www.figure.ai/news/ramping-figure-03-production",
+    "finding": "Coordinator opened primary release and confirmed >350 production/output with internal allocations, not verified paid customer deliveries."
+  },
+  {
+    "company": "Physical Intelligence",
+    "date": "2026-10-13",
+    "url": "https://www.pi.website/blog/api-beta",
+    "finding": "Coordinator confirmed dated API beta and named collaborators, with network connectivity caveat."
+  },
+  {
+    "company": "Skild AI",
+    "date": "2026-01-14",
+    "url": "https://skild.ai/blogs/series-c",
+    "finding": "Coordinator confirmed $1.4B round, >$14B valuation, and January revenue wording that must not become ARR."
+  }
+]

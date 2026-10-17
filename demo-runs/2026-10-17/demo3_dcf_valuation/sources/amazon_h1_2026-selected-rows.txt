@@ -1,0 +1,36 @@
+Net income |  | 18,164 |  |  |  | 62,647 |  |  |  | 35,291 |  |  |  | 92,902 |  |  |  | 70,623 |  |  |  | 135,281 | 
+Adjustments to reconcile net income to net cash from operating activities: |  |  |  |  |  |  |  |  |  |  | 
+Depreciation and amortization of property and equipment and capitalized content costs, operating lease assets, and other |  | 15,227 |  |  |  | 19,988 |  |  |  | 29,489 |  |  |  | 38,933 |  |  |  | 58,562 |  |  |  | 75,200 | 
+Proceeds from long-term debt |  | — |  |  |  | 13,557 |  |  |  | 746 |  |  |  | 66,998 |  |  |  | 746 |  |  |  | 81,925 | 
+Repayments of long-term debt |  | (2,751 | ) |  |  | (2,752 | ) |  |  | (2,751 | ) |  |  | (2,752 | ) |  |  | (7,434 | ) |  |  | (5,022 | )
+Total net sales |  | 167,702 |  |  |  | 200,606 |  |  |  | 323,369 |  |  |  | 382,125 | 
+Operating income |  | 19,171 |  |  |  | 27,461 |  |  |  | 37,576 |  |  |  | 51,313 | 
+Total non-operating income |  | 1,686 |  |  |  | 53,396 |  |  |  | 4,960 |  |  |  | 69,378 | 
+Net income | $ | 18,164 |  |  | $ | 62,647 |  |  | $ | 35,291 |  |  | $ | 92,902 | 
+Net income | $ | 18,164 |  |  | $ | 62,647 |  |  | $ | 35,291 |  |  | $ | 92,902 | 
+Operating income | $ | 7,517 |  |  | $ | 9,123 |  |  | $ | 13,358 |  |  | $ | 17,390 | 
+Operating income | $ | 1,494 |  |  | $ | 1,717 |  |  | $ | 2,511 |  |  | $ | 3,141 | 
+Operating income | $ | 10,160 |  |  | $ | 16,621 |  |  | $ | 21,707 |  |  | $ | 30,782 | 
+Operating income |  | 19,171 |  |  |  | 27,461 |  |  |  | 37,576 |  |  |  | 51,313 | 
+Total non-operating income |  | 1,686 |  |  |  | 53,396 |  |  |  | 4,960 |  |  |  | 69,378 | 
+Net income | $ | 18,164 |  |  | $ | 62,647 |  |  | $ | 35,291 |  |  | $ | 92,902 | 
+Cash and cash equivalents | $ | 86,810 |  |  | $ | 78,213 | 
+Long-term debt |  | 65,648 |  |  |  | 128,894 | 
+Common stock ($0.01 par value; 100,000 shares authorized; 11,246 and 11,298 shares issued; 10,731 and 10,783 shares outstanding) |  | 112 |  |  |  | 113 | 
+Operating income |  | $ | 18,405 |  | $ | 19,171 |  | $ | 17,422 |  | $ | 24,977 |  | $ | 23,852 |  | $ | 27,461 |  | 43 | %
+Operating income -- Y/Y growth (decline), excluding F/X |  |  | 20 | % |  | 30 | % |  | (1 | )% |  | 18 | % |  | 30 | % |  | 44 | % | N/A | 
+Operating income -- TTM |  | $ | 71,691 |  | $ | 76,190 |  | $ | 76,201 |  | $ | 79,975 |  | $ | 85,422 |  | $ | 93,712 |  | 23 | %
+Operating income -- TTM Y/Y growth, excluding F/X |  |  | 51 | % |  | 40 | % |  | 25 | % |  | 16 | % |  | 19 | % |  | 23 | % | N/A | 
+Net income |  | $ | 17,127 |  | $ | 18,164 |  | $ | 21,187 |  | $ | 21,192 |  | $ | 30,255 |  | $ | 62,647 |  | 245 | %
+Net income per diluted share |  | $ | 1.59 |  | $ | 1.68 |  | $ | 1.95 |  | $ | 1.95 |  | $ | 2.78 |  | $ | 5.75 |  | 242 | %
+Net income -- TTM |  | $ | 65,944 |  | $ | 70,623 |  | $ | 76,482 |  | $ | 77,670 |  | $ | 90,798 |  | $ | 135,281 |  | 92 | %
+Net income per diluted share -- TTM |  | $ | 6.13 |  | $ | 6.55 |  | $ | 7.08 |  | $ | 7.17 |  | $ | 8.37 |  | $ | 12.44 |  | 90 | %
+Operating income |  | $ | 5,841 |  | $ | 7,517 |  | $ | 4,789 |  | $ | 11,472 |  | $ | 8,267 |  | $ | 9,123 |  | 21 | %
+Operating income -- Y/Y growth (decline), excluding F/X |  |  | 18 | % |  | 49 | % |  | (14 | )% |  | 25 | % |  | 42 | % |  | 21 | % | N/A | 
+Operating income -- TTM |  | $ | 25,825 |  | $ | 28,277 |  | $ | 27,403 |  | $ | 29,619 |  | $ | 32,045 |  | $ | 33,651 |  | 19 | %
+Operating income |  | $ | 1,017 |  | $ | 1,494 |  | $ | 1,199 |  | $ | 1,040 |  | $ | 1,424 |  | $ | 1,717 |  | 15 | %
+Operating income -- Y/Y growth (decline), excluding F/X |  |  | 19 | % |  | 324 | % |  | (31 | )% |  | (45 | )% |  | 6 | % |  | 18 | % | N/A | 
+Operating income -- TTM |  | $ | 3,906 |  | $ | 5,127 |  | $ | 5,025 |  | $ | 4,750 |  | $ | 5,157 |  | $ | 5,380 |  | 5 | %
+Operating income |  | $ | 11,547 |  | $ | 10,160 |  | $ | 11,434 |  | $ | 12,465 |  | $ | 14,161 |  | $ | 16,621 |  | 64 | %
+Operating income -- Y/Y growth, excluding F/X |  |  | 21 | % |  | 10 | % |  | 11 | % |  | 19 | % |  | 26 | % |  | 64 | % | N/A | 
+Operating income -- TTM |  | $ | 41,960 |  | $ | 42,786 |  | $ | 43,773 |  | $ | 45,606 |  | $ | 48,220 |  | $ | 54,681 |  | 28 | %

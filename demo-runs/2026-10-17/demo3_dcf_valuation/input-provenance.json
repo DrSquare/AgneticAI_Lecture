@@ -1,0 +1,2741 @@
+{
+  "as_of": "2026-10-17",
+  "sources": {
+    "S1": [
+      "Alphabet FY2025 10-K, income / cash flow / Note 2",
+      "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm"
+    ],
+    "S2": [
+      "Alphabet H1 2026 10-Q, June 30, 2026, Notes 2, 6, 11",
+      "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm"
+    ],
+    "S3": [
+      "Alphabet Q2 2026 call, July 22, 2026, CFO outlook",
+      "https://alphabet2025ir.q4web.com/investor/events/event-details/2026/2026-Q2-Earnings-Call-2026-GgTAq7Is0z/default.aspx"
+    ],
+    "S4": [
+      "Microsoft FY2026 release, year ended June 30",
+      "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast"
+    ],
+    "S5": [
+      "Meta Q2 2026 release, June 30, 2026",
+      "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/"
+    ],
+    "S6": [
+      "Meta FY2025 release, December 31, 2025",
+      "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx"
+    ],
+    "S7": [
+      "Amazon Q2 2026 release, June 30, 2026",
+      "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/default.aspx"
+    ],
+    "S8": [
+      "Amazon FY2025 release, December 31, 2025",
+      "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Fourth-Quarter-Results/default.aspx"
+    ],
+    "S9": [
+      "Amazon Q2 2026 10-Q, debt Note 5",
+      "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm"
+    ],
+    "Q1": [
+      "GOOGL closing quote, October 16, 2026, Google Finance vendor display",
+      "https://www.google.com/finance/quote/GOOGL:NASDAQ"
+    ],
+    "Q2": [
+      "MSFT closing quote, October 16, 2026, Google Finance vendor display",
+      "https://www.google.com/finance/quote/MSFT:NASDAQ"
+    ],
+    "Q3": [
+      "META closing quote, October 16, 2026, Google Finance vendor display",
+      "https://www.google.com/finance/quote/META:NASDAQ"
+    ],
+    "Q4": [
+      "AMZN closing quote, October 16, 2026, Google Finance vendor display",
+      "https://www.google.com/finance/quote/AMZN:NASDAQ"
+    ],
+    "A1": [
+      "Author teaching assumptions, October 17, 2026; not company guidance",
+      "valuation-notes.md"
+    ],
+    "F1": [
+      "GOOGL adjusted consensus EPS, updated October 16, 2026",
+      "https://stockanalysis.com/stocks/googl/forecast/"
+    ],
+    "F2": [
+      "MSFT adjusted consensus EPS, updated October 16, 2026",
+      "https://stockanalysis.com/stocks/msft/forecast/"
+    ],
+    "F3": [
+      "META adjusted consensus EPS, updated October 16, 2026",
+      "https://stockanalysis.com/stocks/meta/forecast/"
+    ],
+    "F4": [
+      "AMZN adjusted consensus EPS, updated October 16, 2026",
+      "https://stockanalysis.com/stocks/amzn/forecast/"
+    ],
+    "X1": [
+      "GOOGL SEC XBRL facts; filing dates restricted to October 17, 2026 or earlier",
+      "https://data.sec.gov/api/xbrl/companyfacts/CIK0001652044.json"
+    ],
+    "X2": [
+      "MSFT SEC XBRL facts; filing dates restricted to October 17, 2026 or earlier",
+      "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json"
+    ],
+    "X3": [
+      "META SEC XBRL facts; filing dates restricted to October 17, 2026 or earlier",
+      "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326801.json"
+    ],
+    "X4": [
+      "AMZN SEC XBRL facts; filing dates restricted to October 17, 2026 or earlier",
+      "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json"
+    ]
+  },
+  "inputs": [
+    {
+      "sheet": "Historicals",
+      "cell": "D8",
+      "value": 175033,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "E8",
+      "value": 198084,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "F8",
+      "value": 224532,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "G8",
+      "value": 104892,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "H8",
+      "value": 123670,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "D9",
+      "value": 31510,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "E9",
+      "value": 36147,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "F9",
+      "value": 40367,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "G9",
+      "value": 18723,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "H9",
+      "value": 20938,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "D10",
+      "value": 31312,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "E10",
+      "value": 30359,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "F10",
+      "value": 29792,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "G10",
+      "value": 14610,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "H10",
+      "value": 14274,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "D11",
+      "value": 34688,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "E11",
+      "value": 40340,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "F11",
+      "value": 48030,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "G11",
+      "value": 21582,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "H11",
+      "value": 25295,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "D12",
+      "value": 33088,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "E12",
+      "value": 43229,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "F12",
+      "value": 58705,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "G12",
+      "value": 25884,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "H12",
+      "value": 44796,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "D13",
+      "value": 1527,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "E13",
+      "value": 1648,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "F13",
+      "value": 1537,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "G13",
+      "value": 823,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "H13",
+      "value": 793,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "D14",
+      "value": 236,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "E14",
+      "value": 211,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "F14",
+      "value": -127,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "G14",
+      "value": 148,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "H14",
+      "value": -74,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "D15",
+      "value": 307394,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "E15",
+      "value": 350018,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "F15",
+      "value": 402836,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "G15",
+      "value": 186662,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "H15",
+      "value": 229692,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "D18",
+      "value": 133332,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "E18",
+      "value": 146306,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "F18",
+      "value": 162535,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "G18",
+      "value": 75400,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "H18",
+      "value": 87214,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "D19",
+      "value": 45427,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "E19",
+      "value": 49326,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "F19",
+      "value": 61087,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "G19",
+      "value": 27364,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "H19",
+      "value": 35251,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "D20",
+      "value": 27917,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "E20",
+      "value": 27808,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "F20",
+      "value": 28693,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "G20",
+      "value": 13273,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "H20",
+      "value": 16009,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "D21",
+      "value": 16425,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "E21",
+      "value": 14188,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "F21",
+      "value": 21482,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "G21",
+      "value": 8748,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "H21",
+      "value": 10752,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "D22",
+      "value": 84293,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "E22",
+      "value": 112390,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "F22",
+      "value": 129039,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "G22",
+      "value": 61877,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "H22",
+      "value": 80466,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "D25",
+      "value": 85717,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "E25",
+      "value": 119815,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "F25",
+      "value": 158826,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "G25",
+      "value": 75722,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "H25",
+      "value": 216165,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "D26",
+      "value": 11922,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "E26",
+      "value": 19697,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "F26",
+      "value": 26656,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "G26",
+      "value": 12986,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "H26",
+      "value": 41394,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "D27",
+      "value": 73795,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "E27",
+      "value": 100118,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "F27",
+      "value": 132170,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "G27",
+      "value": 62736,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "H27",
+      "value": 174771,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "D28",
+      "value": 73795,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "E28",
+      "value": 100118,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "F28",
+      "value": 132170,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "G28",
+      "value": 62736,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "H28",
+      "value": 174685,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "D29",
+      "value": 5.8,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "E29",
+      "value": 8.04,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "F29",
+      "value": 10.81,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "G29",
+      "value": 5.12,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "H29",
+      "value": 14.24,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "D30",
+      "value": 11946,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "E30",
+      "value": 15311,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "F30",
+      "value": 21136,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "G30",
+      "value": 9485,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "H30",
+      "value": 13586,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "D31",
+      "value": 22460,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "E31",
+      "value": 22785,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "F31",
+      "value": 24953,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "G31",
+      "value": 11514,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "H31",
+      "value": 14708,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "D32",
+      "value": 101746,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "E32",
+      "value": 125299,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "F32",
+      "value": 164713,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "G32",
+      "value": 63897,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "H32",
+      "value": 84859,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "D33",
+      "value": 32251,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "E33",
+      "value": 52535,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "F33",
+      "value": 91447,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "G33",
+      "value": 39643,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "H33",
+      "value": 80598,
+      "source": "S1 annual; S2 H1. Reported, USD millions except EPS."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "F36",
+      "value": 62886,
+      "source": "S2 balance sheet / notes; point in time. Blank = not collected."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "H36",
+      "value": 69175,
+      "source": "S2 balance sheet / notes; point in time. Blank = not collected."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "F37",
+      "value": 2439,
+      "source": "S2 balance sheet / notes; point in time. Blank = not collected."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "H37",
+      "value": 9991,
+      "source": "S2 balance sheet / notes; point in time. Blank = not collected."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "F38",
+      "value": 12200,
+      "source": "S2 balance sheet / notes; point in time. Blank = not collected."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "H38",
+      "value": 20258,
+      "source": "S2 balance sheet / notes; point in time. Blank = not collected."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "F39",
+      "value": 6578,
+      "source": "S2 balance sheet / notes; point in time. Blank = not collected."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "H39",
+      "value": 7154,
+      "source": "S2 balance sheet / notes; point in time. Blank = not collected."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "F42",
+      "value": 126843,
+      "source": "S2 balance sheet / notes; point in time. Blank = not collected."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "H42",
+      "value": 242474,
+      "source": "S2 balance sheet / notes; point in time. Blank = not collected."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "F43",
+      "value": 46547,
+      "source": "S2 balance sheet / notes; point in time. Blank = not collected."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "H43",
+      "value": 98165,
+      "source": "S2 balance sheet / notes; point in time. Blank = not collected."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "F44",
+      "value": 1996,
+      "source": "S2 balance sheet / notes; point in time. Blank = not collected."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "H44",
+      "value": 1999,
+      "source": "S2 balance sheet / notes; point in time. Blank = not collected."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "F45",
+      "value": 45600,
+      "source": "S2 balance sheet / notes; point in time. Blank = not collected."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "H45",
+      "value": 94900,
+      "source": "S2 balance sheet / notes; point in time. Blank = not collected."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "F46",
+      "value": 0,
+      "source": "S2 balance sheet / notes; point in time. Blank = not collected."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "H46",
+      "value": 1686,
+      "source": "S2 balance sheet / notes; point in time. Blank = not collected."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "F47",
+      "value": 12088,
+      "source": "S2 balance sheet / notes; point in time. Blank = not collected."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "H47",
+      "value": 12230,
+      "source": "S2 balance sheet / notes; point in time. Blank = not collected."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "F48",
+      "value": 0,
+      "source": "S2 balance sheet / notes; point in time. Blank = not collected."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "H48",
+      "value": 385,
+      "source": "S2 balance sheet / notes; point in time. Blank = not collected."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "H49",
+      "value": 50,
+      "source": "S2 balance sheet / notes; point in time. Blank = not collected."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "F50",
+      "value": 68687,
+      "source": "S2 balance sheet / notes; point in time. Blank = not collected."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "H50",
+      "value": 131461,
+      "source": "S2 balance sheet / notes; point in time. Blank = not collected."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "F51",
+      "value": 919,
+      "source": "S2 balance sheet / notes; point in time. Blank = not collected."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "H51",
+      "value": 22819,
+      "source": "S2 balance sheet / notes; point in time. Blank = not collected."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "H52",
+      "value": 17400,
+      "source": "S2 balance sheet / notes; point in time. Blank = not collected."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "G53",
+      "value": 246,
+      "source": "S2 balance sheet / notes; point in time. Blank = not collected."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "H53",
+      "value": 545,
+      "source": "S2 balance sheet / notes; point in time. Blank = not collected."
+    },
+    {
+      "sheet": "Historicals",
+      "cell": "H54",
+      "value": 513900,
+      "source": "S2 balance sheet / notes; point in time. Blank = not collected."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D4",
+      "value": 1,
+      "source": "A1: 1 Base, 2 Bull, 3 Bear"
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D6",
+      "value": "2026-10-17T00:00:00.000Z",
+      "source": "User requested date, America/Los_Angeles"
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D7",
+      "value": 340.59,
+      "source": "Q1: October 16, 2026 close. Vendor quote, not exchange-direct."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D8",
+      "value": "2026-10-16T00:00:00.000Z",
+      "source": "Q1: last trading close before valuation date"
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D9",
+      "value": 0.045,
+      "source": "A1: rounded teaching assumption, not a verified current Treasury yield."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D10",
+      "value": 1.2,
+      "source": "A1: teaching beta, not a regression estimate."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D11",
+      "value": 0.045,
+      "source": "A1: teaching ERP, not a market fact."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D12",
+      "value": 0.048,
+      "source": "S2 Note 6: Q1 USD issue weighted coupon 4.80%; current yield may differ."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D13",
+      "value": 0.2,
+      "source": "A1: operating tax assumption; H1 GAAP tax includes investment gains."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D14",
+      "value": 0.03,
+      "source": "A1: perpetual nominal growth, independent of forecast growth."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D15",
+      "value": 1.15,
+      "source": "A1: capex exceeds D&A by 15% in steady state; normalized after AI buildout."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D16",
+      "value": 0,
+      "source": "A1: exclude unlisted investments; no double count of marketable securities."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D17",
+      "value": 195000,
+      "source": "S3: July 22, 2026 CFO guidance, USD millions."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D18",
+      "value": 205000,
+      "source": "S3: July 22, 2026 CFO guidance, USD millions."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D20",
+      "value": 0.0625,
+      "source": "S2 Note 11: coupon rate, used as market yield proxy."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D21",
+      "value": 0.005,
+      "source": "A1: 0.5 percentage point grid interval."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D22",
+      "value": 0.005,
+      "source": "A1: 0.5 percentage point grid interval."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D23",
+      "value": 0,
+      "source": "A1: no forecast gains/losses; known H1 actual remains in 2026."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D29",
+      "value": 0.16,
+      "source": "A1 / S2: H1 Search grew 17.9%; gradual moderation."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "E29",
+      "value": 0.12,
+      "source": "A1 / S2: H1 Search grew 17.9%; gradual moderation."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "F29",
+      "value": 0.1,
+      "source": "A1 / S2: H1 Search grew 17.9%; gradual moderation."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "G29",
+      "value": 0.08,
+      "source": "A1 / S2: H1 Search grew 17.9%; gradual moderation."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "H29",
+      "value": 0.07,
+      "source": "A1 / S2: H1 Search grew 17.9%; gradual moderation."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D30",
+      "value": 0.19,
+      "source": "A1 / S2: H1 Search grew 17.9%; gradual moderation."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "E30",
+      "value": 0.15,
+      "source": "A1 / S2: H1 Search grew 17.9%; gradual moderation."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "F30",
+      "value": 0.13,
+      "source": "A1 / S2: H1 Search grew 17.9%; gradual moderation."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "G30",
+      "value": 0.11,
+      "source": "A1 / S2: H1 Search grew 17.9%; gradual moderation."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "H30",
+      "value": 0.09,
+      "source": "A1 / S2: H1 Search grew 17.9%; gradual moderation."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D31",
+      "value": 0.1,
+      "source": "A1 / S2: H1 Search grew 17.9%; gradual moderation."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "E31",
+      "value": 0.08,
+      "source": "A1 / S2: H1 Search grew 17.9%; gradual moderation."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "F31",
+      "value": 0.06,
+      "source": "A1 / S2: H1 Search grew 17.9%; gradual moderation."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "G31",
+      "value": 0.05,
+      "source": "A1 / S2: H1 Search grew 17.9%; gradual moderation."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "H31",
+      "value": 0.04,
+      "source": "A1 / S2: H1 Search grew 17.9%; gradual moderation."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D34",
+      "value": 0.13,
+      "source": "A1 / S2: H1 YouTube grew 11.8%; World Cup timing."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "E34",
+      "value": 0.12,
+      "source": "A1 / S2: H1 YouTube grew 11.8%; World Cup timing."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "F34",
+      "value": 0.11,
+      "source": "A1 / S2: H1 YouTube grew 11.8%; World Cup timing."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "G34",
+      "value": 0.1,
+      "source": "A1 / S2: H1 YouTube grew 11.8%; World Cup timing."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "H34",
+      "value": 0.09,
+      "source": "A1 / S2: H1 YouTube grew 11.8%; World Cup timing."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D35",
+      "value": 0.16,
+      "source": "A1 / S2: H1 YouTube grew 11.8%; World Cup timing."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "E35",
+      "value": 0.15,
+      "source": "A1 / S2: H1 YouTube grew 11.8%; World Cup timing."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "F35",
+      "value": 0.14,
+      "source": "A1 / S2: H1 YouTube grew 11.8%; World Cup timing."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "G35",
+      "value": 0.12,
+      "source": "A1 / S2: H1 YouTube grew 11.8%; World Cup timing."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "H35",
+      "value": 0.1,
+      "source": "A1 / S2: H1 YouTube grew 11.8%; World Cup timing."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D36",
+      "value": 0.08,
+      "source": "A1 / S2: H1 YouTube grew 11.8%; World Cup timing."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "E36",
+      "value": 0.07,
+      "source": "A1 / S2: H1 YouTube grew 11.8%; World Cup timing."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "F36",
+      "value": 0.06,
+      "source": "A1 / S2: H1 YouTube grew 11.8%; World Cup timing."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "G36",
+      "value": 0.05,
+      "source": "A1 / S2: H1 YouTube grew 11.8%; World Cup timing."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "H36",
+      "value": 0.05,
+      "source": "A1 / S2: H1 YouTube grew 11.8%; World Cup timing."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D39",
+      "value": -0.02,
+      "source": "A1 / S2: H1 Network contracted 2.3%."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "E39",
+      "value": -0.02,
+      "source": "A1 / S2: H1 Network contracted 2.3%."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "F39",
+      "value": -0.01,
+      "source": "A1 / S2: H1 Network contracted 2.3%."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "G39",
+      "value": 0,
+      "source": "A1 / S2: H1 Network contracted 2.3%."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "H39",
+      "value": 0,
+      "source": "A1 / S2: H1 Network contracted 2.3%."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D40",
+      "value": 0,
+      "source": "A1 / S2: H1 Network contracted 2.3%."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "E40",
+      "value": 0.01,
+      "source": "A1 / S2: H1 Network contracted 2.3%."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "F40",
+      "value": 0.01,
+      "source": "A1 / S2: H1 Network contracted 2.3%."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "G40",
+      "value": 0.01,
+      "source": "A1 / S2: H1 Network contracted 2.3%."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "H40",
+      "value": 0.01,
+      "source": "A1 / S2: H1 Network contracted 2.3%."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D41",
+      "value": -0.05,
+      "source": "A1 / S2: H1 Network contracted 2.3%."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "E41",
+      "value": -0.05,
+      "source": "A1 / S2: H1 Network contracted 2.3%."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "F41",
+      "value": -0.04,
+      "source": "A1 / S2: H1 Network contracted 2.3%."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "G41",
+      "value": -0.03,
+      "source": "A1 / S2: H1 Network contracted 2.3%."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "H41",
+      "value": -0.02,
+      "source": "A1 / S2: H1 Network contracted 2.3%."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D44",
+      "value": 0.16,
+      "source": "A1 / S2: H1 subscriptions/platforms/devices grew 17.2%."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "E44",
+      "value": 0.15,
+      "source": "A1 / S2: H1 subscriptions/platforms/devices grew 17.2%."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "F44",
+      "value": 0.13,
+      "source": "A1 / S2: H1 subscriptions/platforms/devices grew 17.2%."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "G44",
+      "value": 0.12,
+      "source": "A1 / S2: H1 subscriptions/platforms/devices grew 17.2%."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "H44",
+      "value": 0.1,
+      "source": "A1 / S2: H1 subscriptions/platforms/devices grew 17.2%."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D45",
+      "value": 0.2,
+      "source": "A1 / S2: H1 subscriptions/platforms/devices grew 17.2%."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "E45",
+      "value": 0.18,
+      "source": "A1 / S2: H1 subscriptions/platforms/devices grew 17.2%."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "F45",
+      "value": 0.16,
+      "source": "A1 / S2: H1 subscriptions/platforms/devices grew 17.2%."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "G45",
+      "value": 0.14,
+      "source": "A1 / S2: H1 subscriptions/platforms/devices grew 17.2%."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "H45",
+      "value": 0.12,
+      "source": "A1 / S2: H1 subscriptions/platforms/devices grew 17.2%."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D46",
+      "value": 0.1,
+      "source": "A1 / S2: H1 subscriptions/platforms/devices grew 17.2%."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "E46",
+      "value": 0.09,
+      "source": "A1 / S2: H1 subscriptions/platforms/devices grew 17.2%."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "F46",
+      "value": 0.08,
+      "source": "A1 / S2: H1 subscriptions/platforms/devices grew 17.2%."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "G46",
+      "value": 0.07,
+      "source": "A1 / S2: H1 subscriptions/platforms/devices grew 17.2%."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "H46",
+      "value": 0.06,
+      "source": "A1 / S2: H1 subscriptions/platforms/devices grew 17.2%."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D49",
+      "value": 0.7,
+      "source": "A1 / S2 / S3: H1 Cloud +73.1%; $513.9bn backlog, timing uncertain."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "E49",
+      "value": 0.5,
+      "source": "A1 / S2 / S3: H1 Cloud +73.1%; $513.9bn backlog, timing uncertain."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "F49",
+      "value": 0.35,
+      "source": "A1 / S2 / S3: H1 Cloud +73.1%; $513.9bn backlog, timing uncertain."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "G49",
+      "value": 0.28,
+      "source": "A1 / S2 / S3: H1 Cloud +73.1%; $513.9bn backlog, timing uncertain."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "H49",
+      "value": 0.22,
+      "source": "A1 / S2 / S3: H1 Cloud +73.1%; $513.9bn backlog, timing uncertain."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D50",
+      "value": 0.85,
+      "source": "A1 / S2 / S3: H1 Cloud +73.1%; $513.9bn backlog, timing uncertain."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "E50",
+      "value": 0.6,
+      "source": "A1 / S2 / S3: H1 Cloud +73.1%; $513.9bn backlog, timing uncertain."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "F50",
+      "value": 0.45,
+      "source": "A1 / S2 / S3: H1 Cloud +73.1%; $513.9bn backlog, timing uncertain."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "G50",
+      "value": 0.35,
+      "source": "A1 / S2 / S3: H1 Cloud +73.1%; $513.9bn backlog, timing uncertain."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "H50",
+      "value": 0.28,
+      "source": "A1 / S2 / S3: H1 Cloud +73.1%; $513.9bn backlog, timing uncertain."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D51",
+      "value": 0.45,
+      "source": "A1 / S2 / S3: H1 Cloud +73.1%; $513.9bn backlog, timing uncertain."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "E51",
+      "value": 0.3,
+      "source": "A1 / S2 / S3: H1 Cloud +73.1%; $513.9bn backlog, timing uncertain."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "F51",
+      "value": 0.25,
+      "source": "A1 / S2 / S3: H1 Cloud +73.1%; $513.9bn backlog, timing uncertain."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "G51",
+      "value": 0.2,
+      "source": "A1 / S2 / S3: H1 Cloud +73.1%; $513.9bn backlog, timing uncertain."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "H51",
+      "value": 0.15,
+      "source": "A1 / S2 / S3: H1 Cloud +73.1%; $513.9bn backlog, timing uncertain."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D54",
+      "value": 0.1,
+      "source": "A1: speculative growth; does not separately value Waymo."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "E54",
+      "value": 0.15,
+      "source": "A1: speculative growth; does not separately value Waymo."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "F54",
+      "value": 0.15,
+      "source": "A1: speculative growth; does not separately value Waymo."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "G54",
+      "value": 0.15,
+      "source": "A1: speculative growth; does not separately value Waymo."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "H54",
+      "value": 0.15,
+      "source": "A1: speculative growth; does not separately value Waymo."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D55",
+      "value": 0.2,
+      "source": "A1: speculative growth; does not separately value Waymo."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "E55",
+      "value": 0.3,
+      "source": "A1: speculative growth; does not separately value Waymo."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "F55",
+      "value": 0.3,
+      "source": "A1: speculative growth; does not separately value Waymo."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "G55",
+      "value": 0.25,
+      "source": "A1: speculative growth; does not separately value Waymo."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "H55",
+      "value": 0.2,
+      "source": "A1: speculative growth; does not separately value Waymo."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D56",
+      "value": 0,
+      "source": "A1: speculative growth; does not separately value Waymo."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "E56",
+      "value": 0.05,
+      "source": "A1: speculative growth; does not separately value Waymo."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "F56",
+      "value": 0.05,
+      "source": "A1: speculative growth; does not separately value Waymo."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "G56",
+      "value": 0.05,
+      "source": "A1: speculative growth; does not separately value Waymo."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "H56",
+      "value": 0.05,
+      "source": "A1: speculative growth; does not separately value Waymo."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D59",
+      "value": 0.41,
+      "source": "A1 / S3: Q2 Services margin 41.8%; shared across four revenue categories."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "E59",
+      "value": 0.41,
+      "source": "A1 / S3: Q2 Services margin 41.8%; shared across four revenue categories."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "F59",
+      "value": 0.42,
+      "source": "A1 / S3: Q2 Services margin 41.8%; shared across four revenue categories."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "G59",
+      "value": 0.42,
+      "source": "A1 / S3: Q2 Services margin 41.8%; shared across four revenue categories."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "H59",
+      "value": 0.42,
+      "source": "A1 / S3: Q2 Services margin 41.8%; shared across four revenue categories."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D60",
+      "value": 0.43,
+      "source": "A1 / S3: Q2 Services margin 41.8%; shared across four revenue categories."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "E60",
+      "value": 0.44,
+      "source": "A1 / S3: Q2 Services margin 41.8%; shared across four revenue categories."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "F60",
+      "value": 0.45,
+      "source": "A1 / S3: Q2 Services margin 41.8%; shared across four revenue categories."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "G60",
+      "value": 0.45,
+      "source": "A1 / S3: Q2 Services margin 41.8%; shared across four revenue categories."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "H60",
+      "value": 0.45,
+      "source": "A1 / S3: Q2 Services margin 41.8%; shared across four revenue categories."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D61",
+      "value": 0.38,
+      "source": "A1 / S3: Q2 Services margin 41.8%; shared across four revenue categories."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "E61",
+      "value": 0.37,
+      "source": "A1 / S3: Q2 Services margin 41.8%; shared across four revenue categories."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "F61",
+      "value": 0.37,
+      "source": "A1 / S3: Q2 Services margin 41.8%; shared across four revenue categories."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "G61",
+      "value": 0.37,
+      "source": "A1 / S3: Q2 Services margin 41.8%; shared across four revenue categories."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "H61",
+      "value": 0.37,
+      "source": "A1 / S3: Q2 Services margin 41.8%; shared across four revenue categories."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D64",
+      "value": 0.34,
+      "source": "A1 / S3: Q2 Cloud margin 35.6%; third-party capacity pressure."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "E64",
+      "value": 0.33,
+      "source": "A1 / S3: Q2 Cloud margin 35.6%; third-party capacity pressure."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "F64",
+      "value": 0.34,
+      "source": "A1 / S3: Q2 Cloud margin 35.6%; third-party capacity pressure."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "G64",
+      "value": 0.35,
+      "source": "A1 / S3: Q2 Cloud margin 35.6%; third-party capacity pressure."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "H64",
+      "value": 0.36,
+      "source": "A1 / S3: Q2 Cloud margin 35.6%; third-party capacity pressure."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D65",
+      "value": 0.36,
+      "source": "A1 / S3: Q2 Cloud margin 35.6%; third-party capacity pressure."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "E65",
+      "value": 0.37,
+      "source": "A1 / S3: Q2 Cloud margin 35.6%; third-party capacity pressure."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "F65",
+      "value": 0.38,
+      "source": "A1 / S3: Q2 Cloud margin 35.6%; third-party capacity pressure."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "G65",
+      "value": 0.39,
+      "source": "A1 / S3: Q2 Cloud margin 35.6%; third-party capacity pressure."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "H65",
+      "value": 0.4,
+      "source": "A1 / S3: Q2 Cloud margin 35.6%; third-party capacity pressure."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D66",
+      "value": 0.28,
+      "source": "A1 / S3: Q2 Cloud margin 35.6%; third-party capacity pressure."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "E66",
+      "value": 0.27,
+      "source": "A1 / S3: Q2 Cloud margin 35.6%; third-party capacity pressure."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "F66",
+      "value": 0.28,
+      "source": "A1 / S3: Q2 Cloud margin 35.6%; third-party capacity pressure."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "G66",
+      "value": 0.29,
+      "source": "A1 / S3: Q2 Cloud margin 35.6%; third-party capacity pressure."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "H66",
+      "value": 0.3,
+      "source": "A1 / S3: Q2 Cloud margin 35.6%; third-party capacity pressure."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D69",
+      "value": -4.5,
+      "source": "A1 / S1: substantial losses persist; revenue is small."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "E69",
+      "value": -4,
+      "source": "A1 / S1: substantial losses persist; revenue is small."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "F69",
+      "value": -3,
+      "source": "A1 / S1: substantial losses persist; revenue is small."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "G69",
+      "value": -2,
+      "source": "A1 / S1: substantial losses persist; revenue is small."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "H69",
+      "value": -1,
+      "source": "A1 / S1: substantial losses persist; revenue is small."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D70",
+      "value": -4,
+      "source": "A1 / S1: substantial losses persist; revenue is small."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "E70",
+      "value": -3,
+      "source": "A1 / S1: substantial losses persist; revenue is small."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "F70",
+      "value": -2,
+      "source": "A1 / S1: substantial losses persist; revenue is small."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "G70",
+      "value": -1,
+      "source": "A1 / S1: substantial losses persist; revenue is small."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "H70",
+      "value": 0,
+      "source": "A1 / S1: substantial losses persist; revenue is small."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D71",
+      "value": -5,
+      "source": "A1 / S1: substantial losses persist; revenue is small."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "E71",
+      "value": -5,
+      "source": "A1 / S1: substantial losses persist; revenue is small."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "F71",
+      "value": -4,
+      "source": "A1 / S1: substantial losses persist; revenue is small."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "G71",
+      "value": -3,
+      "source": "A1 / S1: substantial losses persist; revenue is small."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "H71",
+      "value": -2,
+      "source": "A1 / S1: substantial losses persist; revenue is small."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D74",
+      "value": 0.05,
+      "source": "A1 / S3: Q2 Alphabet-level loss $5.8bn, primarily shared AI R&D."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "E74",
+      "value": 0.05,
+      "source": "A1 / S3: Q2 Alphabet-level loss $5.8bn, primarily shared AI R&D."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "F74",
+      "value": 0.045,
+      "source": "A1 / S3: Q2 Alphabet-level loss $5.8bn, primarily shared AI R&D."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "G74",
+      "value": 0.04,
+      "source": "A1 / S3: Q2 Alphabet-level loss $5.8bn, primarily shared AI R&D."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "H74",
+      "value": 0.04,
+      "source": "A1 / S3: Q2 Alphabet-level loss $5.8bn, primarily shared AI R&D."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D75",
+      "value": 0.045,
+      "source": "A1 / S3: Q2 Alphabet-level loss $5.8bn, primarily shared AI R&D."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "E75",
+      "value": 0.04,
+      "source": "A1 / S3: Q2 Alphabet-level loss $5.8bn, primarily shared AI R&D."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "F75",
+      "value": 0.035,
+      "source": "A1 / S3: Q2 Alphabet-level loss $5.8bn, primarily shared AI R&D."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "G75",
+      "value": 0.03,
+      "source": "A1 / S3: Q2 Alphabet-level loss $5.8bn, primarily shared AI R&D."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "H75",
+      "value": 0.03,
+      "source": "A1 / S3: Q2 Alphabet-level loss $5.8bn, primarily shared AI R&D."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D76",
+      "value": 0.06,
+      "source": "A1 / S3: Q2 Alphabet-level loss $5.8bn, primarily shared AI R&D."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "E76",
+      "value": 0.06,
+      "source": "A1 / S3: Q2 Alphabet-level loss $5.8bn, primarily shared AI R&D."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "F76",
+      "value": 0.06,
+      "source": "A1 / S3: Q2 Alphabet-level loss $5.8bn, primarily shared AI R&D."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "G76",
+      "value": 0.055,
+      "source": "A1 / S3: Q2 Alphabet-level loss $5.8bn, primarily shared AI R&D."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "H76",
+      "value": 0.05,
+      "source": "A1 / S3: Q2 Alphabet-level loss $5.8bn, primarily shared AI R&D."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D79",
+      "value": 0.07,
+      "source": "A1 / S2: H1 PPE depreciation $13.6bn; forward burden increases."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "E79",
+      "value": 0.1,
+      "source": "A1 / S2: H1 PPE depreciation $13.6bn; forward burden increases."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "F79",
+      "value": 0.12,
+      "source": "A1 / S2: H1 PPE depreciation $13.6bn; forward burden increases."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "G79",
+      "value": 0.13,
+      "source": "A1 / S2: H1 PPE depreciation $13.6bn; forward burden increases."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "H79",
+      "value": 0.13,
+      "source": "A1 / S2: H1 PPE depreciation $13.6bn; forward burden increases."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D80",
+      "value": 0.065,
+      "source": "A1 / S2: H1 PPE depreciation $13.6bn; forward burden increases."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "E80",
+      "value": 0.09,
+      "source": "A1 / S2: H1 PPE depreciation $13.6bn; forward burden increases."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "F80",
+      "value": 0.11,
+      "source": "A1 / S2: H1 PPE depreciation $13.6bn; forward burden increases."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "G80",
+      "value": 0.12,
+      "source": "A1 / S2: H1 PPE depreciation $13.6bn; forward burden increases."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "H80",
+      "value": 0.12,
+      "source": "A1 / S2: H1 PPE depreciation $13.6bn; forward burden increases."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D81",
+      "value": 0.08,
+      "source": "A1 / S2: H1 PPE depreciation $13.6bn; forward burden increases."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "E81",
+      "value": 0.11,
+      "source": "A1 / S2: H1 PPE depreciation $13.6bn; forward burden increases."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "F81",
+      "value": 0.13,
+      "source": "A1 / S2: H1 PPE depreciation $13.6bn; forward burden increases."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "G81",
+      "value": 0.14,
+      "source": "A1 / S2: H1 PPE depreciation $13.6bn; forward burden increases."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "H81",
+      "value": 0.14,
+      "source": "A1 / S2: H1 PPE depreciation $13.6bn; forward burden increases."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "E84",
+      "value": 0.46,
+      "source": "A1 / S3: 2026 exact $200bn midpoint; 2027+ intensity assumptions."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "F84",
+      "value": 0.36,
+      "source": "A1 / S3: 2026 exact $200bn midpoint; 2027+ intensity assumptions."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "G84",
+      "value": 0.26,
+      "source": "A1 / S3: 2026 exact $200bn midpoint; 2027+ intensity assumptions."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "H84",
+      "value": 0.19,
+      "source": "A1 / S3: 2026 exact $200bn midpoint; 2027+ intensity assumptions."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "E85",
+      "value": 0.4,
+      "source": "A1 / S3: 2026 exact $200bn midpoint; 2027+ intensity assumptions."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "F85",
+      "value": 0.3,
+      "source": "A1 / S3: 2026 exact $200bn midpoint; 2027+ intensity assumptions."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "G85",
+      "value": 0.22,
+      "source": "A1 / S3: 2026 exact $200bn midpoint; 2027+ intensity assumptions."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "H85",
+      "value": 0.16,
+      "source": "A1 / S3: 2026 exact $200bn midpoint; 2027+ intensity assumptions."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "E86",
+      "value": 0.5,
+      "source": "A1 / S3: 2026 exact $200bn midpoint; 2027+ intensity assumptions."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "F86",
+      "value": 0.42,
+      "source": "A1 / S3: 2026 exact $200bn midpoint; 2027+ intensity assumptions."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "G86",
+      "value": 0.34,
+      "source": "A1 / S3: 2026 exact $200bn midpoint; 2027+ intensity assumptions."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "H86",
+      "value": 0.26,
+      "source": "A1 / S3: 2026 exact $200bn midpoint; 2027+ intensity assumptions."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D89",
+      "value": 0.1,
+      "source": "A1 / S2: narrow trade NWC definition; excludes tax and legal balances."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "E89",
+      "value": 0.1,
+      "source": "A1 / S2: narrow trade NWC definition; excludes tax and legal balances."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "F89",
+      "value": 0.1,
+      "source": "A1 / S2: narrow trade NWC definition; excludes tax and legal balances."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "G89",
+      "value": 0.1,
+      "source": "A1 / S2: narrow trade NWC definition; excludes tax and legal balances."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "H89",
+      "value": 0.1,
+      "source": "A1 / S2: narrow trade NWC definition; excludes tax and legal balances."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D90",
+      "value": 0.09,
+      "source": "A1 / S2: narrow trade NWC definition; excludes tax and legal balances."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "E90",
+      "value": 0.09,
+      "source": "A1 / S2: narrow trade NWC definition; excludes tax and legal balances."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "F90",
+      "value": 0.09,
+      "source": "A1 / S2: narrow trade NWC definition; excludes tax and legal balances."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "G90",
+      "value": 0.09,
+      "source": "A1 / S2: narrow trade NWC definition; excludes tax and legal balances."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "H90",
+      "value": 0.09,
+      "source": "A1 / S2: narrow trade NWC definition; excludes tax and legal balances."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D91",
+      "value": 0.12,
+      "source": "A1 / S2: narrow trade NWC definition; excludes tax and legal balances."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "E91",
+      "value": 0.12,
+      "source": "A1 / S2: narrow trade NWC definition; excludes tax and legal balances."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "F91",
+      "value": 0.12,
+      "source": "A1 / S2: narrow trade NWC definition; excludes tax and legal balances."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "G91",
+      "value": 0.12,
+      "source": "A1 / S2: narrow trade NWC definition; excludes tax and legal balances."
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "H91",
+      "value": 0.12,
+      "source": "A1 / S2: narrow trade NWC definition; excludes tax and legal balances."
+    },
+    {
+      "sheet": "DCF",
+      "cell": "D18",
+      "value": "2027-01-01T00:00:00.000Z",
+      "source": "User requested annual forecast periods; exclusive period end"
+    },
+    {
+      "sheet": "DCF",
+      "cell": "E18",
+      "value": "2028-01-01T00:00:00.000Z",
+      "source": "User requested annual forecast periods; exclusive period end"
+    },
+    {
+      "sheet": "DCF",
+      "cell": "F18",
+      "value": "2029-01-01T00:00:00.000Z",
+      "source": "User requested annual forecast periods; exclusive period end"
+    },
+    {
+      "sheet": "DCF",
+      "cell": "G18",
+      "value": "2030-01-01T00:00:00.000Z",
+      "source": "User requested annual forecast periods; exclusive period end"
+    },
+    {
+      "sheet": "DCF",
+      "cell": "H18",
+      "value": "2031-01-01T00:00:00.000Z",
+      "source": "User requested annual forecast periods; exclusive period end"
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "D8",
+      "value": 340.59,
+      "source": "Q1 / Q2 / Q3 / Q4. Google Finance vendor displays; exchange-direct unavailable."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "E8",
+      "value": 529.05,
+      "source": "Q1 / Q2 / Q3 / Q4. Google Finance vendor displays; exchange-direct unavailable."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "F8",
+      "value": 709.32,
+      "source": "Q1 / Q2 / Q3 / Q4. Google Finance vendor displays; exchange-direct unavailable."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "G8",
+      "value": 250,
+      "source": "Q1 / Q2 / Q3 / Q4. Google Finance vendor displays; exchange-direct unavailable."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "D9",
+      "value": 12230,
+      "source": "S2 all Alphabet classes; S4 Microsoft period end; S5 Meta Q2 basic weighted-average proxy; S7 Amazon period end."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "E9",
+      "value": 7427,
+      "source": "S2 all Alphabet classes; S4 Microsoft period end; S5 Meta Q2 basic weighted-average proxy; S7 Amazon period end."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "F9",
+      "value": 2543,
+      "source": "S2 all Alphabet classes; S4 Microsoft period end; S5 Meta Q2 basic weighted-average proxy; S7 Amazon period end."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "G9",
+      "value": 10783,
+      "source": "S2 all Alphabet classes; S4 Microsoft period end; S5 Meta Q2 basic weighted-average proxy; S7 Amazon period end."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "D11",
+      "value": 55911,
+      "source": "S2 / S4 / S5 / S7 balance sheets, 2026-06-30."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "E11",
+      "value": 20935,
+      "source": "S2 / S4 / S5 / S7 balance sheets, 2026-06-30."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "F11",
+      "value": 15462,
+      "source": "S2 / S4 / S5 / S7 balance sheets, 2026-06-30."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "G11",
+      "value": 78213,
+      "source": "S2 / S4 / S5 / S7 balance sheets, 2026-06-30."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "D12",
+      "value": 186563,
+      "source": "S2 / S4 / S5 / S7 balance sheets, 2026-06-30."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "E12",
+      "value": 55908,
+      "source": "S2 / S4 / S5 / S7 balance sheets, 2026-06-30."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "F12",
+      "value": 74798,
+      "source": "S2 / S4 / S5 / S7 balance sheets, 2026-06-30."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "G12",
+      "value": 44775,
+      "source": "S2 / S4 / S5 / S7 balance sheets, 2026-06-30."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "D13",
+      "value": 98165,
+      "source": "S2 / S4 / S5 / S9 balance sheets. Excludes leases."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "E13",
+      "value": 31067,
+      "source": "S2 / S4 / S5 / S9 balance sheets. Excludes leases."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "F13",
+      "value": 83664,
+      "source": "S2 / S4 / S5 / S9 balance sheets. Excludes leases."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "G13",
+      "value": 128894,
+      "source": "S2 / S4 / S5 / S9 balance sheets. Excludes leases."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "D14",
+      "value": 1999,
+      "source": "S2 / S4 / S5 no separate current debt disclosed / S9 Note 5."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "E14",
+      "value": 9227,
+      "source": "S2 / S4 / S5 no separate current debt disclosed / S9 Note 5."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "F14",
+      "value": 0,
+      "source": "S2 / S4 / S5 no separate current debt disclosed / S9 Note 5."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "G14",
+      "value": 3330,
+      "source": "S2 / S4 / S5 no separate current debt disclosed / S9 Note 5."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "D15",
+      "value": 19250,
+      "source": "S2 mandatory convertible preference; S4 / S5 / S7 no preferred claim reported."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "E15",
+      "value": 0,
+      "source": "S2 mandatory convertible preference; S4 / S5 / S7 no preferred claim reported."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "F15",
+      "value": 0,
+      "source": "S2 mandatory convertible preference; S4 / S5 / S7 no preferred claim reported."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "G15",
+      "value": 0,
+      "source": "S2 mandatory convertible preference; S4 / S5 / S7 no preferred claim reported."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "D20",
+      "value": 402836,
+      "source": "S1 / S6 / S8 calendar 2025. Microsoft direct TTM input below."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "F20",
+      "value": 200966,
+      "source": "S1 / S6 / S8 calendar 2025. Microsoft direct TTM input below."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "G20",
+      "value": 716924,
+      "source": "S1 / S6 / S8 calendar 2025. Microsoft direct TTM input below."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "D21",
+      "value": 186662,
+      "source": "S2 / S5 / S7, matched prior six months."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "F21",
+      "value": 89830,
+      "source": "S2 / S5 / S7, matched prior six months."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "G21",
+      "value": 323369,
+      "source": "S2 / S5 / S7, matched prior six months."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "D22",
+      "value": 229692,
+      "source": "S2 / S5 / S7, six months ended June 30."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "F22",
+      "value": 117111,
+      "source": "S2 / S5 / S7, six months ended June 30."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "G22",
+      "value": 382125,
+      "source": "S2 / S5 / S7, six months ended June 30."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "D25",
+      "value": 129039,
+      "source": "S1 / S6 / S8."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "F25",
+      "value": 83276,
+      "source": "S1 / S6 / S8."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "G25",
+      "value": 79975,
+      "source": "S1 / S6 / S8."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "D26",
+      "value": 61877,
+      "source": "S2 / S5 / S7."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "F26",
+      "value": 37997,
+      "source": "S2 / S5 / S7."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "G26",
+      "value": 37576,
+      "source": "S2 / S5 / S7."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "D27",
+      "value": 80466,
+      "source": "S2 / S5 / S7."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "F27",
+      "value": 41647,
+      "source": "S2 / S5 / S7."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "G27",
+      "value": 51313,
+      "source": "S2 / S5 / S7."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "D30",
+      "value": 132170,
+      "source": "S1 / S6 / S8, GAAP including investment and tax effects."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "F30",
+      "value": 60458,
+      "source": "S1 / S6 / S8, GAAP including investment and tax effects."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "G30",
+      "value": 77670,
+      "source": "S1 / S6 / S8, GAAP including investment and tax effects."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "D31",
+      "value": 62736,
+      "source": "S2 / S5 / S7."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "F31",
+      "value": 34981,
+      "source": "S2 / S5 / S7."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "G31",
+      "value": 35291,
+      "source": "S2 / S5 / S7."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "D32",
+      "value": 174685,
+      "source": "S2 common earnings after preferred dividends / S5 / S7."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "F32",
+      "value": 42621,
+      "source": "S2 common earnings after preferred dividends / S5 / S7."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "G32",
+      "value": 92902,
+      "source": "S2 common earnings after preferred dividends / S5 / S7."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "D35",
+      "value": 21136,
+      "source": "X1 / X3 / X4: us-gaap:Depreciation, calendar FY2025."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "F35",
+      "value": 18000,
+      "source": "X1 / X3 / X4: us-gaap:Depreciation, calendar FY2025."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "G35",
+      "value": 41860,
+      "source": "X1 / X3 / X4: us-gaap:Depreciation, calendar FY2025."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "D36",
+      "value": 9485,
+      "source": "X1 / X3 / X4: us-gaap:Depreciation, six months ended June 30, 2025."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "F36",
+      "value": 8120,
+      "source": "X1 / X3 / X4: us-gaap:Depreciation, six months ended June 30, 2025."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "G36",
+      "value": 18822,
+      "source": "X1 / X3 / X4: us-gaap:Depreciation, six months ended June 30, 2025."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "D37",
+      "value": 13586,
+      "source": "X1 / X3 / X4: us-gaap:Depreciation, six months ended June 30, 2026."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "F37",
+      "value": 11670,
+      "source": "X1 / X3 / X4: us-gaap:Depreciation, six months ended June 30, 2026."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "G37",
+      "value": 26703,
+      "source": "X1 / X3 / X4: us-gaap:Depreciation, six months ended June 30, 2026."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "E40",
+      "value": 331839,
+      "source": "S4 year ended June 30, 2026."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "E41",
+      "value": 155237,
+      "source": "S4 year ended June 30, 2026."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "E42",
+      "value": 133749,
+      "source": "S4 GAAP, year ended June 30, 2026."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "E43",
+      "value": 34300,
+      "source": "X2: us-gaap:Depreciation, July 1, 2025–June 30, 2026. Broad cash-flow addbacks are excluded."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "D73",
+      "value": 15.25,
+      "source": "F1: https://stockanalysis.com/stocks/googl/forecast/; updated 2026-10-16; adjusted non-GAAP EPS. FY2027 EPS."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "D74",
+      "value": "2027-12-31T00:00:00.000Z",
+      "source": "F1: https://stockanalysis.com/stocks/googl/forecast/; updated 2026-10-16; adjusted non-GAAP EPS. Fiscal year-end."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "D76",
+      "value": 1,
+      "source": "A1: calendarization weight; Microsoft uses equal halves of FY2027 and FY2028. Other companies have December year-end."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "D78",
+      "value": "2026-10-16T00:00:00.000Z",
+      "source": "F1: https://stockanalysis.com/stocks/googl/forecast/; updated 2026-10-16; adjusted non-GAAP EPS. Consensus update date."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "E73",
+      "value": 19.78,
+      "source": "F2: https://stockanalysis.com/stocks/msft/forecast/; updated 2026-10-16; adjusted non-GAAP EPS. FY2027 EPS."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "E74",
+      "value": "2027-06-30T00:00:00.000Z",
+      "source": "F2: https://stockanalysis.com/stocks/msft/forecast/; updated 2026-10-16; adjusted non-GAAP EPS. Fiscal year-end."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "E75",
+      "value": 23.72,
+      "source": "F2: https://stockanalysis.com/stocks/msft/forecast/; updated 2026-10-16; adjusted non-GAAP EPS. FY2028 EPS."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "E76",
+      "value": 0.5,
+      "source": "A1: calendarization weight; Microsoft uses equal halves of FY2027 and FY2028. Other companies have December year-end."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "E78",
+      "value": "2026-10-16T00:00:00.000Z",
+      "source": "F2: https://stockanalysis.com/stocks/msft/forecast/; updated 2026-10-16; adjusted non-GAAP EPS. Consensus update date."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "F73",
+      "value": 34.63,
+      "source": "F3: https://stockanalysis.com/stocks/meta/forecast/; updated 2026-10-16; adjusted non-GAAP EPS. FY2027 EPS."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "F74",
+      "value": "2027-12-31T00:00:00.000Z",
+      "source": "F3: https://stockanalysis.com/stocks/meta/forecast/; updated 2026-10-16; adjusted non-GAAP EPS. Fiscal year-end."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "F76",
+      "value": 1,
+      "source": "A1: calendarization weight; Microsoft uses equal halves of FY2027 and FY2028. Other companies have December year-end."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "F78",
+      "value": "2026-10-16T00:00:00.000Z",
+      "source": "F3: https://stockanalysis.com/stocks/meta/forecast/; updated 2026-10-16; adjusted non-GAAP EPS. Consensus update date."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "G73",
+      "value": 10.45,
+      "source": "F4: https://stockanalysis.com/stocks/amzn/forecast/; updated 2026-10-16; adjusted non-GAAP EPS. FY2027 EPS."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "G74",
+      "value": "2027-12-31T00:00:00.000Z",
+      "source": "F4: https://stockanalysis.com/stocks/amzn/forecast/; updated 2026-10-16; adjusted non-GAAP EPS. Fiscal year-end."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "G76",
+      "value": 1,
+      "source": "A1: calendarization weight; Microsoft uses equal halves of FY2027 and FY2028. Other companies have December year-end."
+    },
+    {
+      "sheet": "Multiples",
+      "cell": "G78",
+      "value": "2026-10-16T00:00:00.000Z",
+      "source": "F4: https://stockanalysis.com/stocks/amzn/forecast/; updated 2026-10-16; adjusted non-GAAP EPS. Consensus update date."
+    }
+  ]
+}

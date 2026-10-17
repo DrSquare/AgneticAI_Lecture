@@ -141,7 +141,7 @@ The **historical Q1 FY2027 outlook issued 2026-02-25** was revenue **78,000 ±2%
 
 GAAP/non-GAAP opex outlook was **7,700 / 7,500**. Starting FY2027, non-GAAP includes SBC; both opex measures include **1,900** of SBC, and margin guidance includes **0.1 pp** of SBC [Q4_OUTLOOK_RECON]. Do not compute like-for-like non-GAAP growth versus FY2026 without a restated bridge. The **17%–19%** tax range is for **full FY2027**, not Q1 alone. Q1-specific tax rate and other-income guidance are **not disclosed** [Q4_OUTLOOK].
 
-## Board handoff priorities and unresolved questions
+## Board priorities and open questions
 
 The decision-relevant themes are scale versus margin, investment-driven earnings quality, cash conversion versus broader cash deployment, concentrated customers and supply exposure, and historical execution/outlook comparability. The tables above supply both the facts and calculation inputs for a one-page summary.
 
@@ -153,11 +153,9 @@ The decision-relevant themes are scale versus margin, investment-driven earnings
 
 No amount is estimated for an absent disclosure; no “insignificant” amount is replaced by zero. Non-GAAP data include H20 unless the separately H20-adjusted measure is explicitly named. The exact annual H20 net charge and isolated Blackwell effect remain not disclosed. FY2025 headquarters geography was recast; equity presentation and prospective tax-disclosure changes are not a profit restatement [AR56] [AR72] [AR78]. Share/per-share values reflect the prior ten-for-one split [AR33].
 
-## Calculation validation and precision
+## Reported precision
 
-All **36 existing calc rows** from the sole input were independently recalculated from their numerical inputs, with absolute tolerance **0.0000001** in the row's unit; **36 passed**, none were skipped or only narratively verified. The ledger below contains those recalculations plus new trend calculations. Additional checks reconcile segment revenue/profit, end markets, geography, inventory components, the net-income bridge, annual/quarterly GAAP totals, FCF and the cloud-payment schedule.
-
-The disclosed quarterly non-GAAP opex figures sum to **16,695** (3,583 + 3,795 + 4,215 + 5,102), versus annual **16,694**: a **1** difference (16,695 − 16,694) at displayed million-dollar precision, preserved as a limitation rather than reported as an error [Q2_SUMMARY] [Q3_SUMMARY] [Q4_ANNUAL]. FY2025 rounded inventory provision components **1,600 + 2,000 = 3,600**, versus rounded broad total **3,700**; independent rounding explains why they should not be forced to agree [AR41] [AR67] [AR68]. Margin calculations use annual income/revenue; rounded quarterly margins are not averaged. Underlying source accuracy is inherited from the supplied extraction and is not independently source-verified in this isolated stage.
+The disclosed quarterly non-GAAP opex figures sum to **16,695** (3,583 + 3,795 + 4,215 + 5,102), versus annual **16,694**: a **1** difference (16,695 − 16,694) at displayed million-dollar precision, preserved as a limitation rather than reported as an error [Q2_SUMMARY] [Q3_SUMMARY] [Q4_ANNUAL]. FY2025 rounded inventory provision components **1,600 + 2,000 = 3,600**, versus rounded broad total **3,700**; independent rounding explains why they should not be forced to agree [AR41] [AR67] [AR68]. Margin calculations use annual income/revenue; rounded quarterly margins are not averaged.
 
 ## Derived metric ledger
 

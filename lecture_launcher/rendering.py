@@ -1,6 +1,7 @@
 """Limited Markdown rendering for local notes, using only the standard library."""
 from html import escape
 import re
+from lecture_launcher.public_policy import is_public_path
 from urllib.parse import quote, unquote, urlsplit
 
 
@@ -18,6 +19,8 @@ def link_target(target, source, root):
     if candidate.suffix.lower() == '.pptx':
         candidate = candidate.with_suffix('.pdf')
         relative = candidate.relative_to(root.resolve())
+    if not is_public_path(relative.as_posix()):
+        return None
     if not candidate.is_file():
         return None
     result = quote(relative.as_posix(), safe='/')

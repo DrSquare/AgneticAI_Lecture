@@ -32,7 +32,7 @@ const pass=(name)=>{checks.push(name);console.log('PASS',name);};
 
   for(let i=1;i<=4;i++){
    await page.click('[data-demo="'+i+'"]');
-   for(const tab of ['files','evidence','prompt','walkthrough']){
+   for(const tab of ['files','sources','prompt','walkthrough']){
     await page.click('[data-tab="'+tab+'"]');
     assert.equal(await page.locator('[data-tab="'+tab+'"]').getAttribute('aria-selected'),'true');
     assert.equal(await page.locator('#panel').getAttribute('aria-labelledby'),'tab-'+tab);
@@ -85,14 +85,14 @@ const pass=(name)=>{checks.push(name);console.log('PASS',name);};
   pass('File search, cross-demo scope, type filters, empty state and actual workbook download');
 
   await page.click('[data-demo="3"]');
-  await page.click('#tab-evidence');
-  const valuationStatus=await page.evaluate(()=>JSON.parse(document.getElementById('lecture-data').textContent).demos.find(d=>d.demo===3).status);
-  assert.equal(await page.locator('#panel .panel-lead .badge').innerText(),{ready:'Ready',partial:'Needs review',unverified:'Unverified',blocked:'Blocked',running:'In progress'}[valuationStatus]);
-  await page.locator('.evidence-section').nth(1).locator('summary').click();
-  assert.match(await page.locator('#panel').innerText(),/Slide 30/);
-  assert.doesNotMatch(await page.locator('#panel').innerText(),/\[object Object\]/);
-  await page.screenshot({path:path.join(out,'evidence.png'),fullPage:false});
-  pass('Readiness warnings and structured slide corrections remain readable');
+  await page.click('#tab-sources');
+  assert.match(await page.locator('#panel').innerText(),/Sources & methods/);
+  assert.match(await page.locator('#panel').innerText(),/9.75%/);
+  assert.doesNotMatch(await page.locator('body').innerText(),/presenter notes|slide corrections|readiness|validation record/i);
+  const payload = await page.locator('#lecture-data').textContent();
+  assert.doesNotMatch(payload,/RUNBOOK|readiness.json|visual-review|lecture-slide30-corrections|Genuine reviewer exchange/);
+  await page.screenshot({path:path.join(out,'sources.png'),fullPage:false});
+  pass('Audience source context remains available; internal reviews are absent from the page and payload');
 
   await page.click('[data-demo="1"]');
   await page.click('#tab-prompt');
@@ -161,7 +161,7 @@ const pass=(name)=>{checks.push(name);console.log('PASS',name);};
 
   await page.goto(pathToFileURL(path.join(root,'LECTURE_DEMOS.html')).href+'#demo-3/evidence');
   assert.match(await page.locator('#demo-title').innerText(),/Alphabet/);
-  assert.equal(await page.locator('#tab-evidence').getAttribute('aria-selected'),'true');
+  assert.equal(await page.locator('#tab-sources').getAttribute('aria-selected'),'true');
   assert.equal(requests.length,0);
   assert.deepEqual(errors,[]);
   pass('Direct deep links, zero external requests and zero uncaught browser errors');

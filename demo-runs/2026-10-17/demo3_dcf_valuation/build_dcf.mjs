@@ -54,7 +54,7 @@ const intro=[
 'Non-marketable investments are excluded in Base. Deferred tax and accrued legal claims are deducted.',
 'Peer EV/EBITD = EV / (EBIT + PPE depreciation). This verified-input comparison replaces EBITDA; all intangible amortization stays expensed.',
 'Forward P/E uses CY2027 adjusted consensus EPS dated Oct 16. Microsoft is calendarized from FY2027 / FY2028.',
-'Teaching model, not investment advice. Market and scenario assumptions require presenter review.'
+'Teaching model, not investment advice. Market and scenario assumptions are dated and uncertain.'
 ];intro.forEach((x,i)=>note('README',6+i*2,x));
 band('README',38,'Sources (IDs also appear beside the inputs)');
 let sr=40;for(const [id,[label,url]] of Object.entries(sources)){t('README',`C${sr}`,id+' — '+label);sheets.README.getRange(`C${sr}:H${sr}`).merge();t('README',`C${sr+1}`,url);sheets.README.getRange(`C${sr+1}:J${sr+1}`).merge();sr+=3;}
@@ -197,7 +197,7 @@ for(const c of ['D','E','F','G']){f('Multiples',`${c}85`,`=${c}28`);f('Multiples
 sheets.Multiples.getRange('D88:G88').setNumberFormat('0.00x');total('Multiples',87);
 note('Multiples',91,'EBITD is deliberate: EBIT + PPE depreciation only. Intangible amortization stays expensed for every issuer; no estimates are introduced.');
 note('Multiples',93,'No SBC, content, operating-lease asset or other cash-flow addbacks. EV excludes lease liabilities uniformly; lease mixes still differ.');
-note('Multiples',95,'Full TTM intangible amortization is not verified for GOOGL / AMZN. EBITD replaces EBITDA by the presenter’s choice; it is not EBITDA.');
+note('Multiples',95,'Full TTM intangible amortization is unavailable for GOOGL / AMZN. EBITD adds PP&E depreciation; intangible amortization stays expensed.');
 for(const r of [72,84])sheets.Multiples.getRange(`C${r}:G${r}`).format={fill:navy,font:{color:'#FFFFFF',bold:true}};total('Multiples',77);
 
 // Main output is links only. Sensitivity bounds do not pretend to be bull/bear captured scenarios.

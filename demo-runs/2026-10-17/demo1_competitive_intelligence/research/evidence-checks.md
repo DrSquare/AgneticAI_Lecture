@@ -86,7 +86,3 @@ Each independent researcher checked at least three material claims. Verified mea
   - Date: 2026-08-26. [Source evidence](https://live.euronext.com/en/financial-news/softbank-talks-buy-stake-1x-6-billion-valuation-information-reports).
   - Verdict: Unconfirmed acquisition-talk value only.
   - Evidence: Reuters attributes talks to The Information and explicitly could not confirm.
-
-## Reconciliation with lecture slide 24
-
-See RUNBOOK.md for the complete correction list. Material corrections distinguish historical financing, proposed SPAC proceeds, reported acquisition talks, recognized revenue, ARR, conditional orders, capacity, production and deliveries. All source dates are bounded by the research cutoff. The original lecture and supplied reference outputs remain unchanged.

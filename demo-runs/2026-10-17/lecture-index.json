@@ -1,6 +1,6 @@
 {
   "run_date": "2026-10-17",
-  "snapshot_timestamp": "2026-10-17T15:56:53-07:00",
+  "snapshot_timestamp": "2026-10-17T16:32:10-07:00",
   "project": "Agentic AI Lecture",
   "demos": [
     {
@@ -10,7 +10,6 @@
       "pattern": "Fan-out",
       "slides": "20–24",
       "folder": "demo1_competitive_intelligence",
-      "thread_id": "01a14a9b-c4e5-72d1-b020-3a0efab24f47",
       "description": "One shared brief. Five independent researchers. A comparison you can trace back to its sources.",
       "takeaway": "Parallel research works when every researcher uses the same questions and evidence rules.",
       "primary": [
@@ -23,9 +22,7 @@
         "research/physical-intelligence.md",
         "research/skild-ai.md",
         "research/agility-robotics.md",
-        "research/1x-technologies.md",
-        "research/evidence-checks.md",
-        "research/handoffs.md"
+        "research/1x-technologies.md"
       ],
       "nodes": [
         [
@@ -50,102 +47,12 @@
         ]
       ],
       "flow_note": "Five researchers, run in two batches. Select a company to read its saved profile.",
-      "status": "ready",
-      "limitations": [
-        "Full Agility definitive SEC filing retrieval failed. $1.782M FY2025 sales is corroborated using primary indexed table text, not a full-file financial audit.",
-        "Exact current cumulative capital is unavailable for all five. Ratios remain Not comparable; no missing capital is treated as zero.",
-        "Reported acquisitions, proposed SPAC transactions and company-reported operational metrics remain explicitly qualified.",
-        "No native Excel or PowerPoint UI test, API product test, robot execution, physical delivery inspection or exhaustive legal docket review was performed.",
-        "Public-source research is bounded by the stated cutoff. Nondisclosure does not establish zero or absence.",
-        "Native font rendering is not verified in PowerPoint. Artifact Tool renders and the saved slide previews were visually reviewed."
-      ],
-      "slide_corrections": [
-        "Use 2026-10-17 as this run cutoff, replacing slide 24 dated 2026-10-16.",
-        "Figure $39B is a September 2025 historical financing baseline outside the window; output at BotQ is not paid customer deliveries. Nscale compute commitment is not funding proceeds.",
-        "PI revenue is not disclosed, not established as zero or pre-revenue. $5.6B is a dated investor baseline with unspecified valuation basis; later financing records conflict.",
-        "Skild >$100M ARR and 60+ customers are company-reported. January revenue is not a comparable ARR starting point. Acquired robotics operations make model-only incomplete.",
-        "Agility $2.5B value and SPAC proceeds are proposed. November 2 is a scheduled vote, not a completed listing. FY2025 sales and conditional multi-year orders are not current ARR.",
-        "Digit 5 availability targets 2027. Capacity and operating-hour claims are not actual new-robot delivery counts.",
-        "1X ~$6B is reported acquisition talks, not a closed financing. Capacity and potential EQT rollout are not deliveries or firm orders. External deliveries remain unverified.",
-        "Remove unsupported claims that model firms raised faster or that a SPAC vote necessarily sets a public-market price.",
-        "Momentum is analyst judgment. This run treats Figure as gaining on milestones and 1X as holding pending delivery evidence."
-      ],
-      "checks": [
-        {
-          "name": "Independent fan-out and handoffs",
-          "status": "passed",
-          "evidence": "Five distinct company researchers in two batches; research/handoffs.md and per-company evidence JSON."
-        },
-        {
-          "name": "Common five-heading profiles",
-          "status": "passed",
-          "evidence": "build/profile-checks.json: all five passed."
-        },
-        {
-          "name": "Material fact spot-checks",
-          "status": "passed_with_limitations",
-          "evidence": "17 checks documented in research/evidence-checks.md, including reported/unconfirmed verdicts. Three additional coordinator checks in build/coordinator-source-checks.json."
-        },
-        {
-          "name": "Workbook formula recalculation and sensitivity",
-          "status": "passed",
-          "evidence": "build/workbook-checks.json; ages 17, 4, 18, 2, 52 days. Changed input tests and zero/blank guards passed; originals restored."
-        },
-        {
-          "name": "Workbook saved package and errors",
-          "status": "passed",
-          "evidence": "build/saved-xlsx-checks.json verifies 10 formulas, cached values and typed numbers. build/workbook-error-scan.ndjson has zero error matches."
-        },
-        {
-          "name": "Workbook visual review",
-          "status": "passed",
-          "evidence": "Matrix, source area and both Landscape sections rendered and reviewed in build/*.png; no clipped cells or formula errors observed."
-        },
-        {
-          "name": "Three-slide package, layout and import",
-          "status": "passed",
-          "evidence": "build/IC-pack.validation.json: 3 slides, 2 native editable tables, 0 findings, 0 layout warnings, IBM Plex Sans font policy and first-party import passed."
-        },
-        {
-          "name": "Slide visual review and citations",
-          "status": "passed",
-          "evidence": "All three rendered slide layouts reviewed. Subsequent notes-only revision adds complete primary/secondary source bibliography; saved PPTX notes checked for PI API and 1X reported transaction links."
-        },
-        {
-          "name": "Final deck copied without alteration",
-          "status": "passed",
-          "evidence": "Final SHA256 matches validation receipt: 310cfb2d0064f8ea358af855b58b9b760b7070e0268a6c41f73a10c25aaa99bf"
-        },
-        {
-          "name": "Native Office UI testing",
-          "status": "not_performed",
-          "evidence": "No native Excel or PowerPoint interaction is claimed."
-        },
-        {
-          "name": "Scope preservation",
-          "status": "passed",
-          "evidence": "All created outputs and scripts remain in Demo 1 run folder. Supplied reference outputs and source lecture deck were only read. No recurring automation, publication or communications activated."
-        }
-      ],
-      "sources_as_of": {
-        "research_window_start": "2025-10-17",
-        "research_window_end": "2026-10-17",
-        "prepared_date": "2026-10-17",
-        "timezone": "America/Los_Angeles",
-        "latest_dated_evidence_by_company": {
-          "Figure AI": "2026-09-30",
-          "Physical Intelligence": "2026-10-13",
-          "Skild AI": "2026-09-29",
-          "Agility Robotics": "2026-10-15",
-          "1X Technologies": "2026-08-26"
-        }
-      },
       "available": [
         {
-          "name": "RUNBOOK.md",
-          "label": "Presenter runbook",
-          "path": "demo-runs/2026-10-17/demo1_competitive_intelligence/RUNBOOK.md",
-          "bytes": 6318,
+          "name": "GUIDE.md",
+          "label": "Demo guide",
+          "path": "demo-runs/2026-10-17/demo1_competitive_intelligence/GUIDE.md",
+          "bytes": 2665,
           "type": "MD",
           "primary": false
         },
@@ -177,7 +84,7 @@
           "name": "research/figure-ai.md",
           "label": "Figure ai",
           "path": "demo-runs/2026-10-17/demo1_competitive_intelligence/research/figure-ai.md",
-          "bytes": 7759,
+          "bytes": 7135,
           "type": "MD",
           "primary": false
         },
@@ -185,7 +92,7 @@
           "name": "research/physical-intelligence.md",
           "label": "Physical intelligence",
           "path": "demo-runs/2026-10-17/demo1_competitive_intelligence/research/physical-intelligence.md",
-          "bytes": 7343,
+          "bytes": 6719,
           "type": "MD",
           "primary": false
         },
@@ -193,7 +100,7 @@
           "name": "research/skild-ai.md",
           "label": "Skild ai",
           "path": "demo-runs/2026-10-17/demo1_competitive_intelligence/research/skild-ai.md",
-          "bytes": 6811,
+          "bytes": 5808,
           "type": "MD",
           "primary": false
         },
@@ -201,7 +108,7 @@
           "name": "research/agility-robotics.md",
           "label": "Agility robotics",
           "path": "demo-runs/2026-10-17/demo1_competitive_intelligence/research/agility-robotics.md",
-          "bytes": 6981,
+          "bytes": 6194,
           "type": "MD",
           "primary": false
         },
@@ -209,32 +116,8 @@
           "name": "research/1x-technologies.md",
           "label": "1x technologies",
           "path": "demo-runs/2026-10-17/demo1_competitive_intelligence/research/1x-technologies.md",
-          "bytes": 8546,
+          "bytes": 7843,
           "type": "MD",
-          "primary": false
-        },
-        {
-          "name": "research/evidence-checks.md",
-          "label": "Evidence checks",
-          "path": "demo-runs/2026-10-17/demo1_competitive_intelligence/research/evidence-checks.md",
-          "bytes": 7650,
-          "type": "MD",
-          "primary": false
-        },
-        {
-          "name": "research/handoffs.md",
-          "label": "Handoffs",
-          "path": "demo-runs/2026-10-17/demo1_competitive_intelligence/research/handoffs.md",
-          "bytes": 2667,
-          "type": "MD",
-          "primary": false
-        },
-        {
-          "name": "readiness.json",
-          "label": "Readiness report",
-          "path": "demo-runs/2026-10-17/demo1_competitive_intelligence/readiness.json",
-          "bytes": 7060,
-          "type": "JSON",
           "primary": false
         },
         {
@@ -247,21 +130,24 @@
         }
       ],
       "missing": [],
+      "sources": [
+        "Research window: October 17, 2025 to October 17, 2026. Older financing benchmarks are dated explicitly.",
+        "Profiles link to company announcements, counterparty reports, filings and attributed press reports.",
+        "Company-reported operating metrics are unaudited. Proposed SPAC values and reported acquisition talks are not closed financing rounds."
+      ],
       "steps": [
         {
           "time": "0:00–0:35",
-          "action": "Show the reusable prompt below and research/handoffs.md",
-          "point": "Five separate researchers used one brief. Three ran first, then two, because of the concurrency limit.",
-          "label": "Show the reusable prompt below and research/handoffs.md",
-          "artifacts": [
-            "research/handoffs.md"
-          ]
+          "action": "Explore the five company profiles.",
+          "point": "One shared brief makes independent research comparable.",
+          "label": "Explore the five company profiles.",
+          "artifacts": []
         },
         {
           "time": "0:35–1:20",
-          "action": "Open research/figure-ai.md and research/physical-intelligence.md",
-          "point": "The same five headings make comparison possible. Dates and sources travel with claims.",
-          "label": "Open research/figure-ai.md and research/physical-intelligence.md",
+          "action": "Compare <a href=\"demo-runs/2026-10-17/demo1_competitive_intelligence/research/figure-ai.md\" target=\"_blank\" rel=\"noopener noreferrer\">Figure AI</a> and <a href=\"demo-runs/2026-10-17/demo1_competitive_intelligence/research/physical-intelligence.md\" target=\"_blank\" rel=\"noopener noreferrer\">Physical Intelligence</a>.",
+          "point": "The same five headings keep dates, definitions and sources alongside each claim.",
+          "label": "Compare [Figure AI](research/figure-ai.md) and [Physical Intelligence](research/physical-intelligence.md).",
           "artifacts": [
             "research/figure-ai.md",
             "research/physical-intelligence.md"
@@ -269,42 +155,40 @@
         },
         {
           "time": "1:20–2:10",
-          "action": "Open research/summary.md",
-          "point": "Read the five differentiators and the three IC implications. Momentum is an analytical judgment, not a measured ranking.",
-          "label": "Open research/summary.md",
+          "action": "Read the <a href=\"demo-runs/2026-10-17/demo1_competitive_intelligence/research/summary.md\" target=\"_blank\" rel=\"noopener noreferrer\">research synthesis</a>.",
+          "point": "Compare five differentiators and three investment committee implications. Momentum labels are analytical judgments.",
+          "label": "Read the [research synthesis](research/summary.md).",
           "artifacts": [
             "research/summary.md"
           ]
         },
         {
           "time": "2:10–3:10",
-          "action": "Open research/competitor-matrix.xlsx",
-          "point": "Show numeric inputs, evidence-age formulas and guarded valuation/capital formulas. Missing capital is not zero.",
-          "label": "Open research/competitor-matrix.xlsx",
+          "action": "Open the <a href=\"demo-runs/2026-10-17/demo1_competitive_intelligence/research/competitor-matrix.xlsx\" target=\"_blank\" rel=\"noopener noreferrer\">competitor matrix</a>.",
+          "point": "Inspect dated numeric inputs and evidence-age formulas. Missing capital is not zero.",
+          "label": "Open the [competitor matrix](research/competitor-matrix.xlsx).",
           "artifacts": [
             "research/competitor-matrix.xlsx"
           ]
         },
         {
           "time": "3:10–4:00",
-          "action": "Open research/evidence-checks.md and click Figure&#x27;s manufacturing source",
-          "point": "Demonstrate why “produced” does not mean “delivered to paying customers.”",
-          "label": "Open research/evidence-checks.md and click Figure's manufacturing source",
-          "artifacts": [
-            "research/evidence-checks.md"
-          ]
+          "action": "Compare the commercial evidence in the company profiles.",
+          "point": "Capacity, production, orders and paid customer deliveries measure different things.",
+          "label": "Compare the commercial evidence in the company profiles.",
+          "artifacts": []
         },
         {
           "time": "4:00–5:00",
-          "action": "Open IC-pack.pdf",
-          "point": "Show landscape, differentiators and implications. Close with the source limitations and human review gate.",
-          "label": "Open IC-pack.pdf",
+          "action": "Explore the <a href=\"demo-runs/2026-10-17/demo1_competitive_intelligence/IC-pack.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">IC slides</a>.",
+          "point": "Connect the landscape and differentiators to the next diligence questions.",
+          "label": "Explore the [IC slides](IC-pack.pdf).",
           "artifacts": [
             "IC-pack.pdf"
           ]
         }
       ],
-      "prompt": "Research Figure AI, Physical Intelligence, Skild AI, Agility Robotics and 1X Technologies using a separate researcher for each. Batch researchers if the concurrency limit requires it. Use one explicit 12-month window and cutoff date. Use these exact headings: 1 Funding & valuation; 2 Technology; 3 Commercial traction; 4 Manufacturing & scale; 5 Team, partners & risks. Date every factual bullet and end it with a numbered source citation. Prefer filings, companies and counterparties. Label unaudited operating metrics company-reported, unconfirmed transactions reported, and older latest benchmarks with a warning. Do not equate capacity, production, orders and deliveries.\n\nSave five profiles and structured evidence. Verify at least three material facts per company. Synthesize a side-by-side comparison, five differentiators, evidence-based momentum judgments and three IC implications. Build a formula-capable workbook with numeric inputs, visible sources, guarded valuation/capital ratios and useful evidence-age calculations. Produce and visually verify exactly three IC slides. Save a dated runbook, evidence log and readiness manifest. Preserve source material. Do not activate automation, publish or send communications."
+      "prompt": "Research Figure AI, Physical Intelligence, Skild AI, Agility Robotics and 1X Technologies using a separate researcher for each. Batch researchers if the concurrency limit requires it. Use one explicit 12-month window and cutoff date. Use these exact headings: 1 Funding & valuation; 2 Technology; 3 Commercial traction; 4 Manufacturing & scale; 5 Team, partners & risks. Date every factual bullet and end it with a numbered source citation. Prefer filings, companies and counterparties. Label unaudited operating metrics company-reported, unconfirmed transactions reported, and older latest benchmarks with a warning. Do not equate capacity, production, orders and deliveries.\n\nSave five profiles and structured evidence. Verify at least three material facts per company. Synthesize a side-by-side comparison, five differentiators, evidence-based momentum judgments and three IC implications. Build a formula-capable workbook with numeric inputs, visible sources, guarded valuation/capital ratios and useful evidence-age calculations. Produce and visually verify exactly three IC slides. Preserve source material. Do not activate automation, publish or send communications."
     },
     {
       "demo": 2,
@@ -313,7 +197,6 @@
       "pattern": "Panel",
       "slides": "25–27",
       "folder": "demo2_pitchbook_review",
-      "thread_id": "01a14a9c-78e1-7c33-bb73-ef435ba9b7d8",
       "description": "Three reviewers challenge the same pitch. Follow the disagreements all the way to a decision.",
       "takeaway": "Independent perspectives are useful when disagreements are resolved against shared evidence.",
       "primary": [
@@ -326,9 +209,7 @@
         "review-narrative.md",
         "review-numbers.md",
         "review-devils-advocate.md",
-        "conflicts-log.md",
         "calculation-results.md",
-        "lecture-slide27-corrections.md",
         "forward-burn-sensitivity.csv"
       ],
       "nodes": [
@@ -346,191 +227,12 @@
         ]
       ],
       "flow_note": "Fictional company and data. Select a reviewer to read the actual saved review.",
-      "status": "ready",
-      "limitations": [
-        "All company information is fictional teaching material. Numerical identities establish internal consistency, not a real-company audit.",
-        "Actual acquisition-cohort CAC payback and contracted ARR are unverifiable: no contracts, gross new-logo MRR, spend attribution or sales-lag cohorts.",
-        "NRR is only the three-customer September2025 cohort. Detailed churn/concentration and customer identities are absent.",
-        "Forward runway is unverified. Hiring/capex/financing/collections schedules are absent; saved cash cases are explicit sensitivities, not forecasts.",
-        "Hardware unit cost42000, market sizing, team records and controlled technical claims lack underlying evidence.",
-        "Native PowerPoint/Excel UI and timed classroom rehearsal were not performed. Full panel rerun may exceed five minutes; runbook uses saved real exchanges and a live calculation replay.",
-        "The original lecture deck remains unchanged; use the saved slide27 correction guide before presenting its old results table."
-      ],
-      "slide_corrections": [
-        "Lecture physical slide27: replace implied15-20-month observed runway with unverified forward plan. Flat post-raise33.67mo, immediate hiring stress14.32mo and linear hiring stress20.85mo are separate assumptions without separate capex.",
-        "Lecture physical slide27: remove target-shown-as-actual description for68%GM; no target cost model is supplied. September actual is41%.",
-        "Lecture physical slide27: qualify ~26month CAC as Q3 ending-GM net-new-MRR proxy26.27mo; TTM27.87mo and September29.62mo. Actual cohort CAC unverifiable.",
-        "Lecture physical slide27: remove2.6/5 aggregate verdict and scripted traction4->2 conflict. Use actual dimension scores and real NRR/runway/causality challenges.",
-        "Pitch p6:1.932M paying ARR;2.436M pilot-inclusive annualization,504k unpaid pilot capacity.6.57x paying YoY.11 paying+3 pilots.99.7%best site versus97.2%fleet.",
-        "Pitch p6:NRR157.14% for original n=3 cohort;160% is coarse rounding. Pitch p10 targets and p11 ask/allocations are planned, not verified outcomes."
-      ],
-      "checks": [
-        {
-          "name": "Required outputs exist",
-          "status": "pass",
-          "evidence": "['pitch-review.md', 'partner-briefing.pdf', 'partner-briefing.md', 'review-narrative.md', 'review-numbers.md', 'review-devils-advocate.md', 'conflicts-log.md', 'founder-email.md', 'calculate.py', 'calculation-results.md', 'calculations.json', 'claims.json', 'numerical-checks.json', 'forward-burn-sensitivity.csv', 'numbers-reviewer-calculations.py', 'numbers-reviewer-calculations.json', 'RUNBOOK.md', 'lecture-slide27-corrections.md']"
-        },
-        {
-          "name": "Source and reference artifacts preserved",
-          "status": "pass",
-          "evidence": "Compared current SHA256 against evidence/source-manifest.json for source deck, source CSV and supplied reference review."
-        },
-        {
-          "name": "Lead numerical checks",
-          "status": "pass",
-          "evidence": "numerical-checks.json:53/53 checks pass"
-        },
-        {
-          "name": "Partner brief is one PDF page",
-          "status": "pass",
-          "evidence": "pypdf reopened exported PDF"
-        },
-        {
-          "name": "Source deck pages and render coverage",
-          "status": "pass",
-          "evidence": "11 source pages; 11 rendered PNGs"
-        },
-        {
-          "name": "42 unique quantitative/time-bound/plan claims",
-          "status": "pass",
-          "evidence": "claims.json contains source page, result, formula/evidence, missing-data field and classification"
-        },
-        {
-          "name": "Fictional label: pitch-review.md",
-          "status": "pass",
-          "evidence": "Explicit fictional teaching material disclosure"
-        },
-        {
-          "name": "Fictional label: partner-briefing.md",
-          "status": "pass",
-          "evidence": "Explicit fictional teaching material disclosure"
-        },
-        {
-          "name": "Fictional label: review-narrative.md",
-          "status": "pass",
-          "evidence": "Explicit fictional teaching material disclosure"
-        },
-        {
-          "name": "Fictional label: review-numbers.md",
-          "status": "pass",
-          "evidence": "Explicit fictional teaching material disclosure"
-        },
-        {
-          "name": "Fictional label: review-devils-advocate.md",
-          "status": "pass",
-          "evidence": "Explicit fictional teaching material disclosure"
-        },
-        {
-          "name": "Fictional label: conflicts-log.md",
-          "status": "pass",
-          "evidence": "Explicit fictional teaching material disclosure"
-        },
-        {
-          "name": "Fictional label: founder-email.md",
-          "status": "pass",
-          "evidence": "Explicit fictional teaching material disclosure"
-        },
-        {
-          "name": "Fictional label: RUNBOOK.md",
-          "status": "pass",
-          "evidence": "Explicit fictional teaching material disclosure"
-        },
-        {
-          "name": "Fictional label: lecture-slide27-corrections.md",
-          "status": "pass",
-          "evidence": "Explicit fictional teaching material disclosure"
-        },
-        {
-          "name": "Saved real reviewer messages",
-          "status": "pass",
-          "evidence": "Actual challenge text inspected in all3 reviewer outputs; no synthetic messages generated"
-        },
-        {
-          "name": "Independent match: paying_arr_usd",
-          "status": "pass",
-          "evidence": "Lead calculations.json paying_arr_usd equals independent JSON paying_arr_usd"
-        },
-        {
-          "name": "Independent match: pilot_inclusive_metric_usd",
-          "status": "pass",
-          "evidence": "Lead calculations.json pilot_inclusive_metric_usd equals independent JSON booked_including_unpaid_pilots_usd"
-        },
-        {
-          "name": "Independent match: paying_yoy_multiple",
-          "status": "pass",
-          "evidence": "Lead calculations.json paying_yoy_multiple equals independent JSON paying_arr_yoy_multiple"
-        },
-        {
-          "name": "Independent match: nrr_sep2025_cohort_pct",
-          "status": "pass",
-          "evidence": "Lead calculations.json nrr_sep2025_cohort_pct equals independent JSON september_2025_cohort_nrr_pct"
-        },
-        {
-          "name": "Independent match: gross_margin_pct",
-          "status": "pass",
-          "evidence": "Lead calculations.json gross_margin_pct equals independent JSON september_2026_reported_gm_pct"
-        },
-        {
-          "name": "Independent CAC match: 2026-09 to 2026-09",
-          "status": "pass",
-          "evidence": "Same spending interval, net MRR baseline and ending GM; margin weighting variants kept distinct"
-        },
-        {
-          "name": "Independent CAC match: 2026-07 to 2026-09",
-          "status": "pass",
-          "evidence": "Same spending interval, net MRR baseline and ending GM; margin weighting variants kept distinct"
-        },
-        {
-          "name": "Independent CAC match: 2026-04 to 2026-09",
-          "status": "pass",
-          "evidence": "Same spending interval, net MRR baseline and ending GM; margin weighting variants kept distinct"
-        },
-        {
-          "name": "Independent CAC match: 2025-10 to 2026-09",
-          "status": "pass",
-          "evidence": "Same spending interval, net MRR baseline and ending GM; margin weighting variants kept distinct"
-        },
-        {
-          "name": "Independent reviewer checks",
-          "status": "pass",
-          "evidence": "numbers-reviewer-calculations.json:8 grouped checks passed"
-        },
-        {
-          "name": "Final visual QA applies to current PDF",
-          "status": "pass",
-          "evidence": "Lead visually inspected the latest rendered one-page briefing; artifact hash bound to evidence/visual-qa.json"
-        },
-        {
-          "name": "Actual page references",
-          "status": "pass",
-          "evidence": "Lead inspected all11 source pages in contact sheet and pages6,7,10,11 individually; original printed pages match physical order"
-        },
-        {
-          "name": "Lecture slide correction evidence",
-          "status": "pass",
-          "evidence": "Physical lecture slide27 OOXML text compared with current executed results and genuine challenges"
-        },
-        {
-          "name": "Native presentation UI / timed classroom rehearsal",
-          "status": "not_performed",
-          "evidence": "Local PDF render QA and executed scripts completed; no native PowerPoint or timed classroom session claimed."
-        }
-      ],
-      "sources_as_of": {
-        "review_date": "2026-10-17",
-        "timezone": "America/Los_Angeles",
-        "fictional_company_kpi_first_month": "2025-09",
-        "fictional_company_kpi_last_month": "2026-09",
-        "pitch_deck_label": "October2026;11pages",
-        "lecture_deck_checked": "Agentic_AI_Define_Design_Build.pptx physical slide27 (OOXML text)",
-        "external_source_lookup": "Not applicable to invented company claims; none performed."
-      },
       "available": [
         {
-          "name": "RUNBOOK.md",
-          "label": "Presenter runbook",
-          "path": "demo-runs/2026-10-17/demo2_pitchbook_review/RUNBOOK.md",
-          "bytes": 9211,
+          "name": "GUIDE.md",
+          "label": "Demo guide",
+          "path": "demo-runs/2026-10-17/demo2_pitchbook_review/GUIDE.md",
+          "bytes": 3019,
           "type": "MD",
           "primary": false
         },
@@ -538,7 +240,7 @@
           "name": "pitch-review.md",
           "label": "Consolidated pitch review",
           "path": "demo-runs/2026-10-17/demo2_pitchbook_review/pitch-review.md",
-          "bytes": 22406,
+          "bytes": 21492,
           "type": "MD",
           "primary": true
         },
@@ -554,7 +256,7 @@
           "name": "partner-briefing.pdf",
           "label": "Partner briefing",
           "path": "demo-runs/2026-10-17/demo2_pitchbook_review/partner-briefing.pdf",
-          "bytes": 3823,
+          "bytes": 3797,
           "type": "PDF",
           "primary": false
         },
@@ -562,7 +264,7 @@
           "name": "partner-briefing.md",
           "label": "Partner briefing",
           "path": "demo-runs/2026-10-17/demo2_pitchbook_review/partner-briefing.md",
-          "bytes": 2019,
+          "bytes": 2002,
           "type": "MD",
           "primary": false
         },
@@ -570,7 +272,7 @@
           "name": "review-narrative.md",
           "label": "Review narrative",
           "path": "demo-runs/2026-10-17/demo2_pitchbook_review/review-narrative.md",
-          "bytes": 18868,
+          "bytes": 11127,
           "type": "MD",
           "primary": false
         },
@@ -578,7 +280,7 @@
           "name": "review-numbers.md",
           "label": "Review numbers",
           "path": "demo-runs/2026-10-17/demo2_pitchbook_review/review-numbers.md",
-          "bytes": 22571,
+          "bytes": 14997,
           "type": "MD",
           "primary": false
         },
@@ -586,15 +288,7 @@
           "name": "review-devils-advocate.md",
           "label": "Review devils advocate",
           "path": "demo-runs/2026-10-17/demo2_pitchbook_review/review-devils-advocate.md",
-          "bytes": 16147,
-          "type": "MD",
-          "primary": false
-        },
-        {
-          "name": "conflicts-log.md",
-          "label": "Conflicts log",
-          "path": "demo-runs/2026-10-17/demo2_pitchbook_review/conflicts-log.md",
-          "bytes": 4449,
+          "bytes": 9107,
           "type": "MD",
           "primary": false
         },
@@ -607,27 +301,11 @@
           "primary": false
         },
         {
-          "name": "lecture-slide27-corrections.md",
-          "label": "Lecture slide27 corrections",
-          "path": "demo-runs/2026-10-17/demo2_pitchbook_review/lecture-slide27-corrections.md",
-          "bytes": 3732,
-          "type": "MD",
-          "primary": false
-        },
-        {
           "name": "forward-burn-sensitivity.csv",
           "label": "Forward burn sensitivity",
           "path": "demo-runs/2026-10-17/demo2_pitchbook_review/forward-burn-sensitivity.csv",
           "bytes": 4366,
           "type": "CSV",
-          "primary": false
-        },
-        {
-          "name": "readiness.json",
-          "label": "Readiness report",
-          "path": "demo-runs/2026-10-17/demo2_pitchbook_review/readiness.json",
-          "bytes": 9585,
-          "type": "JSON",
           "primary": false
         },
         {
@@ -640,63 +318,65 @@
         }
       ],
       "missing": [],
+      "sources": [
+        "Fictional GraspLoop AI deck: 11 pages. KPI data: September 2025 through September 2026.",
+        "Paying revenue, unpaid pilots, best-site performance and fleet averages have distinct definitions.",
+        "157.14% NRR covers the original three-customer cohort. The payback calculation uses net new MRR; acquisition-cohort inputs and a funded forward cash plan are unavailable."
+      ],
       "steps": [
         {
-          "time": "0:00-0:45",
-          "action": "Original <code>Agentic_AI_Demos/demo2_pitchbook_review/inputs/pitch-deck.pdf</code>, pages 6-7.",
-          "point": "&quot;All company data is invented. This polished deck says $2.4M ARR, 68% GM and 4-month CAC. Which definitions would you test?&quot;",
-          "label": "Original Agentic_AI_Demos/demo2_pitchbook_review/inputs/pitch-deck.pdf, pages 6-7.",
+          "time": "0:00–0:45",
+          "action": "Read the fictional <a href=\"Agentic_AI_Demos/demo2_pitchbook_review/inputs/pitch-deck.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">pitch deck</a>, pages 6–7.",
+          "point": "Compare its ARR, gross margin and CAC claims with the supplied data. All company data are invented.",
+          "label": "Read the fictional [pitch deck](../../../Agentic_AI_Demos/demo2_pitchbook_review/inputs/pitch-deck.pdf), pages 6–7.",
           "artifacts": []
         },
         {
-          "time": "0:45-1:25",
-          "action": "<code>partner-briefing.pdf</code>.",
-          "point": "Show conditional founder meeting / no investment approval. Paying ARR is $1.932M, September GM 41%, NRR 157.14% for n=3.",
-          "label": "partner-briefing.pdf.",
+          "time": "0:45–1:25",
+          "action": "Open the <a href=\"demo-runs/2026-10-17/demo2_pitchbook_review/partner-briefing.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">partner briefing</a>.",
+          "point": "Paying ARR is $1.932M; September gross margin is 41%. The conclusion supports a focused founder meeting.",
+          "label": "Open the [partner briefing](partner-briefing.pdf).",
           "artifacts": [
             "partner-briefing.pdf"
           ]
         },
         {
-          "time": "1:25-2:20",
-          "action": "<code>calculate.py</code> and <code>calculation-results.md</code>; run the command below.",
-          "point": "Show Q3 spend 490k, net MRR 45.5k and 41% margin -&gt; 26.27 months. Switch attention to TTM 27.87 and September 29.62. Explain net-new-MRR proxy, not proven cohort CAC.",
-          "label": "calculate.py and calculation-results.md; run the command below.",
+          "time": "1:25–2:20",
+          "action": "Explore the <a href=\"demo-runs/2026-10-17/demo2_pitchbook_review/calculation-results.md\" target=\"_blank\" rel=\"noopener noreferrer\">calculation results</a>.",
+          "point": "Q3 sales and marketing spend / net new MRR / ending gross margin gives 26.27 months. This is a proxy, not verified acquisition-cohort CAC.",
+          "label": "Explore the [calculation results](calculation-results.md).",
           "artifacts": [
             "calculation-results.md"
           ]
         },
         {
-          "time": "2:20-3:25",
-          "action": "<code>conflicts-log.md</code>, then Numbers review N1/N4 and D1/D3.",
-          "point": "Narrative challenged the NRR verdict; numbers changed it to qualified. Numbers challenged runway; devil withdrew a simple pre-raise rebuttal. These were real messages between independent reviewers.",
-          "label": "conflicts-log.md, then Numbers review N1/N4 and D1/D3.",
-          "artifacts": [
-            "conflicts-log.md"
-          ]
+          "time": "2:20–3:25",
+          "action": "Compare the narrative, numbers and devil’s-advocate perspectives above.",
+          "point": "Separate a repairable story, supported arithmetic and unresolved commercial risks.",
+          "label": "Compare the narrative, numbers and devil’s-advocate perspectives above.",
+          "artifacts": []
         },
         {
-          "time": "3:25-4:15",
-          "action": "<code>pitch-review.md</code>, fixes and founder questions; optionally <code>forward-burn-sensitivity.csv</code>.",
-          "point": "Separate supported arithmetic from missing evidence. Show why 24 months needs a monthly hiring/deployment/cash plan, not a static ratio.",
-          "label": "pitch-review.md, fixes and founder questions; optionally forward-burn-sensitivity.csv.",
+          "time": "3:25–4:15",
+          "action": "Read the <a href=\"demo-runs/2026-10-17/demo2_pitchbook_review/pitch-review.md\" target=\"_blank\" rel=\"noopener noreferrer\">consolidated review</a> and <a href=\"demo-runs/2026-10-17/demo2_pitchbook_review/forward-burn-sensitivity.csv\" target=\"_blank\" rel=\"noopener noreferrer\">burn sensitivities</a>.",
+          "point": "A 24-month runway requires a forward hiring, deployment and cash plan. Pre-raise cash/current burn cannot settle that claim.",
+          "label": "Read the [consolidated review](pitch-review.md) and [burn sensitivities](forward-burn-sensitivity.csv).",
           "artifacts": [
             "pitch-review.md",
             "forward-burn-sensitivity.csv"
           ]
         },
         {
-          "time": "4:15-5:00",
-          "action": "<code>partner-briefing.pdf</code>, then <code>founder-email.md</code>.",
-          "point": "End on the decision and five fixes. Email is a local unsent draft; partner owns the next step. Show how reusable roles + rubric + evidence produce a reviewable result.",
-          "label": "partner-briefing.pdf, then founder-email.md.",
+          "time": "4:15–5:00",
+          "action": "Explore the <a href=\"demo-runs/2026-10-17/demo2_pitchbook_review/founder-email.md\" target=\"_blank\" rel=\"noopener noreferrer\">founder email example</a>.",
+          "point": "Turn the findings into specific questions and priorities. The example is an unsent draft.",
+          "label": "Explore the [founder email example](founder-email.md).",
           "artifacts": [
-            "founder-email.md",
-            "partner-briefing.pdf"
+            "founder-email.md"
           ]
         }
       ],
-      "prompt": "Review the fictional GraspLoop AI Series A deck against its supplied CSV and data dictionary. Follow `Agentic_AI_Demos/demo2_pitchbook_review/plugin/skills/pitch-review/SKILL.md` and all three agent definitions. Spawn three genuinely independent narrative, numbers and devil's-advocate reviewers. Have them send direct, substantive challenges, revise findings when warranted and preserve actual exchanges. Recompute quantitative deck claims using source page and physical CSV row/period references; no reference-output copying. Distinguish paying revenue from pilots, best site from fleet, projections from actuals, and unavailable evidence from falsity. Test the 4-month deck CAC claim and explain exactly when an approximately 26-month proxy is reproducible. Use Q3, trailing-year and monthly intervals, and distinguish net new MRR from gross acquisition cohorts. Test runway with explicit forward-burn assumptions, not merely cash/current burn. Save one file per reviewer, a factual conflicts log, claims JSON, runnable calculation script and results, consolidated review, one-page partner brief, and optional unsent founder email. All company information must be labelled fictional teaching material. Save to a new dated run folder, preserve supplied inputs/reference artifacts, and finish with a five-minute runbook and truthful readiness checks. Do not send, schedule or publish anything."
+      "prompt": "Review the fictional GraspLoop AI Series A deck against its supplied CSV and data dictionary. Follow `Agentic_AI_Demos/demo2_pitchbook_review/plugin/skills/pitch-review/SKILL.md` and all three agent definitions. Spawn three genuinely independent narrative, numbers and devil's-advocate reviewers. Have them send direct, substantive challenges, revise findings when warranted. Recompute quantitative deck claims using source page and physical CSV row/period references; no reference-output copying. Distinguish paying revenue from pilots, best site from fleet, projections from actuals, and unavailable evidence from falsity. Test the 4-month deck CAC claim and explain exactly when an approximately 26-month proxy is reproducible. Use Q3, trailing-year and monthly intervals, and distinguish net new MRR from gross acquisition cohorts. Test runway with explicit forward-burn assumptions, not merely cash/current burn. Save one file per reviewer, claims JSON, runnable calculation script and results, consolidated review, one-page partner brief, and optional unsent founder email. All company information must be labelled fictional teaching material. Save to a new dated run folder, preserve supplied inputs/reference artifacts,. Do not send, schedule or publish anything."
     },
     {
       "demo": 3,
@@ -705,7 +385,6 @@
       "pattern": "Single pass + skill",
       "slides": "28–30",
       "folder": "demo3_dcf_valuation",
-      "thread_id": "01a14aab-bc68-7a90-96d3-b876141cbd11",
       "description": "A reusable valuation skill becomes a working model. Change an assumption and inspect what moves.",
       "takeaway": "A reusable skill needs explicit inputs, formula checks and a clear boundary around missing evidence.",
       "primary": [
@@ -713,9 +392,7 @@
         "valuation-notes.md"
       ],
       "extras": [
-        "validation-report.md",
-        "validation-report.json",
-        "lecture-slide30-corrections.md",
+        "peer-methodology.md",
         "input-provenance.json"
       ],
       "nodes": [
@@ -728,643 +405,17 @@
           "GOOGL_DCF_Valuation.xlsx"
         ],
         [
-          "Validation",
-          "validation-report.md"
+          "Methodology",
+          "peer-methodology.md"
         ]
       ],
       "flow_note": "Open the workbook in Excel for live recalculation. Compare DCF, forward P/E and EV/EBITD with their stated assumptions.",
-      "status": "ready",
-      "limitations": [
-        "EV/EBITD explicitly replaces EV/EBITDA at the user's request: EBIT plus reported PP&E depreciation, with intangible amortization expensed for every company. Complete reported TTM EBITDA remains unavailable for Alphabet and Amazon; no estimated amortization enters the peer comparison.",
-        "Forward P/E uses October 16 S&P Global adjusted non-GAAP consensus via Stock Analysis. Microsoft CY2027 EPS is 50% FY2027 plus 50% FY2028, an equal-half approximation rather than quarterly consensus. Provider EPS adjustments differ from the DCF, which expenses SBC.",
-        "EV excludes lease liabilities consistently; lease mixes, asset lives and business models still affect economic comparability. Meta PP&E depreciation is reported in rounded amounts.",
-        "October 16 quotes were verified on Google Finance vendor displays, not exchange-direct data. All Alphabet classes use the GOOGL quote. Share counts and balance sheets are June 30 snapshots, not October share-count estimates.",
-        "Risk-free rate 4.5%, beta 1.20 and equity risk premium 4.5% are teaching assumptions. Debt and preferred costs use coupon proxies.",
-        "Services subcategory margins and segment D&A, capex and working capital are model allocations, not company disclosures.",
-        "The balance-sheet bridge is dated June 30 with no July–October roll-forward. Private stakes have zero Base realization; deferred tax and legal claims are deducted. Preferred conversion and capped-call optionality are not modeled.",
-        "The remaining 2026 stub assumes H2 cash flow is earned evenly. Terminal capex at 1.15x D&A is a judgment and drives most of the valuation.",
-        "Some original SEC HTML downloads returned HTTP 403; the peer refresh now archives all four SEC companyfacts JSON files plus all four consensus pages with hashes.",
-        "Native Excel calculation and reopening were tested programmatically. A complete interactive lecture rehearsal and the original under-20-minute execution target have not been measured."
-      ],
-      "slide_corrections": [
-        "Slide 30: 2025 revenue $402.8bn → $880.1bn in 2030; Cloud 36.1%. (Replaces: 2025 revenue $403B → ~$823B in 2030; Cloud ~35%)",
-        "Slide 30: 2026 capex $200bn midpoint of $195–205bn guide; 2027 $271.6bn. FCF becomes positive in 2028. (Replaces: 2026 capex ~$199B; 2027 ~$262B)",
-        "Slide 30: WACC 9.75%; terminal growth 3.0%; terminal value 94.0% of EV. (Replaces: WACC 9.5%; terminal value ~95% of EV)",
-        "Slide 30: DCF $212.65 (-37.6%); sensitivity $158.92–$312.31. Remove blended target. Separately show forward P/E $364.83 and EV/EBITD $273.30. (Replaces: DCF $230 (−32%); blended four-method base $284 (−17%))",
-        "Slide 30: Market requires 1.66x modeled terminal FCF at Base WACC/g. Nearest grid: $347.73 at 8.25% WACC / 4.0% growth; approximate. (Replaces: Market needs WACC ~8.0%, growth 3.5%)",
-        "Slide 30: EV/EBITD = EV / (EBIT + PP&E depreciation). Same TTM July 2025–June 2026 and same addback policy for all peers. All intangible amortization stays expensed. (Replaces: EV/EBITDA peer comparison)",
-        "Slide 30: Google Finance quotes October 16; SEC/issuer financials through June 30; S&P Global adjusted CY2027 EPS via Stock Analysis updated October 16. Microsoft uses equal-half fiscal-year calendarization. (Replaces: StockAnalysis.com prices (16 Oct 2026))"
-      ],
-      "checks": [
-        {
-          "name": "2027 capex 46% to 36% flows to Summary",
-          "status": "pass",
-          "evidence": {
-            "after": 217.17233799841335,
-            "output": "Summary!E9",
-            "before": 212.65234753731744,
-            "cell": "Assumptions!E84",
-            "delta": 4.519990461095915,
-            "expected_delta": 4.51999046109591
-          }
-        },
-        {
-          "name": "Base restored after capex test",
-          "status": "pass",
-          "evidence": {
-            "capex": 0.46,
-            "value": 212.65234753731744
-          }
-        },
-        {
-          "name": "Historical actuals unchanged in case 1",
-          "status": "pass",
-          "evidence": {
-            "reported_FY2025_revenue": 402836.0
-          }
-        },
-        {
-          "name": "Historical actuals unchanged in case 2",
-          "status": "pass",
-          "evidence": {
-            "reported_FY2025_revenue": 402836.0
-          }
-        },
-        {
-          "name": "Historical actuals unchanged in case 3",
-          "status": "pass",
-          "evidence": {
-            "reported_FY2025_revenue": 402836.0
-          }
-        },
-        {
-          "name": "Bull / base / bear change valuation in expected order",
-          "status": "pass",
-          "evidence": [
-            {
-              "selector": 1,
-              "name": "Base",
-              "dcf": 212.65234753731744,
-              "revenue2030": 880073.9025138962,
-              "capex2027": 271599.0876320001
-            },
-            {
-              "selector": 2,
-              "name": "Bull",
-              "dcf": 301.6743674526652,
-              "revenue2030": 1050171.689119904,
-              "capex2027": 250766.86559999996
-            },
-            {
-              "selector": 3,
-              "name": "Bear",
-              "dcf": 119.17608654042674,
-              "revenue2030": 681040.221131262,
-              "capex2027": 265670.4392
-            }
-          ]
-        },
-        {
-          "name": "2030 Cloud input flows through forecast and DCF",
-          "status": "pass",
-          "evidence": {
-            "before": 212.65234753731744,
-            "cell": "Assumptions!H49",
-            "after": 215.29423039941133
-          }
-        },
-        {
-          "name": "Blank unselected driver does not block Base",
-          "status": "pass",
-          "evidence": {
-            "blank_cell": "Assumptions!E85",
-            "selected": "Base"
-          }
-        },
-        {
-          "name": "Selecting missing case exposes missing input",
-          "status": "pass",
-          "evidence": {
-            "summary": "#VALUE!",
-            "active": "Missing input"
-          }
-        },
-        {
-          "name": "Zero capex is a valid driver, not missing",
-          "status": "pass",
-          "evidence": {
-            "value": 233.44430365835862,
-            "active_capex": 0.0
-          }
-        },
-        {
-          "name": "Historical revenue and EBIT tie-outs",
-          "status": "pass",
-          "evidence": [
-            {
-              "difference": 0.0,
-              "cell": "Historicals!D16"
-            },
-            {
-              "difference": 0.0,
-              "cell": "Historicals!D24"
-            },
-            {
-              "difference": 0.0,
-              "cell": "Historicals!E16"
-            },
-            {
-              "difference": 0.0,
-              "cell": "Historicals!E24"
-            },
-            {
-              "difference": 0.0,
-              "cell": "Historicals!F16"
-            },
-            {
-              "difference": 0.0,
-              "cell": "Historicals!F24"
-            },
-            {
-              "difference": 0.0,
-              "cell": "Historicals!G16"
-            },
-            {
-              "difference": 0.0,
-              "cell": "Historicals!G24"
-            },
-            {
-              "difference": 0.0,
-              "cell": "Historicals!H16"
-            },
-            {
-              "difference": 0.0,
-              "cell": "Historicals!H24"
-            }
-          ]
-        },
-        {
-          "name": "Sensitivity center equals DCF",
-          "status": "pass",
-          "evidence": {
-            "difference": 0.0
-          }
-        },
-        {
-          "name": "Segment cash-flow allocations reconcile",
-          "status": "pass",
-          "evidence": [
-            {
-              "difference": 0.0,
-              "cell": "Projections!D90"
-            },
-            {
-              "difference": 0.0,
-              "cell": "Projections!E90"
-            },
-            {
-              "difference": 4.3655745685100555e-11,
-              "cell": "Projections!F90"
-            },
-            {
-              "difference": 0.0,
-              "cell": "Projections!G90"
-            },
-            {
-              "difference": 0.0,
-              "cell": "Projections!H90"
-            }
-          ]
-        },
-        {
-          "name": "2026 capex equals guidance midpoint",
-          "status": "pass",
-          "evidence": {
-            "actual": 200000.0,
-            "source": "Company Q2 2026 call: $195–205bn"
-          }
-        },
-        {
-          "name": "Stub excludes elapsed 2026 period",
-          "status": "pass",
-          "evidence": {
-            "years": 0.20821917808219179,
-            "valued_fcf": -12487.226806086956,
-            "full_year_fcf": -37533.43332,
-            "start": "2026-10-17"
-          }
-        },
-        {
-          "name": "WACC capital weights sum to one",
-          "status": "pass",
-          "evidence": {
-            "preferred": 0.004496348579552098,
-            "debt": 0.022560224618421762,
-            "equity": 0.9729434268020263
-          }
-        },
-        {
-          "name": "Forward P/E uses dated CY2027 EPS for all four companies",
-          "status": "pass",
-          "evidence": [
-            {
-              "difference": 0.0,
-              "date": "2026-10-16",
-              "ticker": "GOOGL",
-              "pe": 22.33377049180328,
-              "eps": 15.25
-            },
-            {
-              "difference": 0.0,
-              "date": "2026-10-16",
-              "ticker": "MSFT",
-              "pe": 24.324137931034482,
-              "eps": 21.75
-            },
-            {
-              "difference": 0.0,
-              "date": "2026-10-16",
-              "ticker": "META",
-              "pe": 20.48281836557898,
-              "eps": 34.63
-            },
-            {
-              "difference": 0.0,
-              "date": "2026-10-16",
-              "ticker": "AMZN",
-              "pe": 23.923444976076556,
-              "eps": 10.45
-            }
-          ]
-        },
-        {
-          "name": "Microsoft fiscal estimates calendarize to CY2027",
-          "status": "pass",
-          "evidence": {
-            "calendar2027": 21.75,
-            "fy2028": 23.72,
-            "fy2027": 19.78
-          }
-        },
-        {
-          "name": "Forward EPS change propagates through calendarization and multiple",
-          "status": "pass",
-          "evidence": {
-            "eps_after": 22.25,
-            "eps_before": 21.75,
-            "pe_after": 23.77752808988764
-          }
-        },
-        {
-          "name": "Forward peer median excludes Alphabet and flows to Summary",
-          "status": "pass",
-          "evidence": {
-            "peer_median": 23.923444976076556,
-            "implied_value": 364.8325358851675,
-            "median_formula": "=MEDIAN(E48:G48)"
-          }
-        },
-        {
-          "name": "Peer edits do not change the DCF",
-          "status": "pass",
-          "evidence": {
-            "dcf": 212.65234753731744
-          }
-        },
-        {
-          "name": "All four EBITD denominators use EBIT plus reported PPE depreciation",
-          "status": "pass",
-          "evidence": [
-            {
-              "ebit": 147628.0,
-              "bridge_difference": 0.0,
-              "ppe": 25237.0,
-              "ppe_difference": 0.0,
-              "multiple": 23.384465912706442,
-              "ticker": "GOOGL",
-              "ebitd": 172865.0
-            },
-            {
-              "ebit": 155237.0,
-              "bridge_difference": 0.0,
-              "ppe": 34300.0,
-              "ppe_difference": 0.0,
-              "multiple": 20.537970686462273,
-              "ticker": "MSFT",
-              "ebitd": 189537.0
-            },
-            {
-              "ebit": 86926.0,
-              "bridge_difference": 0.0,
-              "ppe": 21550.0,
-              "ppe_difference": 0.0,
-              "multiple": 16.600458718979315,
-              "ticker": "META",
-              "ebitd": 108476.0
-            },
-            {
-              "ebit": 93712.0,
-              "bridge_difference": 0.0,
-              "ppe": 49741.0,
-              "ppe_difference": 0.0,
-              "multiple": 18.856252570528326,
-              "ticker": "AMZN",
-              "ebitd": 143453.0
-            }
-          ]
-        },
-        {
-          "name": "EBITD peer median excludes Alphabet and flows to Summary",
-          "status": "pass",
-          "evidence": {
-            "value": 273.2973917092706,
-            "formula": "=MEDIAN(E50:G50)",
-            "median": 18.856252570528326
-          }
-        },
-        {
-          "name": "PPE source edit flows through TTM EBITD and peer valuation",
-          "status": "pass",
-          "evidence": {
-            "peer_before": 273.2973917092706,
-            "dcf": 212.65234753731744,
-            "peer_after": 271.45233620903633,
-            "edited": "Multiples!G37"
-          }
-        },
-        {
-          "name": "Peer source restored after propagation test",
-          "status": "pass",
-          "evidence": {
-            "peer_value": 273.2973917092706,
-            "source_restored": 26703.0
-          }
-        },
-        {
-          "name": "Lecture comparison is labeled EBITD, not EBITDA",
-          "status": "pass",
-          "evidence": {
-            "summary_label": "EV / EBITD",
-            "multiple_label": "EV / EBITD"
-          }
-        },
-        {
-          "name": "One Alphabet quote drives DCF, peer multiples and Summary",
-          "status": "pass",
-          "evidence": {
-            "peer_price": 350.59,
-            "dcf_equity": 4287715.699999999,
-            "peer_equity": 4287715.699999999,
-            "quote": 350.59,
-            "forward_pe": 22.98950819672131
-          }
-        },
-        {
-          "name": "Meta market value uses period-end Class A plus Class B shares",
-          "status": "pass",
-          "evidence": {
-            "class_b": 342.0,
-            "formula": "=SUM(F68:F69)",
-            "class_a": 2206.0,
-            "total": 2548.0
-          }
-        },
-        {
-          "name": "Noncentral WACC-growth grid cells match native model edits",
-          "status": "pass",
-          "evidence": [
-            {
-              "native_dcf": 216.06878526818988,
-              "difference": 3.126388037344441e-13,
-              "grid_value": 216.06878526818957,
-              "grid_cell": "E12"
-            },
-            {
-              "native_dcf": 209.30675413878944,
-              "difference": 2.5579538487363607e-13,
-              "grid_value": 209.3067541387892,
-              "grid_cell": "G14"
-            }
-          ]
-        },
-        {
-          "name": "Gordon model rejects growth at WACC plus 0",
-          "status": "pass",
-          "evidence": {
-            "summary": "#N/A",
-            "message": "Growth must be below WACC",
-            "growth": 0.09746873366497001,
-            "wacc": 0.09746873366497001
-          }
-        },
-        {
-          "name": "Gordon model rejects growth at WACC plus 0.005",
-          "status": "pass",
-          "evidence": {
-            "summary": "#N/A",
-            "message": "Growth must be below WACC",
-            "growth": 0.10246873366497002,
-            "wacc": 0.09746873366497001
-          }
-        },
-        {
-          "name": "Terminal capex stress matches independent valuation impact",
-          "status": "pass",
-          "evidence": {
-            "base_ratio": 1.15,
-            "after": 178.8653937235274,
-            "before": 212.65234753731744,
-            "stress_ratio": 1.5,
-            "delta": -33.786953813790035,
-            "expected_delta": -33.78695381379003
-          }
-        },
-        {
-          "name": "All review edits restored to the dated lecture state",
-          "status": "pass",
-          "evidence": {
-            "dcf": 212.65234753731744,
-            "terminal_capex_ratio": 1.15,
-            "growth": 0.03,
-            "quote": 340.59
-          }
-        },
-        {
-          "name": "Zero final Excel formula errors",
-          "status": "pass",
-          "evidence": {
-            "errors": [],
-            "formula_cells": 640
-          }
-        },
-        {
-          "name": "Scenario selector and native bar chart exported",
-          "status": "pass",
-          "evidence": {
-            "charts": 1,
-            "validation_type": 3
-          }
-        },
-        {
-          "name": "Saved workbook reopens with restored Base",
-          "status": "pass",
-          "evidence": {
-            "saved_value": 212.65234753731744
-          }
-        },
-        {
-          "name": "Workbook opens on the lecture Summary",
-          "status": "pass",
-          "evidence": {
-            "active_sheet": "Summary"
-          }
-        },
-        {
-          "name": "Fixed eight-tab order",
-          "status": "pass",
-          "evidence": [
-            "README",
-            "Assumptions",
-            "Summary",
-            "Historicals",
-            "Projections",
-            "DCF",
-            "Sensitivity",
-            "Multiples"
-          ]
-        },
-        {
-          "name": "Every numeric input has cell-level provenance",
-          "status": "pass",
-          "evidence": {
-            "numeric_cells": 440,
-            "uncovered": []
-          }
-        },
-        {
-          "name": "Blue inputs, black formulas and green cross-sheet formulas",
-          "status": "pass",
-          "evidence": []
-        },
-        {
-          "name": "Saved formulas have recalculated caches and no errors",
-          "status": "pass",
-          "evidence": {
-            "formula_cells": 636,
-            "missing_caches": [],
-            "errors": []
-          }
-        },
-        {
-          "name": "All 35 sensitivity cells are live SUMPRODUCT formulas",
-          "status": "pass",
-          "evidence": "Sensitivity!D10:H16; no What-If data table"
-        },
-        {
-          "name": "Saved Base and 46% capex restored",
-          "status": "pass",
-          "evidence": {
-            "selector": "1",
-            "capex": "0.46"
-          }
-        },
-        {
-          "name": "Saved Summary matches Excel validation",
-          "status": "pass",
-          "evidence": {
-            "cached_summary": "212.65234753731744",
-            "validated_summary": 212.65234753731744
-          }
-        },
-        {
-          "name": "Saved peer outputs match the selected EBITD policy",
-          "status": "pass",
-          "evidence": {
-            "forward_pe": 364.8325358851675,
-            "verified_ebitd": 273.2973917092706
-          }
-        },
-        {
-          "name": "No external-workbook links or VBA",
-          "status": "pass",
-          "evidence": "Source URLs are documentation; calculations are contained in the workbook."
-        },
-        {
-          "name": "All eight sheets have current visual-review evidence",
-          "status": "pass",
-          "evidence": {
-            "reviewed_at": "2026-10-17T14:42:02-07:00",
-            "method": "Assistant visual inspection using view_image; all ten previews viewed in this review turn.",
-            "scope": "Exact hashes of reviewed previews; file existence alone cannot pass."
-          }
-        },
-        {
-          "name": "Forward and EBITD detail previews have current visual-review evidence",
-          "status": "pass",
-          "evidence": "Dated EPS, Meta period-end shares and EBITD reconciliation reviewed; preview hashes must match."
-        },
-        {
-          "name": "All eight peer source snapshots match their recorded hashes",
-          "status": "pass",
-          "evidence": [
-            {
-              "id": "forecast_GOOGL",
-              "matches": true
-            },
-            {
-              "id": "forecast_MSFT",
-              "matches": true
-            },
-            {
-              "id": "forecast_META",
-              "matches": true
-            },
-            {
-              "id": "forecast_AMZN",
-              "matches": true
-            },
-            {
-              "id": "facts_GOOGL",
-              "matches": true
-            },
-            {
-              "id": "facts_MSFT",
-              "matches": true
-            },
-            {
-              "id": "facts_META",
-              "matches": true
-            },
-            {
-              "id": "facts_AMZN",
-              "matches": true
-            }
-          ]
-        },
-        {
-          "name": "Peer facts use the intended periods and contain no later filings",
-          "status": "pass",
-          "evidence": {
-            "fact_count": 17,
-            "consensus_as_of": "2026-10-16"
-          }
-        }
-      ],
-      "sources_as_of": {
-        "valuation": "2026-10-17",
-        "market_close": "2026-10-16",
-        "financial_period_end": "2026-06-30",
-        "capex_guidance_call": "2026-07-22",
-        "consensus_updated": "2026-10-16",
-        "downloaded_source_count": 10,
-        "peer_refresh_snapshots": 8
-      },
       "available": [
         {
-          "name": "RUNBOOK.md",
-          "label": "Presenter runbook",
-          "path": "demo-runs/2026-10-17/demo3_dcf_valuation/RUNBOOK.md",
-          "bytes": 6659,
+          "name": "GUIDE.md",
+          "label": "Demo guide",
+          "path": "demo-runs/2026-10-17/demo3_dcf_valuation/GUIDE.md",
+          "bytes": 2153,
           "type": "MD",
           "primary": false
         },
@@ -1372,7 +423,7 @@
           "name": "GOOGL_DCF_Valuation.xlsx",
           "label": "Alphabet DCF workbook",
           "path": "demo-runs/2026-10-17/demo3_dcf_valuation/GOOGL_DCF_Valuation.xlsx",
-          "bytes": 99236,
+          "bytes": 85122,
           "type": "XLSX",
           "primary": true
         },
@@ -1380,31 +431,15 @@
           "name": "valuation-notes.md",
           "label": "Valuation notes",
           "path": "demo-runs/2026-10-17/demo3_dcf_valuation/valuation-notes.md",
-          "bytes": 2758,
+          "bytes": 2523,
           "type": "MD",
           "primary": true
         },
         {
-          "name": "validation-report.md",
-          "label": "Validation report",
-          "path": "demo-runs/2026-10-17/demo3_dcf_valuation/validation-report.md",
-          "bytes": 6008,
-          "type": "MD",
-          "primary": false
-        },
-        {
-          "name": "validation-report.json",
-          "label": "Validation report",
-          "path": "demo-runs/2026-10-17/demo3_dcf_valuation/validation-report.json",
-          "bytes": 15246,
-          "type": "JSON",
-          "primary": false
-        },
-        {
-          "name": "lecture-slide30-corrections.md",
-          "label": "Lecture slide30 corrections",
-          "path": "demo-runs/2026-10-17/demo3_dcf_valuation/lecture-slide30-corrections.md",
-          "bytes": 1316,
+          "name": "peer-methodology.md",
+          "label": "Peer methodology",
+          "path": "demo-runs/2026-10-17/demo3_dcf_valuation/peer-methodology.md",
+          "bytes": 4174,
           "type": "MD",
           "primary": false
         },
@@ -1413,14 +448,6 @@
           "label": "Input provenance",
           "path": "demo-runs/2026-10-17/demo3_dcf_valuation/input-provenance.json",
           "bytes": 75395,
-          "type": "JSON",
-          "primary": false
-        },
-        {
-          "name": "readiness.json",
-          "label": "Readiness report",
-          "path": "demo-runs/2026-10-17/demo3_dcf_valuation/readiness.json",
-          "bytes": 22538,
           "type": "JSON",
           "primary": false
         },
@@ -1434,51 +461,62 @@
         }
       ],
       "missing": [],
+      "sources": [
+        "Snapshot: October 17, 2026. Market quotes and adjusted EPS consensus are dated October 16; financial inputs run through June 30.",
+        "The workbook contains sources, explicit assumptions and live formulas. Open it in Excel for recalculation. This is a teaching model, not investment advice.",
+        "WACC is 9.75%; terminal growth is 3.0%. Peer methodologies and economic limitations are explained in the valuation memo and peer methodology."
+      ],
       "steps": [
         {
           "time": "0:00–0:45",
-          "action": "Summary!C6:G23 and chart",
-          "point": "Show DCF $212.65, range $158.92–$312.31, market $340.59. Peer methods are separate checks.",
-          "label": "Summary!C6:G23 and chart",
-          "artifacts": []
+          "action": "Open <a href=\"demo-runs/2026-10-17/demo3_dcf_valuation/GOOGL_DCF_Valuation.xlsx\" target=\"_blank\" rel=\"noopener noreferrer\">the workbook</a> on Summary.",
+          "point": "Base DCF is $212.65; sensitivity is $158.92–$312.31. The dated market price is $340.59.",
+          "label": "Open [the workbook](GOOGL_DCF_Valuation.xlsx) on Summary.",
+          "artifacts": [
+            "GOOGL_DCF_Valuation.xlsx"
+          ]
         },
         {
           "time": "0:45–1:45",
-          "action": "Assumptions!E84 → Summary!E9",
-          "point": "Change 46% to 36%; value becomes $217.17, up $4.52. Restore 46%. Edit E84, not active formula E83.",
-          "label": "Assumptions!E84 → Summary!E9",
+          "action": "In Excel, change Assumptions!E84 from 46% to 36%, then restore 46%.",
+          "point": "2027 capex sensitivity increases DCF to $217.17 while holding other assumptions fixed.",
+          "label": "In Excel, change Assumptions!E84 from 46% to 36%, then restore 46%.",
           "artifacts": []
         },
         {
           "time": "1:45–2:30",
-          "action": "Assumptions!D4",
-          "point": "Select 2 Bull, 3 Bear, then 1 Base. Tested cases: Base $212.65; Bull $301.67; Bear $119.18. One forecast changes; actuals stay fixed.",
-          "label": "Assumptions!D4",
+          "action": "Use Assumptions!D4: 2 Bull, 3 Bear, then 1 Base.",
+          "point": "Base is $212.65; Bull $301.67; Bear $119.18. Forecast assumptions change while historical actuals stay fixed.",
+          "label": "Use Assumptions!D4: 2 Bull, 3 Bear, then 1 Base.",
           "artifacts": []
         },
         {
           "time": "2:30–3:15",
-          "action": "Sensitivity!C9:H23",
-          "point": "Center equals DCF. Terminal value is 94.0% of EV; market requires 1.66x modeled terminal FCF at Base WACC/g.",
-          "label": "Sensitivity!C9:H23",
+          "action": "Explore Sensitivity!C9:H23.",
+          "point": "Terminal value is 94.0% of enterprise value. Market price requires 1.66x modeled terminal FCF at Base WACC and growth.",
+          "label": "Explore Sensitivity!C9:H23.",
           "artifacts": []
         },
         {
           "time": "3:15–4:10",
-          "action": "Multiples!C72:J82",
-          "point": "Show October 16 CY2027 adjusted EPS. Explain Microsoft FY2027/FY2028 equal-half approximation. Peer median implies $364.83.",
-          "label": "Multiples!C72:J82",
-          "artifacts": []
+          "action": "Read <a href=\"demo-runs/2026-10-17/demo3_dcf_valuation/peer-methodology.md\" target=\"_blank\" rel=\"noopener noreferrer\">peer methodology</a> and Multiples!C72:J82.",
+          "point": "Forward P/E uses dated CY2027 adjusted EPS. Microsoft uses an equal-half fiscal-year approximation. Peer median implies $364.83.",
+          "label": "Read [peer methodology](peer-methodology.md) and Multiples!C72:J82.",
+          "artifacts": [
+            "peer-methodology.md"
+          ]
         },
         {
           "time": "4:10–5:00",
-          "action": "Multiples!C84:J95 → Summary!C12:G13",
-          "point": "Define EBITD: EBIT + PP&amp;E depreciation, with intangible amortization still expensed. Same TTM and addback policy for all; median implies $273.30. Explain why fully reconciled EBITDA was replaced.",
-          "label": "Multiples!C84:J95 → Summary!C12:G13",
-          "artifacts": []
+          "action": "Inspect Multiples!C84:J95 and the <a href=\"demo-runs/2026-10-17/demo3_dcf_valuation/valuation-notes.md\" target=\"_blank\" rel=\"noopener noreferrer\">valuation memo</a>.",
+          "point": "EV/EBITD uses EBIT plus PP&amp;E depreciation, keeping intangible amortization expensed. Peer median implies $273.30.",
+          "label": "Inspect Multiples!C84:J95 and the [valuation memo](valuation-notes.md).",
+          "artifacts": [
+            "valuation-notes.md"
+          ]
         }
       ],
-      "prompt": ""
+      "prompt": "Create a sourced Alphabet valuation workbook with historical financials, editable assumptions, a five-year forecast, DCF and sensitivity, and comparable peer methods. Cite the date and source of each financial input. Separate assumptions from reported results. Use EV/EBITD (EBIT plus PP&E depreciation) consistently across peers, and explain the calendarization of forward earnings. Show a range and the economic limitations of each method."
     },
     {
       "demo": 4,
@@ -1487,7 +525,6 @@
       "pattern": "Pipeline",
       "slides": "31–35",
       "folder": "demo4_annual_report_dashboard",
-      "thread_id": "01a14abb-11b4-7872-a117-2c57fea568f8",
       "description": "An annual report becomes evidence, analysis, a Board brief and an interactive dashboard.",
       "takeaway": "Sequential handoffs make each stage inspectable before the next stage starts.",
       "primary": [
@@ -1520,615 +557,12 @@
         ]
       ],
       "flow_note": "Historical FY2026 report. Select a stage to inspect its saved handoff.",
-      "status": "ready",
-      "limitations": [
-        "Historical FY2026 snapshot, not latest-quarter reporting or current guidance on 2026-10-17. Q1 FY2027 guidance is labeled as issued 2026-02-25.",
-        "Not-disclosed entries are retained for missing comparatives and exact figures, including supply prepayments, prior-year commitments/guarantees, exact insignificant equity gains and isolated Blackwell margin attribution. No estimates or zero substitutions fill these gaps.",
-        "Quarterly and earnings-release-only data cite archived official HTML headings and URLs rather than invented PDF pages.",
-        "Headquarters geography is recast and differs from billing/end-use geography; platforms do not map one-to-one to reportable segments; consolidated-only metrics are explicitly labeled.",
-        "PDF printed p.40 has corrupt extracted font encoding. Clean Note16 tables supply the corresponding segment figures; key source pages were separately rendered and visually inspected.",
-        "Browser testing used headless Chromium with network disabled; native operating-system print dialog was not exercised. Browser-generated print PDF and screenshots were visually checked.",
-        "The lecture deck was preserved. Corrections are documented in RUNBOOK.md; this run does not certify a 30-minute end-to-end generation time."
-      ],
-      "slide_corrections": [
-        "Slides 31-32: the recovered official PDF is a 175-page annual-report package, with the 10-K starting on PDF89. Do not use PDF position as the printed page. Present the build as a pre-run demonstration; this run does not establish a guaranteed 30-minute end-to-end turnaround.",
-        "Slides 32-33: say “each stage reads only its assigned files.” Stage 1 also needs the archived Q2/Q3/Q4 releases for quarterly values and guidance; stage 4 reads three intermediate files.",
-        "Slides 31, 33-34: say “every figure has a page or exact source-section reference.” HTML earnings releases do not have PDF page numbers.",
-        "Slide 35: remove “the rest is the Blackwell transition (calc).” The report names the transition and H20 charge as drivers but does not quantify the residual's causal allocation. A charge/revenue calculation is not a complete year-over-year margin bridge.",
-        "Slide 35: replace “Q1 FY27 guided ... ex-China” with “historical Q1 FY27 outlook issued February 25, 2026; no Data Center compute revenue from China assumed.” Do not imply all China revenue was excluded.",
-        "Slide 35: label guarantees as maximum gross contingent exposure, not a cash investment. Do not add investment flows, holdings, commitments and guarantees into one financing total.",
-        "Slide 35: customer names are not disclosed. Largest-share comparisons do not establish that the same customer's share changed; direct and indirect customer shares can overlap."
-      ],
-      "checks": [
-        {
-          "name": "Official source hashes and four rendered source-page checks",
-          "status": "pass",
-          "evidence": "evidence/source-verification.json; inputs/sources.json"
-        },
-        {
-          "name": "Stage1 financial reconciliations",
-          "status": "pass",
-          "evidence": "46 reconciliations; evidence/stage1-validation.json"
-        },
-        {
-          "name": "Stage2 numerical analysis",
-          "status": "pass",
-          "evidence": "126 checks; all 36 inherited calculations verified; evidence/stage2-validation.json"
-        },
-        {
-          "name": "Stage4 numerical reconciliation and data preservation",
-          "status": "pass",
-          "evidence": "116 arithmetic checks; evidence/stage4-validation.json"
-        },
-        {
-          "name": "Board summary structure",
-          "status": "pass",
-          "evidence": {
-            "5 headlines": 5,
-            "3 risks": 3,
-            "3 questions": 3
-          }
-        },
-        {
-          "name": "Board brief is one printed page",
-          "status": "pass",
-          "evidence": "exec-summary.pdf; evidence/summary-print-check.json; evidence/exec-summary-page.png"
-        },
-        {
-          "name": "Actual offline Chromium acceptance",
-          "status": "pass",
-          "evidence": "evidence/browser-tests.json"
-        },
-        {
-          "name": "Offline file:// operation",
-          "status": "pass",
-          "evidence": {
-            "networkRequests": 0,
-            "browser": "156.0.8078.4",
-            "executable": "C:/Users/h_min/AppData/Local/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-win64/chrome-headless-shell.exe"
-          }
-        },
-        {
-          "name": "Single HTML has no separate script, stylesheet or image assets",
-          "status": "pass",
-          "evidence": {
-            "dependencies": []
-          }
-        },
-        {
-          "name": "All financials rows embedded without modification",
-          "status": "pass",
-          "evidence": {
-            "rows": 385
-          }
-        },
-        {
-          "name": "All trend calculations embedded without modification",
-          "status": "pass",
-          "evidence": {
-            "rows": 99
-          }
-        },
-        {
-          "name": "Role selector reorders the same eight cards",
-          "status": "pass",
-          "evidence": {
-            "Board": [
-              "revenue",
-              "gross-margin",
-              "operating-income",
-              "net-income",
-              "eps",
-              "fcf",
-              "cash",
-              "inventories"
-            ],
-            "CFO": [
-              "fcf",
-              "cash",
-              "inventories",
-              "operating-income",
-              "gross-margin",
-              "revenue",
-              "net-income",
-              "eps"
-            ],
-            "Investor": [
-              "revenue",
-              "eps",
-              "net-income",
-              "gross-margin",
-              "fcf",
-              "operating-income",
-              "cash",
-              "inventories"
-            ]
-          }
-        },
-        {
-          "name": "Every KPI current/prior/change and source link reconciles in all three scopes",
-          "status": "pass",
-          "evidence": {
-            "cards": 24,
-            "checks": [
-              {
-                "scope": "All",
-                "key": "revenue",
-                "current": 215938,
-                "previous": 130497,
-                "change": 65.47353579
-              },
-              {
-                "scope": "All",
-                "key": "gross-margin",
-                "current": 71.1,
-                "previous": 75,
-                "change": -3.9
-              },
-              {
-                "scope": "All",
-                "key": "operating-income",
-                "current": 130387,
-                "previous": 81453,
-                "change": 60.07636306
-              },
-              {
-                "scope": "All",
-                "key": "net-income",
-                "current": 120067,
-                "previous": 72880,
-                "change": 64.74615807
-              },
-              {
-                "scope": "All",
-                "key": "eps",
-                "current": 4.9,
-                "previous": 2.94,
-                "change": 66.66666667
-              },
-              {
-                "scope": "All",
-                "key": "fcf",
-                "current": 96575,
-                "previous": 60724,
-                "change": 59.0392596
-              },
-              {
-                "scope": "All",
-                "key": "cash",
-                "current": 62556,
-                "previous": 43210,
-                "change": 44.772043508447126
-              },
-              {
-                "scope": "All",
-                "key": "inventories",
-                "current": 21403,
-                "previous": 10080,
-                "change": 112.33134921
-              },
-              {
-                "scope": "Compute & Networking",
-                "key": "revenue",
-                "current": 193479,
-                "previous": 116193,
-                "change": 66.51519455
-              },
-              {
-                "scope": "Compute & Networking",
-                "key": "gross-margin",
-                "current": 71.1,
-                "previous": 75,
-                "change": -3.9
-              },
-              {
-                "scope": "Compute & Networking",
-                "key": "operating-income",
-                "current": 130141,
-                "previous": 82875,
-                "change": 57.03288084464555
-              },
-              {
-                "scope": "Compute & Networking",
-                "key": "net-income",
-                "current": 120067,
-                "previous": 72880,
-                "change": 64.74615807
-              },
-              {
-                "scope": "Compute & Networking",
-                "key": "eps",
-                "current": 4.9,
-                "previous": 2.94,
-                "change": 66.66666667
-              },
-              {
-                "scope": "Compute & Networking",
-                "key": "fcf",
-                "current": 96575,
-                "previous": 60724,
-                "change": 59.0392596
-              },
-              {
-                "scope": "Compute & Networking",
-                "key": "cash",
-                "current": 62556,
-                "previous": 43210,
-                "change": 44.772043508447126
-              },
-              {
-                "scope": "Compute & Networking",
-                "key": "inventories",
-                "current": 21403,
-                "previous": 10080,
-                "change": 112.33134921
-              },
-              {
-                "scope": "Graphics",
-                "key": "revenue",
-                "current": 22459,
-                "previous": 14304,
-                "change": 57.01202461
-              },
-              {
-                "scope": "Graphics",
-                "key": "gross-margin",
-                "current": 71.1,
-                "previous": 75,
-                "change": -3.9
-              },
-              {
-                "scope": "Graphics",
-                "key": "operating-income",
-                "current": 9156,
-                "previous": 5085,
-                "change": 80.0589970501475
-              },
-              {
-                "scope": "Graphics",
-                "key": "net-income",
-                "current": 120067,
-                "previous": 72880,
-                "change": 64.74615807
-              },
-              {
-                "scope": "Graphics",
-                "key": "eps",
-                "current": 4.9,
-                "previous": 2.94,
-                "change": 66.66666667
-              },
-              {
-                "scope": "Graphics",
-                "key": "fcf",
-                "current": 96575,
-                "previous": 60724,
-                "change": 59.0392596
-              },
-              {
-                "scope": "Graphics",
-                "key": "cash",
-                "current": 62556,
-                "previous": 43210,
-                "change": 44.772043508447126
-              },
-              {
-                "scope": "Graphics",
-                "key": "inventories",
-                "current": 21403,
-                "previous": 10080,
-                "change": 112.33134921
-              }
-            ]
-          }
-        },
-        {
-          "name": "Graphics filter updates cards, annual charts and segment table; group metrics stay labeled",
-          "status": "pass",
-          "evidence": {
-            "revenue": 22459,
-            "operatingIncome": 9156,
-            "groupGrossMargin": 71.1
-          }
-        },
-        {
-          "name": "Compute & Networking filter",
-          "status": "pass",
-          "evidence": {
-            "revenue": 193479,
-            "operatingIncome": 130141
-          }
-        },
-        {
-          "name": "Search filters evidence",
-          "status": "pass",
-          "evidence": {
-            "allRows": 451,
-            "H20Rows": 64
-          }
-        },
-        {
-          "name": "Calculated evidence exposes numerical expression and named inputs",
-          "status": "pass",
-          "evidence": {
-            "id": "q4_revenue_beat_pct",
-            "expression": "(68,127 / 65,000 - 1) * 100"
-          }
-        },
-        {
-          "name": "Evidence numeric sorting handles numbers and missing values",
-          "status": "pass",
-          "evidence": {
-            "numericRows": 418
-          }
-        },
-        {
-          "name": "CSV export downloads the currently filtered evidence with formula/source columns",
-          "status": "pass",
-          "evidence": {
-            "rows": 70,
-            "file": "evidence/export-graphics-revenue.csv"
-          }
-        },
-        {
-          "name": "Quarterly bars, values and labels stay inside plots on screen and print",
-          "status": "pass",
-          "evidence": {
-            "printBounds": [
-              {
-                "chart": "quarterly-amounts",
-                "top": 1096.0625,
-                "bottom": 1235.5625,
-                "children": [
-                  {
-                    "kind": "quarter-value",
-                    "top": 1128.359375,
-                    "bottom": 1144.859375
-                  },
-                  {
-                    "kind": "quarter-stick",
-                    "top": 1152.859375,
-                    "bottom": 1211.0625
-                  },
-                  {
-                    "kind": "quarter-label",
-                    "top": 1212.0625,
-                    "bottom": 1235.5625
-                  },
-                  {
-                    "kind": "quarter-value",
-                    "top": 1124.8125,
-                    "bottom": 1141.3125
-                  },
-                  {
-                    "kind": "quarter-stick",
-                    "top": 1149.3125,
-                    "bottom": 1211.0625
-                  },
-                  {
-                    "kind": "quarter-label",
-                    "top": 1212.0625,
-                    "bottom": 1235.5625
-                  },
-                  {
-                    "kind": "quarter-value",
-                    "top": 1111.265625,
-                    "bottom": 1127.765625
-                  },
-                  {
-                    "kind": "quarter-stick",
-                    "top": 1135.765625,
-                    "bottom": 1211.0625
-                  },
-                  {
-                    "kind": "quarter-label",
-                    "top": 1212.0625,
-                    "bottom": 1235.5625
-                  },
-                  {
-                    "kind": "quarter-value",
-                    "top": 1096.5625,
-                    "bottom": 1113.0625
-                  },
-                  {
-                    "kind": "quarter-stick",
-                    "top": 1121.0625,
-                    "bottom": 1211.0625
-                  },
-                  {
-                    "kind": "quarter-label",
-                    "top": 1212.0625,
-                    "bottom": 1235.5625
-                  }
-                ]
-              },
-              {
-                "chart": "quarterly-ratios",
-                "top": 1096.0625,
-                "bottom": 1235.5625,
-                "children": [
-                  {
-                    "kind": "quarter-value",
-                    "top": 1132.125,
-                    "bottom": 1148.625
-                  },
-                  {
-                    "kind": "quarter-stick",
-                    "top": 1156.625,
-                    "bottom": 1211.0625
-                  },
-                  {
-                    "kind": "quarter-label",
-                    "top": 1212.0625,
-                    "bottom": 1235.5625
-                  },
-                  {
-                    "kind": "quarter-value",
-                    "top": 1121.40625,
-                    "bottom": 1137.90625
-                  },
-                  {
-                    "kind": "quarter-stick",
-                    "top": 1145.90625,
-                    "bottom": 1211.0625
-                  },
-                  {
-                    "kind": "quarter-label",
-                    "top": 1212.0625,
-                    "bottom": 1235.5625
-                  },
-                  {
-                    "kind": "quarter-value",
-                    "top": 1120.515625,
-                    "bottom": 1137.015625
-                  },
-                  {
-                    "kind": "quarter-stick",
-                    "top": 1145.015625,
-                    "bottom": 1211.0625
-                  },
-                  {
-                    "kind": "quarter-label",
-                    "top": 1212.0625,
-                    "bottom": 1235.5625
-                  },
-                  {
-                    "kind": "quarter-value",
-                    "top": 1119.0625,
-                    "bottom": 1135.5625
-                  },
-                  {
-                    "kind": "quarter-stick",
-                    "top": 1143.5625,
-                    "bottom": 1211.0625
-                  },
-                  {
-                    "kind": "quarter-label",
-                    "top": 1212.0625,
-                    "bottom": 1235.5625
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "name": "Print button and Chromium print rendering",
-          "status": "pass",
-          "evidence": {
-            "file": "evidence/dashboard-print.pdf",
-            "note": "Headless print-media/PDF validation; native print dialog not exercised."
-          }
-        },
-        {
-          "name": "Mobile page width",
-          "status": "pass",
-          "evidence": {
-            "scroll": 390,
-            "client": 390
-          }
-        },
-        {
-          "name": "No external requests or uncaught JavaScript errors",
-          "status": "pass",
-          "evidence": {
-            "network": [],
-            "errors": []
-          }
-        },
-        {
-          "name": "Visual review of final screenshots and print pages",
-          "status": "pass",
-          "evidence": "evidence/visual-review.json"
-        },
-        {
-          "name": "Four sequential isolated agent gates",
-          "status": "pass",
-          "evidence": "evidence/pipeline-log.json; per-stage validation evidence"
-        },
-        {
-          "name": "Handoff hashes remain unchanged",
-          "status": "pass",
-          "evidence": "All gated inputs and outputs rehashed against pipeline-log.json"
-        },
-        {
-          "name": "Required deliverables exist",
-          "status": "pass",
-          "evidence": [
-            "dashboard.html",
-            "financials.md",
-            "trends.md",
-            "exec-summary.md",
-            "exec-summary.pdf",
-            "RUNBOOK.md",
-            "inputs/10K-NVDA.pdf",
-            "inputs/sources.json",
-            "evidence/pipeline-log.json",
-            "evidence/source-verification.json",
-            "evidence/stage1-validation.json",
-            "evidence/stage2-validation.json",
-            "evidence/stage3-validation.json",
-            "evidence/stage4-validation.json",
-            "evidence/browser-tests.json",
-            "evidence/visual-review.json",
-            "evidence/dashboard-board.png",
-            "evidence/dashboard-cfo-graphics.png",
-            "evidence/dashboard-evidence-search.png",
-            "evidence/dashboard-mobile.png",
-            "evidence/dashboard-print.pdf",
-            "evidence/export-graphics-revenue.csv",
-            "inputs/annual-report-pages.json",
-            "inputs/annual-report.txt",
-            "inputs/q2-release.html",
-            "inputs/q2-release.txt",
-            "inputs/q3-release.html",
-            "inputs/q3-release.txt",
-            "inputs/q4-release.html",
-            "inputs/q4-release.txt",
-            "inputs/filing-index.html",
-            "inputs/filing-index.txt",
-            "evidence/dashboard-performance.png",
-            "evidence/dashboard-outlook.png",
-            "evidence/dashboard-mobile-cards.png",
-            "evidence/browser-environment.json",
-            "evidence/summary-print-check.json",
-            "evidence/exec-summary-page.png",
-            "scripts/acquire_sources.py",
-            "scripts/stage1_extract.py",
-            "scripts/stage2_analyze.py",
-            "scripts/build_dashboard.py",
-            "scripts/qa_sources.py",
-            "scripts/render_summary.cjs",
-            "scripts/test_dashboard.cjs",
-            "scripts/render_dashboard_print.py",
-            "scripts/record_pipeline.py",
-            "scripts/finalize_readiness.py",
-            "evidence/dashboard-print-page-1.png",
-            "evidence/dashboard-print-page-2.png",
-            "evidence/dashboard-print-page-3.png",
-            "evidence/dashboard-print-page-4.png",
-            "evidence/dashboard-print-page-5.png",
-            "evidence/dashboard-print-page-6.png",
-            "evidence/dashboard-print-page-7.png",
-            "evidence/dashboard-print-render.json"
-          ]
-        }
-      ],
-      "sources_as_of": {
-        "retrieved_on": "2026-10-17",
-        "fiscal_year_end": "2026-01-25",
-        "comparative_fiscal_year_end": "2025-01-26",
-        "filing_date": "2026-02-25",
-        "historical_q1_fy2027_outlook_issued": "2026-02-25",
-        "timezone": "America/Los_Angeles",
-        "manifest": "inputs/sources.json"
-      },
       "available": [
         {
-          "name": "RUNBOOK.md",
-          "label": "Presenter runbook",
-          "path": "demo-runs/2026-10-17/demo4_annual_report_dashboard/RUNBOOK.md",
-          "bytes": 9467,
+          "name": "GUIDE.md",
+          "label": "Demo guide",
+          "path": "demo-runs/2026-10-17/demo4_annual_report_dashboard/GUIDE.md",
+          "bytes": 3798,
           "type": "MD",
           "primary": false
         },
@@ -2144,7 +578,7 @@
           "name": "financials.md",
           "label": "Extracted financial evidence",
           "path": "demo-runs/2026-10-17/demo4_annual_report_dashboard/financials.md",
-          "bytes": 232937,
+          "bytes": 232527,
           "type": "MD",
           "primary": true
         },
@@ -2152,7 +586,7 @@
           "name": "trends.md",
           "label": "Trend analysis",
           "path": "demo-runs/2026-10-17/demo4_annual_report_dashboard/trends.md",
-          "bytes": 81785,
+          "bytes": 81124,
           "type": "MD",
           "primary": true
         },
@@ -2189,14 +623,6 @@
           "primary": false
         },
         {
-          "name": "readiness.json",
-          "label": "Readiness report",
-          "path": "demo-runs/2026-10-17/demo4_annual_report_dashboard/readiness.json",
-          "bytes": 22047,
-          "type": "JSON",
-          "primary": false
-        },
-        {
           "name": "prompt.md",
           "label": "Original demo prompt",
           "path": "Agentic_AI_Demos/demo4_annual_report_dashboard/prompt.md",
@@ -2206,64 +632,65 @@
         }
       ],
       "missing": [],
+      "sources": [
+        "NVIDIA FY2026 annual report and Q2, Q3 and Q4 earnings releases. FY2026 ended January 25, 2026; the 10-K was filed February 25.",
+        "Financial citations show printed 10-K pages and PDF pages. The annual-report front matter produces an 88-page offset.",
+        "Reported segments and end markets are different reporting views. Missing disclosures remain unavailable; calculations show inputs and formulas."
+      ],
       "steps": [
         {
-          "time": "0:00-0:30",
-          "action": "Show the four intermediate/output files and the official source manifest.",
-          "point": "Each stage was an independent agent with only its assigned files. The parent checked each output before the next stage started.",
-          "label": "Show the four intermediate/output files and the official source manifest.",
-          "artifacts": []
-        },
-        {
-          "time": "0:30-1:20",
-          "action": "Open <code>financials.md</code> and the PDF. Spot-check revenue of USD 215,938 million on printed p.51 / PDF139; inventories of USD 21,403 million on p.53 / PDF141; Compute &amp; Networking revenue of USD 193,479 million on p.77 / PDF165.",
-          "point": "Values, periods, units and page systems are preserved. These are three distinct source-page checks.",
-          "label": "Open financials.md and the PDF. Spot-check revenue of USD 215,938 million on printed p.51 / PDF139; inventories of USD 21,403 million on p.53 / PDF141; Compute & Networking revenue of USD 193,479 million on p.77 / PDF165.",
+          "time": "0:00–0:45",
+          "action": "Open the <a href=\"demo-runs/2026-10-17/demo4_annual_report_dashboard/inputs/10K-NVDA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">annual report</a> and <a href=\"demo-runs/2026-10-17/demo4_annual_report_dashboard/financials.md\" target=\"_blank\" rel=\"noopener noreferrer\">financial evidence</a>.",
+          "point": "FY2026 ended January 25, 2026. Printed 10-K page 51 is PDF page 139.",
+          "label": "Open the [annual report](inputs/10K-NVDA.pdf) and [financial evidence](financials.md).",
           "artifacts": [
-            "financials.md"
+            "financials.md",
+            "inputs/10K-NVDA.pdf"
           ]
         },
         {
-          "time": "1:20-2:00",
-          "action": "Open <code>trends.md</code> at the revenue/gross-margin anomaly and its formula.",
-          "point": "Amount growth is a percentage; a change in margin is percentage points. The filing names margin drivers but does not quantify a complete causal decomposition.",
-          "label": "Open trends.md at the revenue/gross-margin anomaly and its formula.",
+          "time": "0:45–1:35",
+          "action": "Read the <a href=\"demo-runs/2026-10-17/demo4_annual_report_dashboard/trends.md\" target=\"_blank\" rel=\"noopener noreferrer\">trend analysis</a>.",
+          "point": "Distinguish reported figures, calculated changes and analytical interpretations.",
+          "label": "Read the [trend analysis](trends.md).",
           "artifacts": [
             "trends.md"
           ]
         },
         {
-          "time": "2:00-2:30",
-          "action": "Open the Board summary.",
-          "point": "Five headlines, three risks and three management questions retain the evidence trail.",
-          "label": "Open the Board summary.",
-          "artifacts": []
+          "time": "1:35–2:20",
+          "action": "Explore the <a href=\"demo-runs/2026-10-17/demo4_annual_report_dashboard/exec-summary.md\" target=\"_blank\" rel=\"noopener noreferrer\">Board summary</a>.",
+          "point": "Follow five headlines, three risks and three management questions back to their evidence.",
+          "label": "Explore the [Board summary](exec-summary.md).",
+          "artifacts": [
+            "exec-summary.md"
+          ]
         },
         {
-          "time": "2:30-3:30",
-          "action": "Open <code>dashboard.html</code>; switch Board to CFO, then select Graphics.",
-          "point": "Cards reorder for the role. Segment revenue and operating income change. Consolidated metrics remain visibly marked group only; no unsupported allocation to Graphics.",
-          "label": "Open dashboard.html; switch Board to CFO, then select Graphics.",
+          "time": "2:20–3:20",
+          "action": "Open the <a href=\"demo-runs/2026-10-17/demo4_annual_report_dashboard/dashboard.html\" target=\"_blank\" rel=\"noopener noreferrer\">interactive dashboard</a>. Change View as and the segment filter.",
+          "point": "Board, CFO and Investor views prioritize different information. Group-only measures remain clearly labeled.",
+          "label": "Open the [interactive dashboard](dashboard.html). Change View as and the segment filter.",
           "artifacts": [
             "dashboard.html"
           ]
         },
         {
-          "time": "3:30-4:20",
-          "action": "Search the evidence explorer for H20, clear the search, sort Value, and export CSV.",
-          "point": "A claim can be traced to its period, source and formula. Export follows the visible filter.",
-          "label": "Search the evidence explorer for H20, clear the search, sort Value, and export CSV.",
+          "time": "3:20–4:20",
+          "action": "Search the dashboard’s evidence explorer and export a CSV.",
+          "point": "Inspect source pages, units and formulas. Percentage growth and percentage-point changes are different measures.",
+          "label": "Search the dashboard’s evidence explorer and export a CSV.",
           "artifacts": []
         },
         {
-          "time": "4:20-5:00",
-          "action": "Reset the segment filter to All. Use Print or open the saved print PDF. Close with the slide corrections below.",
-          "point": "One offline artifact supports different readers. The source-derived limits remain visible.",
-          "label": "Reset the segment filter to All. Use Print or open the saved print PDF. Close with the slide corrections below.",
+          "time": "4:20–5:00",
+          "action": "Reset the segment filter to All and use Print.",
+          "point": "Connect financial performance, cash generation and commitments. The historical outlook is dated, not current guidance.",
+          "label": "Reset the segment filter to All and use Print.",
           "artifacts": []
         }
       ],
-      "prompt": "Build an annual-report dashboard using four genuinely sequential agents with isolated contexts.\nUse only official, archived sources and save source URLs, retrieval dates and hashes. Record the\nfiscal period separately from the run date. Preserve the supplied source and reference outputs.\n\nStage 1 reads the annual report and the assigned official earnings releases. Extract the\nsemiconductor KPI checklist to financials.md. Keep period, reported name, segment, units,\nprinted page, 1-based PDF page, zero-based PDF index, source heading, and comparability notes.\nFor HTML-only releases cite the exact heading and URL. Missing means not disclosed, never zero.\nInclude machine-readable rows and validate financial/segment/platform/cash-flow reconciliations.\n\nGate and save stage 1 before starting stage 2. Stage 2 reads ONLY financials.md and writes\ntrends.md. Show every calculation with formula and numerical inputs. Separate management's\nstated explanation from interpretation. Keep source locators in trends.md so it stands alone.\nDo not attribute an unquantified residual margin change to one named driver.\n\nGate and save stage 2 before stage 3. Stage 3 reads ONLY trends.md and writes a one-page\nexec-summary.md: exactly 5 Board headlines, 3 risks and 3 questions, with source references.\n\nGate and save stage 3 before stage 4. Stage 4 reads ONLY those three intermediate files and\ncreates dashboard.html with embedded CSS, JavaScript and data; no server, CDN or network\ndependency. Include eight annual KPI cards, Board/CFO/Investor card ordering, a reportable-\nsegment filter, separate dollars/ratios charts, annual and quarterly figures, historical guidance\ncomparisons where verified, platform revenue, Board insights, searchable/sortable evidence,\ncalculation formulas/inputs, CSV download and print CSS. Mark group-only metrics and preserve\nthe distinction between market platforms and reportable segments.\n\nReconcile embedded data to the intermediate files. Test actual browser interactions, offline\nloading, CSV download and print rendering. Save screenshots, test evidence, RUNBOOK.md and\nreadiness.json. Do not schedule tasks, send communications or publish externally."
+      "prompt": "Build an annual-report dashboard using four genuinely sequential agents with isolated contexts.\nUse only official, archived sources and save source URLs, retrieval dates and hashes. Record the\nfiscal period separately from the run date. Preserve the supplied source and reference outputs.\n\nStage 1 reads the annual report and the assigned official earnings releases. Extract the\nsemiconductor KPI checklist to financials.md. Keep period, reported name, segment, units,\nprinted page, 1-based PDF page, zero-based PDF index, source heading, and comparability notes.\nFor HTML-only releases cite the exact heading and URL. Missing means not disclosed, never zero.\nInclude machine-readable rows and validate financial/segment/platform/cash-flow reconciliations.\n\nGate and save stage 1 before starting stage 2. Stage 2 reads ONLY financials.md and writes\ntrends.md. Show every calculation with formula and numerical inputs. Separate management's\nstated explanation from interpretation. Keep source locators in trends.md so it stands alone.\nDo not attribute an unquantified residual margin change to one named driver.\n\nGate and save stage 2 before stage 3. Stage 3 reads ONLY trends.md and writes a one-page\nexec-summary.md: exactly 5 Board headlines, 3 risks and 3 questions, with source references.\n\nGate and save stage 3 before stage 4. Stage 4 reads ONLY those three intermediate files and\ncreates dashboard.html with embedded CSS, JavaScript and data; no server, CDN or network\ndependency. Include eight annual KPI cards, Board/CFO/Investor card ordering, a reportable-\nsegment filter, separate dollars/ratios charts, annual and quarterly figures, historical guidance\ncomparisons where verified, platform revenue, Board insights, searchable/sortable evidence,\ncalculation formulas/inputs, CSV download and print CSS. Mark group-only metrics and preserve\nthe distinction between market platforms and reportable segments.\n\nReconcile embedded data to the intermediate files. Test actual browser interactions, offline\nloading, CSV download and print rendering. Do not schedule tasks, send communications or publish externally."
     }
   ]
 }

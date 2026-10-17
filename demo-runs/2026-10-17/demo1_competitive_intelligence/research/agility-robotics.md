@@ -40,11 +40,7 @@ Research cutoff: 2026-10-17, America/Los_Angeles. Publication dates appear at bu
 [10] Agility, CFO/COO roles, July 23, 2026: https://www.agilityrobotics.com/content/agility-robotics-strengthens-executive-leadership-team-with-appointment-of-michael-beer-as-chief-financial-officer
 [11] SEC, draft registration statement indexed August 2026, risk factor on customer concentration (publication day not independently established): https://www.sec.gov/Archives/edgar/data/2074973/000121390026090791/filename1.htm
 
-**Independent handoff and challenges**
 
-Agility-only researcher independently searched company announcements and SEC materials, challenged the supplied SPAC/revenue/order claims, and handed this profile plus structured checks to the synthesis agent. The scheduled vote and proposed valuation are corroborated; revenue is supported by a primary indexed table but not a full-file audit. Full SEC documents exceeded the web reader's 4 MB ceiling; a direct download was rejected by SEC automated-access controls. No full prospectus snapshot is represented as downloaded. The one-customer detail is supported by the accessible draft extract; the exact draft publication day remains unresolved. No hands-on robot validation occurred.
+## Source boundaries
 
-**Lecture corrections**
-
-Use “proposed $2.5B pre-money SPAC valuation; Nov. 2 vote scheduled” as of October 17. Label $1.782M as FY2025 net sales. Label >$300M as conditional multi-year order value, and 10,000/year as design capacity. Digit 5 early access is planned for H1 2027, not completed 2026 delivery.
-
+Revenue is supported by an indexed SEC table; a complete prospectus snapshot was unavailable. The draft customer-concentration extract does not establish an exact publication day. The transaction remains proposed and its vote scheduled.

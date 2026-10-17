@@ -553,9 +553,9 @@ Contractual expected cloud-service payment schedule as of FY2026 year end. Round
 | Ecosystem investments | Private companies/funds include AI model makers buying through CSPs or directly; facility guarantees support buildout [AR37; AR69]. | Identify exposure and contractual links; no inference of fabricated demand. |
 | Supply | Datacenter-scale production and longer ordering horizons across current/future architectures [AR70]. | Missing FY2025 commitment data prevents a verified commitment growth percentage. Inventory growth can be calculated from disclosed balances. |
 
-## Caveats and handoff rules
+## Scope and definitions
 
-- This is a historical FY2026 annual-report dataset, executed 2026-10-17. FY2026 ended 2026-01-25 and the 10-K was filed 2026-02-25 [AR1; SEC_INDEX]. Q4 FY2026 is not described as the latest quarter on the execution date. Later actuals were outside the source scope.
+- This is a historical FY2026 annual-report dataset, dated October 17, 2026. FY2026 ended 2026-01-25 and the 10-K was filed 2026-02-25 [AR1; SEC_INDEX]. Q4 FY2026 is not described as the latest quarter on the execution date. Later actuals were outside the source scope.
 - The full annual-report PDF contains annual-review/proxy front matter. The Form 10-K begins at PDF page 89 (index 88), logically page 1; the cover does not print a page number. Verified numbered 10-K pages follow PDF page = printed page + 88 and PDF index = printed page + 87. Printed 51 = PDF 139/index 138; printed 77 = PDF 165/index 164. Financial citations use the 10-K printed pages, not the proxy pagination.
 - Amounts are USD million unless shown otherwise. Exact table values are retained; rounded billion disclosures are converted to million and labeled. Parentheses retain expense/outflow signs where applicable. Cash spending metrics show positive spending amounts with an explicit note. Percent changes differ from percentage-point changes.
 - Reported segments are Compute & Networking and Graphics [AR77]. End markets are a different disclosure [AR79]. Data Center is not identical to Compute & Networking. Data Center Compute plus Networking is a subtotal, not additional revenue. Segment expenses exclude selected corporate costs; segment margins are not consolidated margins.
@@ -572,11 +572,9 @@ Contractual expected cloud-service payment schedule as of FY2026 year end. Round
 - Q1 FY2027 guidance was forward-looking as of 2026-02-25, not an actual result or current outlook. Its non-GAAP basis includes SBC, unlike FY2026. The 17%-19% tax range is full FY2027, not Q1-only [Q4_OUTLOOK; Q4_OUTLOOK_RECON].
 - No financial-statement error correction/restatement is indicated on the 10-K cover [AR1]. Geography prior periods were recast [AR78]; non-marketable equity was reclassified from Other assets to a separate line with no total-asset or cash-flow impact [AR56]. New tax disclosure rules were adopted prospectively [AR72]. These presentation changes are not a profit restatement.
 - All share/per-share figures are retrospectively adjusted for the June 2024 ten-for-one stock split [AR33]. FY2026 and FY2025 are both 52-week years; FY2027 is a 53-week year with a 14-week fourth quarter [AR56].
-- PDF printed page 40 / PDF128 has corrupt extracted font encoding. No figures were transcribed from its corrupt text; clean Note 16 data and calculated ratios from the income statement are used instead. Parent independently visually spot-checks original PDF financial pages; this stage relies on mechanical extraction and complete relevant-page reading.
+- PDF printed page 40 / PDF128 has corrupt extracted font encoding. No figures were transcribed from its corrupt text; clean Note 16 data and calculated ratios from the income statement are used instead.
 
-## Validation
-
-46 key numeric reconciliations passed. Unique metric IDs, allowed source IDs, calculation inputs, page offsets, filing dates, and source-file SHA-256 checks passed. See evidence/stage1-validation.json for formulas, observed precision differences, and provenance.
+## Reported precision
 
 The quarterly non-GAAP operating-expense figures sum to 16,695 versus the annual 16,694; preserve the reported values rather than forcing equality [Q2_SUMMARY; Q3_SUMMARY; Q4_ANNUAL]. Rounded annual provision components also need not add exactly [AR41; AR67; AR68].
 

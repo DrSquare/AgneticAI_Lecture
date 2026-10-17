@@ -45,8 +45,3 @@ All sources accessed 2026-10-17. Article dates are taken from page text, not sea
 [12] [Eric Jang — Leaving 1X](https://evjang.com/2026/01/21/leaving-1x.html), 2026-01-21. Primary first-person announcement.
 [13] [1X — Bill Nash CFO](https://www.1x.tech/discover/bill-nash-cfo), 2026-07-02. Primary.
 [14] [1X issuer release — factory](https://www.globenewswire.com/news-release/2026/04/30/3285118/0/en/1X-opens-NEO-Factory.html), 2026-04-30. Primary issuer release.
-
-**Research handoff and challenges**
-
-Independent researcher: onex_research. Handed to synthesis agent on 2026-10-17 after reading the supplied startup-profile skill and browsing live sources. The valuation claim was downgraded to reported acquisition talks, capital left null, and the outdated round flagged. The company timeline's deployment wording was challenged against the order page and dated factory release; delivery count remains unknown. The EQT framework and the hand-capacity denominator were independently checked to prevent double counting or treating intent as sales. No robot was physically tested, customer contacted, financing filing audited, or revenue independently verified.
-

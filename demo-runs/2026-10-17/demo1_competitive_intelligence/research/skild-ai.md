@@ -38,8 +38,7 @@
 [10] TechCrunch, “Robotics software maker Skild AI hits $14B valuation,” 2026-01-14. https://techcrunch.com/2026/01/14/robotic-software-maker-skild-ai-hits-14b-valuation/  
 [11] Felicis portfolio record, undated; accessed 2026-10-17. https://www.felicis.com/portfolio
 
-**Research handoff and challenges**
 
-Independent Skild researcher reviewed the supplied brief and skill, searched and opened live sources, and read the supplied Skild reference only after gathering primary evidence. Three material spot checks are recorded in `skild-ai-data.json`. Company assertions were verified as published assertions, not audited or independently benchmarked outcomes. Zebra seller text was retrieved through live web search; a later direct open returned an internal error, while the buyer release opened successfully.
+## Source boundaries
 
-Reference corrections: S1's official index date is August 18, not August 25; the Zebra transaction announcement is April 15, not April 16. September's S1 timing language (“two weeks ago”) conflicts with the index; use the explicitly dated index with this caveat. January's approximately $30M revenue wording is ambiguous and must not be relabeled ARR; the supplied synthesis does that. Profitability and G10 as a current paying Skild customer were not verified and are omitted. No full-year 2026 revenue, exact cumulative capital, complete customer list, shipping count or audited ARR was established. No older numerical baseline was needed; undated HQ metadata is explicitly labeled.
+Operating metrics are company-reported, not audited. January revenue wording is ambiguous and is not an ARR baseline. Complete capital totals, customer lists and independently audited ARR are unavailable.

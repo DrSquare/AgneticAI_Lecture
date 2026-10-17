@@ -22,4 +22,4 @@ Four questions: Which contracts are paying vs future vs pilot? What supports mar
 
 Panel challenges changed the review: keep strong growth; do not infer dishonest intent; pre-raise runway does not disprove a post-raise plan; fleet improvement is not causal proof of a moat. Narrative favors a repairable story; devil requires commercial and cash reconciliation before investment advocacy.
 
-Evidence: deck pp 6-7, 10-11; CSV rows 2, 11-14; README. Full 42-claim inventory and 53 checks are in claims.json and numerical-checks.json. All company facts are invented for teaching.
+Evidence: deck pp 6-7, 10-11; CSV rows 2, 11-14; README. See pitch-review.md for claim definitions and calculation methods. All company facts are invented for teaching.
